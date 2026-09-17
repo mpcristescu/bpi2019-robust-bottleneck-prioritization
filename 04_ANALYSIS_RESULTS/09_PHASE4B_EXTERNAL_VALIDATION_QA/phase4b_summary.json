@@ -1,0 +1,114 @@
+{
+  "phase": "Phase 4B",
+  "title": "EXTERNAL VALIDATION QA AND FROZEN SENSITIVITY EVALUATION",
+  "primary_reproduction_passed": true,
+  "primary_parameters": {
+    "cap_hours": 2160,
+    "alpha": 0.95,
+    "grid_step_hours": 24,
+    "kappa_sa": 0.9,
+    "K_confirmatory": 5
+  },
+  "candidate_count": 41,
+  "full_complete_direct_follow_pair_candidates": 443797,
+  "negative_elapsed_removed": 0,
+  "h1_window_rows": 193194,
+  "q3_window_rows": 129191,
+  "window_row_label": "window-specific retained direct-follow rows",
+  "original_dro_total_saturated_count": 2,
+  "sa_dro_total_saturated_count": 0,
+  "dataset_sha256": "183c5e5189282779c811c78c33ff936351b3dd201165d612211fc220936f8249",
+  "original_manifest_checksum": "9b56a20f976afabac60c5f83e0a50ec6c5a13c8056a24deced6f57e43194e21f",
+  "corrected_h1_correlations": {
+    "tail_vs_original_dro_spearman": 0.9871080139372824,
+    "tail_vs_original_dro_kendall": 0.9268292682926829,
+    "tail_vs_sa_dro_spearman": 0.9871080139372824,
+    "tail_vs_sa_dro_kendall": 0.9268292682926829,
+    "mean_vs_original_dro_spearman": 0.987630662020906,
+    "mean_vs_original_dro_kendall": 0.921951219512195,
+    "mean_vs_sa_dro_spearman": 0.987630662020906,
+    "mean_vs_sa_dro_kendall": 0.921951219512195
+  },
+  "frozen_sensitivity_configuration_count": 8,
+  "frozen_sensitivity_evaluation_rows": 120,
+  "sa_dro_k5_same_set_count": 8,
+  "sa_dro_k5_same_set_configurations": [
+    "primary",
+    "cap120",
+    "alpha90",
+    "grid12",
+    "cap120_alpha90",
+    "cap120_grid12",
+    "alpha90_grid12",
+    "cap120_alpha90_grid12"
+  ],
+  "sa_dro_q3_mean_burden_share_range_pct": [
+    32.790370543963,
+    84.56761508766249
+  ],
+  "sa_dro_q3_mean_burden_share_range_pct_K5": [
+    70.2373056644679,
+    70.2373056644679
+  ],
+  "primary_external_conclusion_changed": false,
+  "primary_q3_bootstrap_verification": {
+    "SA-DRO minus Original DRO": {
+      "ci95_low_pp": 0.0,
+      "ci95_high_pp": 0.0,
+      "ci_includes_zero": true
+    },
+    "SA-DRO minus Mean burden": {
+      "ci95_low_pp": 0.0,
+      "ci95_high_pp": 0.0,
+      "ci_includes_zero": true
+    },
+    "SA-DRO minus Empirical Tail": {
+      "ci95_low_pp": 0.0,
+      "ci95_high_pp": 0.0,
+      "ci_includes_zero": true
+    },
+    "SA-DRO minus Frequency": {
+      "ci95_low_pp": 61.025451994677866,
+      "ci95_high_pp": 64.68841466720329,
+      "ci_includes_zero": false
+    }
+  },
+  "bpi2017_median_finite_epsilon_temporal_over_epsilon_sat": 0.006471926015019629,
+  "bpi2019_phase3c_diagnostic": {
+    "source_file": "07_PHASE3C_SAMPLE_ALIGNMENT_AUDIT/phase3c_summary.json",
+    "candidate_count": 63,
+    "empirical_saturated_count": 8,
+    "dro_induced_saturated_count": 28,
+    "total_saturated_count": 36,
+    "median_finite_saturation_ratio": 1.0182147910831052,
+    "q3_read": false,
+    "q3_used": false
+  },
+  "q3_driven_selection_created": false,
+  "phase4_primary_modified": false,
+  "phases_1_to_4_modified": false,
+  "warnings": [
+    "The corrected H1 correlations replace the mislabeled Tail-versus-DRO values in phase4_summary.json without changing Phase 4 outputs.",
+    "Sensitivity configurations are pre-frozen combined configurations and are not one-factor-at-a-time effects.",
+    "No superiority claim is made for SA-DRO because the primary K=5 portfolios coincide with the strongest baselines and the corresponding bootstrap intervals include zero."
+  ],
+  "errors": [],
+  "q3_parse_stats": {
+    "trace_count": 31509,
+    "raw_event_count": 1202267,
+    "complete_event_count": 475306,
+    "excluded_non_complete_event_count": 726961,
+    "complete_events_missing_required_fields": 0,
+    "complete_events_missing_case_id": 0,
+    "complete_events_missing_activity": 0,
+    "complete_events_invalid_timestamp": 0,
+    "valid_complete_event_count": 475306,
+    "pair_candidates_before_negative_filter": 443797,
+    "negative_elapsed_rows_removed": 0,
+    "window_specific_retained_direct_follow_rows": 129191,
+    "timestamp_tie_pairs": 0,
+    "timestamp_tie_cases": 0,
+    "timestamp_tie_groups": 0
+  },
+  "seed": 20260914
+}

@@ -1,0 +1,26 @@
+{
+  "source_dataset": "01_DATASET/BPI_Challenge_2019.xes",
+  "source_trace_count": 251734,
+  "source_event_count": 1595923,
+  "primary_cohort_rule": "first recorded event in 2018; no timestamp <2017 or >2019; retain all events of included cases including 2019 follow-up",
+  "kept_cases": 251266,
+  "kept_events": 1587374,
+  "excluded_cases": 468,
+  "excluded_events": 8549,
+  "kept_case_pct": 99.814089,
+  "kept_event_pct": 99.464323,
+  "exclusion_reason_counts": {
+    "left_censored_case_started_before2018": 184,
+    "extreme_timestamp_before2017_or_after2019": 82,
+    "case_started_after2018": 202
+  },
+  "cases_with_temporal_order_violation": 0,
+  "expected_from_phase1b": {
+    "cases": 251266,
+    "events": 1587374
+  },
+  "matches_phase1b_expected_cases": true,
+  "matches_phase1b_expected_events": true,
+  "event_parquet": "04_ANALYSIS_RESULTS/03_PHASE2_PROCESS_STRUCTURE/processed/events_primary_cohort.parquet",
+  "case_parquet": "04_ANALYSIS_RESULTS/03_PHASE2_PROCESS_STRUCTURE/processed/cases_primary_cohort.parquet"
+}

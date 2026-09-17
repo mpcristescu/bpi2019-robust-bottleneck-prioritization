@@ -1,0 +1,769 @@
+row_type,method,K,transition,full_h1_selected,inclusion_probability,mean_jaccard_vs_full_h1,jaccard_p05,jaccard_p95,transitions_inclusion_probability_ge_0_8,replicates,seed
+summary,Frequency,3,__SUMMARY__,,,0.884,0.5,1.0,2,500,20260914
+transition,Frequency,3,Record Invoice Receipt -> Clear Invoice,True,0.996,0.884,0.5,1.0,2,500,20260914
+transition,Frequency,3,Create Purchase Order Item -> Vendor creates invoice,True,0.772,0.884,0.5,1.0,2,500,20260914
+transition,Frequency,3,Record Goods Receipt -> Record Invoice Receipt,False,0.23,0.884,0.5,1.0,2,500,20260914
+transition,Frequency,3,Vendor creates invoice -> Record Invoice Receipt,False,0.0,0.884,0.5,1.0,2,500,20260914
+transition,Frequency,3,Create Purchase Order Item -> Record Goods Receipt,False,0.0,0.884,0.5,1.0,2,500,20260914
+transition,Frequency,3,Record Goods Receipt -> Vendor creates invoice,False,0.0,0.884,0.5,1.0,2,500,20260914
+transition,Frequency,3,Remove Payment Block -> Clear Invoice,False,0.0,0.884,0.5,1.0,2,500,20260914
+transition,Frequency,3,Record Invoice Receipt -> Remove Payment Block,False,0.0,0.884,0.5,1.0,2,500,20260914
+transition,Frequency,3,Vendor creates invoice -> Record Goods Receipt,False,0.002,0.884,0.5,1.0,2,500,20260914
+transition,Frequency,3,Record Goods Receipt -> Remove Payment Block,False,0.0,0.884,0.5,1.0,2,500,20260914
+transition,Frequency,3,Receive Order Confirmation -> Record Goods Receipt,False,0.0,0.884,0.5,1.0,2,500,20260914
+transition,Frequency,3,Create Purchase Order Item -> Change Quantity,False,0.0,0.884,0.5,1.0,2,500,20260914
+transition,Frequency,3,Change Quantity -> Record Goods Receipt,False,0.0,0.884,0.5,1.0,2,500,20260914
+transition,Frequency,3,Record Invoice Receipt -> Record Goods Receipt,False,0.0,0.884,0.5,1.0,2,500,20260914
+transition,Frequency,3,Create Purchase Order Item -> Delete Purchase Order Item,False,0.0,0.884,0.5,1.0,2,500,20260914
+transition,Frequency,3,Receive Order Confirmation -> Vendor creates invoice,False,0.0,0.884,0.5,1.0,2,500,20260914
+transition,Frequency,3,Create Purchase Order Item -> Change Price,False,0.0,0.884,0.5,1.0,2,500,20260914
+transition,Frequency,3,Change Quantity -> Vendor creates invoice,False,0.0,0.884,0.5,1.0,2,500,20260914
+transition,Frequency,3,Create Purchase Order Item -> Receive Order Confirmation,False,0.0,0.884,0.5,1.0,2,500,20260914
+transition,Frequency,3,Record Goods Receipt -> Record Goods Receipt,False,0.0,0.884,0.5,1.0,2,500,20260914
+transition,Frequency,3,Record Invoice Receipt -> Record Invoice Receipt,False,0.0,0.884,0.5,1.0,2,500,20260914
+transition,Frequency,3,Change Price -> Vendor creates invoice,False,0.0,0.884,0.5,1.0,2,500,20260914
+transition,Frequency,3,Vendor creates invoice -> Create Purchase Order Item,False,0.0,0.884,0.5,1.0,2,500,20260914
+transition,Frequency,3,Record Invoice Receipt -> Vendor creates invoice,False,0.0,0.884,0.5,1.0,2,500,20260914
+transition,Frequency,3,Clear Invoice -> Record Invoice Receipt,False,0.0,0.884,0.5,1.0,2,500,20260914
+transition,Frequency,3,Record Service Entry Sheet -> Vendor creates invoice,False,0.0,0.884,0.5,1.0,2,500,20260914
+transition,Frequency,3,Vendor creates invoice -> Change Quantity,False,0.0,0.884,0.5,1.0,2,500,20260914
+transition,Frequency,3,Change Price -> Record Goods Receipt,False,0.0,0.884,0.5,1.0,2,500,20260914
+transition,Frequency,3,Record Invoice Receipt -> Cancel Invoice Receipt,False,0.0,0.884,0.5,1.0,2,500,20260914
+transition,Frequency,3,Change Quantity -> Change Quantity,False,0.0,0.884,0.5,1.0,2,500,20260914
+transition,Frequency,3,Record Invoice Receipt -> Change Price,False,0.0,0.884,0.5,1.0,2,500,20260914
+transition,Frequency,3,Cancel Invoice Receipt -> Clear Invoice,False,0.0,0.884,0.5,1.0,2,500,20260914
+transition,Frequency,3,Clear Invoice -> Clear Invoice,False,0.0,0.884,0.5,1.0,2,500,20260914
+transition,Frequency,3,Vendor creates invoice -> Vendor creates invoice,False,0.0,0.884,0.5,1.0,2,500,20260914
+transition,Frequency,3,Vendor creates invoice -> Clear Invoice,False,0.0,0.884,0.5,1.0,2,500,20260914
+transition,Frequency,3,Create Purchase Requisition Item -> Create Purchase Order Item,False,0.0,0.884,0.5,1.0,2,500,20260914
+transition,Frequency,3,Create Purchase Order Item -> Vendor creates debit memo,False,0.0,0.884,0.5,1.0,2,500,20260914
+transition,Frequency,3,Create Purchase Order Item -> Change Approval for Purchase Order,False,0.0,0.884,0.5,1.0,2,500,20260914
+transition,Frequency,3,Release Purchase Order -> Change Approval for Purchase Order,False,0.0,0.884,0.5,1.0,2,500,20260914
+transition,Frequency,3,Vendor creates debit memo -> Record Invoice Receipt,False,0.0,0.884,0.5,1.0,2,500,20260914
+transition,Frequency,3,Record Service Entry Sheet -> Record Invoice Receipt,False,0.0,0.884,0.5,1.0,2,500,20260914
+transition,Frequency,3,Record Goods Receipt -> Change Quantity,False,0.0,0.884,0.5,1.0,2,500,20260914
+transition,Frequency,3,Create Purchase Order Item -> Cancel Goods Receipt,False,0.0,0.884,0.5,1.0,2,500,20260914
+transition,Frequency,3,Change Price -> Remove Payment Block,False,0.0,0.884,0.5,1.0,2,500,20260914
+transition,Frequency,3,Change Approval for Purchase Order -> Change Approval for Purchase Order,False,0.0,0.884,0.5,1.0,2,500,20260914
+transition,Frequency,3,Change Price -> Change Quantity,False,0.0,0.884,0.5,1.0,2,500,20260914
+transition,Frequency,3,Receive Order Confirmation -> Delete Purchase Order Item,False,0.0,0.884,0.5,1.0,2,500,20260914
+transition,Frequency,3,Create Purchase Order Item -> Record Invoice Receipt,False,0.0,0.884,0.5,1.0,2,500,20260914
+transition,Frequency,3,Record Goods Receipt -> Cancel Goods Receipt,False,0.0,0.884,0.5,1.0,2,500,20260914
+transition,Frequency,3,Clear Invoice -> Vendor creates invoice,False,0.0,0.884,0.5,1.0,2,500,20260914
+transition,Frequency,3,Change Quantity -> Change Delivery Indicator,False,0.0,0.884,0.5,1.0,2,500,20260914
+transition,Frequency,3,Vendor creates debit memo -> Record Goods Receipt,False,0.0,0.884,0.5,1.0,2,500,20260914
+transition,Frequency,3,Record Service Entry Sheet -> Record Goods Receipt,False,0.0,0.884,0.5,1.0,2,500,20260914
+transition,Frequency,3,Vendor creates invoice -> Vendor creates debit memo,False,0.0,0.884,0.5,1.0,2,500,20260914
+transition,Frequency,3,Vendor creates debit memo -> Vendor creates invoice,False,0.0,0.884,0.5,1.0,2,500,20260914
+transition,Frequency,3,Create Purchase Order Item -> Record Service Entry Sheet,False,0.0,0.884,0.5,1.0,2,500,20260914
+transition,Frequency,3,Record Goods Receipt -> Record Service Entry Sheet,False,0.0,0.884,0.5,1.0,2,500,20260914
+transition,Frequency,3,Record Service Entry Sheet -> Record Service Entry Sheet,True,1.0,0.884,0.5,1.0,2,500,20260914
+transition,Frequency,3,SRM: Created -> SRM: Complete,False,0.0,0.884,0.5,1.0,2,500,20260914
+transition,Frequency,3,SRM: Document Completed -> SRM: In Transfer to Execution Syst.,False,0.0,0.884,0.5,1.0,2,500,20260914
+transition,Frequency,3,SRM: In Transfer to Execution Syst. -> SRM: Ordered,False,0.0,0.884,0.5,1.0,2,500,20260914
+transition,Frequency,3,SRM: Awaiting Approval -> SRM: Document Completed,False,0.0,0.884,0.5,1.0,2,500,20260914
+transition,Frequency,3,SRM: Complete -> SRM: Awaiting Approval,False,0.0,0.884,0.5,1.0,2,500,20260914
+summary,Frequency,5,__SUMMARY__,,,1.0,1.0,1.0,5,500,20260914
+transition,Frequency,5,Record Invoice Receipt -> Clear Invoice,True,1.0,1.0,1.0,1.0,5,500,20260914
+transition,Frequency,5,Create Purchase Order Item -> Vendor creates invoice,True,1.0,1.0,1.0,1.0,5,500,20260914
+transition,Frequency,5,Record Goods Receipt -> Record Invoice Receipt,True,1.0,1.0,1.0,1.0,5,500,20260914
+transition,Frequency,5,Vendor creates invoice -> Record Invoice Receipt,False,0.0,1.0,1.0,1.0,5,500,20260914
+transition,Frequency,5,Create Purchase Order Item -> Record Goods Receipt,False,0.0,1.0,1.0,1.0,5,500,20260914
+transition,Frequency,5,Record Goods Receipt -> Vendor creates invoice,False,0.0,1.0,1.0,1.0,5,500,20260914
+transition,Frequency,5,Remove Payment Block -> Clear Invoice,False,0.0,1.0,1.0,1.0,5,500,20260914
+transition,Frequency,5,Record Invoice Receipt -> Remove Payment Block,False,0.0,1.0,1.0,1.0,5,500,20260914
+transition,Frequency,5,Vendor creates invoice -> Record Goods Receipt,True,1.0,1.0,1.0,1.0,5,500,20260914
+transition,Frequency,5,Record Goods Receipt -> Remove Payment Block,False,0.0,1.0,1.0,1.0,5,500,20260914
+transition,Frequency,5,Receive Order Confirmation -> Record Goods Receipt,False,0.0,1.0,1.0,1.0,5,500,20260914
+transition,Frequency,5,Create Purchase Order Item -> Change Quantity,False,0.0,1.0,1.0,1.0,5,500,20260914
+transition,Frequency,5,Change Quantity -> Record Goods Receipt,False,0.0,1.0,1.0,1.0,5,500,20260914
+transition,Frequency,5,Record Invoice Receipt -> Record Goods Receipt,False,0.0,1.0,1.0,1.0,5,500,20260914
+transition,Frequency,5,Create Purchase Order Item -> Delete Purchase Order Item,False,0.0,1.0,1.0,1.0,5,500,20260914
+transition,Frequency,5,Receive Order Confirmation -> Vendor creates invoice,False,0.0,1.0,1.0,1.0,5,500,20260914
+transition,Frequency,5,Create Purchase Order Item -> Change Price,False,0.0,1.0,1.0,1.0,5,500,20260914
+transition,Frequency,5,Change Quantity -> Vendor creates invoice,False,0.0,1.0,1.0,1.0,5,500,20260914
+transition,Frequency,5,Create Purchase Order Item -> Receive Order Confirmation,False,0.0,1.0,1.0,1.0,5,500,20260914
+transition,Frequency,5,Record Goods Receipt -> Record Goods Receipt,False,0.0,1.0,1.0,1.0,5,500,20260914
+transition,Frequency,5,Record Invoice Receipt -> Record Invoice Receipt,False,0.0,1.0,1.0,1.0,5,500,20260914
+transition,Frequency,5,Change Price -> Vendor creates invoice,False,0.0,1.0,1.0,1.0,5,500,20260914
+transition,Frequency,5,Vendor creates invoice -> Create Purchase Order Item,False,0.0,1.0,1.0,1.0,5,500,20260914
+transition,Frequency,5,Record Invoice Receipt -> Vendor creates invoice,False,0.0,1.0,1.0,1.0,5,500,20260914
+transition,Frequency,5,Clear Invoice -> Record Invoice Receipt,False,0.0,1.0,1.0,1.0,5,500,20260914
+transition,Frequency,5,Record Service Entry Sheet -> Vendor creates invoice,False,0.0,1.0,1.0,1.0,5,500,20260914
+transition,Frequency,5,Vendor creates invoice -> Change Quantity,False,0.0,1.0,1.0,1.0,5,500,20260914
+transition,Frequency,5,Change Price -> Record Goods Receipt,False,0.0,1.0,1.0,1.0,5,500,20260914
+transition,Frequency,5,Record Invoice Receipt -> Cancel Invoice Receipt,False,0.0,1.0,1.0,1.0,5,500,20260914
+transition,Frequency,5,Change Quantity -> Change Quantity,False,0.0,1.0,1.0,1.0,5,500,20260914
+transition,Frequency,5,Record Invoice Receipt -> Change Price,False,0.0,1.0,1.0,1.0,5,500,20260914
+transition,Frequency,5,Cancel Invoice Receipt -> Clear Invoice,False,0.0,1.0,1.0,1.0,5,500,20260914
+transition,Frequency,5,Clear Invoice -> Clear Invoice,False,0.0,1.0,1.0,1.0,5,500,20260914
+transition,Frequency,5,Vendor creates invoice -> Vendor creates invoice,False,0.0,1.0,1.0,1.0,5,500,20260914
+transition,Frequency,5,Vendor creates invoice -> Clear Invoice,False,0.0,1.0,1.0,1.0,5,500,20260914
+transition,Frequency,5,Create Purchase Requisition Item -> Create Purchase Order Item,False,0.0,1.0,1.0,1.0,5,500,20260914
+transition,Frequency,5,Create Purchase Order Item -> Vendor creates debit memo,False,0.0,1.0,1.0,1.0,5,500,20260914
+transition,Frequency,5,Create Purchase Order Item -> Change Approval for Purchase Order,False,0.0,1.0,1.0,1.0,5,500,20260914
+transition,Frequency,5,Release Purchase Order -> Change Approval for Purchase Order,False,0.0,1.0,1.0,1.0,5,500,20260914
+transition,Frequency,5,Vendor creates debit memo -> Record Invoice Receipt,False,0.0,1.0,1.0,1.0,5,500,20260914
+transition,Frequency,5,Record Service Entry Sheet -> Record Invoice Receipt,False,0.0,1.0,1.0,1.0,5,500,20260914
+transition,Frequency,5,Record Goods Receipt -> Change Quantity,False,0.0,1.0,1.0,1.0,5,500,20260914
+transition,Frequency,5,Create Purchase Order Item -> Cancel Goods Receipt,False,0.0,1.0,1.0,1.0,5,500,20260914
+transition,Frequency,5,Change Price -> Remove Payment Block,False,0.0,1.0,1.0,1.0,5,500,20260914
+transition,Frequency,5,Change Approval for Purchase Order -> Change Approval for Purchase Order,False,0.0,1.0,1.0,1.0,5,500,20260914
+transition,Frequency,5,Change Price -> Change Quantity,False,0.0,1.0,1.0,1.0,5,500,20260914
+transition,Frequency,5,Receive Order Confirmation -> Delete Purchase Order Item,False,0.0,1.0,1.0,1.0,5,500,20260914
+transition,Frequency,5,Create Purchase Order Item -> Record Invoice Receipt,False,0.0,1.0,1.0,1.0,5,500,20260914
+transition,Frequency,5,Record Goods Receipt -> Cancel Goods Receipt,False,0.0,1.0,1.0,1.0,5,500,20260914
+transition,Frequency,5,Clear Invoice -> Vendor creates invoice,False,0.0,1.0,1.0,1.0,5,500,20260914
+transition,Frequency,5,Change Quantity -> Change Delivery Indicator,False,0.0,1.0,1.0,1.0,5,500,20260914
+transition,Frequency,5,Vendor creates debit memo -> Record Goods Receipt,False,0.0,1.0,1.0,1.0,5,500,20260914
+transition,Frequency,5,Record Service Entry Sheet -> Record Goods Receipt,False,0.0,1.0,1.0,1.0,5,500,20260914
+transition,Frequency,5,Vendor creates invoice -> Vendor creates debit memo,False,0.0,1.0,1.0,1.0,5,500,20260914
+transition,Frequency,5,Vendor creates debit memo -> Vendor creates invoice,False,0.0,1.0,1.0,1.0,5,500,20260914
+transition,Frequency,5,Create Purchase Order Item -> Record Service Entry Sheet,False,0.0,1.0,1.0,1.0,5,500,20260914
+transition,Frequency,5,Record Goods Receipt -> Record Service Entry Sheet,False,0.0,1.0,1.0,1.0,5,500,20260914
+transition,Frequency,5,Record Service Entry Sheet -> Record Service Entry Sheet,True,1.0,1.0,1.0,1.0,5,500,20260914
+transition,Frequency,5,SRM: Created -> SRM: Complete,False,0.0,1.0,1.0,1.0,5,500,20260914
+transition,Frequency,5,SRM: Document Completed -> SRM: In Transfer to Execution Syst.,False,0.0,1.0,1.0,1.0,5,500,20260914
+transition,Frequency,5,SRM: In Transfer to Execution Syst. -> SRM: Ordered,False,0.0,1.0,1.0,1.0,5,500,20260914
+transition,Frequency,5,SRM: Awaiting Approval -> SRM: Document Completed,False,0.0,1.0,1.0,1.0,5,500,20260914
+transition,Frequency,5,SRM: Complete -> SRM: Awaiting Approval,False,0.0,1.0,1.0,1.0,5,500,20260914
+summary,Frequency,10,__SUMMARY__,,,1.0,1.0,1.0,10,500,20260914
+transition,Frequency,10,Record Invoice Receipt -> Clear Invoice,True,1.0,1.0,1.0,1.0,10,500,20260914
+transition,Frequency,10,Create Purchase Order Item -> Vendor creates invoice,True,1.0,1.0,1.0,1.0,10,500,20260914
+transition,Frequency,10,Record Goods Receipt -> Record Invoice Receipt,True,1.0,1.0,1.0,1.0,10,500,20260914
+transition,Frequency,10,Vendor creates invoice -> Record Invoice Receipt,True,1.0,1.0,1.0,1.0,10,500,20260914
+transition,Frequency,10,Create Purchase Order Item -> Record Goods Receipt,True,1.0,1.0,1.0,1.0,10,500,20260914
+transition,Frequency,10,Record Goods Receipt -> Vendor creates invoice,True,1.0,1.0,1.0,1.0,10,500,20260914
+transition,Frequency,10,Remove Payment Block -> Clear Invoice,True,1.0,1.0,1.0,1.0,10,500,20260914
+transition,Frequency,10,Record Invoice Receipt -> Remove Payment Block,False,0.0,1.0,1.0,1.0,10,500,20260914
+transition,Frequency,10,Vendor creates invoice -> Record Goods Receipt,True,1.0,1.0,1.0,1.0,10,500,20260914
+transition,Frequency,10,Record Goods Receipt -> Remove Payment Block,False,0.0,1.0,1.0,1.0,10,500,20260914
+transition,Frequency,10,Receive Order Confirmation -> Record Goods Receipt,False,0.0,1.0,1.0,1.0,10,500,20260914
+transition,Frequency,10,Create Purchase Order Item -> Change Quantity,False,0.0,1.0,1.0,1.0,10,500,20260914
+transition,Frequency,10,Change Quantity -> Record Goods Receipt,False,0.0,1.0,1.0,1.0,10,500,20260914
+transition,Frequency,10,Record Invoice Receipt -> Record Goods Receipt,False,0.0,1.0,1.0,1.0,10,500,20260914
+transition,Frequency,10,Create Purchase Order Item -> Delete Purchase Order Item,False,0.0,1.0,1.0,1.0,10,500,20260914
+transition,Frequency,10,Receive Order Confirmation -> Vendor creates invoice,False,0.0,1.0,1.0,1.0,10,500,20260914
+transition,Frequency,10,Create Purchase Order Item -> Change Price,False,0.0,1.0,1.0,1.0,10,500,20260914
+transition,Frequency,10,Change Quantity -> Vendor creates invoice,False,0.0,1.0,1.0,1.0,10,500,20260914
+transition,Frequency,10,Create Purchase Order Item -> Receive Order Confirmation,False,0.0,1.0,1.0,1.0,10,500,20260914
+transition,Frequency,10,Record Goods Receipt -> Record Goods Receipt,True,1.0,1.0,1.0,1.0,10,500,20260914
+transition,Frequency,10,Record Invoice Receipt -> Record Invoice Receipt,False,0.0,1.0,1.0,1.0,10,500,20260914
+transition,Frequency,10,Change Price -> Vendor creates invoice,False,0.0,1.0,1.0,1.0,10,500,20260914
+transition,Frequency,10,Vendor creates invoice -> Create Purchase Order Item,False,0.0,1.0,1.0,1.0,10,500,20260914
+transition,Frequency,10,Record Invoice Receipt -> Vendor creates invoice,False,0.0,1.0,1.0,1.0,10,500,20260914
+transition,Frequency,10,Clear Invoice -> Record Invoice Receipt,False,0.0,1.0,1.0,1.0,10,500,20260914
+transition,Frequency,10,Record Service Entry Sheet -> Vendor creates invoice,False,0.0,1.0,1.0,1.0,10,500,20260914
+transition,Frequency,10,Vendor creates invoice -> Change Quantity,False,0.0,1.0,1.0,1.0,10,500,20260914
+transition,Frequency,10,Change Price -> Record Goods Receipt,False,0.0,1.0,1.0,1.0,10,500,20260914
+transition,Frequency,10,Record Invoice Receipt -> Cancel Invoice Receipt,False,0.0,1.0,1.0,1.0,10,500,20260914
+transition,Frequency,10,Change Quantity -> Change Quantity,False,0.0,1.0,1.0,1.0,10,500,20260914
+transition,Frequency,10,Record Invoice Receipt -> Change Price,False,0.0,1.0,1.0,1.0,10,500,20260914
+transition,Frequency,10,Cancel Invoice Receipt -> Clear Invoice,False,0.0,1.0,1.0,1.0,10,500,20260914
+transition,Frequency,10,Clear Invoice -> Clear Invoice,False,0.0,1.0,1.0,1.0,10,500,20260914
+transition,Frequency,10,Vendor creates invoice -> Vendor creates invoice,False,0.0,1.0,1.0,1.0,10,500,20260914
+transition,Frequency,10,Vendor creates invoice -> Clear Invoice,False,0.0,1.0,1.0,1.0,10,500,20260914
+transition,Frequency,10,Create Purchase Requisition Item -> Create Purchase Order Item,False,0.0,1.0,1.0,1.0,10,500,20260914
+transition,Frequency,10,Create Purchase Order Item -> Vendor creates debit memo,False,0.0,1.0,1.0,1.0,10,500,20260914
+transition,Frequency,10,Create Purchase Order Item -> Change Approval for Purchase Order,False,0.0,1.0,1.0,1.0,10,500,20260914
+transition,Frequency,10,Release Purchase Order -> Change Approval for Purchase Order,False,0.0,1.0,1.0,1.0,10,500,20260914
+transition,Frequency,10,Vendor creates debit memo -> Record Invoice Receipt,False,0.0,1.0,1.0,1.0,10,500,20260914
+transition,Frequency,10,Record Service Entry Sheet -> Record Invoice Receipt,False,0.0,1.0,1.0,1.0,10,500,20260914
+transition,Frequency,10,Record Goods Receipt -> Change Quantity,False,0.0,1.0,1.0,1.0,10,500,20260914
+transition,Frequency,10,Create Purchase Order Item -> Cancel Goods Receipt,False,0.0,1.0,1.0,1.0,10,500,20260914
+transition,Frequency,10,Change Price -> Remove Payment Block,False,0.0,1.0,1.0,1.0,10,500,20260914
+transition,Frequency,10,Change Approval for Purchase Order -> Change Approval for Purchase Order,False,0.0,1.0,1.0,1.0,10,500,20260914
+transition,Frequency,10,Change Price -> Change Quantity,False,0.0,1.0,1.0,1.0,10,500,20260914
+transition,Frequency,10,Receive Order Confirmation -> Delete Purchase Order Item,False,0.0,1.0,1.0,1.0,10,500,20260914
+transition,Frequency,10,Create Purchase Order Item -> Record Invoice Receipt,False,0.0,1.0,1.0,1.0,10,500,20260914
+transition,Frequency,10,Record Goods Receipt -> Cancel Goods Receipt,False,0.0,1.0,1.0,1.0,10,500,20260914
+transition,Frequency,10,Clear Invoice -> Vendor creates invoice,False,0.0,1.0,1.0,1.0,10,500,20260914
+transition,Frequency,10,Change Quantity -> Change Delivery Indicator,False,0.0,1.0,1.0,1.0,10,500,20260914
+transition,Frequency,10,Vendor creates debit memo -> Record Goods Receipt,False,0.0,1.0,1.0,1.0,10,500,20260914
+transition,Frequency,10,Record Service Entry Sheet -> Record Goods Receipt,False,0.0,1.0,1.0,1.0,10,500,20260914
+transition,Frequency,10,Vendor creates invoice -> Vendor creates debit memo,False,0.0,1.0,1.0,1.0,10,500,20260914
+transition,Frequency,10,Vendor creates debit memo -> Vendor creates invoice,False,0.0,1.0,1.0,1.0,10,500,20260914
+transition,Frequency,10,Create Purchase Order Item -> Record Service Entry Sheet,False,0.0,1.0,1.0,1.0,10,500,20260914
+transition,Frequency,10,Record Goods Receipt -> Record Service Entry Sheet,False,0.0,1.0,1.0,1.0,10,500,20260914
+transition,Frequency,10,Record Service Entry Sheet -> Record Service Entry Sheet,True,1.0,1.0,1.0,1.0,10,500,20260914
+transition,Frequency,10,SRM: Created -> SRM: Complete,False,0.0,1.0,1.0,1.0,10,500,20260914
+transition,Frequency,10,SRM: Document Completed -> SRM: In Transfer to Execution Syst.,False,0.0,1.0,1.0,1.0,10,500,20260914
+transition,Frequency,10,SRM: In Transfer to Execution Syst. -> SRM: Ordered,False,0.0,1.0,1.0,1.0,10,500,20260914
+transition,Frequency,10,SRM: Awaiting Approval -> SRM: Document Completed,False,0.0,1.0,1.0,1.0,10,500,20260914
+transition,Frequency,10,SRM: Complete -> SRM: Awaiting Approval,False,0.0,1.0,1.0,1.0,10,500,20260914
+summary,Mean burden,3,__SUMMARY__,,,0.998,1.0,1.0,3,500,20260914
+transition,Mean burden,3,Record Invoice Receipt -> Clear Invoice,True,1.0,0.998,1.0,1.0,3,500,20260914
+transition,Mean burden,3,Create Purchase Order Item -> Vendor creates invoice,False,0.004,0.998,1.0,1.0,3,500,20260914
+transition,Mean burden,3,Record Goods Receipt -> Record Invoice Receipt,True,1.0,0.998,1.0,1.0,3,500,20260914
+transition,Mean burden,3,Vendor creates invoice -> Record Invoice Receipt,False,0.0,0.998,1.0,1.0,3,500,20260914
+transition,Mean burden,3,Create Purchase Order Item -> Record Goods Receipt,False,0.0,0.998,1.0,1.0,3,500,20260914
+transition,Mean burden,3,Record Goods Receipt -> Vendor creates invoice,False,0.0,0.998,1.0,1.0,3,500,20260914
+transition,Mean burden,3,Remove Payment Block -> Clear Invoice,True,0.996,0.998,1.0,1.0,3,500,20260914
+transition,Mean burden,3,Record Invoice Receipt -> Remove Payment Block,False,0.0,0.998,1.0,1.0,3,500,20260914
+transition,Mean burden,3,Vendor creates invoice -> Record Goods Receipt,False,0.0,0.998,1.0,1.0,3,500,20260914
+transition,Mean burden,3,Record Goods Receipt -> Remove Payment Block,False,0.0,0.998,1.0,1.0,3,500,20260914
+transition,Mean burden,3,Receive Order Confirmation -> Record Goods Receipt,False,0.0,0.998,1.0,1.0,3,500,20260914
+transition,Mean burden,3,Create Purchase Order Item -> Change Quantity,False,0.0,0.998,1.0,1.0,3,500,20260914
+transition,Mean burden,3,Change Quantity -> Record Goods Receipt,False,0.0,0.998,1.0,1.0,3,500,20260914
+transition,Mean burden,3,Record Invoice Receipt -> Record Goods Receipt,False,0.0,0.998,1.0,1.0,3,500,20260914
+transition,Mean burden,3,Create Purchase Order Item -> Delete Purchase Order Item,False,0.0,0.998,1.0,1.0,3,500,20260914
+transition,Mean burden,3,Receive Order Confirmation -> Vendor creates invoice,False,0.0,0.998,1.0,1.0,3,500,20260914
+transition,Mean burden,3,Create Purchase Order Item -> Change Price,False,0.0,0.998,1.0,1.0,3,500,20260914
+transition,Mean burden,3,Change Quantity -> Vendor creates invoice,False,0.0,0.998,1.0,1.0,3,500,20260914
+transition,Mean burden,3,Create Purchase Order Item -> Receive Order Confirmation,False,0.0,0.998,1.0,1.0,3,500,20260914
+transition,Mean burden,3,Record Goods Receipt -> Record Goods Receipt,False,0.0,0.998,1.0,1.0,3,500,20260914
+transition,Mean burden,3,Record Invoice Receipt -> Record Invoice Receipt,False,0.0,0.998,1.0,1.0,3,500,20260914
+transition,Mean burden,3,Change Price -> Vendor creates invoice,False,0.0,0.998,1.0,1.0,3,500,20260914
+transition,Mean burden,3,Vendor creates invoice -> Create Purchase Order Item,False,0.0,0.998,1.0,1.0,3,500,20260914
+transition,Mean burden,3,Record Invoice Receipt -> Vendor creates invoice,False,0.0,0.998,1.0,1.0,3,500,20260914
+transition,Mean burden,3,Clear Invoice -> Record Invoice Receipt,False,0.0,0.998,1.0,1.0,3,500,20260914
+transition,Mean burden,3,Record Service Entry Sheet -> Vendor creates invoice,False,0.0,0.998,1.0,1.0,3,500,20260914
+transition,Mean burden,3,Vendor creates invoice -> Change Quantity,False,0.0,0.998,1.0,1.0,3,500,20260914
+transition,Mean burden,3,Change Price -> Record Goods Receipt,False,0.0,0.998,1.0,1.0,3,500,20260914
+transition,Mean burden,3,Record Invoice Receipt -> Cancel Invoice Receipt,False,0.0,0.998,1.0,1.0,3,500,20260914
+transition,Mean burden,3,Change Quantity -> Change Quantity,False,0.0,0.998,1.0,1.0,3,500,20260914
+transition,Mean burden,3,Record Invoice Receipt -> Change Price,False,0.0,0.998,1.0,1.0,3,500,20260914
+transition,Mean burden,3,Cancel Invoice Receipt -> Clear Invoice,False,0.0,0.998,1.0,1.0,3,500,20260914
+transition,Mean burden,3,Clear Invoice -> Clear Invoice,False,0.0,0.998,1.0,1.0,3,500,20260914
+transition,Mean burden,3,Vendor creates invoice -> Vendor creates invoice,False,0.0,0.998,1.0,1.0,3,500,20260914
+transition,Mean burden,3,Vendor creates invoice -> Clear Invoice,False,0.0,0.998,1.0,1.0,3,500,20260914
+transition,Mean burden,3,Create Purchase Requisition Item -> Create Purchase Order Item,False,0.0,0.998,1.0,1.0,3,500,20260914
+transition,Mean burden,3,Create Purchase Order Item -> Vendor creates debit memo,False,0.0,0.998,1.0,1.0,3,500,20260914
+transition,Mean burden,3,Create Purchase Order Item -> Change Approval for Purchase Order,False,0.0,0.998,1.0,1.0,3,500,20260914
+transition,Mean burden,3,Release Purchase Order -> Change Approval for Purchase Order,False,0.0,0.998,1.0,1.0,3,500,20260914
+transition,Mean burden,3,Vendor creates debit memo -> Record Invoice Receipt,False,0.0,0.998,1.0,1.0,3,500,20260914
+transition,Mean burden,3,Record Service Entry Sheet -> Record Invoice Receipt,False,0.0,0.998,1.0,1.0,3,500,20260914
+transition,Mean burden,3,Record Goods Receipt -> Change Quantity,False,0.0,0.998,1.0,1.0,3,500,20260914
+transition,Mean burden,3,Create Purchase Order Item -> Cancel Goods Receipt,False,0.0,0.998,1.0,1.0,3,500,20260914
+transition,Mean burden,3,Change Price -> Remove Payment Block,False,0.0,0.998,1.0,1.0,3,500,20260914
+transition,Mean burden,3,Change Approval for Purchase Order -> Change Approval for Purchase Order,False,0.0,0.998,1.0,1.0,3,500,20260914
+transition,Mean burden,3,Change Price -> Change Quantity,False,0.0,0.998,1.0,1.0,3,500,20260914
+transition,Mean burden,3,Receive Order Confirmation -> Delete Purchase Order Item,False,0.0,0.998,1.0,1.0,3,500,20260914
+transition,Mean burden,3,Create Purchase Order Item -> Record Invoice Receipt,False,0.0,0.998,1.0,1.0,3,500,20260914
+transition,Mean burden,3,Record Goods Receipt -> Cancel Goods Receipt,False,0.0,0.998,1.0,1.0,3,500,20260914
+transition,Mean burden,3,Clear Invoice -> Vendor creates invoice,False,0.0,0.998,1.0,1.0,3,500,20260914
+transition,Mean burden,3,Change Quantity -> Change Delivery Indicator,False,0.0,0.998,1.0,1.0,3,500,20260914
+transition,Mean burden,3,Vendor creates debit memo -> Record Goods Receipt,False,0.0,0.998,1.0,1.0,3,500,20260914
+transition,Mean burden,3,Record Service Entry Sheet -> Record Goods Receipt,False,0.0,0.998,1.0,1.0,3,500,20260914
+transition,Mean burden,3,Vendor creates invoice -> Vendor creates debit memo,False,0.0,0.998,1.0,1.0,3,500,20260914
+transition,Mean burden,3,Vendor creates debit memo -> Vendor creates invoice,False,0.0,0.998,1.0,1.0,3,500,20260914
+transition,Mean burden,3,Create Purchase Order Item -> Record Service Entry Sheet,False,0.0,0.998,1.0,1.0,3,500,20260914
+transition,Mean burden,3,Record Goods Receipt -> Record Service Entry Sheet,False,0.0,0.998,1.0,1.0,3,500,20260914
+transition,Mean burden,3,Record Service Entry Sheet -> Record Service Entry Sheet,False,0.0,0.998,1.0,1.0,3,500,20260914
+transition,Mean burden,3,SRM: Created -> SRM: Complete,False,0.0,0.998,1.0,1.0,3,500,20260914
+transition,Mean burden,3,SRM: Document Completed -> SRM: In Transfer to Execution Syst.,False,0.0,0.998,1.0,1.0,3,500,20260914
+transition,Mean burden,3,SRM: In Transfer to Execution Syst. -> SRM: Ordered,False,0.0,0.998,1.0,1.0,3,500,20260914
+transition,Mean burden,3,SRM: Awaiting Approval -> SRM: Document Completed,False,0.0,0.998,1.0,1.0,3,500,20260914
+transition,Mean burden,3,SRM: Complete -> SRM: Awaiting Approval,False,0.0,0.998,1.0,1.0,3,500,20260914
+summary,Mean burden,5,__SUMMARY__,,,0.9053333333333333,0.6666666666666666,1.0,4,500,20260914
+transition,Mean burden,5,Record Invoice Receipt -> Clear Invoice,True,1.0,0.9053333333333333,0.6666666666666666,1.0,4,500,20260914
+transition,Mean burden,5,Create Purchase Order Item -> Vendor creates invoice,True,1.0,0.9053333333333333,0.6666666666666666,1.0,4,500,20260914
+transition,Mean burden,5,Record Goods Receipt -> Record Invoice Receipt,True,1.0,0.9053333333333333,0.6666666666666666,1.0,4,500,20260914
+transition,Mean burden,5,Vendor creates invoice -> Record Invoice Receipt,False,0.284,0.9053333333333333,0.6666666666666666,1.0,4,500,20260914
+transition,Mean burden,5,Create Purchase Order Item -> Record Goods Receipt,True,0.716,0.9053333333333333,0.6666666666666666,1.0,4,500,20260914
+transition,Mean burden,5,Record Goods Receipt -> Vendor creates invoice,False,0.0,0.9053333333333333,0.6666666666666666,1.0,4,500,20260914
+transition,Mean burden,5,Remove Payment Block -> Clear Invoice,True,1.0,0.9053333333333333,0.6666666666666666,1.0,4,500,20260914
+transition,Mean burden,5,Record Invoice Receipt -> Remove Payment Block,False,0.0,0.9053333333333333,0.6666666666666666,1.0,4,500,20260914
+transition,Mean burden,5,Vendor creates invoice -> Record Goods Receipt,False,0.0,0.9053333333333333,0.6666666666666666,1.0,4,500,20260914
+transition,Mean burden,5,Record Goods Receipt -> Remove Payment Block,False,0.0,0.9053333333333333,0.6666666666666666,1.0,4,500,20260914
+transition,Mean burden,5,Receive Order Confirmation -> Record Goods Receipt,False,0.0,0.9053333333333333,0.6666666666666666,1.0,4,500,20260914
+transition,Mean burden,5,Create Purchase Order Item -> Change Quantity,False,0.0,0.9053333333333333,0.6666666666666666,1.0,4,500,20260914
+transition,Mean burden,5,Change Quantity -> Record Goods Receipt,False,0.0,0.9053333333333333,0.6666666666666666,1.0,4,500,20260914
+transition,Mean burden,5,Record Invoice Receipt -> Record Goods Receipt,False,0.0,0.9053333333333333,0.6666666666666666,1.0,4,500,20260914
+transition,Mean burden,5,Create Purchase Order Item -> Delete Purchase Order Item,False,0.0,0.9053333333333333,0.6666666666666666,1.0,4,500,20260914
+transition,Mean burden,5,Receive Order Confirmation -> Vendor creates invoice,False,0.0,0.9053333333333333,0.6666666666666666,1.0,4,500,20260914
+transition,Mean burden,5,Create Purchase Order Item -> Change Price,False,0.0,0.9053333333333333,0.6666666666666666,1.0,4,500,20260914
+transition,Mean burden,5,Change Quantity -> Vendor creates invoice,False,0.0,0.9053333333333333,0.6666666666666666,1.0,4,500,20260914
+transition,Mean burden,5,Create Purchase Order Item -> Receive Order Confirmation,False,0.0,0.9053333333333333,0.6666666666666666,1.0,4,500,20260914
+transition,Mean burden,5,Record Goods Receipt -> Record Goods Receipt,False,0.0,0.9053333333333333,0.6666666666666666,1.0,4,500,20260914
+transition,Mean burden,5,Record Invoice Receipt -> Record Invoice Receipt,False,0.0,0.9053333333333333,0.6666666666666666,1.0,4,500,20260914
+transition,Mean burden,5,Change Price -> Vendor creates invoice,False,0.0,0.9053333333333333,0.6666666666666666,1.0,4,500,20260914
+transition,Mean burden,5,Vendor creates invoice -> Create Purchase Order Item,False,0.0,0.9053333333333333,0.6666666666666666,1.0,4,500,20260914
+transition,Mean burden,5,Record Invoice Receipt -> Vendor creates invoice,False,0.0,0.9053333333333333,0.6666666666666666,1.0,4,500,20260914
+transition,Mean burden,5,Clear Invoice -> Record Invoice Receipt,False,0.0,0.9053333333333333,0.6666666666666666,1.0,4,500,20260914
+transition,Mean burden,5,Record Service Entry Sheet -> Vendor creates invoice,False,0.0,0.9053333333333333,0.6666666666666666,1.0,4,500,20260914
+transition,Mean burden,5,Vendor creates invoice -> Change Quantity,False,0.0,0.9053333333333333,0.6666666666666666,1.0,4,500,20260914
+transition,Mean burden,5,Change Price -> Record Goods Receipt,False,0.0,0.9053333333333333,0.6666666666666666,1.0,4,500,20260914
+transition,Mean burden,5,Record Invoice Receipt -> Cancel Invoice Receipt,False,0.0,0.9053333333333333,0.6666666666666666,1.0,4,500,20260914
+transition,Mean burden,5,Change Quantity -> Change Quantity,False,0.0,0.9053333333333333,0.6666666666666666,1.0,4,500,20260914
+transition,Mean burden,5,Record Invoice Receipt -> Change Price,False,0.0,0.9053333333333333,0.6666666666666666,1.0,4,500,20260914
+transition,Mean burden,5,Cancel Invoice Receipt -> Clear Invoice,False,0.0,0.9053333333333333,0.6666666666666666,1.0,4,500,20260914
+transition,Mean burden,5,Clear Invoice -> Clear Invoice,False,0.0,0.9053333333333333,0.6666666666666666,1.0,4,500,20260914
+transition,Mean burden,5,Vendor creates invoice -> Vendor creates invoice,False,0.0,0.9053333333333333,0.6666666666666666,1.0,4,500,20260914
+transition,Mean burden,5,Vendor creates invoice -> Clear Invoice,False,0.0,0.9053333333333333,0.6666666666666666,1.0,4,500,20260914
+transition,Mean burden,5,Create Purchase Requisition Item -> Create Purchase Order Item,False,0.0,0.9053333333333333,0.6666666666666666,1.0,4,500,20260914
+transition,Mean burden,5,Create Purchase Order Item -> Vendor creates debit memo,False,0.0,0.9053333333333333,0.6666666666666666,1.0,4,500,20260914
+transition,Mean burden,5,Create Purchase Order Item -> Change Approval for Purchase Order,False,0.0,0.9053333333333333,0.6666666666666666,1.0,4,500,20260914
+transition,Mean burden,5,Release Purchase Order -> Change Approval for Purchase Order,False,0.0,0.9053333333333333,0.6666666666666666,1.0,4,500,20260914
+transition,Mean burden,5,Vendor creates debit memo -> Record Invoice Receipt,False,0.0,0.9053333333333333,0.6666666666666666,1.0,4,500,20260914
+transition,Mean burden,5,Record Service Entry Sheet -> Record Invoice Receipt,False,0.0,0.9053333333333333,0.6666666666666666,1.0,4,500,20260914
+transition,Mean burden,5,Record Goods Receipt -> Change Quantity,False,0.0,0.9053333333333333,0.6666666666666666,1.0,4,500,20260914
+transition,Mean burden,5,Create Purchase Order Item -> Cancel Goods Receipt,False,0.0,0.9053333333333333,0.6666666666666666,1.0,4,500,20260914
+transition,Mean burden,5,Change Price -> Remove Payment Block,False,0.0,0.9053333333333333,0.6666666666666666,1.0,4,500,20260914
+transition,Mean burden,5,Change Approval for Purchase Order -> Change Approval for Purchase Order,False,0.0,0.9053333333333333,0.6666666666666666,1.0,4,500,20260914
+transition,Mean burden,5,Change Price -> Change Quantity,False,0.0,0.9053333333333333,0.6666666666666666,1.0,4,500,20260914
+transition,Mean burden,5,Receive Order Confirmation -> Delete Purchase Order Item,False,0.0,0.9053333333333333,0.6666666666666666,1.0,4,500,20260914
+transition,Mean burden,5,Create Purchase Order Item -> Record Invoice Receipt,False,0.0,0.9053333333333333,0.6666666666666666,1.0,4,500,20260914
+transition,Mean burden,5,Record Goods Receipt -> Cancel Goods Receipt,False,0.0,0.9053333333333333,0.6666666666666666,1.0,4,500,20260914
+transition,Mean burden,5,Clear Invoice -> Vendor creates invoice,False,0.0,0.9053333333333333,0.6666666666666666,1.0,4,500,20260914
+transition,Mean burden,5,Change Quantity -> Change Delivery Indicator,False,0.0,0.9053333333333333,0.6666666666666666,1.0,4,500,20260914
+transition,Mean burden,5,Vendor creates debit memo -> Record Goods Receipt,False,0.0,0.9053333333333333,0.6666666666666666,1.0,4,500,20260914
+transition,Mean burden,5,Record Service Entry Sheet -> Record Goods Receipt,False,0.0,0.9053333333333333,0.6666666666666666,1.0,4,500,20260914
+transition,Mean burden,5,Vendor creates invoice -> Vendor creates debit memo,False,0.0,0.9053333333333333,0.6666666666666666,1.0,4,500,20260914
+transition,Mean burden,5,Vendor creates debit memo -> Vendor creates invoice,False,0.0,0.9053333333333333,0.6666666666666666,1.0,4,500,20260914
+transition,Mean burden,5,Create Purchase Order Item -> Record Service Entry Sheet,False,0.0,0.9053333333333333,0.6666666666666666,1.0,4,500,20260914
+transition,Mean burden,5,Record Goods Receipt -> Record Service Entry Sheet,False,0.0,0.9053333333333333,0.6666666666666666,1.0,4,500,20260914
+transition,Mean burden,5,Record Service Entry Sheet -> Record Service Entry Sheet,False,0.0,0.9053333333333333,0.6666666666666666,1.0,4,500,20260914
+transition,Mean burden,5,SRM: Created -> SRM: Complete,False,0.0,0.9053333333333333,0.6666666666666666,1.0,4,500,20260914
+transition,Mean burden,5,SRM: Document Completed -> SRM: In Transfer to Execution Syst.,False,0.0,0.9053333333333333,0.6666666666666666,1.0,4,500,20260914
+transition,Mean burden,5,SRM: In Transfer to Execution Syst. -> SRM: Ordered,False,0.0,0.9053333333333333,0.6666666666666666,1.0,4,500,20260914
+transition,Mean burden,5,SRM: Awaiting Approval -> SRM: Document Completed,False,0.0,0.9053333333333333,0.6666666666666666,1.0,4,500,20260914
+transition,Mean burden,5,SRM: Complete -> SRM: Awaiting Approval,False,0.0,0.9053333333333333,0.6666666666666666,1.0,4,500,20260914
+summary,Mean burden,10,__SUMMARY__,,,0.992,1.0,1.0,10,500,20260914
+transition,Mean burden,10,Record Invoice Receipt -> Clear Invoice,True,1.0,0.992,1.0,1.0,10,500,20260914
+transition,Mean burden,10,Create Purchase Order Item -> Vendor creates invoice,True,1.0,0.992,1.0,1.0,10,500,20260914
+transition,Mean burden,10,Record Goods Receipt -> Record Invoice Receipt,True,1.0,0.992,1.0,1.0,10,500,20260914
+transition,Mean burden,10,Vendor creates invoice -> Record Invoice Receipt,True,1.0,0.992,1.0,1.0,10,500,20260914
+transition,Mean burden,10,Create Purchase Order Item -> Record Goods Receipt,True,1.0,0.992,1.0,1.0,10,500,20260914
+transition,Mean burden,10,Record Goods Receipt -> Vendor creates invoice,True,1.0,0.992,1.0,1.0,10,500,20260914
+transition,Mean burden,10,Remove Payment Block -> Clear Invoice,True,1.0,0.992,1.0,1.0,10,500,20260914
+transition,Mean burden,10,Record Invoice Receipt -> Remove Payment Block,True,1.0,0.992,1.0,1.0,10,500,20260914
+transition,Mean burden,10,Vendor creates invoice -> Record Goods Receipt,True,1.0,0.992,1.0,1.0,10,500,20260914
+transition,Mean burden,10,Record Goods Receipt -> Remove Payment Block,False,0.0,0.992,1.0,1.0,10,500,20260914
+transition,Mean burden,10,Receive Order Confirmation -> Record Goods Receipt,False,0.026,0.992,1.0,1.0,10,500,20260914
+transition,Mean burden,10,Create Purchase Order Item -> Change Quantity,True,0.956,0.992,1.0,1.0,10,500,20260914
+transition,Mean burden,10,Change Quantity -> Record Goods Receipt,False,0.0,0.992,1.0,1.0,10,500,20260914
+transition,Mean burden,10,Record Invoice Receipt -> Record Goods Receipt,False,0.0,0.992,1.0,1.0,10,500,20260914
+transition,Mean burden,10,Create Purchase Order Item -> Delete Purchase Order Item,False,0.0,0.992,1.0,1.0,10,500,20260914
+transition,Mean burden,10,Receive Order Confirmation -> Vendor creates invoice,False,0.0,0.992,1.0,1.0,10,500,20260914
+transition,Mean burden,10,Create Purchase Order Item -> Change Price,False,0.0,0.992,1.0,1.0,10,500,20260914
+transition,Mean burden,10,Change Quantity -> Vendor creates invoice,False,0.0,0.992,1.0,1.0,10,500,20260914
+transition,Mean burden,10,Create Purchase Order Item -> Receive Order Confirmation,False,0.0,0.992,1.0,1.0,10,500,20260914
+transition,Mean burden,10,Record Goods Receipt -> Record Goods Receipt,False,0.0,0.992,1.0,1.0,10,500,20260914
+transition,Mean burden,10,Record Invoice Receipt -> Record Invoice Receipt,False,0.0,0.992,1.0,1.0,10,500,20260914
+transition,Mean burden,10,Change Price -> Vendor creates invoice,False,0.0,0.992,1.0,1.0,10,500,20260914
+transition,Mean burden,10,Vendor creates invoice -> Create Purchase Order Item,False,0.008,0.992,1.0,1.0,10,500,20260914
+transition,Mean burden,10,Record Invoice Receipt -> Vendor creates invoice,False,0.0,0.992,1.0,1.0,10,500,20260914
+transition,Mean burden,10,Clear Invoice -> Record Invoice Receipt,False,0.004,0.992,1.0,1.0,10,500,20260914
+transition,Mean burden,10,Record Service Entry Sheet -> Vendor creates invoice,False,0.0,0.992,1.0,1.0,10,500,20260914
+transition,Mean burden,10,Vendor creates invoice -> Change Quantity,False,0.0,0.992,1.0,1.0,10,500,20260914
+transition,Mean burden,10,Change Price -> Record Goods Receipt,False,0.0,0.992,1.0,1.0,10,500,20260914
+transition,Mean burden,10,Record Invoice Receipt -> Cancel Invoice Receipt,False,0.006,0.992,1.0,1.0,10,500,20260914
+transition,Mean burden,10,Change Quantity -> Change Quantity,False,0.0,0.992,1.0,1.0,10,500,20260914
+transition,Mean burden,10,Record Invoice Receipt -> Change Price,False,0.0,0.992,1.0,1.0,10,500,20260914
+transition,Mean burden,10,Cancel Invoice Receipt -> Clear Invoice,False,0.0,0.992,1.0,1.0,10,500,20260914
+transition,Mean burden,10,Clear Invoice -> Clear Invoice,False,0.0,0.992,1.0,1.0,10,500,20260914
+transition,Mean burden,10,Vendor creates invoice -> Vendor creates invoice,False,0.0,0.992,1.0,1.0,10,500,20260914
+transition,Mean burden,10,Vendor creates invoice -> Clear Invoice,False,0.0,0.992,1.0,1.0,10,500,20260914
+transition,Mean burden,10,Create Purchase Requisition Item -> Create Purchase Order Item,False,0.0,0.992,1.0,1.0,10,500,20260914
+transition,Mean burden,10,Create Purchase Order Item -> Vendor creates debit memo,False,0.0,0.992,1.0,1.0,10,500,20260914
+transition,Mean burden,10,Create Purchase Order Item -> Change Approval for Purchase Order,False,0.0,0.992,1.0,1.0,10,500,20260914
+transition,Mean burden,10,Release Purchase Order -> Change Approval for Purchase Order,False,0.0,0.992,1.0,1.0,10,500,20260914
+transition,Mean burden,10,Vendor creates debit memo -> Record Invoice Receipt,False,0.0,0.992,1.0,1.0,10,500,20260914
+transition,Mean burden,10,Record Service Entry Sheet -> Record Invoice Receipt,False,0.0,0.992,1.0,1.0,10,500,20260914
+transition,Mean burden,10,Record Goods Receipt -> Change Quantity,False,0.0,0.992,1.0,1.0,10,500,20260914
+transition,Mean burden,10,Create Purchase Order Item -> Cancel Goods Receipt,False,0.0,0.992,1.0,1.0,10,500,20260914
+transition,Mean burden,10,Change Price -> Remove Payment Block,False,0.0,0.992,1.0,1.0,10,500,20260914
+transition,Mean burden,10,Change Approval for Purchase Order -> Change Approval for Purchase Order,False,0.0,0.992,1.0,1.0,10,500,20260914
+transition,Mean burden,10,Change Price -> Change Quantity,False,0.0,0.992,1.0,1.0,10,500,20260914
+transition,Mean burden,10,Receive Order Confirmation -> Delete Purchase Order Item,False,0.0,0.992,1.0,1.0,10,500,20260914
+transition,Mean burden,10,Create Purchase Order Item -> Record Invoice Receipt,False,0.0,0.992,1.0,1.0,10,500,20260914
+transition,Mean burden,10,Record Goods Receipt -> Cancel Goods Receipt,False,0.0,0.992,1.0,1.0,10,500,20260914
+transition,Mean burden,10,Clear Invoice -> Vendor creates invoice,False,0.0,0.992,1.0,1.0,10,500,20260914
+transition,Mean burden,10,Change Quantity -> Change Delivery Indicator,False,0.0,0.992,1.0,1.0,10,500,20260914
+transition,Mean burden,10,Vendor creates debit memo -> Record Goods Receipt,False,0.0,0.992,1.0,1.0,10,500,20260914
+transition,Mean burden,10,Record Service Entry Sheet -> Record Goods Receipt,False,0.0,0.992,1.0,1.0,10,500,20260914
+transition,Mean burden,10,Vendor creates invoice -> Vendor creates debit memo,False,0.0,0.992,1.0,1.0,10,500,20260914
+transition,Mean burden,10,Vendor creates debit memo -> Vendor creates invoice,False,0.0,0.992,1.0,1.0,10,500,20260914
+transition,Mean burden,10,Create Purchase Order Item -> Record Service Entry Sheet,False,0.0,0.992,1.0,1.0,10,500,20260914
+transition,Mean burden,10,Record Goods Receipt -> Record Service Entry Sheet,False,0.0,0.992,1.0,1.0,10,500,20260914
+transition,Mean burden,10,Record Service Entry Sheet -> Record Service Entry Sheet,False,0.0,0.992,1.0,1.0,10,500,20260914
+transition,Mean burden,10,SRM: Created -> SRM: Complete,False,0.0,0.992,1.0,1.0,10,500,20260914
+transition,Mean burden,10,SRM: Document Completed -> SRM: In Transfer to Execution Syst.,False,0.0,0.992,1.0,1.0,10,500,20260914
+transition,Mean burden,10,SRM: In Transfer to Execution Syst. -> SRM: Ordered,False,0.0,0.992,1.0,1.0,10,500,20260914
+transition,Mean burden,10,SRM: Awaiting Approval -> SRM: Document Completed,False,0.0,0.992,1.0,1.0,10,500,20260914
+transition,Mean burden,10,SRM: Complete -> SRM: Awaiting Approval,False,0.0,0.992,1.0,1.0,10,500,20260914
+summary,Tail baseline,3,__SUMMARY__,,,0.869,0.5,1.0,2,500,20260914
+transition,Tail baseline,3,Record Invoice Receipt -> Clear Invoice,True,1.0,0.869,0.5,1.0,2,500,20260914
+transition,Tail baseline,3,Create Purchase Order Item -> Vendor creates invoice,True,0.738,0.869,0.5,1.0,2,500,20260914
+transition,Tail baseline,3,Record Goods Receipt -> Record Invoice Receipt,True,1.0,0.869,0.5,1.0,2,500,20260914
+transition,Tail baseline,3,Vendor creates invoice -> Record Invoice Receipt,False,0.262,0.869,0.5,1.0,2,500,20260914
+transition,Tail baseline,3,Create Purchase Order Item -> Record Goods Receipt,False,0.0,0.869,0.5,1.0,2,500,20260914
+transition,Tail baseline,3,Record Goods Receipt -> Vendor creates invoice,False,0.0,0.869,0.5,1.0,2,500,20260914
+transition,Tail baseline,3,Remove Payment Block -> Clear Invoice,False,0.0,0.869,0.5,1.0,2,500,20260914
+transition,Tail baseline,3,Record Invoice Receipt -> Remove Payment Block,False,0.0,0.869,0.5,1.0,2,500,20260914
+transition,Tail baseline,3,Vendor creates invoice -> Record Goods Receipt,False,0.0,0.869,0.5,1.0,2,500,20260914
+transition,Tail baseline,3,Record Goods Receipt -> Remove Payment Block,False,0.0,0.869,0.5,1.0,2,500,20260914
+transition,Tail baseline,3,Receive Order Confirmation -> Record Goods Receipt,False,0.0,0.869,0.5,1.0,2,500,20260914
+transition,Tail baseline,3,Create Purchase Order Item -> Change Quantity,False,0.0,0.869,0.5,1.0,2,500,20260914
+transition,Tail baseline,3,Change Quantity -> Record Goods Receipt,False,0.0,0.869,0.5,1.0,2,500,20260914
+transition,Tail baseline,3,Record Invoice Receipt -> Record Goods Receipt,False,0.0,0.869,0.5,1.0,2,500,20260914
+transition,Tail baseline,3,Create Purchase Order Item -> Delete Purchase Order Item,False,0.0,0.869,0.5,1.0,2,500,20260914
+transition,Tail baseline,3,Receive Order Confirmation -> Vendor creates invoice,False,0.0,0.869,0.5,1.0,2,500,20260914
+transition,Tail baseline,3,Create Purchase Order Item -> Change Price,False,0.0,0.869,0.5,1.0,2,500,20260914
+transition,Tail baseline,3,Change Quantity -> Vendor creates invoice,False,0.0,0.869,0.5,1.0,2,500,20260914
+transition,Tail baseline,3,Create Purchase Order Item -> Receive Order Confirmation,False,0.0,0.869,0.5,1.0,2,500,20260914
+transition,Tail baseline,3,Record Goods Receipt -> Record Goods Receipt,False,0.0,0.869,0.5,1.0,2,500,20260914
+transition,Tail baseline,3,Record Invoice Receipt -> Record Invoice Receipt,False,0.0,0.869,0.5,1.0,2,500,20260914
+transition,Tail baseline,3,Change Price -> Vendor creates invoice,False,0.0,0.869,0.5,1.0,2,500,20260914
+transition,Tail baseline,3,Vendor creates invoice -> Create Purchase Order Item,False,0.0,0.869,0.5,1.0,2,500,20260914
+transition,Tail baseline,3,Record Invoice Receipt -> Vendor creates invoice,False,0.0,0.869,0.5,1.0,2,500,20260914
+transition,Tail baseline,3,Clear Invoice -> Record Invoice Receipt,False,0.0,0.869,0.5,1.0,2,500,20260914
+transition,Tail baseline,3,Record Service Entry Sheet -> Vendor creates invoice,False,0.0,0.869,0.5,1.0,2,500,20260914
+transition,Tail baseline,3,Vendor creates invoice -> Change Quantity,False,0.0,0.869,0.5,1.0,2,500,20260914
+transition,Tail baseline,3,Change Price -> Record Goods Receipt,False,0.0,0.869,0.5,1.0,2,500,20260914
+transition,Tail baseline,3,Record Invoice Receipt -> Cancel Invoice Receipt,False,0.0,0.869,0.5,1.0,2,500,20260914
+transition,Tail baseline,3,Change Quantity -> Change Quantity,False,0.0,0.869,0.5,1.0,2,500,20260914
+transition,Tail baseline,3,Record Invoice Receipt -> Change Price,False,0.0,0.869,0.5,1.0,2,500,20260914
+transition,Tail baseline,3,Cancel Invoice Receipt -> Clear Invoice,False,0.0,0.869,0.5,1.0,2,500,20260914
+transition,Tail baseline,3,Clear Invoice -> Clear Invoice,False,0.0,0.869,0.5,1.0,2,500,20260914
+transition,Tail baseline,3,Vendor creates invoice -> Vendor creates invoice,False,0.0,0.869,0.5,1.0,2,500,20260914
+transition,Tail baseline,3,Vendor creates invoice -> Clear Invoice,False,0.0,0.869,0.5,1.0,2,500,20260914
+transition,Tail baseline,3,Create Purchase Requisition Item -> Create Purchase Order Item,False,0.0,0.869,0.5,1.0,2,500,20260914
+transition,Tail baseline,3,Create Purchase Order Item -> Vendor creates debit memo,False,0.0,0.869,0.5,1.0,2,500,20260914
+transition,Tail baseline,3,Create Purchase Order Item -> Change Approval for Purchase Order,False,0.0,0.869,0.5,1.0,2,500,20260914
+transition,Tail baseline,3,Release Purchase Order -> Change Approval for Purchase Order,False,0.0,0.869,0.5,1.0,2,500,20260914
+transition,Tail baseline,3,Vendor creates debit memo -> Record Invoice Receipt,False,0.0,0.869,0.5,1.0,2,500,20260914
+transition,Tail baseline,3,Record Service Entry Sheet -> Record Invoice Receipt,False,0.0,0.869,0.5,1.0,2,500,20260914
+transition,Tail baseline,3,Record Goods Receipt -> Change Quantity,False,0.0,0.869,0.5,1.0,2,500,20260914
+transition,Tail baseline,3,Create Purchase Order Item -> Cancel Goods Receipt,False,0.0,0.869,0.5,1.0,2,500,20260914
+transition,Tail baseline,3,Change Price -> Remove Payment Block,False,0.0,0.869,0.5,1.0,2,500,20260914
+transition,Tail baseline,3,Change Approval for Purchase Order -> Change Approval for Purchase Order,False,0.0,0.869,0.5,1.0,2,500,20260914
+transition,Tail baseline,3,Change Price -> Change Quantity,False,0.0,0.869,0.5,1.0,2,500,20260914
+transition,Tail baseline,3,Receive Order Confirmation -> Delete Purchase Order Item,False,0.0,0.869,0.5,1.0,2,500,20260914
+transition,Tail baseline,3,Create Purchase Order Item -> Record Invoice Receipt,False,0.0,0.869,0.5,1.0,2,500,20260914
+transition,Tail baseline,3,Record Goods Receipt -> Cancel Goods Receipt,False,0.0,0.869,0.5,1.0,2,500,20260914
+transition,Tail baseline,3,Clear Invoice -> Vendor creates invoice,False,0.0,0.869,0.5,1.0,2,500,20260914
+transition,Tail baseline,3,Change Quantity -> Change Delivery Indicator,False,0.0,0.869,0.5,1.0,2,500,20260914
+transition,Tail baseline,3,Vendor creates debit memo -> Record Goods Receipt,False,0.0,0.869,0.5,1.0,2,500,20260914
+transition,Tail baseline,3,Record Service Entry Sheet -> Record Goods Receipt,False,0.0,0.869,0.5,1.0,2,500,20260914
+transition,Tail baseline,3,Vendor creates invoice -> Vendor creates debit memo,False,0.0,0.869,0.5,1.0,2,500,20260914
+transition,Tail baseline,3,Vendor creates debit memo -> Vendor creates invoice,False,0.0,0.869,0.5,1.0,2,500,20260914
+transition,Tail baseline,3,Create Purchase Order Item -> Record Service Entry Sheet,False,0.0,0.869,0.5,1.0,2,500,20260914
+transition,Tail baseline,3,Record Goods Receipt -> Record Service Entry Sheet,False,0.0,0.869,0.5,1.0,2,500,20260914
+transition,Tail baseline,3,Record Service Entry Sheet -> Record Service Entry Sheet,False,0.0,0.869,0.5,1.0,2,500,20260914
+transition,Tail baseline,3,SRM: Created -> SRM: Complete,False,0.0,0.869,0.5,1.0,2,500,20260914
+transition,Tail baseline,3,SRM: Document Completed -> SRM: In Transfer to Execution Syst.,False,0.0,0.869,0.5,1.0,2,500,20260914
+transition,Tail baseline,3,SRM: In Transfer to Execution Syst. -> SRM: Ordered,False,0.0,0.869,0.5,1.0,2,500,20260914
+transition,Tail baseline,3,SRM: Awaiting Approval -> SRM: Document Completed,False,0.0,0.869,0.5,1.0,2,500,20260914
+transition,Tail baseline,3,SRM: Complete -> SRM: Awaiting Approval,False,0.0,0.869,0.5,1.0,2,500,20260914
+summary,Tail baseline,5,__SUMMARY__,,,0.9933333333333333,1.0,1.0,5,500,20260914
+transition,Tail baseline,5,Record Invoice Receipt -> Clear Invoice,True,1.0,0.9933333333333333,1.0,1.0,5,500,20260914
+transition,Tail baseline,5,Create Purchase Order Item -> Vendor creates invoice,True,1.0,0.9933333333333333,1.0,1.0,5,500,20260914
+transition,Tail baseline,5,Record Goods Receipt -> Record Invoice Receipt,True,1.0,0.9933333333333333,1.0,1.0,5,500,20260914
+transition,Tail baseline,5,Vendor creates invoice -> Record Invoice Receipt,True,1.0,0.9933333333333333,1.0,1.0,5,500,20260914
+transition,Tail baseline,5,Create Purchase Order Item -> Record Goods Receipt,True,0.98,0.9933333333333333,1.0,1.0,5,500,20260914
+transition,Tail baseline,5,Record Goods Receipt -> Vendor creates invoice,False,0.0,0.9933333333333333,1.0,1.0,5,500,20260914
+transition,Tail baseline,5,Remove Payment Block -> Clear Invoice,False,0.02,0.9933333333333333,1.0,1.0,5,500,20260914
+transition,Tail baseline,5,Record Invoice Receipt -> Remove Payment Block,False,0.0,0.9933333333333333,1.0,1.0,5,500,20260914
+transition,Tail baseline,5,Vendor creates invoice -> Record Goods Receipt,False,0.0,0.9933333333333333,1.0,1.0,5,500,20260914
+transition,Tail baseline,5,Record Goods Receipt -> Remove Payment Block,False,0.0,0.9933333333333333,1.0,1.0,5,500,20260914
+transition,Tail baseline,5,Receive Order Confirmation -> Record Goods Receipt,False,0.0,0.9933333333333333,1.0,1.0,5,500,20260914
+transition,Tail baseline,5,Create Purchase Order Item -> Change Quantity,False,0.0,0.9933333333333333,1.0,1.0,5,500,20260914
+transition,Tail baseline,5,Change Quantity -> Record Goods Receipt,False,0.0,0.9933333333333333,1.0,1.0,5,500,20260914
+transition,Tail baseline,5,Record Invoice Receipt -> Record Goods Receipt,False,0.0,0.9933333333333333,1.0,1.0,5,500,20260914
+transition,Tail baseline,5,Create Purchase Order Item -> Delete Purchase Order Item,False,0.0,0.9933333333333333,1.0,1.0,5,500,20260914
+transition,Tail baseline,5,Receive Order Confirmation -> Vendor creates invoice,False,0.0,0.9933333333333333,1.0,1.0,5,500,20260914
+transition,Tail baseline,5,Create Purchase Order Item -> Change Price,False,0.0,0.9933333333333333,1.0,1.0,5,500,20260914
+transition,Tail baseline,5,Change Quantity -> Vendor creates invoice,False,0.0,0.9933333333333333,1.0,1.0,5,500,20260914
+transition,Tail baseline,5,Create Purchase Order Item -> Receive Order Confirmation,False,0.0,0.9933333333333333,1.0,1.0,5,500,20260914
+transition,Tail baseline,5,Record Goods Receipt -> Record Goods Receipt,False,0.0,0.9933333333333333,1.0,1.0,5,500,20260914
+transition,Tail baseline,5,Record Invoice Receipt -> Record Invoice Receipt,False,0.0,0.9933333333333333,1.0,1.0,5,500,20260914
+transition,Tail baseline,5,Change Price -> Vendor creates invoice,False,0.0,0.9933333333333333,1.0,1.0,5,500,20260914
+transition,Tail baseline,5,Vendor creates invoice -> Create Purchase Order Item,False,0.0,0.9933333333333333,1.0,1.0,5,500,20260914
+transition,Tail baseline,5,Record Invoice Receipt -> Vendor creates invoice,False,0.0,0.9933333333333333,1.0,1.0,5,500,20260914
+transition,Tail baseline,5,Clear Invoice -> Record Invoice Receipt,False,0.0,0.9933333333333333,1.0,1.0,5,500,20260914
+transition,Tail baseline,5,Record Service Entry Sheet -> Vendor creates invoice,False,0.0,0.9933333333333333,1.0,1.0,5,500,20260914
+transition,Tail baseline,5,Vendor creates invoice -> Change Quantity,False,0.0,0.9933333333333333,1.0,1.0,5,500,20260914
+transition,Tail baseline,5,Change Price -> Record Goods Receipt,False,0.0,0.9933333333333333,1.0,1.0,5,500,20260914
+transition,Tail baseline,5,Record Invoice Receipt -> Cancel Invoice Receipt,False,0.0,0.9933333333333333,1.0,1.0,5,500,20260914
+transition,Tail baseline,5,Change Quantity -> Change Quantity,False,0.0,0.9933333333333333,1.0,1.0,5,500,20260914
+transition,Tail baseline,5,Record Invoice Receipt -> Change Price,False,0.0,0.9933333333333333,1.0,1.0,5,500,20260914
+transition,Tail baseline,5,Cancel Invoice Receipt -> Clear Invoice,False,0.0,0.9933333333333333,1.0,1.0,5,500,20260914
+transition,Tail baseline,5,Clear Invoice -> Clear Invoice,False,0.0,0.9933333333333333,1.0,1.0,5,500,20260914
+transition,Tail baseline,5,Vendor creates invoice -> Vendor creates invoice,False,0.0,0.9933333333333333,1.0,1.0,5,500,20260914
+transition,Tail baseline,5,Vendor creates invoice -> Clear Invoice,False,0.0,0.9933333333333333,1.0,1.0,5,500,20260914
+transition,Tail baseline,5,Create Purchase Requisition Item -> Create Purchase Order Item,False,0.0,0.9933333333333333,1.0,1.0,5,500,20260914
+transition,Tail baseline,5,Create Purchase Order Item -> Vendor creates debit memo,False,0.0,0.9933333333333333,1.0,1.0,5,500,20260914
+transition,Tail baseline,5,Create Purchase Order Item -> Change Approval for Purchase Order,False,0.0,0.9933333333333333,1.0,1.0,5,500,20260914
+transition,Tail baseline,5,Release Purchase Order -> Change Approval for Purchase Order,False,0.0,0.9933333333333333,1.0,1.0,5,500,20260914
+transition,Tail baseline,5,Vendor creates debit memo -> Record Invoice Receipt,False,0.0,0.9933333333333333,1.0,1.0,5,500,20260914
+transition,Tail baseline,5,Record Service Entry Sheet -> Record Invoice Receipt,False,0.0,0.9933333333333333,1.0,1.0,5,500,20260914
+transition,Tail baseline,5,Record Goods Receipt -> Change Quantity,False,0.0,0.9933333333333333,1.0,1.0,5,500,20260914
+transition,Tail baseline,5,Create Purchase Order Item -> Cancel Goods Receipt,False,0.0,0.9933333333333333,1.0,1.0,5,500,20260914
+transition,Tail baseline,5,Change Price -> Remove Payment Block,False,0.0,0.9933333333333333,1.0,1.0,5,500,20260914
+transition,Tail baseline,5,Change Approval for Purchase Order -> Change Approval for Purchase Order,False,0.0,0.9933333333333333,1.0,1.0,5,500,20260914
+transition,Tail baseline,5,Change Price -> Change Quantity,False,0.0,0.9933333333333333,1.0,1.0,5,500,20260914
+transition,Tail baseline,5,Receive Order Confirmation -> Delete Purchase Order Item,False,0.0,0.9933333333333333,1.0,1.0,5,500,20260914
+transition,Tail baseline,5,Create Purchase Order Item -> Record Invoice Receipt,False,0.0,0.9933333333333333,1.0,1.0,5,500,20260914
+transition,Tail baseline,5,Record Goods Receipt -> Cancel Goods Receipt,False,0.0,0.9933333333333333,1.0,1.0,5,500,20260914
+transition,Tail baseline,5,Clear Invoice -> Vendor creates invoice,False,0.0,0.9933333333333333,1.0,1.0,5,500,20260914
+transition,Tail baseline,5,Change Quantity -> Change Delivery Indicator,False,0.0,0.9933333333333333,1.0,1.0,5,500,20260914
+transition,Tail baseline,5,Vendor creates debit memo -> Record Goods Receipt,False,0.0,0.9933333333333333,1.0,1.0,5,500,20260914
+transition,Tail baseline,5,Record Service Entry Sheet -> Record Goods Receipt,False,0.0,0.9933333333333333,1.0,1.0,5,500,20260914
+transition,Tail baseline,5,Vendor creates invoice -> Vendor creates debit memo,False,0.0,0.9933333333333333,1.0,1.0,5,500,20260914
+transition,Tail baseline,5,Vendor creates debit memo -> Vendor creates invoice,False,0.0,0.9933333333333333,1.0,1.0,5,500,20260914
+transition,Tail baseline,5,Create Purchase Order Item -> Record Service Entry Sheet,False,0.0,0.9933333333333333,1.0,1.0,5,500,20260914
+transition,Tail baseline,5,Record Goods Receipt -> Record Service Entry Sheet,False,0.0,0.9933333333333333,1.0,1.0,5,500,20260914
+transition,Tail baseline,5,Record Service Entry Sheet -> Record Service Entry Sheet,False,0.0,0.9933333333333333,1.0,1.0,5,500,20260914
+transition,Tail baseline,5,SRM: Created -> SRM: Complete,False,0.0,0.9933333333333333,1.0,1.0,5,500,20260914
+transition,Tail baseline,5,SRM: Document Completed -> SRM: In Transfer to Execution Syst.,False,0.0,0.9933333333333333,1.0,1.0,5,500,20260914
+transition,Tail baseline,5,SRM: In Transfer to Execution Syst. -> SRM: Ordered,False,0.0,0.9933333333333333,1.0,1.0,5,500,20260914
+transition,Tail baseline,5,SRM: Awaiting Approval -> SRM: Document Completed,False,0.0,0.9933333333333333,1.0,1.0,5,500,20260914
+transition,Tail baseline,5,SRM: Complete -> SRM: Awaiting Approval,False,0.0,0.9933333333333333,1.0,1.0,5,500,20260914
+summary,Tail baseline,10,__SUMMARY__,,,0.9694545454545455,0.8181818181818182,1.0,10,500,20260914
+transition,Tail baseline,10,Record Invoice Receipt -> Clear Invoice,True,1.0,0.9694545454545455,0.8181818181818182,1.0,10,500,20260914
+transition,Tail baseline,10,Create Purchase Order Item -> Vendor creates invoice,True,1.0,0.9694545454545455,0.8181818181818182,1.0,10,500,20260914
+transition,Tail baseline,10,Record Goods Receipt -> Record Invoice Receipt,True,1.0,0.9694545454545455,0.8181818181818182,1.0,10,500,20260914
+transition,Tail baseline,10,Vendor creates invoice -> Record Invoice Receipt,True,1.0,0.9694545454545455,0.8181818181818182,1.0,10,500,20260914
+transition,Tail baseline,10,Create Purchase Order Item -> Record Goods Receipt,True,1.0,0.9694545454545455,0.8181818181818182,1.0,10,500,20260914
+transition,Tail baseline,10,Record Goods Receipt -> Vendor creates invoice,True,1.0,0.9694545454545455,0.8181818181818182,1.0,10,500,20260914
+transition,Tail baseline,10,Remove Payment Block -> Clear Invoice,True,1.0,0.9694545454545455,0.8181818181818182,1.0,10,500,20260914
+transition,Tail baseline,10,Record Invoice Receipt -> Remove Payment Block,True,1.0,0.9694545454545455,0.8181818181818182,1.0,10,500,20260914
+transition,Tail baseline,10,Vendor creates invoice -> Record Goods Receipt,True,1.0,0.9694545454545455,0.8181818181818182,1.0,10,500,20260914
+transition,Tail baseline,10,Record Goods Receipt -> Remove Payment Block,False,0.152,0.9694545454545455,0.8181818181818182,1.0,10,500,20260914
+transition,Tail baseline,10,Receive Order Confirmation -> Record Goods Receipt,False,0.016,0.9694545454545455,0.8181818181818182,1.0,10,500,20260914
+transition,Tail baseline,10,Create Purchase Order Item -> Change Quantity,True,0.832,0.9694545454545455,0.8181818181818182,1.0,10,500,20260914
+transition,Tail baseline,10,Change Quantity -> Record Goods Receipt,False,0.0,0.9694545454545455,0.8181818181818182,1.0,10,500,20260914
+transition,Tail baseline,10,Record Invoice Receipt -> Record Goods Receipt,False,0.0,0.9694545454545455,0.8181818181818182,1.0,10,500,20260914
+transition,Tail baseline,10,Create Purchase Order Item -> Delete Purchase Order Item,False,0.0,0.9694545454545455,0.8181818181818182,1.0,10,500,20260914
+transition,Tail baseline,10,Receive Order Confirmation -> Vendor creates invoice,False,0.0,0.9694545454545455,0.8181818181818182,1.0,10,500,20260914
+transition,Tail baseline,10,Create Purchase Order Item -> Change Price,False,0.0,0.9694545454545455,0.8181818181818182,1.0,10,500,20260914
+transition,Tail baseline,10,Change Quantity -> Vendor creates invoice,False,0.0,0.9694545454545455,0.8181818181818182,1.0,10,500,20260914
+transition,Tail baseline,10,Create Purchase Order Item -> Receive Order Confirmation,False,0.0,0.9694545454545455,0.8181818181818182,1.0,10,500,20260914
+transition,Tail baseline,10,Record Goods Receipt -> Record Goods Receipt,False,0.0,0.9694545454545455,0.8181818181818182,1.0,10,500,20260914
+transition,Tail baseline,10,Record Invoice Receipt -> Record Invoice Receipt,False,0.0,0.9694545454545455,0.8181818181818182,1.0,10,500,20260914
+transition,Tail baseline,10,Change Price -> Vendor creates invoice,False,0.0,0.9694545454545455,0.8181818181818182,1.0,10,500,20260914
+transition,Tail baseline,10,Vendor creates invoice -> Create Purchase Order Item,False,0.0,0.9694545454545455,0.8181818181818182,1.0,10,500,20260914
+transition,Tail baseline,10,Record Invoice Receipt -> Vendor creates invoice,False,0.0,0.9694545454545455,0.8181818181818182,1.0,10,500,20260914
+transition,Tail baseline,10,Clear Invoice -> Record Invoice Receipt,False,0.0,0.9694545454545455,0.8181818181818182,1.0,10,500,20260914
+transition,Tail baseline,10,Record Service Entry Sheet -> Vendor creates invoice,False,0.0,0.9694545454545455,0.8181818181818182,1.0,10,500,20260914
+transition,Tail baseline,10,Vendor creates invoice -> Change Quantity,False,0.0,0.9694545454545455,0.8181818181818182,1.0,10,500,20260914
+transition,Tail baseline,10,Change Price -> Record Goods Receipt,False,0.0,0.9694545454545455,0.8181818181818182,1.0,10,500,20260914
+transition,Tail baseline,10,Record Invoice Receipt -> Cancel Invoice Receipt,False,0.0,0.9694545454545455,0.8181818181818182,1.0,10,500,20260914
+transition,Tail baseline,10,Change Quantity -> Change Quantity,False,0.0,0.9694545454545455,0.8181818181818182,1.0,10,500,20260914
+transition,Tail baseline,10,Record Invoice Receipt -> Change Price,False,0.0,0.9694545454545455,0.8181818181818182,1.0,10,500,20260914
+transition,Tail baseline,10,Cancel Invoice Receipt -> Clear Invoice,False,0.0,0.9694545454545455,0.8181818181818182,1.0,10,500,20260914
+transition,Tail baseline,10,Clear Invoice -> Clear Invoice,False,0.0,0.9694545454545455,0.8181818181818182,1.0,10,500,20260914
+transition,Tail baseline,10,Vendor creates invoice -> Vendor creates invoice,False,0.0,0.9694545454545455,0.8181818181818182,1.0,10,500,20260914
+transition,Tail baseline,10,Vendor creates invoice -> Clear Invoice,False,0.0,0.9694545454545455,0.8181818181818182,1.0,10,500,20260914
+transition,Tail baseline,10,Create Purchase Requisition Item -> Create Purchase Order Item,False,0.0,0.9694545454545455,0.8181818181818182,1.0,10,500,20260914
+transition,Tail baseline,10,Create Purchase Order Item -> Vendor creates debit memo,False,0.0,0.9694545454545455,0.8181818181818182,1.0,10,500,20260914
+transition,Tail baseline,10,Create Purchase Order Item -> Change Approval for Purchase Order,False,0.0,0.9694545454545455,0.8181818181818182,1.0,10,500,20260914
+transition,Tail baseline,10,Release Purchase Order -> Change Approval for Purchase Order,False,0.0,0.9694545454545455,0.8181818181818182,1.0,10,500,20260914
+transition,Tail baseline,10,Vendor creates debit memo -> Record Invoice Receipt,False,0.0,0.9694545454545455,0.8181818181818182,1.0,10,500,20260914
+transition,Tail baseline,10,Record Service Entry Sheet -> Record Invoice Receipt,False,0.0,0.9694545454545455,0.8181818181818182,1.0,10,500,20260914
+transition,Tail baseline,10,Record Goods Receipt -> Change Quantity,False,0.0,0.9694545454545455,0.8181818181818182,1.0,10,500,20260914
+transition,Tail baseline,10,Create Purchase Order Item -> Cancel Goods Receipt,False,0.0,0.9694545454545455,0.8181818181818182,1.0,10,500,20260914
+transition,Tail baseline,10,Change Price -> Remove Payment Block,False,0.0,0.9694545454545455,0.8181818181818182,1.0,10,500,20260914
+transition,Tail baseline,10,Change Approval for Purchase Order -> Change Approval for Purchase Order,False,0.0,0.9694545454545455,0.8181818181818182,1.0,10,500,20260914
+transition,Tail baseline,10,Change Price -> Change Quantity,False,0.0,0.9694545454545455,0.8181818181818182,1.0,10,500,20260914
+transition,Tail baseline,10,Receive Order Confirmation -> Delete Purchase Order Item,False,0.0,0.9694545454545455,0.8181818181818182,1.0,10,500,20260914
+transition,Tail baseline,10,Create Purchase Order Item -> Record Invoice Receipt,False,0.0,0.9694545454545455,0.8181818181818182,1.0,10,500,20260914
+transition,Tail baseline,10,Record Goods Receipt -> Cancel Goods Receipt,False,0.0,0.9694545454545455,0.8181818181818182,1.0,10,500,20260914
+transition,Tail baseline,10,Clear Invoice -> Vendor creates invoice,False,0.0,0.9694545454545455,0.8181818181818182,1.0,10,500,20260914
+transition,Tail baseline,10,Change Quantity -> Change Delivery Indicator,False,0.0,0.9694545454545455,0.8181818181818182,1.0,10,500,20260914
+transition,Tail baseline,10,Vendor creates debit memo -> Record Goods Receipt,False,0.0,0.9694545454545455,0.8181818181818182,1.0,10,500,20260914
+transition,Tail baseline,10,Record Service Entry Sheet -> Record Goods Receipt,False,0.0,0.9694545454545455,0.8181818181818182,1.0,10,500,20260914
+transition,Tail baseline,10,Vendor creates invoice -> Vendor creates debit memo,False,0.0,0.9694545454545455,0.8181818181818182,1.0,10,500,20260914
+transition,Tail baseline,10,Vendor creates debit memo -> Vendor creates invoice,False,0.0,0.9694545454545455,0.8181818181818182,1.0,10,500,20260914
+transition,Tail baseline,10,Create Purchase Order Item -> Record Service Entry Sheet,False,0.0,0.9694545454545455,0.8181818181818182,1.0,10,500,20260914
+transition,Tail baseline,10,Record Goods Receipt -> Record Service Entry Sheet,False,0.0,0.9694545454545455,0.8181818181818182,1.0,10,500,20260914
+transition,Tail baseline,10,Record Service Entry Sheet -> Record Service Entry Sheet,False,0.0,0.9694545454545455,0.8181818181818182,1.0,10,500,20260914
+transition,Tail baseline,10,SRM: Created -> SRM: Complete,False,0.0,0.9694545454545455,0.8181818181818182,1.0,10,500,20260914
+transition,Tail baseline,10,SRM: Document Completed -> SRM: In Transfer to Execution Syst.,False,0.0,0.9694545454545455,0.8181818181818182,1.0,10,500,20260914
+transition,Tail baseline,10,SRM: In Transfer to Execution Syst. -> SRM: Ordered,False,0.0,0.9694545454545455,0.8181818181818182,1.0,10,500,20260914
+transition,Tail baseline,10,SRM: Awaiting Approval -> SRM: Document Completed,False,0.0,0.9694545454545455,0.8181818181818182,1.0,10,500,20260914
+transition,Tail baseline,10,SRM: Complete -> SRM: Awaiting Approval,False,0.0,0.9694545454545455,0.8181818181818182,1.0,10,500,20260914
+summary,DRO,3,__SUMMARY__,,,1.0,1.0,1.0,3,500,20260914
+transition,DRO,3,Record Invoice Receipt -> Clear Invoice,True,1.0,1.0,1.0,1.0,3,500,20260914
+transition,DRO,3,Create Purchase Order Item -> Vendor creates invoice,True,1.0,1.0,1.0,1.0,3,500,20260914
+transition,DRO,3,Record Goods Receipt -> Record Invoice Receipt,True,1.0,1.0,1.0,1.0,3,500,20260914
+transition,DRO,3,Vendor creates invoice -> Record Invoice Receipt,False,0.0,1.0,1.0,1.0,3,500,20260914
+transition,DRO,3,Create Purchase Order Item -> Record Goods Receipt,False,0.0,1.0,1.0,1.0,3,500,20260914
+transition,DRO,3,Record Goods Receipt -> Vendor creates invoice,False,0.0,1.0,1.0,1.0,3,500,20260914
+transition,DRO,3,Remove Payment Block -> Clear Invoice,False,0.0,1.0,1.0,1.0,3,500,20260914
+transition,DRO,3,Record Invoice Receipt -> Remove Payment Block,False,0.0,1.0,1.0,1.0,3,500,20260914
+transition,DRO,3,Vendor creates invoice -> Record Goods Receipt,False,0.0,1.0,1.0,1.0,3,500,20260914
+transition,DRO,3,Record Goods Receipt -> Remove Payment Block,False,0.0,1.0,1.0,1.0,3,500,20260914
+transition,DRO,3,Receive Order Confirmation -> Record Goods Receipt,False,0.0,1.0,1.0,1.0,3,500,20260914
+transition,DRO,3,Create Purchase Order Item -> Change Quantity,False,0.0,1.0,1.0,1.0,3,500,20260914
+transition,DRO,3,Change Quantity -> Record Goods Receipt,False,0.0,1.0,1.0,1.0,3,500,20260914
+transition,DRO,3,Record Invoice Receipt -> Record Goods Receipt,False,0.0,1.0,1.0,1.0,3,500,20260914
+transition,DRO,3,Create Purchase Order Item -> Delete Purchase Order Item,False,0.0,1.0,1.0,1.0,3,500,20260914
+transition,DRO,3,Receive Order Confirmation -> Vendor creates invoice,False,0.0,1.0,1.0,1.0,3,500,20260914
+transition,DRO,3,Create Purchase Order Item -> Change Price,False,0.0,1.0,1.0,1.0,3,500,20260914
+transition,DRO,3,Change Quantity -> Vendor creates invoice,False,0.0,1.0,1.0,1.0,3,500,20260914
+transition,DRO,3,Create Purchase Order Item -> Receive Order Confirmation,False,0.0,1.0,1.0,1.0,3,500,20260914
+transition,DRO,3,Record Goods Receipt -> Record Goods Receipt,False,0.0,1.0,1.0,1.0,3,500,20260914
+transition,DRO,3,Record Invoice Receipt -> Record Invoice Receipt,False,0.0,1.0,1.0,1.0,3,500,20260914
+transition,DRO,3,Change Price -> Vendor creates invoice,False,0.0,1.0,1.0,1.0,3,500,20260914
+transition,DRO,3,Vendor creates invoice -> Create Purchase Order Item,False,0.0,1.0,1.0,1.0,3,500,20260914
+transition,DRO,3,Record Invoice Receipt -> Vendor creates invoice,False,0.0,1.0,1.0,1.0,3,500,20260914
+transition,DRO,3,Clear Invoice -> Record Invoice Receipt,False,0.0,1.0,1.0,1.0,3,500,20260914
+transition,DRO,3,Record Service Entry Sheet -> Vendor creates invoice,False,0.0,1.0,1.0,1.0,3,500,20260914
+transition,DRO,3,Vendor creates invoice -> Change Quantity,False,0.0,1.0,1.0,1.0,3,500,20260914
+transition,DRO,3,Change Price -> Record Goods Receipt,False,0.0,1.0,1.0,1.0,3,500,20260914
+transition,DRO,3,Record Invoice Receipt -> Cancel Invoice Receipt,False,0.0,1.0,1.0,1.0,3,500,20260914
+transition,DRO,3,Change Quantity -> Change Quantity,False,0.0,1.0,1.0,1.0,3,500,20260914
+transition,DRO,3,Record Invoice Receipt -> Change Price,False,0.0,1.0,1.0,1.0,3,500,20260914
+transition,DRO,3,Cancel Invoice Receipt -> Clear Invoice,False,0.0,1.0,1.0,1.0,3,500,20260914
+transition,DRO,3,Clear Invoice -> Clear Invoice,False,0.0,1.0,1.0,1.0,3,500,20260914
+transition,DRO,3,Vendor creates invoice -> Vendor creates invoice,False,0.0,1.0,1.0,1.0,3,500,20260914
+transition,DRO,3,Vendor creates invoice -> Clear Invoice,False,0.0,1.0,1.0,1.0,3,500,20260914
+transition,DRO,3,Create Purchase Requisition Item -> Create Purchase Order Item,False,0.0,1.0,1.0,1.0,3,500,20260914
+transition,DRO,3,Create Purchase Order Item -> Vendor creates debit memo,False,0.0,1.0,1.0,1.0,3,500,20260914
+transition,DRO,3,Create Purchase Order Item -> Change Approval for Purchase Order,False,0.0,1.0,1.0,1.0,3,500,20260914
+transition,DRO,3,Release Purchase Order -> Change Approval for Purchase Order,False,0.0,1.0,1.0,1.0,3,500,20260914
+transition,DRO,3,Vendor creates debit memo -> Record Invoice Receipt,False,0.0,1.0,1.0,1.0,3,500,20260914
+transition,DRO,3,Record Service Entry Sheet -> Record Invoice Receipt,False,0.0,1.0,1.0,1.0,3,500,20260914
+transition,DRO,3,Record Goods Receipt -> Change Quantity,False,0.0,1.0,1.0,1.0,3,500,20260914
+transition,DRO,3,Create Purchase Order Item -> Cancel Goods Receipt,False,0.0,1.0,1.0,1.0,3,500,20260914
+transition,DRO,3,Change Price -> Remove Payment Block,False,0.0,1.0,1.0,1.0,3,500,20260914
+transition,DRO,3,Change Approval for Purchase Order -> Change Approval for Purchase Order,False,0.0,1.0,1.0,1.0,3,500,20260914
+transition,DRO,3,Change Price -> Change Quantity,False,0.0,1.0,1.0,1.0,3,500,20260914
+transition,DRO,3,Receive Order Confirmation -> Delete Purchase Order Item,False,0.0,1.0,1.0,1.0,3,500,20260914
+transition,DRO,3,Create Purchase Order Item -> Record Invoice Receipt,False,0.0,1.0,1.0,1.0,3,500,20260914
+transition,DRO,3,Record Goods Receipt -> Cancel Goods Receipt,False,0.0,1.0,1.0,1.0,3,500,20260914
+transition,DRO,3,Clear Invoice -> Vendor creates invoice,False,0.0,1.0,1.0,1.0,3,500,20260914
+transition,DRO,3,Change Quantity -> Change Delivery Indicator,False,0.0,1.0,1.0,1.0,3,500,20260914
+transition,DRO,3,Vendor creates debit memo -> Record Goods Receipt,False,0.0,1.0,1.0,1.0,3,500,20260914
+transition,DRO,3,Record Service Entry Sheet -> Record Goods Receipt,False,0.0,1.0,1.0,1.0,3,500,20260914
+transition,DRO,3,Vendor creates invoice -> Vendor creates debit memo,False,0.0,1.0,1.0,1.0,3,500,20260914
+transition,DRO,3,Vendor creates debit memo -> Vendor creates invoice,False,0.0,1.0,1.0,1.0,3,500,20260914
+transition,DRO,3,Create Purchase Order Item -> Record Service Entry Sheet,False,0.0,1.0,1.0,1.0,3,500,20260914
+transition,DRO,3,Record Goods Receipt -> Record Service Entry Sheet,False,0.0,1.0,1.0,1.0,3,500,20260914
+transition,DRO,3,Record Service Entry Sheet -> Record Service Entry Sheet,False,0.0,1.0,1.0,1.0,3,500,20260914
+transition,DRO,3,SRM: Created -> SRM: Complete,False,0.0,1.0,1.0,1.0,3,500,20260914
+transition,DRO,3,SRM: Document Completed -> SRM: In Transfer to Execution Syst.,False,0.0,1.0,1.0,1.0,3,500,20260914
+transition,DRO,3,SRM: In Transfer to Execution Syst. -> SRM: Ordered,False,0.0,1.0,1.0,1.0,3,500,20260914
+transition,DRO,3,SRM: Awaiting Approval -> SRM: Document Completed,False,0.0,1.0,1.0,1.0,3,500,20260914
+transition,DRO,3,SRM: Complete -> SRM: Awaiting Approval,False,0.0,1.0,1.0,1.0,3,500,20260914
+summary,DRO,5,__SUMMARY__,,,1.0,1.0,1.0,5,500,20260914
+transition,DRO,5,Record Invoice Receipt -> Clear Invoice,True,1.0,1.0,1.0,1.0,5,500,20260914
+transition,DRO,5,Create Purchase Order Item -> Vendor creates invoice,True,1.0,1.0,1.0,1.0,5,500,20260914
+transition,DRO,5,Record Goods Receipt -> Record Invoice Receipt,True,1.0,1.0,1.0,1.0,5,500,20260914
+transition,DRO,5,Vendor creates invoice -> Record Invoice Receipt,True,1.0,1.0,1.0,1.0,5,500,20260914
+transition,DRO,5,Create Purchase Order Item -> Record Goods Receipt,True,1.0,1.0,1.0,1.0,5,500,20260914
+transition,DRO,5,Record Goods Receipt -> Vendor creates invoice,False,0.0,1.0,1.0,1.0,5,500,20260914
+transition,DRO,5,Remove Payment Block -> Clear Invoice,False,0.0,1.0,1.0,1.0,5,500,20260914
+transition,DRO,5,Record Invoice Receipt -> Remove Payment Block,False,0.0,1.0,1.0,1.0,5,500,20260914
+transition,DRO,5,Vendor creates invoice -> Record Goods Receipt,False,0.0,1.0,1.0,1.0,5,500,20260914
+transition,DRO,5,Record Goods Receipt -> Remove Payment Block,False,0.0,1.0,1.0,1.0,5,500,20260914
+transition,DRO,5,Receive Order Confirmation -> Record Goods Receipt,False,0.0,1.0,1.0,1.0,5,500,20260914
+transition,DRO,5,Create Purchase Order Item -> Change Quantity,False,0.0,1.0,1.0,1.0,5,500,20260914
+transition,DRO,5,Change Quantity -> Record Goods Receipt,False,0.0,1.0,1.0,1.0,5,500,20260914
+transition,DRO,5,Record Invoice Receipt -> Record Goods Receipt,False,0.0,1.0,1.0,1.0,5,500,20260914
+transition,DRO,5,Create Purchase Order Item -> Delete Purchase Order Item,False,0.0,1.0,1.0,1.0,5,500,20260914
+transition,DRO,5,Receive Order Confirmation -> Vendor creates invoice,False,0.0,1.0,1.0,1.0,5,500,20260914
+transition,DRO,5,Create Purchase Order Item -> Change Price,False,0.0,1.0,1.0,1.0,5,500,20260914
+transition,DRO,5,Change Quantity -> Vendor creates invoice,False,0.0,1.0,1.0,1.0,5,500,20260914
+transition,DRO,5,Create Purchase Order Item -> Receive Order Confirmation,False,0.0,1.0,1.0,1.0,5,500,20260914
+transition,DRO,5,Record Goods Receipt -> Record Goods Receipt,False,0.0,1.0,1.0,1.0,5,500,20260914
+transition,DRO,5,Record Invoice Receipt -> Record Invoice Receipt,False,0.0,1.0,1.0,1.0,5,500,20260914
+transition,DRO,5,Change Price -> Vendor creates invoice,False,0.0,1.0,1.0,1.0,5,500,20260914
+transition,DRO,5,Vendor creates invoice -> Create Purchase Order Item,False,0.0,1.0,1.0,1.0,5,500,20260914
+transition,DRO,5,Record Invoice Receipt -> Vendor creates invoice,False,0.0,1.0,1.0,1.0,5,500,20260914
+transition,DRO,5,Clear Invoice -> Record Invoice Receipt,False,0.0,1.0,1.0,1.0,5,500,20260914
+transition,DRO,5,Record Service Entry Sheet -> Vendor creates invoice,False,0.0,1.0,1.0,1.0,5,500,20260914
+transition,DRO,5,Vendor creates invoice -> Change Quantity,False,0.0,1.0,1.0,1.0,5,500,20260914
+transition,DRO,5,Change Price -> Record Goods Receipt,False,0.0,1.0,1.0,1.0,5,500,20260914
+transition,DRO,5,Record Invoice Receipt -> Cancel Invoice Receipt,False,0.0,1.0,1.0,1.0,5,500,20260914
+transition,DRO,5,Change Quantity -> Change Quantity,False,0.0,1.0,1.0,1.0,5,500,20260914
+transition,DRO,5,Record Invoice Receipt -> Change Price,False,0.0,1.0,1.0,1.0,5,500,20260914
+transition,DRO,5,Cancel Invoice Receipt -> Clear Invoice,False,0.0,1.0,1.0,1.0,5,500,20260914
+transition,DRO,5,Clear Invoice -> Clear Invoice,False,0.0,1.0,1.0,1.0,5,500,20260914
+transition,DRO,5,Vendor creates invoice -> Vendor creates invoice,False,0.0,1.0,1.0,1.0,5,500,20260914
+transition,DRO,5,Vendor creates invoice -> Clear Invoice,False,0.0,1.0,1.0,1.0,5,500,20260914
+transition,DRO,5,Create Purchase Requisition Item -> Create Purchase Order Item,False,0.0,1.0,1.0,1.0,5,500,20260914
+transition,DRO,5,Create Purchase Order Item -> Vendor creates debit memo,False,0.0,1.0,1.0,1.0,5,500,20260914
+transition,DRO,5,Create Purchase Order Item -> Change Approval for Purchase Order,False,0.0,1.0,1.0,1.0,5,500,20260914
+transition,DRO,5,Release Purchase Order -> Change Approval for Purchase Order,False,0.0,1.0,1.0,1.0,5,500,20260914
+transition,DRO,5,Vendor creates debit memo -> Record Invoice Receipt,False,0.0,1.0,1.0,1.0,5,500,20260914
+transition,DRO,5,Record Service Entry Sheet -> Record Invoice Receipt,False,0.0,1.0,1.0,1.0,5,500,20260914
+transition,DRO,5,Record Goods Receipt -> Change Quantity,False,0.0,1.0,1.0,1.0,5,500,20260914
+transition,DRO,5,Create Purchase Order Item -> Cancel Goods Receipt,False,0.0,1.0,1.0,1.0,5,500,20260914
+transition,DRO,5,Change Price -> Remove Payment Block,False,0.0,1.0,1.0,1.0,5,500,20260914
+transition,DRO,5,Change Approval for Purchase Order -> Change Approval for Purchase Order,False,0.0,1.0,1.0,1.0,5,500,20260914
+transition,DRO,5,Change Price -> Change Quantity,False,0.0,1.0,1.0,1.0,5,500,20260914
+transition,DRO,5,Receive Order Confirmation -> Delete Purchase Order Item,False,0.0,1.0,1.0,1.0,5,500,20260914
+transition,DRO,5,Create Purchase Order Item -> Record Invoice Receipt,False,0.0,1.0,1.0,1.0,5,500,20260914
+transition,DRO,5,Record Goods Receipt -> Cancel Goods Receipt,False,0.0,1.0,1.0,1.0,5,500,20260914
+transition,DRO,5,Clear Invoice -> Vendor creates invoice,False,0.0,1.0,1.0,1.0,5,500,20260914
+transition,DRO,5,Change Quantity -> Change Delivery Indicator,False,0.0,1.0,1.0,1.0,5,500,20260914
+transition,DRO,5,Vendor creates debit memo -> Record Goods Receipt,False,0.0,1.0,1.0,1.0,5,500,20260914
+transition,DRO,5,Record Service Entry Sheet -> Record Goods Receipt,False,0.0,1.0,1.0,1.0,5,500,20260914
+transition,DRO,5,Vendor creates invoice -> Vendor creates debit memo,False,0.0,1.0,1.0,1.0,5,500,20260914
+transition,DRO,5,Vendor creates debit memo -> Vendor creates invoice,False,0.0,1.0,1.0,1.0,5,500,20260914
+transition,DRO,5,Create Purchase Order Item -> Record Service Entry Sheet,False,0.0,1.0,1.0,1.0,5,500,20260914
+transition,DRO,5,Record Goods Receipt -> Record Service Entry Sheet,False,0.0,1.0,1.0,1.0,5,500,20260914
+transition,DRO,5,Record Service Entry Sheet -> Record Service Entry Sheet,False,0.0,1.0,1.0,1.0,5,500,20260914
+transition,DRO,5,SRM: Created -> SRM: Complete,False,0.0,1.0,1.0,1.0,5,500,20260914
+transition,DRO,5,SRM: Document Completed -> SRM: In Transfer to Execution Syst.,False,0.0,1.0,1.0,1.0,5,500,20260914
+transition,DRO,5,SRM: In Transfer to Execution Syst. -> SRM: Ordered,False,0.0,1.0,1.0,1.0,5,500,20260914
+transition,DRO,5,SRM: Awaiting Approval -> SRM: Document Completed,False,0.0,1.0,1.0,1.0,5,500,20260914
+transition,DRO,5,SRM: Complete -> SRM: Awaiting Approval,False,0.0,1.0,1.0,1.0,5,500,20260914
+summary,DRO,10,__SUMMARY__,,,0.949090909090909,0.8181818181818182,1.0,9,500,20260914
+transition,DRO,10,Record Invoice Receipt -> Clear Invoice,True,1.0,0.949090909090909,0.8181818181818182,1.0,9,500,20260914
+transition,DRO,10,Create Purchase Order Item -> Vendor creates invoice,True,1.0,0.949090909090909,0.8181818181818182,1.0,9,500,20260914
+transition,DRO,10,Record Goods Receipt -> Record Invoice Receipt,True,1.0,0.949090909090909,0.8181818181818182,1.0,9,500,20260914
+transition,DRO,10,Vendor creates invoice -> Record Invoice Receipt,True,1.0,0.949090909090909,0.8181818181818182,1.0,9,500,20260914
+transition,DRO,10,Create Purchase Order Item -> Record Goods Receipt,True,1.0,0.949090909090909,0.8181818181818182,1.0,9,500,20260914
+transition,DRO,10,Record Goods Receipt -> Vendor creates invoice,True,1.0,0.949090909090909,0.8181818181818182,1.0,9,500,20260914
+transition,DRO,10,Remove Payment Block -> Clear Invoice,True,1.0,0.949090909090909,0.8181818181818182,1.0,9,500,20260914
+transition,DRO,10,Record Invoice Receipt -> Remove Payment Block,True,1.0,0.949090909090909,0.8181818181818182,1.0,9,500,20260914
+transition,DRO,10,Vendor creates invoice -> Record Goods Receipt,True,1.0,0.949090909090909,0.8181818181818182,1.0,9,500,20260914
+transition,DRO,10,Record Goods Receipt -> Remove Payment Block,True,0.72,0.949090909090909,0.8181818181818182,1.0,9,500,20260914
+transition,DRO,10,Receive Order Confirmation -> Record Goods Receipt,False,0.272,0.949090909090909,0.8181818181818182,1.0,9,500,20260914
+transition,DRO,10,Create Purchase Order Item -> Change Quantity,False,0.008,0.949090909090909,0.8181818181818182,1.0,9,500,20260914
+transition,DRO,10,Change Quantity -> Record Goods Receipt,False,0.0,0.949090909090909,0.8181818181818182,1.0,9,500,20260914
+transition,DRO,10,Record Invoice Receipt -> Record Goods Receipt,False,0.0,0.949090909090909,0.8181818181818182,1.0,9,500,20260914
+transition,DRO,10,Create Purchase Order Item -> Delete Purchase Order Item,False,0.0,0.949090909090909,0.8181818181818182,1.0,9,500,20260914
+transition,DRO,10,Receive Order Confirmation -> Vendor creates invoice,False,0.0,0.949090909090909,0.8181818181818182,1.0,9,500,20260914
+transition,DRO,10,Create Purchase Order Item -> Change Price,False,0.0,0.949090909090909,0.8181818181818182,1.0,9,500,20260914
+transition,DRO,10,Change Quantity -> Vendor creates invoice,False,0.0,0.949090909090909,0.8181818181818182,1.0,9,500,20260914
+transition,DRO,10,Create Purchase Order Item -> Receive Order Confirmation,False,0.0,0.949090909090909,0.8181818181818182,1.0,9,500,20260914
+transition,DRO,10,Record Goods Receipt -> Record Goods Receipt,False,0.0,0.949090909090909,0.8181818181818182,1.0,9,500,20260914
+transition,DRO,10,Record Invoice Receipt -> Record Invoice Receipt,False,0.0,0.949090909090909,0.8181818181818182,1.0,9,500,20260914
+transition,DRO,10,Change Price -> Vendor creates invoice,False,0.0,0.949090909090909,0.8181818181818182,1.0,9,500,20260914
+transition,DRO,10,Vendor creates invoice -> Create Purchase Order Item,False,0.0,0.949090909090909,0.8181818181818182,1.0,9,500,20260914
+transition,DRO,10,Record Invoice Receipt -> Vendor creates invoice,False,0.0,0.949090909090909,0.8181818181818182,1.0,9,500,20260914
+transition,DRO,10,Clear Invoice -> Record Invoice Receipt,False,0.0,0.949090909090909,0.8181818181818182,1.0,9,500,20260914
+transition,DRO,10,Record Service Entry Sheet -> Vendor creates invoice,False,0.0,0.949090909090909,0.8181818181818182,1.0,9,500,20260914
+transition,DRO,10,Vendor creates invoice -> Change Quantity,False,0.0,0.949090909090909,0.8181818181818182,1.0,9,500,20260914
+transition,DRO,10,Change Price -> Record Goods Receipt,False,0.0,0.949090909090909,0.8181818181818182,1.0,9,500,20260914
+transition,DRO,10,Record Invoice Receipt -> Cancel Invoice Receipt,False,0.0,0.949090909090909,0.8181818181818182,1.0,9,500,20260914
+transition,DRO,10,Change Quantity -> Change Quantity,False,0.0,0.949090909090909,0.8181818181818182,1.0,9,500,20260914
+transition,DRO,10,Record Invoice Receipt -> Change Price,False,0.0,0.949090909090909,0.8181818181818182,1.0,9,500,20260914
+transition,DRO,10,Cancel Invoice Receipt -> Clear Invoice,False,0.0,0.949090909090909,0.8181818181818182,1.0,9,500,20260914
+transition,DRO,10,Clear Invoice -> Clear Invoice,False,0.0,0.949090909090909,0.8181818181818182,1.0,9,500,20260914
+transition,DRO,10,Vendor creates invoice -> Vendor creates invoice,False,0.0,0.949090909090909,0.8181818181818182,1.0,9,500,20260914
+transition,DRO,10,Vendor creates invoice -> Clear Invoice,False,0.0,0.949090909090909,0.8181818181818182,1.0,9,500,20260914
+transition,DRO,10,Create Purchase Requisition Item -> Create Purchase Order Item,False,0.0,0.949090909090909,0.8181818181818182,1.0,9,500,20260914
+transition,DRO,10,Create Purchase Order Item -> Vendor creates debit memo,False,0.0,0.949090909090909,0.8181818181818182,1.0,9,500,20260914
+transition,DRO,10,Create Purchase Order Item -> Change Approval for Purchase Order,False,0.0,0.949090909090909,0.8181818181818182,1.0,9,500,20260914
+transition,DRO,10,Release Purchase Order -> Change Approval for Purchase Order,False,0.0,0.949090909090909,0.8181818181818182,1.0,9,500,20260914
+transition,DRO,10,Vendor creates debit memo -> Record Invoice Receipt,False,0.0,0.949090909090909,0.8181818181818182,1.0,9,500,20260914
+transition,DRO,10,Record Service Entry Sheet -> Record Invoice Receipt,False,0.0,0.949090909090909,0.8181818181818182,1.0,9,500,20260914
+transition,DRO,10,Record Goods Receipt -> Change Quantity,False,0.0,0.949090909090909,0.8181818181818182,1.0,9,500,20260914
+transition,DRO,10,Create Purchase Order Item -> Cancel Goods Receipt,False,0.0,0.949090909090909,0.8181818181818182,1.0,9,500,20260914
+transition,DRO,10,Change Price -> Remove Payment Block,False,0.0,0.949090909090909,0.8181818181818182,1.0,9,500,20260914
+transition,DRO,10,Change Approval for Purchase Order -> Change Approval for Purchase Order,False,0.0,0.949090909090909,0.8181818181818182,1.0,9,500,20260914
+transition,DRO,10,Change Price -> Change Quantity,False,0.0,0.949090909090909,0.8181818181818182,1.0,9,500,20260914
+transition,DRO,10,Receive Order Confirmation -> Delete Purchase Order Item,False,0.0,0.949090909090909,0.8181818181818182,1.0,9,500,20260914
+transition,DRO,10,Create Purchase Order Item -> Record Invoice Receipt,False,0.0,0.949090909090909,0.8181818181818182,1.0,9,500,20260914
+transition,DRO,10,Record Goods Receipt -> Cancel Goods Receipt,False,0.0,0.949090909090909,0.8181818181818182,1.0,9,500,20260914
+transition,DRO,10,Clear Invoice -> Vendor creates invoice,False,0.0,0.949090909090909,0.8181818181818182,1.0,9,500,20260914
+transition,DRO,10,Change Quantity -> Change Delivery Indicator,False,0.0,0.949090909090909,0.8181818181818182,1.0,9,500,20260914
+transition,DRO,10,Vendor creates debit memo -> Record Goods Receipt,False,0.0,0.949090909090909,0.8181818181818182,1.0,9,500,20260914
+transition,DRO,10,Record Service Entry Sheet -> Record Goods Receipt,False,0.0,0.949090909090909,0.8181818181818182,1.0,9,500,20260914
+transition,DRO,10,Vendor creates invoice -> Vendor creates debit memo,False,0.0,0.949090909090909,0.8181818181818182,1.0,9,500,20260914
+transition,DRO,10,Vendor creates debit memo -> Vendor creates invoice,False,0.0,0.949090909090909,0.8181818181818182,1.0,9,500,20260914
+transition,DRO,10,Create Purchase Order Item -> Record Service Entry Sheet,False,0.0,0.949090909090909,0.8181818181818182,1.0,9,500,20260914
+transition,DRO,10,Record Goods Receipt -> Record Service Entry Sheet,False,0.0,0.949090909090909,0.8181818181818182,1.0,9,500,20260914
+transition,DRO,10,Record Service Entry Sheet -> Record Service Entry Sheet,False,0.0,0.949090909090909,0.8181818181818182,1.0,9,500,20260914
+transition,DRO,10,SRM: Created -> SRM: Complete,False,0.0,0.949090909090909,0.8181818181818182,1.0,9,500,20260914
+transition,DRO,10,SRM: Document Completed -> SRM: In Transfer to Execution Syst.,False,0.0,0.949090909090909,0.8181818181818182,1.0,9,500,20260914
+transition,DRO,10,SRM: In Transfer to Execution Syst. -> SRM: Ordered,False,0.0,0.949090909090909,0.8181818181818182,1.0,9,500,20260914
+transition,DRO,10,SRM: Awaiting Approval -> SRM: Document Completed,False,0.0,0.949090909090909,0.8181818181818182,1.0,9,500,20260914
+transition,DRO,10,SRM: Complete -> SRM: Awaiting Approval,False,0.0,0.949090909090909,0.8181818181818182,1.0,9,500,20260914

@@ -1,0 +1,26 @@
+check,expected,observed,tolerance,passed,source
+candidate_count,41,41,,True,phase4_summary.json
+H1 direct-follow rows,193194,193194,,True,phase4_summary.json
+Q3 direct-follow rows,129191,129191,,True,phase4_summary.json
+primary cap hours,2160,2160,,True,phase4_summary.json
+primary alpha,0.95,0.95,1e-12,True,phase4_summary.json
+primary grid hours,24,24,,True,phase4_summary.json
+primary SA kappa,0.9,0.9,1e-12,True,phase4_summary.json
+primary K,5,5,,True,phase4_summary.json
+"primary K=5 Q3 share, Frequency",7.3270119674,7.327011967434773,1e-08,True,06_external_q3_evaluation.csv
+"primary K=5 Q3 share, Mean burden",70.2373056645,70.2373056644679,1e-08,True,06_external_q3_evaluation.csv
+"primary K=5 Q3 share, Empirical Tail",70.2373056645,70.2373056644679,1e-08,True,06_external_q3_evaluation.csv
+"primary K=5 Q3 share, Original DRO",70.2373056645,70.2373056644679,1e-08,True,06_external_q3_evaluation.csv
+"primary K=5 Q3 share, Saturation-Aware DRO",70.2373056645,70.2373056644679,1e-08,True,06_external_q3_evaluation.csv
+Original-DRO saturated count,2,2,,True,phase4_summary.json
+SA-DRO saturated count,0,0,,True,phase4_summary.json
+candidate score rows,41,41,,True,04_external_transition_scores.csv
+all score rows are H1-only candidates,True,True,,True,04_external_transition_scores.csv
+Q3 accessed before freeze,False,False,,True,phase4_summary.json
+manifest Q3 accessed before freeze,False,False,,True,phase4_frozen_portfolio_manifest.json
+manifest checksum,9b56a20f976afabac60c5f83e0a50ec6c5a13c8056a24deced6f57e43194e21f,9b56a20f976afabac60c5f83e0a50ec6c5a13c8056a24deced6f57e43194e21f,,True,phase4_frozen_portfolio_manifest.json
+summary manifest checksum,9b56a20f976afabac60c5f83e0a50ec6c5a13c8056a24deced6f57e43194e21f,9b56a20f976afabac60c5f83e0a50ec6c5a13c8056a24deced6f57e43194e21f,,True,phase4_summary.json
+sensitivity rows,120,120,,True,09_external_sensitivity_results.csv
+all sensitivity selections marked H1-only,True,True,,True,09_external_sensitivity_results.csv
+Phases 1 to 3C modified,False,False,,True,phase4_summary.json
+Original-DRO theoretical-observed mismatch count,0,0,,True,phase4_summary.json

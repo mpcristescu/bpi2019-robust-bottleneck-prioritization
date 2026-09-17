@@ -1,0 +1,189 @@
+{
+  "phase": "Phase 3B",
+  "title": "CVaR Saturation Analysis",
+  "source_events_parquet": "04_ANALYSIS_RESULTS/03_PHASE2_PROCESS_STRUCTURE/processed/events_primary_cohort.parquet",
+  "h1_start_utc": "2018-01-01 00:00:00+00:00",
+  "h1_end_exclusive_utc": "2018-07-01 00:00:00+00:00",
+  "h1_event_rows_loaded": 601018,
+  "candidate_count": 63,
+  "primary_cap_hours": 2160,
+  "alpha": 0.95,
+  "grid_step_hours": 24,
+  "seed": 20260914,
+  "q3_was_read": false,
+  "q3_was_used": false,
+  "epsilon_sat_formula_implemented": true,
+  "epsilon_zero_qa_passed": true,
+  "epsilon_sat_qa_passed": true,
+  "epsilon_099_sat_qa_passed": true,
+  "theoretical_condition_compared_with_lp": true,
+  "phases_1_to_3_modified": false,
+  "empirical_saturated_count": 3,
+  "empirical_saturated_percentage": 4.761904761904762,
+  "dro_induced_saturated_count": 29,
+  "dro_induced_saturated_percentage": 46.03174603174603,
+  "total_saturated_count": 32,
+  "total_unsaturated_count": 31,
+  "finite_saturation_ratio_summary": {
+    "median": 1.014843002808311,
+    "q75": 3.2672396419392267,
+    "q90": 8.200765563815763,
+    "max": 485.2226346469898
+  },
+  "mismatch_count": 4,
+  "lp_validation_count": 63,
+  "lp_validation_pass_count": 63,
+  "lp_validation_failure_count": 0,
+  "epsilon0_max_abs_error_hours": 2.0236257114447653e-11,
+  "correlations": {
+    "tail_vs_dro_spearman": 0.9641284129107152,
+    "tail_vs_dro_kendall": 0.8634384090730585,
+    "mean_vs_dro_spearman": 0.9163396340293859,
+    "mean_vs_dro_kendall": 0.7701768123660575
+  },
+  "portfolio_diagnostics": {
+    "3": {
+      "tail_vs_dro_jaccard": 1.0,
+      "overlap_count": 3,
+      "dro_saturated_count": 3,
+      "dro_unsaturated_count": 0,
+      "tail_saturated_count": 3,
+      "tail_unsaturated_count": 0
+    },
+    "5": {
+      "tail_vs_dro_jaccard": 1.0,
+      "overlap_count": 5,
+      "dro_saturated_count": 4,
+      "dro_unsaturated_count": 1,
+      "tail_saturated_count": 4,
+      "tail_unsaturated_count": 1
+    },
+    "10": {
+      "tail_vs_dro_jaccard": 0.8181818181818182,
+      "overlap_count": 9,
+      "dro_saturated_count": 6,
+      "dro_unsaturated_count": 4,
+      "tail_saturated_count": 7,
+      "tail_unsaturated_count": 3
+    }
+  },
+  "synthetic_summary": {
+    "grid_points": 2001,
+    "distributions": [
+      "Beta(1,1)",
+      "Beta(2,5)",
+      "Beta(5,2)",
+      "Beta(0.7,2)",
+      "0.02 mass at 1 + 0.98 Beta(2,5)",
+      "0.04 mass at 1 + 0.96 Beta(2,5)"
+    ],
+    "alphas": [
+      0.9,
+      0.95,
+      0.99
+    ],
+    "ratios": [
+      0.0,
+      0.25,
+      0.5,
+      0.75,
+      0.9,
+      0.99,
+      1.0,
+      1.1,
+      1.25,
+      1.5
+    ],
+    "ratio_ge_1_failures": 0,
+    "ratio_ge_1_passed": true
+  },
+  "diagnostic_radius_summary": {
+    "0.50": {
+      "saturated_count": 3,
+      "top3": [
+        "Record Invoice Receipt -> Clear Invoice",
+        "Record Goods Receipt -> Record Invoice Receipt",
+        "Create Purchase Order Item -> Vendor creates invoice"
+      ],
+      "top5": [
+        "Record Invoice Receipt -> Clear Invoice",
+        "Record Goods Receipt -> Record Invoice Receipt",
+        "Create Purchase Order Item -> Vendor creates invoice",
+        "Vendor creates invoice -> Record Invoice Receipt",
+        "Create Purchase Order Item -> Record Goods Receipt"
+      ],
+      "top10": [
+        "Record Invoice Receipt -> Clear Invoice",
+        "Record Goods Receipt -> Record Invoice Receipt",
+        "Create Purchase Order Item -> Vendor creates invoice",
+        "Vendor creates invoice -> Record Invoice Receipt",
+        "Create Purchase Order Item -> Record Goods Receipt",
+        "Remove Payment Block -> Clear Invoice",
+        "Record Goods Receipt -> Vendor creates invoice",
+        "Vendor creates invoice -> Record Goods Receipt",
+        "Record Invoice Receipt -> Remove Payment Block",
+        "Record Goods Receipt -> Remove Payment Block"
+      ]
+    },
+    "0.75": {
+      "saturated_count": 3,
+      "top3": [
+        "Record Invoice Receipt -> Clear Invoice",
+        "Create Purchase Order Item -> Vendor creates invoice",
+        "Record Goods Receipt -> Record Invoice Receipt"
+      ],
+      "top5": [
+        "Record Invoice Receipt -> Clear Invoice",
+        "Create Purchase Order Item -> Vendor creates invoice",
+        "Record Goods Receipt -> Record Invoice Receipt",
+        "Vendor creates invoice -> Record Invoice Receipt",
+        "Create Purchase Order Item -> Record Goods Receipt"
+      ],
+      "top10": [
+        "Record Invoice Receipt -> Clear Invoice",
+        "Create Purchase Order Item -> Vendor creates invoice",
+        "Record Goods Receipt -> Record Invoice Receipt",
+        "Vendor creates invoice -> Record Invoice Receipt",
+        "Create Purchase Order Item -> Record Goods Receipt",
+        "Remove Payment Block -> Clear Invoice",
+        "Record Goods Receipt -> Vendor creates invoice",
+        "Record Invoice Receipt -> Remove Payment Block",
+        "Vendor creates invoice -> Record Goods Receipt",
+        "Receive Order Confirmation -> Record Goods Receipt"
+      ]
+    },
+    "0.90": {
+      "saturated_count": 3,
+      "top3": [
+        "Record Invoice Receipt -> Clear Invoice",
+        "Create Purchase Order Item -> Vendor creates invoice",
+        "Record Goods Receipt -> Record Invoice Receipt"
+      ],
+      "top5": [
+        "Record Invoice Receipt -> Clear Invoice",
+        "Create Purchase Order Item -> Vendor creates invoice",
+        "Record Goods Receipt -> Record Invoice Receipt",
+        "Vendor creates invoice -> Record Invoice Receipt",
+        "Create Purchase Order Item -> Record Goods Receipt"
+      ],
+      "top10": [
+        "Record Invoice Receipt -> Clear Invoice",
+        "Create Purchase Order Item -> Vendor creates invoice",
+        "Record Goods Receipt -> Record Invoice Receipt",
+        "Vendor creates invoice -> Record Invoice Receipt",
+        "Create Purchase Order Item -> Record Goods Receipt",
+        "Remove Payment Block -> Clear Invoice",
+        "Record Goods Receipt -> Vendor creates invoice",
+        "Record Invoice Receipt -> Remove Payment Block",
+        "Vendor creates invoice -> Record Goods Receipt",
+        "Receive Order Confirmation -> Record Goods Receipt"
+      ]
+    }
+  },
+  "warnings": [
+    "The outcome is elapsed time between consecutive recorded events. No activity-level duration is inferred from this interval.",
+    "Phase 3B reads only rows whose recorded timestamp is within the H1 interval. It does not reconstruct downstream bridge rows outside H1.",
+    "Observed Phase 3 worst-case CVaR values are used only as the permitted comparison field. Phase 3B does not rebuild or refit the Phase 3 model.",
+    "The diagnostic kappa analysis is descriptive. It does not select a preferred kappa and does not use any out-of-time data."
+  ]
+}

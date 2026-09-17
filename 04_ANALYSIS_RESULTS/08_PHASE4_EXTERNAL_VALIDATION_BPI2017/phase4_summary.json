@@ -1,0 +1,311 @@
+{
+  "phase": "Phase 4",
+  "title": "EXTERNAL VALIDATION ON BPI CHALLENGE 2017",
+  "dataset_provenance": {
+    "figshare_article_id": 12696884,
+    "figshare_api_url": "https://api.figshare.com/v2/articles/12696884",
+    "official_page": "https://figshare.com/articles/dataset/BPI_Challenge_2017/12696884",
+    "title": "BPI Challenge 2017",
+    "doi": "10.4121/uuid:5f3067df-f10b-45da-b98b-86ae4c7a310b",
+    "citation": "van Dongen, Boudewijn (2017). BPI Challenge 2017. 4TU.ResearchData. Dataset. https://doi.org/10.4121/uuid:5f3067df-f10b-45da-b98b-86ae4c7a310b",
+    "time_coverage": "2016-01-01/2017-02-01",
+    "license_name": "4TU General Terms of Use",
+    "license_url": "https://doi.org/10.4121/resource:terms_of_use",
+    "metadata_json_filename": "figshare_12696884_metadata_raw.json",
+    "file_name": "BPI Challenge 2017.xes.gz",
+    "file_size_bytes": 29658747,
+    "official_download_url": "https://ndownloader.figshare.com/files/24044117",
+    "figshare_file_id": 24044117,
+    "official_supplied_md5": "10b37a2f78e870d78406198403ff13d2",
+    "official_computed_md5": "10b37a2f78e870d78406198403ff13d2",
+    "sha256": "183c5e5189282779c811c78c33ff936351b3dd201165d612211fc220936f8249",
+    "sha256_filename": "BPI Challenge 2017.xes.gz.sha256.txt",
+    "original_file_preserved": true
+  },
+  "candidate_count_h1_only": 41,
+  "h1_direct_follow_rows": 193194,
+  "h1_distinct_activities": 24,
+  "h1_distinct_transitions": 145,
+  "q3_direct_follow_rows": 129191,
+  "q3_distinct_transitions": 140,
+  "h1_stats": {
+    "trace_count": 31509,
+    "raw_event_count": 1202267,
+    "complete_event_count": 475306,
+    "excluded_non_complete_event_count": 726961,
+    "complete_events_missing_required_fields": 0,
+    "complete_events_missing_case_id": 0,
+    "complete_events_missing_activity": 0,
+    "complete_events_invalid_timestamp": 0,
+    "valid_complete_event_count": 475306,
+    "pair_candidates_before_negative_filter": 443797,
+    "negative_elapsed_rows_removed": 0,
+    "final_direct_follow_rows": 193194,
+    "timestamp_tie_pairs": 0,
+    "timestamp_tie_cases": 0,
+    "timestamp_tie_groups": 0,
+    "extracted_rows": 193194
+  },
+  "q3_stats": {
+    "trace_count": 31509,
+    "raw_event_count": 1202267,
+    "complete_event_count": 475306,
+    "excluded_non_complete_event_count": 726961,
+    "complete_events_missing_required_fields": 0,
+    "complete_events_missing_case_id": 0,
+    "complete_events_missing_activity": 0,
+    "complete_events_invalid_timestamp": 0,
+    "valid_complete_event_count": 475306,
+    "pair_candidates_before_negative_filter": 443797,
+    "negative_elapsed_rows_removed": 0,
+    "final_direct_follow_rows": 129191,
+    "timestamp_tie_pairs": 0,
+    "timestamp_tie_cases": 0,
+    "timestamp_tie_groups": 0,
+    "extracted_rows": 129191
+  },
+  "feasibility_gate_passed": true,
+  "candidate_thresholds": {
+    "minimum_h1_observations": 500,
+    "minimum_valid_h1_blocks": 8,
+    "minimum_observations_per_valid_block": 20
+  },
+  "primary_parameters": {
+    "cap_hours": 2160,
+    "alpha": 0.95,
+    "grid_step_hours": 24,
+    "kappa_sa": 0.9,
+    "K_confirmatory": 5
+  },
+  "sensitivity_parameters": {
+    "cap_hours": [
+      2160,
+      2880
+    ],
+    "alpha": [
+      0.95,
+      0.9
+    ],
+    "grid_step_hours": [
+      24,
+      12
+    ],
+    "kappa_sa": [
+      0.9,
+      0.75
+    ],
+    "K": [
+      3,
+      5,
+      10
+    ]
+  },
+  "primary_lp_validation_passed": true,
+  "epsilon_zero_lp_qa_passed": true,
+  "epsilon_sat_lp_qa_passed": true,
+  "epsilon_099_sat_lp_qa_passed": true,
+  "original_dro_theoretical_observed_mismatch_count": 0,
+  "empirical_saturated_count": 0,
+  "original_dro_induced_saturated_count": 2,
+  "original_dro_total_saturated_count": 2,
+  "sa_dro_induced_saturated_count": 0,
+  "sa_dro_total_saturated_count": 0,
+  "unsaturated_original_dro_count": 39,
+  "unsaturated_sa_dro_count": 41,
+  "percentage_candidates_epsilon_temporal_ge_epsilon_sat": 4.878048780487805,
+  "median_finite_saturation_ratio": 0.006471926015019629,
+  "rank_correlation_tail_vs_original_dro_spearman": 0.9695121951219514,
+  "rank_correlation_tail_vs_sa_dro_spearman": 0.9695121951219514,
+  "k5_tail_vs_original_dro_jaccard": 1.0,
+  "k5_tail_vs_sa_dro_jaccard": 1.0,
+  "frozen_manifest_sha256": "9b56a20f976afabac60c5f83e0a50ec6c5a13c8056a24deced6f57e43194e21f",
+  "q3_accessed_before_portfolio_freeze": false,
+  "primary_k5_selections": {
+    "Frequency": [
+      "O_Create Offer -> O_Created",
+      "O_Created -> O_Sent (mail and online)",
+      "A_Concept -> A_Accepted",
+      "A_Accepted -> O_Create Offer",
+      "A_Validating -> O_Returned"
+    ],
+    "Mean burden": [
+      "A_Complete -> A_Cancelled",
+      "A_Complete -> A_Validating",
+      "A_Concept -> A_Accepted",
+      "A_Complete -> O_Create Offer",
+      "A_Incomplete -> A_Validating"
+    ],
+    "Empirical Tail": [
+      "A_Complete -> A_Validating",
+      "A_Concept -> A_Accepted",
+      "A_Complete -> A_Cancelled",
+      "A_Incomplete -> A_Validating",
+      "A_Complete -> O_Create Offer"
+    ],
+    "Original DRO": [
+      "A_Complete -> A_Validating",
+      "A_Concept -> A_Accepted",
+      "A_Complete -> O_Create Offer",
+      "A_Complete -> A_Cancelled",
+      "A_Incomplete -> A_Validating"
+    ],
+    "Saturation-Aware DRO": [
+      "A_Complete -> A_Validating",
+      "A_Concept -> A_Accepted",
+      "A_Complete -> O_Create Offer",
+      "A_Complete -> A_Cancelled",
+      "A_Incomplete -> A_Validating"
+    ]
+  },
+  "q3_primary_k5": {
+    "Frequency": {
+      "captured_mean_burden_share_pct": 7.327011967434773,
+      "captured_tail_burden_share_pct": 17.964314588317734
+    },
+    "Mean burden": {
+      "captured_mean_burden_share_pct": 70.2373056644679,
+      "captured_tail_burden_share_pct": 60.460629527022405
+    },
+    "Empirical Tail": {
+      "captured_mean_burden_share_pct": 70.2373056644679,
+      "captured_tail_burden_share_pct": 60.460629527022405
+    },
+    "Original DRO": {
+      "captured_mean_burden_share_pct": 70.2373056644679,
+      "captured_tail_burden_share_pct": 60.460629527022405
+    },
+    "Saturation-Aware DRO": {
+      "captured_mean_burden_share_pct": 70.2373056644679,
+      "captured_tail_burden_share_pct": 60.460629527022405
+    }
+  },
+  "q3_bootstrap_ci_k5": [
+    {
+      "comparison": "SA-DRO minus Original DRO",
+      "metric": "Q3 captured mean-burden share",
+      "sa_dro_mean_share_pct": 70.21644291049294,
+      "baseline_mean_share_pct": 70.21644291049294,
+      "difference_mean_pp": 0.0,
+      "difference_median_pp": 0.0,
+      "ci95_low_pp": 0.0,
+      "ci95_high_pp": 0.0,
+      "ci_includes_zero": true,
+      "replicates": 1000,
+      "weekly_blocks": 14,
+      "seed": 20260914
+    },
+    {
+      "comparison": "SA-DRO minus Mean burden",
+      "metric": "Q3 captured mean-burden share",
+      "sa_dro_mean_share_pct": 70.21644291049294,
+      "baseline_mean_share_pct": 70.21644291049294,
+      "difference_mean_pp": 0.0,
+      "difference_median_pp": 0.0,
+      "ci95_low_pp": 0.0,
+      "ci95_high_pp": 0.0,
+      "ci_includes_zero": true,
+      "replicates": 1000,
+      "weekly_blocks": 14,
+      "seed": 20260914
+    },
+    {
+      "comparison": "SA-DRO minus Empirical Tail",
+      "metric": "Q3 captured mean-burden share",
+      "sa_dro_mean_share_pct": 70.21644291049294,
+      "baseline_mean_share_pct": 70.21644291049294,
+      "difference_mean_pp": 0.0,
+      "difference_median_pp": 0.0,
+      "ci95_low_pp": 0.0,
+      "ci95_high_pp": 0.0,
+      "ci_includes_zero": true,
+      "replicates": 1000,
+      "weekly_blocks": 14,
+      "seed": 20260914
+    },
+    {
+      "comparison": "SA-DRO minus Frequency",
+      "metric": "Q3 captured mean-burden share",
+      "sa_dro_mean_share_pct": 70.21644291049294,
+      "baseline_mean_share_pct": 7.337538946671683,
+      "difference_mean_pp": 62.87890396382128,
+      "difference_median_pp": 62.89424399123564,
+      "ci95_low_pp": 61.025451994677866,
+      "ci95_high_pp": 64.68841466720329,
+      "ci_includes_zero": false,
+      "replicates": 1000,
+      "weekly_blocks": 14,
+      "seed": 20260914
+    }
+  ],
+  "h1_stability_summary_k5": [
+    {
+      "row_type": "summary",
+      "method": "Mean burden",
+      "K": 5,
+      "transition": "__SUMMARY__",
+      "full_h1_selected": null,
+      "inclusion_probability": null,
+      "mean_jaccard_vs_full_h1": 0.91,
+      "jaccard_p05": 0.6666666666666666,
+      "jaccard_p95": 1.0,
+      "transitions_inclusion_probability_ge_0_8": 4.0,
+      "replicates": 500,
+      "seed": 20260914
+    },
+    {
+      "row_type": "summary",
+      "method": "Empirical Tail",
+      "K": 5,
+      "transition": "__SUMMARY__",
+      "full_h1_selected": null,
+      "inclusion_probability": null,
+      "mean_jaccard_vs_full_h1": 1.0,
+      "jaccard_p05": 1.0,
+      "jaccard_p95": 1.0,
+      "transitions_inclusion_probability_ge_0_8": 5.0,
+      "replicates": 500,
+      "seed": 20260914
+    },
+    {
+      "row_type": "summary",
+      "method": "Original DRO",
+      "K": 5,
+      "transition": "__SUMMARY__",
+      "full_h1_selected": null,
+      "inclusion_probability": null,
+      "mean_jaccard_vs_full_h1": 0.9993333333333333,
+      "jaccard_p05": 1.0,
+      "jaccard_p95": 1.0,
+      "transitions_inclusion_probability_ge_0_8": 5.0,
+      "replicates": 500,
+      "seed": 20260914
+    },
+    {
+      "row_type": "summary",
+      "method": "Saturation-Aware DRO",
+      "K": 5,
+      "transition": "__SUMMARY__",
+      "full_h1_selected": null,
+      "inclusion_probability": null,
+      "mean_jaccard_vs_full_h1": 0.9993333333333333,
+      "jaccard_p05": 1.0,
+      "jaccard_p95": 1.0,
+      "transitions_inclusion_probability_ge_0_8": 5.0,
+      "replicates": 500,
+      "seed": 20260914
+    }
+  ],
+  "sensitivity_row_count": 120,
+  "defensible_sa_dro_advantage_at_k5": false,
+  "seed": 20260914,
+  "outcome_label": "inter-event elapsed time",
+  "complete_only_primary_preprocessing": true,
+  "phases_1_to_3c_modified": false,
+  "warnings": [
+    "The 95% Q3 weekly block bootstrap interval for SA-DRO minus Original DRO includes zero.",
+    "The 95% Q3 weekly block bootstrap interval for SA-DRO minus Mean burden includes zero.",
+    "The 95% Q3 weekly block bootstrap interval for SA-DRO minus Empirical Tail includes zero.",
+    "No superiority claim is made for SA-DRO because at least one pre-specified interval includes zero."
+  ],
+  "errors": []
+}

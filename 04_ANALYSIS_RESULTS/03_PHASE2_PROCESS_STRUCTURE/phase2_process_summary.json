@@ -1,0 +1,26 @@
+{
+  "cases": 251266,
+  "events": 1587374,
+  "distinct_activities": 42,
+  "distinct_transitions": 494,
+  "distinct_variants": 11910,
+  "cases_with_2019_followup": 32452,
+  "cycle_time_hours": {
+    "count": 251266,
+    "mean": 1669.427688187021,
+    "median": 1537.2666666666667,
+    "p75": 2358.133333333333,
+    "p90": 3025.95,
+    "p95": 3411.25,
+    "p99": 5206.685833333334,
+    "max": 9792.0,
+    "sum": 419470417.5
+  },
+  "transition_summary_min_count": 200,
+  "transition_rows_analyzed": 1336108,
+  "human_resource_events": 1035229,
+  "batch_resource_events": 155904,
+  "no_recorded_resource_events": 396241,
+  "timing_semantics": "inter-event gaps are elapsed time between consecutive recorded events; not service time and not pure waiting time",
+  "phase3_gate": "Use Phase 2 results to formulate robust process-improvement/bottleneck-intervention optimization. Literal resource-capacity optimization requires additional lifecycle-rich data."
+}

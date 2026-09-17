@@ -1,0 +1,65 @@
+{
+  "source_events_parquet": "04_ANALYSIS_RESULTS/03_PHASE2_PROCESS_STRUCTURE/processed/events_primary_cohort.parquet",
+  "source_cases_parquet": "04_ANALYSIS_RESULTS/03_PHASE2_PROCESS_STRUCTURE/processed/cases_primary_cohort.parquet",
+  "kept_cases": 251266,
+  "kept_events": 1587374,
+  "h1_observations": 659827,
+  "candidate_count_h1_only": 63,
+  "phase2b_diagnostic_count": 39,
+  "candidate_thresholds": {
+    "minimum_h1_observations": 500,
+    "minimum_valid_h1_blocks": 8,
+    "minimum_observations_per_valid_block": 20
+  },
+  "primary_delay_cap_days": 90,
+  "primary_delay_cap_hours": 2160,
+  "sensitivity_delay_cap_days": 120,
+  "sensitivity_delay_cap_hours": 2880,
+  "primary_alpha": 0.95,
+  "sensitivity_alpha": 0.9,
+  "primary_grid_step_hours": 24,
+  "sensitivity_grid_step_hours": 12,
+  "seed": 20260914,
+  "q3_accessed_before_evaluation": false,
+  "candidate_selection_h1_only": true,
+  "epsilon_calibration_h1_only": true,
+  "epsilon0_max_abs_difference_hours": 2.523847797419876e-11,
+  "primary_dro_top5": [
+    "Record Invoice Receipt -> Clear Invoice",
+    "Create Purchase Order Item -> Vendor creates invoice",
+    "Record Goods Receipt -> Record Invoice Receipt",
+    "Vendor creates invoice -> Record Invoice Receipt",
+    "Create Purchase Order Item -> Record Goods Receipt"
+  ],
+  "q3_k5_captured_mean_burden_share_pct": {
+    "Frequency": 55.54784231924865,
+    "Mean burden": 70.22937297495226,
+    "Tail baseline": 66.97169880312298,
+    "DRO": 66.97169880312298
+  },
+  "bootstrap_ci_dro_minus_baseline_pp": {
+    "Frequency": {
+      "low": 7.905697108687037,
+      "high": 14.761128076404399,
+      "includes_zero": false
+    },
+    "Mean burden": {
+      "low": -6.441218047987034,
+      "high": -0.2325072632563933,
+      "includes_zero": false
+    },
+    "Tail baseline": {
+      "low": -3.6809935116119235,
+      "high": 3.8052839064341493,
+      "includes_zero": true
+    }
+  },
+  "dro_advantage_defensible": false,
+  "warnings": [
+    "The outcome is inter-event elapsed time reconstructed from consecutive recorded events. It is not a task execution duration or pure queue delay.",
+    "The Phase 2B 39-transition list is diagnostic only; the final candidate set was selected from H1 with fixed thresholds.",
+    "For H1 bootstrap stability, the full-H1 calibrated DRO CVaR and epsilon values are held fixed while 14-day blocks are resampled. This measures portfolio stability around the frozen H1 model rather than refitting the ambiguity radius in every replicate.",
+    "The Q3 oracle is a retrospective benchmark and is not used to build the model.",
+    "The 95% Q3 bootstrap interval for DRO minus Tail baseline includes zero; no superiority claim is made for that comparison."
+  ]
+}

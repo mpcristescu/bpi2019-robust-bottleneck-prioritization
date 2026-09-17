@@ -1,0 +1,15 @@
+{
+  "operational_cutoff": "2019-01-18T13:34:00+00:00",
+  "dense_month_threshold_events": 1474,
+  "last_dense_month": "2019-01",
+  "events_after_operational_cutoff": 3,
+  "max_timestamp_raw_primary_cohort": "2019-12-05T22:59:00+00:00",
+  "cases": 251266,
+  "events": 1587374,
+  "recommended_safe_origin_end": "2018-09-30T23:59:59Z",
+  "nominal_period": "Q1+Q2 2018",
+  "holdout_period": "Q3 2018",
+  "fixed_delay_cap_days": 120,
+  "candidate_transition_count": 39,
+  "proposed_phase3": "distributionally robust bottleneck prioritization under temporal shift"
+}

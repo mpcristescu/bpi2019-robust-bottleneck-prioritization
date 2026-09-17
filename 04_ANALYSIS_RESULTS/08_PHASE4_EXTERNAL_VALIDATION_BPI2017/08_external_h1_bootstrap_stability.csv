@@ -1,0 +1,169 @@
+row_type,method,K,transition,full_h1_selected,inclusion_probability,mean_jaccard_vs_full_h1,jaccard_p05,jaccard_p95,transitions_inclusion_probability_ge_0_8,replicates,seed
+summary,Mean burden,5,__SUMMARY__,,,0.91,0.6666666666666666,1.0,4.0,500,20260914
+transition,Mean burden,5,A_Accepted -> O_Create Offer,False,0.0,,,,,500,20260914
+transition,Mean burden,5,A_Cancelled -> O_Cancelled,False,0.0,,,,,500,20260914
+transition,Mean burden,5,A_Complete -> A_Cancelled,True,1.0,,,,,500,20260914
+transition,Mean burden,5,A_Complete -> A_Validating,True,1.0,,,,,500,20260914
+transition,Mean burden,5,A_Complete -> O_Create Offer,True,0.96,,,,,500,20260914
+transition,Mean burden,5,A_Concept -> A_Accepted,True,1.0,,,,,500,20260914
+transition,Mean burden,5,A_Create Application -> A_Concept,False,0.0,,,,,500,20260914
+transition,Mean burden,5,A_Create Application -> A_Submitted,False,0.0,,,,,500,20260914
+transition,Mean burden,5,A_Denied -> O_Refused,False,0.0,,,,,500,20260914
+transition,Mean burden,5,A_Incomplete -> A_Validating,True,0.77,,,,,500,20260914
+transition,Mean burden,5,A_Incomplete -> O_Accepted,False,0.002,,,,,500,20260914
+transition,Mean burden,5,A_Incomplete -> O_Create Offer,False,0.0,,,,,500,20260914
+transition,Mean burden,5,A_Incomplete -> W_Call incomplete files,False,0.0,,,,,500,20260914
+transition,Mean burden,5,A_Pending -> O_Cancelled,False,0.0,,,,,500,20260914
+transition,Mean burden,5,A_Pending -> W_Validate application,False,0.0,,,,,500,20260914
+transition,Mean burden,5,A_Submitted -> A_Concept,False,0.0,,,,,500,20260914
+transition,Mean burden,5,A_Submitted -> W_Handle leads,False,0.0,,,,,500,20260914
+transition,Mean burden,5,A_Validating -> A_Incomplete,False,0.0,,,,,500,20260914
+transition,Mean burden,5,A_Validating -> O_Accepted,False,0.0,,,,,500,20260914
+transition,Mean burden,5,A_Validating -> O_Returned,False,0.0,,,,,500,20260914
+transition,Mean burden,5,A_Validating -> W_Validate application,False,0.0,,,,,500,20260914
+transition,Mean burden,5,O_Accepted -> A_Pending,False,0.0,,,,,500,20260914
+transition,Mean burden,5,O_Cancelled -> O_Cancelled,False,0.0,,,,,500,20260914
+transition,Mean burden,5,O_Create Offer -> O_Created,False,0.0,,,,,500,20260914
+transition,Mean burden,5,O_Created -> O_Create Offer,False,0.0,,,,,500,20260914
+transition,Mean burden,5,O_Created -> O_Sent (mail and online),False,0.0,,,,,500,20260914
+transition,Mean burden,5,O_Created -> O_Sent (online only),False,0.0,,,,,500,20260914
+transition,Mean burden,5,O_Refused -> W_Validate application,False,0.0,,,,,500,20260914
+transition,Mean burden,5,O_Returned -> A_Denied,False,0.0,,,,,500,20260914
+transition,Mean burden,5,O_Returned -> A_Incomplete,False,0.0,,,,,500,20260914
+transition,Mean burden,5,O_Returned -> O_Accepted,False,0.0,,,,,500,20260914
+transition,Mean burden,5,O_Returned -> W_Validate application,False,0.0,,,,,500,20260914
+transition,Mean burden,5,O_Sent (mail and online) -> A_Complete,False,0.0,,,,,500,20260914
+transition,Mean burden,5,O_Sent (mail and online) -> A_Validating,False,0.268,,,,,500,20260914
+transition,Mean burden,5,O_Sent (mail and online) -> O_Sent (mail and online),False,0.0,,,,,500,20260914
+transition,Mean burden,5,O_Sent (mail and online) -> W_Complete application,False,0.0,,,,,500,20260914
+transition,Mean burden,5,W_Call incomplete files -> A_Validating,False,0.0,,,,,500,20260914
+transition,Mean burden,5,W_Complete application -> A_Complete,False,0.0,,,,,500,20260914
+transition,Mean burden,5,W_Handle leads -> A_Concept,False,0.0,,,,,500,20260914
+transition,Mean burden,5,W_Validate application -> A_Incomplete,False,0.0,,,,,500,20260914
+transition,Mean burden,5,W_Validate application -> O_Cancelled,False,0.0,,,,,500,20260914
+summary,Empirical Tail,5,__SUMMARY__,,,1.0,1.0,1.0,5.0,500,20260914
+transition,Empirical Tail,5,A_Accepted -> O_Create Offer,False,0.0,,,,,500,20260914
+transition,Empirical Tail,5,A_Cancelled -> O_Cancelled,False,0.0,,,,,500,20260914
+transition,Empirical Tail,5,A_Complete -> A_Cancelled,True,1.0,,,,,500,20260914
+transition,Empirical Tail,5,A_Complete -> A_Validating,True,1.0,,,,,500,20260914
+transition,Empirical Tail,5,A_Complete -> O_Create Offer,True,1.0,,,,,500,20260914
+transition,Empirical Tail,5,A_Concept -> A_Accepted,True,1.0,,,,,500,20260914
+transition,Empirical Tail,5,A_Create Application -> A_Concept,False,0.0,,,,,500,20260914
+transition,Empirical Tail,5,A_Create Application -> A_Submitted,False,0.0,,,,,500,20260914
+transition,Empirical Tail,5,A_Denied -> O_Refused,False,0.0,,,,,500,20260914
+transition,Empirical Tail,5,A_Incomplete -> A_Validating,True,1.0,,,,,500,20260914
+transition,Empirical Tail,5,A_Incomplete -> O_Accepted,False,0.0,,,,,500,20260914
+transition,Empirical Tail,5,A_Incomplete -> O_Create Offer,False,0.0,,,,,500,20260914
+transition,Empirical Tail,5,A_Incomplete -> W_Call incomplete files,False,0.0,,,,,500,20260914
+transition,Empirical Tail,5,A_Pending -> O_Cancelled,False,0.0,,,,,500,20260914
+transition,Empirical Tail,5,A_Pending -> W_Validate application,False,0.0,,,,,500,20260914
+transition,Empirical Tail,5,A_Submitted -> A_Concept,False,0.0,,,,,500,20260914
+transition,Empirical Tail,5,A_Submitted -> W_Handle leads,False,0.0,,,,,500,20260914
+transition,Empirical Tail,5,A_Validating -> A_Incomplete,False,0.0,,,,,500,20260914
+transition,Empirical Tail,5,A_Validating -> O_Accepted,False,0.0,,,,,500,20260914
+transition,Empirical Tail,5,A_Validating -> O_Returned,False,0.0,,,,,500,20260914
+transition,Empirical Tail,5,A_Validating -> W_Validate application,False,0.0,,,,,500,20260914
+transition,Empirical Tail,5,O_Accepted -> A_Pending,False,0.0,,,,,500,20260914
+transition,Empirical Tail,5,O_Cancelled -> O_Cancelled,False,0.0,,,,,500,20260914
+transition,Empirical Tail,5,O_Create Offer -> O_Created,False,0.0,,,,,500,20260914
+transition,Empirical Tail,5,O_Created -> O_Create Offer,False,0.0,,,,,500,20260914
+transition,Empirical Tail,5,O_Created -> O_Sent (mail and online),False,0.0,,,,,500,20260914
+transition,Empirical Tail,5,O_Created -> O_Sent (online only),False,0.0,,,,,500,20260914
+transition,Empirical Tail,5,O_Refused -> W_Validate application,False,0.0,,,,,500,20260914
+transition,Empirical Tail,5,O_Returned -> A_Denied,False,0.0,,,,,500,20260914
+transition,Empirical Tail,5,O_Returned -> A_Incomplete,False,0.0,,,,,500,20260914
+transition,Empirical Tail,5,O_Returned -> O_Accepted,False,0.0,,,,,500,20260914
+transition,Empirical Tail,5,O_Returned -> W_Validate application,False,0.0,,,,,500,20260914
+transition,Empirical Tail,5,O_Sent (mail and online) -> A_Complete,False,0.0,,,,,500,20260914
+transition,Empirical Tail,5,O_Sent (mail and online) -> A_Validating,False,0.0,,,,,500,20260914
+transition,Empirical Tail,5,O_Sent (mail and online) -> O_Sent (mail and online),False,0.0,,,,,500,20260914
+transition,Empirical Tail,5,O_Sent (mail and online) -> W_Complete application,False,0.0,,,,,500,20260914
+transition,Empirical Tail,5,W_Call incomplete files -> A_Validating,False,0.0,,,,,500,20260914
+transition,Empirical Tail,5,W_Complete application -> A_Complete,False,0.0,,,,,500,20260914
+transition,Empirical Tail,5,W_Handle leads -> A_Concept,False,0.0,,,,,500,20260914
+transition,Empirical Tail,5,W_Validate application -> A_Incomplete,False,0.0,,,,,500,20260914
+transition,Empirical Tail,5,W_Validate application -> O_Cancelled,False,0.0,,,,,500,20260914
+summary,Original DRO,5,__SUMMARY__,,,0.9993333333333333,1.0,1.0,5.0,500,20260914
+transition,Original DRO,5,A_Accepted -> O_Create Offer,False,0.0,,,,,500,20260914
+transition,Original DRO,5,A_Cancelled -> O_Cancelled,False,0.0,,,,,500,20260914
+transition,Original DRO,5,A_Complete -> A_Cancelled,True,0.998,,,,,500,20260914
+transition,Original DRO,5,A_Complete -> A_Validating,True,1.0,,,,,500,20260914
+transition,Original DRO,5,A_Complete -> O_Create Offer,True,1.0,,,,,500,20260914
+transition,Original DRO,5,A_Concept -> A_Accepted,True,1.0,,,,,500,20260914
+transition,Original DRO,5,A_Create Application -> A_Concept,False,0.0,,,,,500,20260914
+transition,Original DRO,5,A_Create Application -> A_Submitted,False,0.0,,,,,500,20260914
+transition,Original DRO,5,A_Denied -> O_Refused,False,0.0,,,,,500,20260914
+transition,Original DRO,5,A_Incomplete -> A_Validating,True,1.0,,,,,500,20260914
+transition,Original DRO,5,A_Incomplete -> O_Accepted,False,0.002,,,,,500,20260914
+transition,Original DRO,5,A_Incomplete -> O_Create Offer,False,0.0,,,,,500,20260914
+transition,Original DRO,5,A_Incomplete -> W_Call incomplete files,False,0.0,,,,,500,20260914
+transition,Original DRO,5,A_Pending -> O_Cancelled,False,0.0,,,,,500,20260914
+transition,Original DRO,5,A_Pending -> W_Validate application,False,0.0,,,,,500,20260914
+transition,Original DRO,5,A_Submitted -> A_Concept,False,0.0,,,,,500,20260914
+transition,Original DRO,5,A_Submitted -> W_Handle leads,False,0.0,,,,,500,20260914
+transition,Original DRO,5,A_Validating -> A_Incomplete,False,0.0,,,,,500,20260914
+transition,Original DRO,5,A_Validating -> O_Accepted,False,0.0,,,,,500,20260914
+transition,Original DRO,5,A_Validating -> O_Returned,False,0.0,,,,,500,20260914
+transition,Original DRO,5,A_Validating -> W_Validate application,False,0.0,,,,,500,20260914
+transition,Original DRO,5,O_Accepted -> A_Pending,False,0.0,,,,,500,20260914
+transition,Original DRO,5,O_Cancelled -> O_Cancelled,False,0.0,,,,,500,20260914
+transition,Original DRO,5,O_Create Offer -> O_Created,False,0.0,,,,,500,20260914
+transition,Original DRO,5,O_Created -> O_Create Offer,False,0.0,,,,,500,20260914
+transition,Original DRO,5,O_Created -> O_Sent (mail and online),False,0.0,,,,,500,20260914
+transition,Original DRO,5,O_Created -> O_Sent (online only),False,0.0,,,,,500,20260914
+transition,Original DRO,5,O_Refused -> W_Validate application,False,0.0,,,,,500,20260914
+transition,Original DRO,5,O_Returned -> A_Denied,False,0.0,,,,,500,20260914
+transition,Original DRO,5,O_Returned -> A_Incomplete,False,0.0,,,,,500,20260914
+transition,Original DRO,5,O_Returned -> O_Accepted,False,0.0,,,,,500,20260914
+transition,Original DRO,5,O_Returned -> W_Validate application,False,0.0,,,,,500,20260914
+transition,Original DRO,5,O_Sent (mail and online) -> A_Complete,False,0.0,,,,,500,20260914
+transition,Original DRO,5,O_Sent (mail and online) -> A_Validating,False,0.0,,,,,500,20260914
+transition,Original DRO,5,O_Sent (mail and online) -> O_Sent (mail and online),False,0.0,,,,,500,20260914
+transition,Original DRO,5,O_Sent (mail and online) -> W_Complete application,False,0.0,,,,,500,20260914
+transition,Original DRO,5,W_Call incomplete files -> A_Validating,False,0.0,,,,,500,20260914
+transition,Original DRO,5,W_Complete application -> A_Complete,False,0.0,,,,,500,20260914
+transition,Original DRO,5,W_Handle leads -> A_Concept,False,0.0,,,,,500,20260914
+transition,Original DRO,5,W_Validate application -> A_Incomplete,False,0.0,,,,,500,20260914
+transition,Original DRO,5,W_Validate application -> O_Cancelled,False,0.0,,,,,500,20260914
+summary,Saturation-Aware DRO,5,__SUMMARY__,,,0.9993333333333333,1.0,1.0,5.0,500,20260914
+transition,Saturation-Aware DRO,5,A_Accepted -> O_Create Offer,False,0.0,,,,,500,20260914
+transition,Saturation-Aware DRO,5,A_Cancelled -> O_Cancelled,False,0.0,,,,,500,20260914
+transition,Saturation-Aware DRO,5,A_Complete -> A_Cancelled,True,1.0,,,,,500,20260914
+transition,Saturation-Aware DRO,5,A_Complete -> A_Validating,True,1.0,,,,,500,20260914
+transition,Saturation-Aware DRO,5,A_Complete -> O_Create Offer,True,0.998,,,,,500,20260914
+transition,Saturation-Aware DRO,5,A_Concept -> A_Accepted,True,1.0,,,,,500,20260914
+transition,Saturation-Aware DRO,5,A_Create Application -> A_Concept,False,0.0,,,,,500,20260914
+transition,Saturation-Aware DRO,5,A_Create Application -> A_Submitted,False,0.0,,,,,500,20260914
+transition,Saturation-Aware DRO,5,A_Denied -> O_Refused,False,0.0,,,,,500,20260914
+transition,Saturation-Aware DRO,5,A_Incomplete -> A_Validating,True,1.0,,,,,500,20260914
+transition,Saturation-Aware DRO,5,A_Incomplete -> O_Accepted,False,0.0,,,,,500,20260914
+transition,Saturation-Aware DRO,5,A_Incomplete -> O_Create Offer,False,0.0,,,,,500,20260914
+transition,Saturation-Aware DRO,5,A_Incomplete -> W_Call incomplete files,False,0.0,,,,,500,20260914
+transition,Saturation-Aware DRO,5,A_Pending -> O_Cancelled,False,0.0,,,,,500,20260914
+transition,Saturation-Aware DRO,5,A_Pending -> W_Validate application,False,0.0,,,,,500,20260914
+transition,Saturation-Aware DRO,5,A_Submitted -> A_Concept,False,0.0,,,,,500,20260914
+transition,Saturation-Aware DRO,5,A_Submitted -> W_Handle leads,False,0.0,,,,,500,20260914
+transition,Saturation-Aware DRO,5,A_Validating -> A_Incomplete,False,0.0,,,,,500,20260914
+transition,Saturation-Aware DRO,5,A_Validating -> O_Accepted,False,0.0,,,,,500,20260914
+transition,Saturation-Aware DRO,5,A_Validating -> O_Returned,False,0.0,,,,,500,20260914
+transition,Saturation-Aware DRO,5,A_Validating -> W_Validate application,False,0.0,,,,,500,20260914
+transition,Saturation-Aware DRO,5,O_Accepted -> A_Pending,False,0.0,,,,,500,20260914
+transition,Saturation-Aware DRO,5,O_Cancelled -> O_Cancelled,False,0.0,,,,,500,20260914
+transition,Saturation-Aware DRO,5,O_Create Offer -> O_Created,False,0.0,,,,,500,20260914
+transition,Saturation-Aware DRO,5,O_Created -> O_Create Offer,False,0.0,,,,,500,20260914
+transition,Saturation-Aware DRO,5,O_Created -> O_Sent (mail and online),False,0.0,,,,,500,20260914
+transition,Saturation-Aware DRO,5,O_Created -> O_Sent (online only),False,0.0,,,,,500,20260914
+transition,Saturation-Aware DRO,5,O_Refused -> W_Validate application,False,0.0,,,,,500,20260914
+transition,Saturation-Aware DRO,5,O_Returned -> A_Denied,False,0.0,,,,,500,20260914
+transition,Saturation-Aware DRO,5,O_Returned -> A_Incomplete,False,0.0,,,,,500,20260914
+transition,Saturation-Aware DRO,5,O_Returned -> O_Accepted,False,0.0,,,,,500,20260914
+transition,Saturation-Aware DRO,5,O_Returned -> W_Validate application,False,0.002,,,,,500,20260914
+transition,Saturation-Aware DRO,5,O_Sent (mail and online) -> A_Complete,False,0.0,,,,,500,20260914
+transition,Saturation-Aware DRO,5,O_Sent (mail and online) -> A_Validating,False,0.0,,,,,500,20260914
+transition,Saturation-Aware DRO,5,O_Sent (mail and online) -> O_Sent (mail and online),False,0.0,,,,,500,20260914
+transition,Saturation-Aware DRO,5,O_Sent (mail and online) -> W_Complete application,False,0.0,,,,,500,20260914
+transition,Saturation-Aware DRO,5,W_Call incomplete files -> A_Validating,False,0.0,,,,,500,20260914
+transition,Saturation-Aware DRO,5,W_Complete application -> A_Complete,False,0.0,,,,,500,20260914
+transition,Saturation-Aware DRO,5,W_Handle leads -> A_Concept,False,0.0,,,,,500,20260914
+transition,Saturation-Aware DRO,5,W_Validate application -> A_Incomplete,False,0.0,,,,,500,20260914
+transition,Saturation-Aware DRO,5,W_Validate application -> O_Cancelled,False,0.0,,,,,500,20260914

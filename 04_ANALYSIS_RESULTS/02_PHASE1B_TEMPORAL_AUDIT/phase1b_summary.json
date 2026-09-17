@@ -1,0 +1,38 @@
+{
+  "dataset_path": "01_DATASET/BPI_Challenge_2019.xes",
+  "trace_count": 251734,
+  "event_count": 1595923,
+  "global_min_timestamp": "1948-01-26T22:59:00+00:00",
+  "global_max_timestamp": "2020-04-09T21:59:00+00:00",
+  "core_2018_min_timestamp": "2018-01-01T02:42:00+00:00",
+  "core_2018_max_timestamp": "2018-12-31T22:59:00+00:00",
+  "events_in_2018": 1550468,
+  "events_outside_2018": 45455,
+  "cases_with_any_non_2018_timestamp": 32920,
+  "events_in_boundary_years_2017_2019": 45358,
+  "events_in_extreme_years_before2017_after2019": 97,
+  "non_2018_detail_rows_written": 45455,
+  "detail_truncated": false,
+  "distinct_resource_values_including_placeholders": 628,
+  "distinct_human_users": 607,
+  "distinct_batch_users": 20,
+  "no_recorded_user_events": 399090,
+  "semantic_resource_coverage_pct_excluding_NONE": 74.9932,
+  "resource_kind_event_counts": {
+    "batch_user": 156187,
+    "human_user": 1040646,
+    "no_recorded_user": 399090
+  },
+  "year_counts": {
+    "1948": 10,
+    "1993": 9,
+    "2001": 22,
+    "2008": 45,
+    "2015": 3,
+    "2016": 6,
+    "2017": 223,
+    "2018": 1550468,
+    "2019": 45135,
+    "2020": 2
+  }
+}

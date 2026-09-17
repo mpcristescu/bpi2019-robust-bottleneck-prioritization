@@ -1,0 +1,85 @@
+activity,year,event_count
+Record Goods Receipt,2018,305837
+Create Purchase Order Item,2018,251352
+Record Invoice Receipt,2018,218375
+Vendor creates invoice,2018,216700
+Clear Invoice,2018,176755
+Record Service Entry Sheet,2018,164657
+Remove Payment Block,2018,54216
+Create Purchase Requisition Item,2018,46585
+Receive Order Confirmation,2018,32027
+Change Quantity,2018,20924
+Clear Invoice,2019,17638
+Change Price,2018,12189
+Record Invoice Receipt,2019,10385
+Delete Purchase Order Item,2018,8698
+Record Goods Receipt,2019,8260
+Change Approval for Purchase Order,2018,6961
+Cancel Invoice Receipt,2018,6768
+Vendor creates debit memo,2018,6213
+Change Delivery Indicator,2018,3172
+Cancel Goods Receipt,2018,3047
+Vendor creates invoice,2019,2933
+Remove Payment Block,2019,2920
+SRM: In Transfer to Execution Syst.,2018,1687
+SRM: Created,2018,1625
+SRM: Complete,2018,1625
+SRM: Awaiting Approval,2018,1625
+SRM: Document Completed,2018,1625
+SRM: Ordered,2018,1625
+Release Purchase Order,2018,1610
+SRM: Change was Transmitted,2018,1440
+Change Approval for Purchase Order,2019,580
+Reactivate Purchase Order Item,2018,535
+Change Quantity,2019,525
+Block Purchase Order Item,2018,486
+Release Purchase Requisition,2018,467
+Cancel Subsequent Invoice,2018,463
+Change Storage Location,2018,403
+Create Purchase Order Item,2019,382
+Cancel Invoice Receipt,2019,328
+Record Service Entry Sheet,2019,318
+Update Order Confirmation,2018,242
+Change Price,2019,234
+Vendor creates invoice,2017,207
+SRM: Deleted,2018,185
+Delete Purchase Order Item,2019,177
+Record Subsequent Invoice,2018,151
+Set Payment Block,2018,123
+Change Delivery Indicator,2019,117
+SRM: In Transfer to Execution Syst.,2019,78
+Cancel Goods Receipt,2019,49
+SRM: Transfer Failed (E.Sys.),2019,45
+Vendor creates invoice,2008,45
+Receive Order Confirmation,2019,38
+Change Currency,2018,35
+Cancel Subsequent Invoice,2019,28
+Block Purchase Order Item,2019,28
+Record Subsequent Invoice,2019,16
+Vendor creates debit memo,2019,15
+Vendor creates debit memo,2001,13
+Change Storage Location,2019,12
+Change Final Invoice Indicator,2018,11
+Vendor creates debit memo,2017,9
+Vendor creates invoice,2001,9
+Vendor creates invoice,1993,9
+SRM: Transaction Completed,2018,8
+Reactivate Purchase Order Item,2019,8
+Create Purchase Requisition Item,2017,7
+Change payment term,2018,7
+Vendor creates invoice,2016,6
+SRM: Incomplete,2018,6
+SRM: Held,2018,6
+Vendor creates invoice,1948,5
+Vendor creates debit memo,1948,5
+Vendor creates invoice,2015,3
+SRM: Created,2019,3
+SRM: Complete,2019,3
+SRM: Awaiting Approval,2019,3
+SRM: Document Completed,2019,3
+SRM: Ordered,2019,3
+SRM: Deleted,2019,3
+Vendor creates invoice,2020,2
+Change Rejection Indicator,2018,2
+Update Order Confirmation,2019,2
+Set Payment Block,2019,1

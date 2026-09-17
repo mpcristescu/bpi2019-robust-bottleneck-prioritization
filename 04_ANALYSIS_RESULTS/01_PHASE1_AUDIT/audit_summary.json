@@ -1,0 +1,56 @@
+{
+  "dataset_path": "01_DATASET/BPI_Challenge_2019.xes",
+  "dataset_size_bytes": 728558522,
+  "trace_count": 251734,
+  "event_count": 1595923,
+  "cases_missing_id": 0,
+  "events_missing_activity": 0,
+  "events_missing_time": 0,
+  "events_missing_resource": 0,
+  "resource_coverage_pct": 100.0,
+  "traces_with_time_order_violation": 0,
+  "distinct_activities": 42,
+  "distinct_resources_observed": 628,
+  "distinct_variants": 11973,
+  "distinct_directly_follows_pairs": 498,
+  "global_min_timestamp": "1948-01-26T22:59:00+00:00",
+  "global_max_timestamp": "2020-04-09T21:59:00+00:00",
+  "lifecycle_values": {},
+  "has_lifecycle_transition_attribute": false,
+  "has_start_and_complete_lifecycle": false,
+  "case_size": {
+    "min": 1,
+    "p25": 5.0,
+    "median": 5.0,
+    "p75": 6.0,
+    "p95": 9.0,
+    "max": 990,
+    "mean": 6.33971970413214
+  },
+  "case_duration_hours": {
+    "n": 251734,
+    "p25": 822.05,
+    "median": 1537.0583333333334,
+    "p75": 2358.3,
+    "p95": 3415.100833333332,
+    "p99": 5268.056166666664,
+    "max": 616093.15
+  },
+  "inter_event_gap_hours_reservoir": {
+    "n_seen": 1344189,
+    "n_sampled": 200000,
+    "p25": 5.283333333333333,
+    "median": 59.45,
+    "p75": 362.7208333333333,
+    "p95": 1537.5858333333326,
+    "p99": 2596.383666666667,
+    "min": 0.0,
+    "max": 613567.5166666667
+  },
+  "feasibility_flags": {
+    "can_measure_case_cycle_time_from_event_timestamps": true,
+    "can_measure_inter_event_delay": true,
+    "can_directly_measure_processing_time_from_lifecycle": false,
+    "has_resource_field_with_nonzero_coverage": true
+  }
+}

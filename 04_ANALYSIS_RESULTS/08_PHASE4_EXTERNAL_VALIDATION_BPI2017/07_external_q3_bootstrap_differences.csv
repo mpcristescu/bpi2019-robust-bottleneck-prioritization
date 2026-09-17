@@ -1,0 +1,5 @@
+comparison,metric,sa_dro_mean_share_pct,baseline_mean_share_pct,difference_mean_pp,difference_median_pp,ci95_low_pp,ci95_high_pp,ci_includes_zero,replicates,weekly_blocks,seed
+SA-DRO minus Original DRO,Q3 captured mean-burden share,70.21644291049294,70.21644291049294,0.0,0.0,0.0,0.0,True,1000,14,20260914
+SA-DRO minus Mean burden,Q3 captured mean-burden share,70.21644291049294,70.21644291049294,0.0,0.0,0.0,0.0,True,1000,14,20260914
+SA-DRO minus Empirical Tail,Q3 captured mean-burden share,70.21644291049294,70.21644291049294,0.0,0.0,0.0,0.0,True,1000,14,20260914
+SA-DRO minus Frequency,Q3 captured mean-burden share,70.21644291049294,7.337538946671683,62.87890396382128,62.89424399123564,61.025451994677866,64.68841466720329,False,1000,14,20260914

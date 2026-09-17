@@ -1,0 +1,1147 @@
+{
+  "stage": "portfolio freeze before Q3 external evaluation",
+  "dataset": "BPI Challenge 2017",
+  "candidate_count_h1_only": 41,
+  "candidate_transitions": [
+    "A_Accepted -> O_Create Offer",
+    "A_Cancelled -> O_Cancelled",
+    "A_Complete -> A_Cancelled",
+    "A_Complete -> A_Validating",
+    "A_Complete -> O_Create Offer",
+    "A_Concept -> A_Accepted",
+    "A_Create Application -> A_Concept",
+    "A_Create Application -> A_Submitted",
+    "A_Denied -> O_Refused",
+    "A_Incomplete -> A_Validating",
+    "A_Incomplete -> O_Accepted",
+    "A_Incomplete -> O_Create Offer",
+    "A_Incomplete -> W_Call incomplete files",
+    "A_Pending -> O_Cancelled",
+    "A_Pending -> W_Validate application",
+    "A_Submitted -> A_Concept",
+    "A_Submitted -> W_Handle leads",
+    "A_Validating -> A_Incomplete",
+    "A_Validating -> O_Accepted",
+    "A_Validating -> O_Returned",
+    "A_Validating -> W_Validate application",
+    "O_Accepted -> A_Pending",
+    "O_Cancelled -> O_Cancelled",
+    "O_Create Offer -> O_Created",
+    "O_Created -> O_Create Offer",
+    "O_Created -> O_Sent (mail and online)",
+    "O_Created -> O_Sent (online only)",
+    "O_Refused -> W_Validate application",
+    "O_Returned -> A_Denied",
+    "O_Returned -> A_Incomplete",
+    "O_Returned -> O_Accepted",
+    "O_Returned -> W_Validate application",
+    "O_Sent (mail and online) -> A_Complete",
+    "O_Sent (mail and online) -> A_Validating",
+    "O_Sent (mail and online) -> O_Sent (mail and online)",
+    "O_Sent (mail and online) -> W_Complete application",
+    "W_Call incomplete files -> A_Validating",
+    "W_Complete application -> A_Complete",
+    "W_Handle leads -> A_Concept",
+    "W_Validate application -> A_Incomplete",
+    "W_Validate application -> O_Cancelled"
+  ],
+  "primary_parameters": {
+    "cap_hours": 2160,
+    "alpha": 0.95,
+    "grid_step_hours": 24,
+    "kappa_sa": 0.9,
+    "portfolio_Ks": [
+      3,
+      5,
+      10
+    ]
+  },
+  "primary_selections": {
+    "Frequency|K=3": [
+      "O_Create Offer -> O_Created",
+      "O_Created -> O_Sent (mail and online)",
+      "A_Concept -> A_Accepted"
+    ],
+    "Frequency|K=5": [
+      "O_Create Offer -> O_Created",
+      "O_Created -> O_Sent (mail and online)",
+      "A_Concept -> A_Accepted",
+      "A_Accepted -> O_Create Offer",
+      "A_Validating -> O_Returned"
+    ],
+    "Frequency|K=10": [
+      "O_Create Offer -> O_Created",
+      "O_Created -> O_Sent (mail and online)",
+      "A_Concept -> A_Accepted",
+      "A_Accepted -> O_Create Offer",
+      "A_Validating -> O_Returned",
+      "A_Create Application -> A_Submitted",
+      "W_Complete application -> A_Complete",
+      "O_Sent (mail and online) -> W_Complete application",
+      "A_Complete -> A_Validating",
+      "A_Submitted -> A_Concept"
+    ],
+    "Mean burden|K=3": [
+      "A_Complete -> A_Cancelled",
+      "A_Complete -> A_Validating",
+      "A_Concept -> A_Accepted"
+    ],
+    "Mean burden|K=5": [
+      "A_Complete -> A_Cancelled",
+      "A_Complete -> A_Validating",
+      "A_Concept -> A_Accepted",
+      "A_Complete -> O_Create Offer",
+      "A_Incomplete -> A_Validating"
+    ],
+    "Mean burden|K=10": [
+      "A_Complete -> A_Cancelled",
+      "A_Complete -> A_Validating",
+      "A_Concept -> A_Accepted",
+      "A_Complete -> O_Create Offer",
+      "A_Incomplete -> A_Validating",
+      "O_Sent (mail and online) -> A_Validating",
+      "O_Returned -> W_Validate application",
+      "A_Incomplete -> O_Accepted",
+      "O_Returned -> O_Accepted",
+      "O_Returned -> A_Incomplete"
+    ],
+    "Empirical Tail|K=3": [
+      "A_Complete -> A_Validating",
+      "A_Concept -> A_Accepted",
+      "A_Complete -> A_Cancelled"
+    ],
+    "Empirical Tail|K=5": [
+      "A_Complete -> A_Validating",
+      "A_Concept -> A_Accepted",
+      "A_Complete -> A_Cancelled",
+      "A_Incomplete -> A_Validating",
+      "A_Complete -> O_Create Offer"
+    ],
+    "Empirical Tail|K=10": [
+      "A_Complete -> A_Validating",
+      "A_Concept -> A_Accepted",
+      "A_Complete -> A_Cancelled",
+      "A_Incomplete -> A_Validating",
+      "A_Complete -> O_Create Offer",
+      "O_Sent (mail and online) -> A_Validating",
+      "A_Accepted -> O_Create Offer",
+      "A_Incomplete -> O_Accepted",
+      "O_Returned -> W_Validate application",
+      "A_Incomplete -> O_Create Offer"
+    ],
+    "Original DRO|K=3": [
+      "A_Complete -> A_Validating",
+      "A_Concept -> A_Accepted",
+      "A_Complete -> O_Create Offer"
+    ],
+    "Original DRO|K=5": [
+      "A_Complete -> A_Validating",
+      "A_Concept -> A_Accepted",
+      "A_Complete -> O_Create Offer",
+      "A_Complete -> A_Cancelled",
+      "A_Incomplete -> A_Validating"
+    ],
+    "Original DRO|K=10": [
+      "A_Complete -> A_Validating",
+      "A_Concept -> A_Accepted",
+      "A_Complete -> O_Create Offer",
+      "A_Complete -> A_Cancelled",
+      "A_Incomplete -> A_Validating",
+      "O_Returned -> W_Validate application",
+      "A_Incomplete -> O_Accepted",
+      "O_Sent (mail and online) -> A_Validating",
+      "O_Returned -> A_Incomplete",
+      "O_Returned -> O_Accepted"
+    ],
+    "Saturation-Aware DRO|K=3": [
+      "A_Complete -> A_Validating",
+      "A_Concept -> A_Accepted",
+      "A_Complete -> O_Create Offer"
+    ],
+    "Saturation-Aware DRO|K=5": [
+      "A_Complete -> A_Validating",
+      "A_Concept -> A_Accepted",
+      "A_Complete -> O_Create Offer",
+      "A_Complete -> A_Cancelled",
+      "A_Incomplete -> A_Validating"
+    ],
+    "Saturation-Aware DRO|K=10": [
+      "A_Complete -> A_Validating",
+      "A_Concept -> A_Accepted",
+      "A_Complete -> O_Create Offer",
+      "A_Complete -> A_Cancelled",
+      "A_Incomplete -> A_Validating",
+      "O_Returned -> W_Validate application",
+      "A_Incomplete -> O_Accepted",
+      "O_Sent (mail and online) -> A_Validating",
+      "O_Returned -> A_Incomplete",
+      "O_Returned -> O_Accepted"
+    ]
+  },
+  "sensitivity_selections": {
+    "primary|Frequency|K=3": [
+      "O_Create Offer -> O_Created",
+      "O_Created -> O_Sent (mail and online)",
+      "A_Concept -> A_Accepted"
+    ],
+    "primary|Frequency|K=5": [
+      "O_Create Offer -> O_Created",
+      "O_Created -> O_Sent (mail and online)",
+      "A_Concept -> A_Accepted",
+      "A_Accepted -> O_Create Offer",
+      "A_Validating -> O_Returned"
+    ],
+    "primary|Frequency|K=10": [
+      "O_Create Offer -> O_Created",
+      "O_Created -> O_Sent (mail and online)",
+      "A_Concept -> A_Accepted",
+      "A_Accepted -> O_Create Offer",
+      "A_Validating -> O_Returned",
+      "A_Create Application -> A_Submitted",
+      "W_Complete application -> A_Complete",
+      "O_Sent (mail and online) -> W_Complete application",
+      "A_Complete -> A_Validating",
+      "A_Submitted -> A_Concept"
+    ],
+    "primary|Mean burden|K=3": [
+      "A_Complete -> A_Cancelled",
+      "A_Complete -> A_Validating",
+      "A_Concept -> A_Accepted"
+    ],
+    "primary|Mean burden|K=5": [
+      "A_Complete -> A_Cancelled",
+      "A_Complete -> A_Validating",
+      "A_Concept -> A_Accepted",
+      "A_Complete -> O_Create Offer",
+      "A_Incomplete -> A_Validating"
+    ],
+    "primary|Mean burden|K=10": [
+      "A_Complete -> A_Cancelled",
+      "A_Complete -> A_Validating",
+      "A_Concept -> A_Accepted",
+      "A_Complete -> O_Create Offer",
+      "A_Incomplete -> A_Validating",
+      "O_Sent (mail and online) -> A_Validating",
+      "O_Returned -> W_Validate application",
+      "A_Incomplete -> O_Accepted",
+      "O_Returned -> O_Accepted",
+      "O_Returned -> A_Incomplete"
+    ],
+    "primary|Empirical Tail|K=3": [
+      "A_Complete -> A_Validating",
+      "A_Concept -> A_Accepted",
+      "A_Complete -> A_Cancelled"
+    ],
+    "primary|Empirical Tail|K=5": [
+      "A_Complete -> A_Validating",
+      "A_Concept -> A_Accepted",
+      "A_Complete -> A_Cancelled",
+      "A_Incomplete -> A_Validating",
+      "A_Complete -> O_Create Offer"
+    ],
+    "primary|Empirical Tail|K=10": [
+      "A_Complete -> A_Validating",
+      "A_Concept -> A_Accepted",
+      "A_Complete -> A_Cancelled",
+      "A_Incomplete -> A_Validating",
+      "A_Complete -> O_Create Offer",
+      "O_Sent (mail and online) -> A_Validating",
+      "A_Accepted -> O_Create Offer",
+      "A_Incomplete -> O_Accepted",
+      "O_Returned -> W_Validate application",
+      "A_Incomplete -> O_Create Offer"
+    ],
+    "primary|Original DRO|K=3": [
+      "A_Complete -> A_Validating",
+      "A_Concept -> A_Accepted",
+      "A_Complete -> O_Create Offer"
+    ],
+    "primary|Original DRO|K=5": [
+      "A_Complete -> A_Validating",
+      "A_Concept -> A_Accepted",
+      "A_Complete -> O_Create Offer",
+      "A_Complete -> A_Cancelled",
+      "A_Incomplete -> A_Validating"
+    ],
+    "primary|Original DRO|K=10": [
+      "A_Complete -> A_Validating",
+      "A_Concept -> A_Accepted",
+      "A_Complete -> O_Create Offer",
+      "A_Complete -> A_Cancelled",
+      "A_Incomplete -> A_Validating",
+      "O_Returned -> W_Validate application",
+      "A_Incomplete -> O_Accepted",
+      "O_Sent (mail and online) -> A_Validating",
+      "O_Returned -> A_Incomplete",
+      "O_Returned -> O_Accepted"
+    ],
+    "primary|Saturation-Aware DRO|K=3": [
+      "A_Complete -> A_Validating",
+      "A_Concept -> A_Accepted",
+      "A_Complete -> O_Create Offer"
+    ],
+    "primary|Saturation-Aware DRO|K=5": [
+      "A_Complete -> A_Validating",
+      "A_Concept -> A_Accepted",
+      "A_Complete -> O_Create Offer",
+      "A_Complete -> A_Cancelled",
+      "A_Incomplete -> A_Validating"
+    ],
+    "primary|Saturation-Aware DRO|K=10": [
+      "A_Complete -> A_Validating",
+      "A_Concept -> A_Accepted",
+      "A_Complete -> O_Create Offer",
+      "A_Complete -> A_Cancelled",
+      "A_Incomplete -> A_Validating",
+      "O_Returned -> W_Validate application",
+      "A_Incomplete -> O_Accepted",
+      "O_Sent (mail and online) -> A_Validating",
+      "O_Returned -> A_Incomplete",
+      "O_Returned -> O_Accepted"
+    ],
+    "cap120|Frequency|K=3": [
+      "O_Create Offer -> O_Created",
+      "O_Created -> O_Sent (mail and online)",
+      "A_Concept -> A_Accepted"
+    ],
+    "cap120|Frequency|K=5": [
+      "O_Create Offer -> O_Created",
+      "O_Created -> O_Sent (mail and online)",
+      "A_Concept -> A_Accepted",
+      "A_Accepted -> O_Create Offer",
+      "A_Validating -> O_Returned"
+    ],
+    "cap120|Frequency|K=10": [
+      "O_Create Offer -> O_Created",
+      "O_Created -> O_Sent (mail and online)",
+      "A_Concept -> A_Accepted",
+      "A_Accepted -> O_Create Offer",
+      "A_Validating -> O_Returned",
+      "A_Create Application -> A_Submitted",
+      "W_Complete application -> A_Complete",
+      "O_Sent (mail and online) -> W_Complete application",
+      "A_Complete -> A_Validating",
+      "A_Submitted -> A_Concept"
+    ],
+    "cap120|Mean burden|K=3": [
+      "A_Complete -> A_Cancelled",
+      "A_Complete -> A_Validating",
+      "A_Concept -> A_Accepted"
+    ],
+    "cap120|Mean burden|K=5": [
+      "A_Complete -> A_Cancelled",
+      "A_Complete -> A_Validating",
+      "A_Concept -> A_Accepted",
+      "A_Complete -> O_Create Offer",
+      "A_Incomplete -> A_Validating"
+    ],
+    "cap120|Mean burden|K=10": [
+      "A_Complete -> A_Cancelled",
+      "A_Complete -> A_Validating",
+      "A_Concept -> A_Accepted",
+      "A_Complete -> O_Create Offer",
+      "A_Incomplete -> A_Validating",
+      "O_Sent (mail and online) -> A_Validating",
+      "O_Returned -> W_Validate application",
+      "A_Incomplete -> O_Accepted",
+      "O_Returned -> O_Accepted",
+      "O_Returned -> A_Incomplete"
+    ],
+    "cap120|Empirical Tail|K=3": [
+      "A_Complete -> A_Validating",
+      "A_Concept -> A_Accepted",
+      "A_Complete -> A_Cancelled"
+    ],
+    "cap120|Empirical Tail|K=5": [
+      "A_Complete -> A_Validating",
+      "A_Concept -> A_Accepted",
+      "A_Complete -> A_Cancelled",
+      "A_Incomplete -> A_Validating",
+      "A_Complete -> O_Create Offer"
+    ],
+    "cap120|Empirical Tail|K=10": [
+      "A_Complete -> A_Validating",
+      "A_Concept -> A_Accepted",
+      "A_Complete -> A_Cancelled",
+      "A_Incomplete -> A_Validating",
+      "A_Complete -> O_Create Offer",
+      "O_Sent (mail and online) -> A_Validating",
+      "A_Accepted -> O_Create Offer",
+      "A_Incomplete -> O_Accepted",
+      "O_Returned -> W_Validate application",
+      "A_Incomplete -> O_Create Offer"
+    ],
+    "cap120|Original DRO|K=3": [
+      "A_Complete -> A_Validating",
+      "A_Concept -> A_Accepted",
+      "A_Complete -> O_Create Offer"
+    ],
+    "cap120|Original DRO|K=5": [
+      "A_Complete -> A_Validating",
+      "A_Concept -> A_Accepted",
+      "A_Complete -> O_Create Offer",
+      "A_Complete -> A_Cancelled",
+      "A_Incomplete -> A_Validating"
+    ],
+    "cap120|Original DRO|K=10": [
+      "A_Complete -> A_Validating",
+      "A_Concept -> A_Accepted",
+      "A_Complete -> O_Create Offer",
+      "A_Complete -> A_Cancelled",
+      "A_Incomplete -> A_Validating",
+      "A_Incomplete -> O_Accepted",
+      "O_Returned -> W_Validate application",
+      "O_Sent (mail and online) -> A_Validating",
+      "O_Returned -> A_Incomplete",
+      "O_Returned -> O_Accepted"
+    ],
+    "cap120|Saturation-Aware DRO|K=3": [
+      "A_Complete -> A_Validating",
+      "A_Concept -> A_Accepted",
+      "A_Complete -> O_Create Offer"
+    ],
+    "cap120|Saturation-Aware DRO|K=5": [
+      "A_Complete -> A_Validating",
+      "A_Concept -> A_Accepted",
+      "A_Complete -> O_Create Offer",
+      "A_Complete -> A_Cancelled",
+      "A_Incomplete -> A_Validating"
+    ],
+    "cap120|Saturation-Aware DRO|K=10": [
+      "A_Complete -> A_Validating",
+      "A_Concept -> A_Accepted",
+      "A_Complete -> O_Create Offer",
+      "A_Complete -> A_Cancelled",
+      "A_Incomplete -> A_Validating",
+      "A_Incomplete -> O_Accepted",
+      "O_Returned -> W_Validate application",
+      "O_Sent (mail and online) -> A_Validating",
+      "O_Returned -> A_Incomplete",
+      "O_Returned -> O_Accepted"
+    ],
+    "alpha90|Frequency|K=3": [
+      "O_Create Offer -> O_Created",
+      "O_Created -> O_Sent (mail and online)",
+      "A_Concept -> A_Accepted"
+    ],
+    "alpha90|Frequency|K=5": [
+      "O_Create Offer -> O_Created",
+      "O_Created -> O_Sent (mail and online)",
+      "A_Concept -> A_Accepted",
+      "A_Accepted -> O_Create Offer",
+      "A_Validating -> O_Returned"
+    ],
+    "alpha90|Frequency|K=10": [
+      "O_Create Offer -> O_Created",
+      "O_Created -> O_Sent (mail and online)",
+      "A_Concept -> A_Accepted",
+      "A_Accepted -> O_Create Offer",
+      "A_Validating -> O_Returned",
+      "A_Create Application -> A_Submitted",
+      "W_Complete application -> A_Complete",
+      "O_Sent (mail and online) -> W_Complete application",
+      "A_Complete -> A_Validating",
+      "A_Submitted -> A_Concept"
+    ],
+    "alpha90|Mean burden|K=3": [
+      "A_Complete -> A_Cancelled",
+      "A_Complete -> A_Validating",
+      "A_Concept -> A_Accepted"
+    ],
+    "alpha90|Mean burden|K=5": [
+      "A_Complete -> A_Cancelled",
+      "A_Complete -> A_Validating",
+      "A_Concept -> A_Accepted",
+      "A_Complete -> O_Create Offer",
+      "A_Incomplete -> A_Validating"
+    ],
+    "alpha90|Mean burden|K=10": [
+      "A_Complete -> A_Cancelled",
+      "A_Complete -> A_Validating",
+      "A_Concept -> A_Accepted",
+      "A_Complete -> O_Create Offer",
+      "A_Incomplete -> A_Validating",
+      "O_Sent (mail and online) -> A_Validating",
+      "O_Returned -> W_Validate application",
+      "A_Incomplete -> O_Accepted",
+      "O_Returned -> O_Accepted",
+      "O_Returned -> A_Incomplete"
+    ],
+    "alpha90|Empirical Tail|K=3": [
+      "A_Complete -> A_Validating",
+      "A_Complete -> A_Cancelled",
+      "A_Concept -> A_Accepted"
+    ],
+    "alpha90|Empirical Tail|K=5": [
+      "A_Complete -> A_Validating",
+      "A_Complete -> A_Cancelled",
+      "A_Concept -> A_Accepted",
+      "A_Incomplete -> A_Validating",
+      "A_Complete -> O_Create Offer"
+    ],
+    "alpha90|Empirical Tail|K=10": [
+      "A_Complete -> A_Validating",
+      "A_Complete -> A_Cancelled",
+      "A_Concept -> A_Accepted",
+      "A_Incomplete -> A_Validating",
+      "A_Complete -> O_Create Offer",
+      "O_Sent (mail and online) -> A_Validating",
+      "A_Incomplete -> O_Accepted",
+      "O_Returned -> W_Validate application",
+      "A_Accepted -> O_Create Offer",
+      "O_Returned -> O_Accepted"
+    ],
+    "alpha90|Original DRO|K=3": [
+      "A_Complete -> A_Validating",
+      "A_Concept -> A_Accepted",
+      "A_Complete -> O_Create Offer"
+    ],
+    "alpha90|Original DRO|K=5": [
+      "A_Complete -> A_Validating",
+      "A_Concept -> A_Accepted",
+      "A_Complete -> O_Create Offer",
+      "A_Complete -> A_Cancelled",
+      "A_Incomplete -> A_Validating"
+    ],
+    "alpha90|Original DRO|K=10": [
+      "A_Complete -> A_Validating",
+      "A_Concept -> A_Accepted",
+      "A_Complete -> O_Create Offer",
+      "A_Complete -> A_Cancelled",
+      "A_Incomplete -> A_Validating",
+      "A_Incomplete -> O_Accepted",
+      "O_Returned -> W_Validate application",
+      "O_Sent (mail and online) -> A_Validating",
+      "O_Returned -> A_Incomplete",
+      "O_Returned -> O_Accepted"
+    ],
+    "alpha90|Saturation-Aware DRO|K=3": [
+      "A_Complete -> A_Validating",
+      "A_Concept -> A_Accepted",
+      "A_Complete -> O_Create Offer"
+    ],
+    "alpha90|Saturation-Aware DRO|K=5": [
+      "A_Complete -> A_Validating",
+      "A_Concept -> A_Accepted",
+      "A_Complete -> O_Create Offer",
+      "A_Complete -> A_Cancelled",
+      "A_Incomplete -> A_Validating"
+    ],
+    "alpha90|Saturation-Aware DRO|K=10": [
+      "A_Complete -> A_Validating",
+      "A_Concept -> A_Accepted",
+      "A_Complete -> O_Create Offer",
+      "A_Complete -> A_Cancelled",
+      "A_Incomplete -> A_Validating",
+      "A_Incomplete -> O_Accepted",
+      "O_Returned -> W_Validate application",
+      "O_Sent (mail and online) -> A_Validating",
+      "O_Returned -> A_Incomplete",
+      "O_Returned -> O_Accepted"
+    ],
+    "grid12|Frequency|K=3": [
+      "O_Create Offer -> O_Created",
+      "O_Created -> O_Sent (mail and online)",
+      "A_Concept -> A_Accepted"
+    ],
+    "grid12|Frequency|K=5": [
+      "O_Create Offer -> O_Created",
+      "O_Created -> O_Sent (mail and online)",
+      "A_Concept -> A_Accepted",
+      "A_Accepted -> O_Create Offer",
+      "A_Validating -> O_Returned"
+    ],
+    "grid12|Frequency|K=10": [
+      "O_Create Offer -> O_Created",
+      "O_Created -> O_Sent (mail and online)",
+      "A_Concept -> A_Accepted",
+      "A_Accepted -> O_Create Offer",
+      "A_Validating -> O_Returned",
+      "A_Create Application -> A_Submitted",
+      "W_Complete application -> A_Complete",
+      "O_Sent (mail and online) -> W_Complete application",
+      "A_Complete -> A_Validating",
+      "A_Submitted -> A_Concept"
+    ],
+    "grid12|Mean burden|K=3": [
+      "A_Complete -> A_Cancelled",
+      "A_Complete -> A_Validating",
+      "A_Concept -> A_Accepted"
+    ],
+    "grid12|Mean burden|K=5": [
+      "A_Complete -> A_Cancelled",
+      "A_Complete -> A_Validating",
+      "A_Concept -> A_Accepted",
+      "A_Complete -> O_Create Offer",
+      "A_Incomplete -> A_Validating"
+    ],
+    "grid12|Mean burden|K=10": [
+      "A_Complete -> A_Cancelled",
+      "A_Complete -> A_Validating",
+      "A_Concept -> A_Accepted",
+      "A_Complete -> O_Create Offer",
+      "A_Incomplete -> A_Validating",
+      "O_Sent (mail and online) -> A_Validating",
+      "O_Returned -> W_Validate application",
+      "A_Incomplete -> O_Accepted",
+      "O_Returned -> O_Accepted",
+      "O_Returned -> A_Incomplete"
+    ],
+    "grid12|Empirical Tail|K=3": [
+      "A_Complete -> A_Validating",
+      "A_Concept -> A_Accepted",
+      "A_Complete -> A_Cancelled"
+    ],
+    "grid12|Empirical Tail|K=5": [
+      "A_Complete -> A_Validating",
+      "A_Concept -> A_Accepted",
+      "A_Complete -> A_Cancelled",
+      "A_Incomplete -> A_Validating",
+      "A_Complete -> O_Create Offer"
+    ],
+    "grid12|Empirical Tail|K=10": [
+      "A_Complete -> A_Validating",
+      "A_Concept -> A_Accepted",
+      "A_Complete -> A_Cancelled",
+      "A_Incomplete -> A_Validating",
+      "A_Complete -> O_Create Offer",
+      "O_Sent (mail and online) -> A_Validating",
+      "A_Accepted -> O_Create Offer",
+      "A_Incomplete -> O_Accepted",
+      "O_Returned -> W_Validate application",
+      "A_Incomplete -> O_Create Offer"
+    ],
+    "grid12|Original DRO|K=3": [
+      "A_Complete -> A_Validating",
+      "A_Concept -> A_Accepted",
+      "A_Complete -> O_Create Offer"
+    ],
+    "grid12|Original DRO|K=5": [
+      "A_Complete -> A_Validating",
+      "A_Concept -> A_Accepted",
+      "A_Complete -> O_Create Offer",
+      "A_Complete -> A_Cancelled",
+      "A_Incomplete -> A_Validating"
+    ],
+    "grid12|Original DRO|K=10": [
+      "A_Complete -> A_Validating",
+      "A_Concept -> A_Accepted",
+      "A_Complete -> O_Create Offer",
+      "A_Complete -> A_Cancelled",
+      "A_Incomplete -> A_Validating",
+      "O_Returned -> W_Validate application",
+      "A_Incomplete -> O_Accepted",
+      "O_Sent (mail and online) -> A_Validating",
+      "O_Returned -> A_Incomplete",
+      "O_Returned -> O_Accepted"
+    ],
+    "grid12|Saturation-Aware DRO|K=3": [
+      "A_Complete -> A_Validating",
+      "A_Concept -> A_Accepted",
+      "A_Complete -> A_Cancelled"
+    ],
+    "grid12|Saturation-Aware DRO|K=5": [
+      "A_Complete -> A_Validating",
+      "A_Concept -> A_Accepted",
+      "A_Complete -> A_Cancelled",
+      "A_Complete -> O_Create Offer",
+      "A_Incomplete -> A_Validating"
+    ],
+    "grid12|Saturation-Aware DRO|K=10": [
+      "A_Complete -> A_Validating",
+      "A_Concept -> A_Accepted",
+      "A_Complete -> A_Cancelled",
+      "A_Complete -> O_Create Offer",
+      "A_Incomplete -> A_Validating",
+      "O_Returned -> W_Validate application",
+      "A_Incomplete -> O_Accepted",
+      "O_Sent (mail and online) -> A_Validating",
+      "O_Returned -> A_Incomplete",
+      "O_Returned -> O_Accepted"
+    ],
+    "cap120_alpha90|Frequency|K=3": [
+      "O_Create Offer -> O_Created",
+      "O_Created -> O_Sent (mail and online)",
+      "A_Concept -> A_Accepted"
+    ],
+    "cap120_alpha90|Frequency|K=5": [
+      "O_Create Offer -> O_Created",
+      "O_Created -> O_Sent (mail and online)",
+      "A_Concept -> A_Accepted",
+      "A_Accepted -> O_Create Offer",
+      "A_Validating -> O_Returned"
+    ],
+    "cap120_alpha90|Frequency|K=10": [
+      "O_Create Offer -> O_Created",
+      "O_Created -> O_Sent (mail and online)",
+      "A_Concept -> A_Accepted",
+      "A_Accepted -> O_Create Offer",
+      "A_Validating -> O_Returned",
+      "A_Create Application -> A_Submitted",
+      "W_Complete application -> A_Complete",
+      "O_Sent (mail and online) -> W_Complete application",
+      "A_Complete -> A_Validating",
+      "A_Submitted -> A_Concept"
+    ],
+    "cap120_alpha90|Mean burden|K=3": [
+      "A_Complete -> A_Cancelled",
+      "A_Complete -> A_Validating",
+      "A_Concept -> A_Accepted"
+    ],
+    "cap120_alpha90|Mean burden|K=5": [
+      "A_Complete -> A_Cancelled",
+      "A_Complete -> A_Validating",
+      "A_Concept -> A_Accepted",
+      "A_Complete -> O_Create Offer",
+      "A_Incomplete -> A_Validating"
+    ],
+    "cap120_alpha90|Mean burden|K=10": [
+      "A_Complete -> A_Cancelled",
+      "A_Complete -> A_Validating",
+      "A_Concept -> A_Accepted",
+      "A_Complete -> O_Create Offer",
+      "A_Incomplete -> A_Validating",
+      "O_Sent (mail and online) -> A_Validating",
+      "O_Returned -> W_Validate application",
+      "A_Incomplete -> O_Accepted",
+      "O_Returned -> O_Accepted",
+      "O_Returned -> A_Incomplete"
+    ],
+    "cap120_alpha90|Empirical Tail|K=3": [
+      "A_Complete -> A_Validating",
+      "A_Complete -> A_Cancelled",
+      "A_Concept -> A_Accepted"
+    ],
+    "cap120_alpha90|Empirical Tail|K=5": [
+      "A_Complete -> A_Validating",
+      "A_Complete -> A_Cancelled",
+      "A_Concept -> A_Accepted",
+      "A_Incomplete -> A_Validating",
+      "A_Complete -> O_Create Offer"
+    ],
+    "cap120_alpha90|Empirical Tail|K=10": [
+      "A_Complete -> A_Validating",
+      "A_Complete -> A_Cancelled",
+      "A_Concept -> A_Accepted",
+      "A_Incomplete -> A_Validating",
+      "A_Complete -> O_Create Offer",
+      "O_Sent (mail and online) -> A_Validating",
+      "A_Incomplete -> O_Accepted",
+      "O_Returned -> W_Validate application",
+      "A_Accepted -> O_Create Offer",
+      "O_Returned -> O_Accepted"
+    ],
+    "cap120_alpha90|Original DRO|K=3": [
+      "A_Complete -> A_Validating",
+      "A_Concept -> A_Accepted",
+      "A_Complete -> O_Create Offer"
+    ],
+    "cap120_alpha90|Original DRO|K=5": [
+      "A_Complete -> A_Validating",
+      "A_Concept -> A_Accepted",
+      "A_Complete -> O_Create Offer",
+      "A_Complete -> A_Cancelled",
+      "A_Incomplete -> A_Validating"
+    ],
+    "cap120_alpha90|Original DRO|K=10": [
+      "A_Complete -> A_Validating",
+      "A_Concept -> A_Accepted",
+      "A_Complete -> O_Create Offer",
+      "A_Complete -> A_Cancelled",
+      "A_Incomplete -> A_Validating",
+      "A_Incomplete -> O_Accepted",
+      "O_Returned -> W_Validate application",
+      "O_Sent (mail and online) -> A_Validating",
+      "O_Returned -> A_Incomplete",
+      "O_Returned -> O_Accepted"
+    ],
+    "cap120_alpha90|Saturation-Aware DRO|K=3": [
+      "A_Complete -> A_Validating",
+      "A_Concept -> A_Accepted",
+      "A_Complete -> O_Create Offer"
+    ],
+    "cap120_alpha90|Saturation-Aware DRO|K=5": [
+      "A_Complete -> A_Validating",
+      "A_Concept -> A_Accepted",
+      "A_Complete -> O_Create Offer",
+      "A_Complete -> A_Cancelled",
+      "A_Incomplete -> A_Validating"
+    ],
+    "cap120_alpha90|Saturation-Aware DRO|K=10": [
+      "A_Complete -> A_Validating",
+      "A_Concept -> A_Accepted",
+      "A_Complete -> O_Create Offer",
+      "A_Complete -> A_Cancelled",
+      "A_Incomplete -> A_Validating",
+      "A_Incomplete -> O_Accepted",
+      "O_Returned -> W_Validate application",
+      "O_Sent (mail and online) -> A_Validating",
+      "O_Returned -> A_Incomplete",
+      "O_Returned -> O_Accepted"
+    ],
+    "cap120_grid12|Frequency|K=3": [
+      "O_Create Offer -> O_Created",
+      "O_Created -> O_Sent (mail and online)",
+      "A_Concept -> A_Accepted"
+    ],
+    "cap120_grid12|Frequency|K=5": [
+      "O_Create Offer -> O_Created",
+      "O_Created -> O_Sent (mail and online)",
+      "A_Concept -> A_Accepted",
+      "A_Accepted -> O_Create Offer",
+      "A_Validating -> O_Returned"
+    ],
+    "cap120_grid12|Frequency|K=10": [
+      "O_Create Offer -> O_Created",
+      "O_Created -> O_Sent (mail and online)",
+      "A_Concept -> A_Accepted",
+      "A_Accepted -> O_Create Offer",
+      "A_Validating -> O_Returned",
+      "A_Create Application -> A_Submitted",
+      "W_Complete application -> A_Complete",
+      "O_Sent (mail and online) -> W_Complete application",
+      "A_Complete -> A_Validating",
+      "A_Submitted -> A_Concept"
+    ],
+    "cap120_grid12|Mean burden|K=3": [
+      "A_Complete -> A_Cancelled",
+      "A_Complete -> A_Validating",
+      "A_Concept -> A_Accepted"
+    ],
+    "cap120_grid12|Mean burden|K=5": [
+      "A_Complete -> A_Cancelled",
+      "A_Complete -> A_Validating",
+      "A_Concept -> A_Accepted",
+      "A_Complete -> O_Create Offer",
+      "A_Incomplete -> A_Validating"
+    ],
+    "cap120_grid12|Mean burden|K=10": [
+      "A_Complete -> A_Cancelled",
+      "A_Complete -> A_Validating",
+      "A_Concept -> A_Accepted",
+      "A_Complete -> O_Create Offer",
+      "A_Incomplete -> A_Validating",
+      "O_Sent (mail and online) -> A_Validating",
+      "O_Returned -> W_Validate application",
+      "A_Incomplete -> O_Accepted",
+      "O_Returned -> O_Accepted",
+      "O_Returned -> A_Incomplete"
+    ],
+    "cap120_grid12|Empirical Tail|K=3": [
+      "A_Complete -> A_Validating",
+      "A_Concept -> A_Accepted",
+      "A_Complete -> A_Cancelled"
+    ],
+    "cap120_grid12|Empirical Tail|K=5": [
+      "A_Complete -> A_Validating",
+      "A_Concept -> A_Accepted",
+      "A_Complete -> A_Cancelled",
+      "A_Incomplete -> A_Validating",
+      "A_Complete -> O_Create Offer"
+    ],
+    "cap120_grid12|Empirical Tail|K=10": [
+      "A_Complete -> A_Validating",
+      "A_Concept -> A_Accepted",
+      "A_Complete -> A_Cancelled",
+      "A_Incomplete -> A_Validating",
+      "A_Complete -> O_Create Offer",
+      "O_Sent (mail and online) -> A_Validating",
+      "A_Accepted -> O_Create Offer",
+      "A_Incomplete -> O_Accepted",
+      "O_Returned -> W_Validate application",
+      "A_Incomplete -> O_Create Offer"
+    ],
+    "cap120_grid12|Original DRO|K=3": [
+      "A_Complete -> A_Validating",
+      "A_Concept -> A_Accepted",
+      "A_Complete -> O_Create Offer"
+    ],
+    "cap120_grid12|Original DRO|K=5": [
+      "A_Complete -> A_Validating",
+      "A_Concept -> A_Accepted",
+      "A_Complete -> O_Create Offer",
+      "A_Complete -> A_Cancelled",
+      "A_Incomplete -> A_Validating"
+    ],
+    "cap120_grid12|Original DRO|K=10": [
+      "A_Complete -> A_Validating",
+      "A_Concept -> A_Accepted",
+      "A_Complete -> O_Create Offer",
+      "A_Complete -> A_Cancelled",
+      "A_Incomplete -> A_Validating",
+      "A_Incomplete -> O_Accepted",
+      "O_Returned -> W_Validate application",
+      "O_Sent (mail and online) -> A_Validating",
+      "O_Returned -> A_Incomplete",
+      "O_Returned -> O_Accepted"
+    ],
+    "cap120_grid12|Saturation-Aware DRO|K=3": [
+      "A_Complete -> A_Validating",
+      "A_Concept -> A_Accepted",
+      "A_Complete -> O_Create Offer"
+    ],
+    "cap120_grid12|Saturation-Aware DRO|K=5": [
+      "A_Complete -> A_Validating",
+      "A_Concept -> A_Accepted",
+      "A_Complete -> O_Create Offer",
+      "A_Complete -> A_Cancelled",
+      "A_Incomplete -> A_Validating"
+    ],
+    "cap120_grid12|Saturation-Aware DRO|K=10": [
+      "A_Complete -> A_Validating",
+      "A_Concept -> A_Accepted",
+      "A_Complete -> O_Create Offer",
+      "A_Complete -> A_Cancelled",
+      "A_Incomplete -> A_Validating",
+      "A_Incomplete -> O_Accepted",
+      "O_Returned -> W_Validate application",
+      "O_Sent (mail and online) -> A_Validating",
+      "O_Returned -> A_Incomplete",
+      "O_Returned -> O_Accepted"
+    ],
+    "alpha90_grid12|Frequency|K=3": [
+      "O_Create Offer -> O_Created",
+      "O_Created -> O_Sent (mail and online)",
+      "A_Concept -> A_Accepted"
+    ],
+    "alpha90_grid12|Frequency|K=5": [
+      "O_Create Offer -> O_Created",
+      "O_Created -> O_Sent (mail and online)",
+      "A_Concept -> A_Accepted",
+      "A_Accepted -> O_Create Offer",
+      "A_Validating -> O_Returned"
+    ],
+    "alpha90_grid12|Frequency|K=10": [
+      "O_Create Offer -> O_Created",
+      "O_Created -> O_Sent (mail and online)",
+      "A_Concept -> A_Accepted",
+      "A_Accepted -> O_Create Offer",
+      "A_Validating -> O_Returned",
+      "A_Create Application -> A_Submitted",
+      "W_Complete application -> A_Complete",
+      "O_Sent (mail and online) -> W_Complete application",
+      "A_Complete -> A_Validating",
+      "A_Submitted -> A_Concept"
+    ],
+    "alpha90_grid12|Mean burden|K=3": [
+      "A_Complete -> A_Cancelled",
+      "A_Complete -> A_Validating",
+      "A_Concept -> A_Accepted"
+    ],
+    "alpha90_grid12|Mean burden|K=5": [
+      "A_Complete -> A_Cancelled",
+      "A_Complete -> A_Validating",
+      "A_Concept -> A_Accepted",
+      "A_Complete -> O_Create Offer",
+      "A_Incomplete -> A_Validating"
+    ],
+    "alpha90_grid12|Mean burden|K=10": [
+      "A_Complete -> A_Cancelled",
+      "A_Complete -> A_Validating",
+      "A_Concept -> A_Accepted",
+      "A_Complete -> O_Create Offer",
+      "A_Incomplete -> A_Validating",
+      "O_Sent (mail and online) -> A_Validating",
+      "O_Returned -> W_Validate application",
+      "A_Incomplete -> O_Accepted",
+      "O_Returned -> O_Accepted",
+      "O_Returned -> A_Incomplete"
+    ],
+    "alpha90_grid12|Empirical Tail|K=3": [
+      "A_Complete -> A_Validating",
+      "A_Complete -> A_Cancelled",
+      "A_Concept -> A_Accepted"
+    ],
+    "alpha90_grid12|Empirical Tail|K=5": [
+      "A_Complete -> A_Validating",
+      "A_Complete -> A_Cancelled",
+      "A_Concept -> A_Accepted",
+      "A_Incomplete -> A_Validating",
+      "A_Complete -> O_Create Offer"
+    ],
+    "alpha90_grid12|Empirical Tail|K=10": [
+      "A_Complete -> A_Validating",
+      "A_Complete -> A_Cancelled",
+      "A_Concept -> A_Accepted",
+      "A_Incomplete -> A_Validating",
+      "A_Complete -> O_Create Offer",
+      "O_Sent (mail and online) -> A_Validating",
+      "A_Incomplete -> O_Accepted",
+      "O_Returned -> W_Validate application",
+      "A_Accepted -> O_Create Offer",
+      "O_Returned -> O_Accepted"
+    ],
+    "alpha90_grid12|Original DRO|K=3": [
+      "A_Complete -> A_Validating",
+      "A_Concept -> A_Accepted",
+      "A_Complete -> O_Create Offer"
+    ],
+    "alpha90_grid12|Original DRO|K=5": [
+      "A_Complete -> A_Validating",
+      "A_Concept -> A_Accepted",
+      "A_Complete -> O_Create Offer",
+      "A_Complete -> A_Cancelled",
+      "A_Incomplete -> A_Validating"
+    ],
+    "alpha90_grid12|Original DRO|K=10": [
+      "A_Complete -> A_Validating",
+      "A_Concept -> A_Accepted",
+      "A_Complete -> O_Create Offer",
+      "A_Complete -> A_Cancelled",
+      "A_Incomplete -> A_Validating",
+      "A_Incomplete -> O_Accepted",
+      "O_Returned -> W_Validate application",
+      "O_Sent (mail and online) -> A_Validating",
+      "O_Returned -> A_Incomplete",
+      "O_Returned -> O_Accepted"
+    ],
+    "alpha90_grid12|Saturation-Aware DRO|K=3": [
+      "A_Complete -> A_Validating",
+      "A_Concept -> A_Accepted",
+      "A_Complete -> O_Create Offer"
+    ],
+    "alpha90_grid12|Saturation-Aware DRO|K=5": [
+      "A_Complete -> A_Validating",
+      "A_Concept -> A_Accepted",
+      "A_Complete -> O_Create Offer",
+      "A_Complete -> A_Cancelled",
+      "A_Incomplete -> A_Validating"
+    ],
+    "alpha90_grid12|Saturation-Aware DRO|K=10": [
+      "A_Complete -> A_Validating",
+      "A_Concept -> A_Accepted",
+      "A_Complete -> O_Create Offer",
+      "A_Complete -> A_Cancelled",
+      "A_Incomplete -> A_Validating",
+      "A_Incomplete -> O_Accepted",
+      "O_Returned -> W_Validate application",
+      "O_Sent (mail and online) -> A_Validating",
+      "O_Returned -> A_Incomplete",
+      "O_Returned -> O_Accepted"
+    ],
+    "cap120_alpha90_grid12|Frequency|K=3": [
+      "O_Create Offer -> O_Created",
+      "O_Created -> O_Sent (mail and online)",
+      "A_Concept -> A_Accepted"
+    ],
+    "cap120_alpha90_grid12|Frequency|K=5": [
+      "O_Create Offer -> O_Created",
+      "O_Created -> O_Sent (mail and online)",
+      "A_Concept -> A_Accepted",
+      "A_Accepted -> O_Create Offer",
+      "A_Validating -> O_Returned"
+    ],
+    "cap120_alpha90_grid12|Frequency|K=10": [
+      "O_Create Offer -> O_Created",
+      "O_Created -> O_Sent (mail and online)",
+      "A_Concept -> A_Accepted",
+      "A_Accepted -> O_Create Offer",
+      "A_Validating -> O_Returned",
+      "A_Create Application -> A_Submitted",
+      "W_Complete application -> A_Complete",
+      "O_Sent (mail and online) -> W_Complete application",
+      "A_Complete -> A_Validating",
+      "A_Submitted -> A_Concept"
+    ],
+    "cap120_alpha90_grid12|Mean burden|K=3": [
+      "A_Complete -> A_Cancelled",
+      "A_Complete -> A_Validating",
+      "A_Concept -> A_Accepted"
+    ],
+    "cap120_alpha90_grid12|Mean burden|K=5": [
+      "A_Complete -> A_Cancelled",
+      "A_Complete -> A_Validating",
+      "A_Concept -> A_Accepted",
+      "A_Complete -> O_Create Offer",
+      "A_Incomplete -> A_Validating"
+    ],
+    "cap120_alpha90_grid12|Mean burden|K=10": [
+      "A_Complete -> A_Cancelled",
+      "A_Complete -> A_Validating",
+      "A_Concept -> A_Accepted",
+      "A_Complete -> O_Create Offer",
+      "A_Incomplete -> A_Validating",
+      "O_Sent (mail and online) -> A_Validating",
+      "O_Returned -> W_Validate application",
+      "A_Incomplete -> O_Accepted",
+      "O_Returned -> O_Accepted",
+      "O_Returned -> A_Incomplete"
+    ],
+    "cap120_alpha90_grid12|Empirical Tail|K=3": [
+      "A_Complete -> A_Validating",
+      "A_Complete -> A_Cancelled",
+      "A_Concept -> A_Accepted"
+    ],
+    "cap120_alpha90_grid12|Empirical Tail|K=5": [
+      "A_Complete -> A_Validating",
+      "A_Complete -> A_Cancelled",
+      "A_Concept -> A_Accepted",
+      "A_Incomplete -> A_Validating",
+      "A_Complete -> O_Create Offer"
+    ],
+    "cap120_alpha90_grid12|Empirical Tail|K=10": [
+      "A_Complete -> A_Validating",
+      "A_Complete -> A_Cancelled",
+      "A_Concept -> A_Accepted",
+      "A_Incomplete -> A_Validating",
+      "A_Complete -> O_Create Offer",
+      "O_Sent (mail and online) -> A_Validating",
+      "A_Incomplete -> O_Accepted",
+      "O_Returned -> W_Validate application",
+      "A_Accepted -> O_Create Offer",
+      "O_Returned -> O_Accepted"
+    ],
+    "cap120_alpha90_grid12|Original DRO|K=3": [
+      "A_Complete -> A_Validating",
+      "A_Concept -> A_Accepted",
+      "A_Complete -> O_Create Offer"
+    ],
+    "cap120_alpha90_grid12|Original DRO|K=5": [
+      "A_Complete -> A_Validating",
+      "A_Concept -> A_Accepted",
+      "A_Complete -> O_Create Offer",
+      "A_Complete -> A_Cancelled",
+      "A_Incomplete -> A_Validating"
+    ],
+    "cap120_alpha90_grid12|Original DRO|K=10": [
+      "A_Complete -> A_Validating",
+      "A_Concept -> A_Accepted",
+      "A_Complete -> O_Create Offer",
+      "A_Complete -> A_Cancelled",
+      "A_Incomplete -> A_Validating",
+      "A_Incomplete -> O_Accepted",
+      "O_Returned -> W_Validate application",
+      "O_Sent (mail and online) -> A_Validating",
+      "O_Returned -> A_Incomplete",
+      "O_Returned -> O_Accepted"
+    ],
+    "cap120_alpha90_grid12|Saturation-Aware DRO|K=3": [
+      "A_Complete -> A_Validating",
+      "A_Concept -> A_Accepted",
+      "A_Complete -> O_Create Offer"
+    ],
+    "cap120_alpha90_grid12|Saturation-Aware DRO|K=5": [
+      "A_Complete -> A_Validating",
+      "A_Concept -> A_Accepted",
+      "A_Complete -> O_Create Offer",
+      "A_Complete -> A_Cancelled",
+      "A_Incomplete -> A_Validating"
+    ],
+    "cap120_alpha90_grid12|Saturation-Aware DRO|K=10": [
+      "A_Complete -> A_Validating",
+      "A_Concept -> A_Accepted",
+      "A_Complete -> O_Create Offer",
+      "A_Complete -> A_Cancelled",
+      "A_Incomplete -> A_Validating",
+      "A_Incomplete -> O_Accepted",
+      "O_Returned -> W_Validate application",
+      "O_Sent (mail and online) -> A_Validating",
+      "O_Returned -> A_Incomplete",
+      "O_Returned -> O_Accepted"
+    ]
+  },
+  "q3_accessed_before_freeze": false,
+  "candidate_scores_sha256": "6dceafdb258c66a983f51e4c0798d4a0d2b68d0d993e2d78aac13ffd8d6ad612",
+  "checksum_algorithm": "SHA-256",
+  "manifest_sha256": "9b56a20f976afabac60c5f83e0a50ec6c5a13c8056a24deced6f57e43194e21f"
+}

@@ -1,0 +1,17 @@
+scope,key,present_count,coverage_pct,xes_types,sample_values
+case,Spend area text,251734,100.0,string:251734,CAPEX & SOCS | Marketing | Enterprise Services | Workforce Services | Others
+case,Company,251734,100.0,string:251734,companyID_0000 | companyID_0001 | companyID_0002 | companyID_0003
+case,Document Type,251734,100.0,string:251734,EC Purchase order | Standard PO | Framework order
+case,Sub spend area text,251734,100.0,string:251734,Facility Management | Marketing Support Services | Digital Marketing | Office Supplies | HR Services
+case,Purchasing Document,251734,100.0,string:251734,2000000000 | 2000000001 | 2000000002 | 2000000003 | 2000000004
+case,Purch. Doc. Category name,251734,100.0,string:251734,Purchase order
+case,Vendor,251734,100.0,string:251734,vendorID_0000 | vendorID_0001 | vendorID_0002 | vendorID_0003 | vendorID_0004
+case,Item Type,251734,100.0,string:251734,Standard | Service | Consignment | Subcontracting | Third-party
+case,Item Category,251734,100.0,string:251734,"3-way match, invoice before GR | 3-way match, invoice after GR | Consignment | 2-way match"
+case,Spend classification text,251734,100.0,string:251734,NPR | OTHER |  | PR
+case,Source,251734,100.0,string:251734,sourceSystemID_0000
+case,Name,251734,100.0,string:251734,vendor_0000 | vendor_0001 | vendor_0002 | vendor_0003 | vendor_0004
+case,GR-Based Inv. Verif.,251734,100.0,boolean:251734,False | True
+case,Item,251734,100.0,string:251734,00001 | 00002 | 00003 | 00004 | 00005
+case,concept:name,251734,100.0,string:251734,2000000000_00001 | 2000000001_00001 | 2000000002_00001 | 2000000003_00001 | 2000000003_00002
+case,Goods Receipt,251734,100.0,boolean:251734,True | False
