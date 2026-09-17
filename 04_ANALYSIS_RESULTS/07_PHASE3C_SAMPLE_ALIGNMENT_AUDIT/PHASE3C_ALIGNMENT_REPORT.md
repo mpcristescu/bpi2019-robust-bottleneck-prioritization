@@ -9,7 +9,7 @@ No new candidate selection, parameter tuning, or out-of-time evaluation was perf
 ## Input isolation
 
 Q3 was NOT read or used.
-The Parquet predicate read extends beyond 30 June only because a destination timestamp after June can belong to an H1-origin transition under the exact Phase 3 convention. Only rows with an inferred origin in H1 are retained. No Q3-origin row, Q3 result file, Q3 figure, or Q3-derived statistic enters the analysis.
+The Parquet predicate read extends beyond 30 June only because a destination timestamp after June can belong to an H1-origin transition under the exact Phase 3 convention. Only rows with an inferred origin in H1 are retained. No Q3-origin row, Q3 result file, or Q3-derived statistic enters the analysis.
 Events input: `04_ANALYSIS_RESULTS/03_PHASE2_PROCESS_STRUCTURE/processed/events_primary_cohort.parquet`.
 Destination read window: `2018-01-01T00:00:00+00:00` through `2019-01-18T13:34:01+00:00` as an exclusive upper bound.
 Reconstructed H1-origin observations: **659,827**.

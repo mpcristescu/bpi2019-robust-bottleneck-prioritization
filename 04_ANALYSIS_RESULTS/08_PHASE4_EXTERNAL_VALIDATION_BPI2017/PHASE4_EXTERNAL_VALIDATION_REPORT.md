@@ -120,7 +120,7 @@ Sensitivity rows: **120**.
 
 Random seed: **20260914**.
 The outcome is inter-event elapsed time. The primary preprocessing is COMPLETE-only. H1 origins are January to June 2016. Q3 origins are July to September 2016.
-Phases 1 through 3C were not modified. The result archive excludes the XES.GZ dataset and contains code, output tables, figures, and provenance metadata.
+Phases 1 through 3C were not modified. The results exclude the XES.GZ dataset and contain code, output tables, and provenance metadata.
 
 ## Warnings
 

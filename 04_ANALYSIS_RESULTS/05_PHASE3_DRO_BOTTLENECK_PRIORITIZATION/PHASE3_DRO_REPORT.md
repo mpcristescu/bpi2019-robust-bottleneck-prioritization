@@ -69,7 +69,7 @@ The 120-day cap equals 2880 hours. The primary 90-day cap equals 2160 hours.
 - Epsilon calibration is H1-only.
 - The random seed is 20260914.
 - Phases 1, 1B, 2, and 2B were not modified.
-- The result archive excludes the original XES file and the large Parquet files.
+- The results exclude the original XES file and the large Parquet files.
 
 ## Warnings
 - The outcome is inter-event elapsed time reconstructed from consecutive recorded events. It is not a task execution duration or pure queue delay.

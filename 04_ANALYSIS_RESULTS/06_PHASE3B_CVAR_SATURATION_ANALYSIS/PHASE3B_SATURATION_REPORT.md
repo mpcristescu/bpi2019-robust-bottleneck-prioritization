@@ -85,6 +85,6 @@ The kappa analysis keeps the primary radius capped at `min(epsilon_primary, kapp
 | seed = 20260914 | PASS |
 | Phases 1 to 3 were not modified | PASS |
 
-The full derivation is in `THEORETICAL_NOTE.md`. The archive excludes the XES file and large Parquet files.
+The full derivation is in `THEORETICAL_NOTE.md`. The outputs exclude the XES file and large Parquet files.
 
 The empirical saturation result explains why bounded-support worst-case CVaR values can collapse to the cap when the calibrated radius crosses the transport threshold. It does not establish out-of-time predictive superiority for a new method.
