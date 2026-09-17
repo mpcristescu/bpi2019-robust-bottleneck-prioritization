@@ -5,6 +5,7 @@ Analysis repository for the BPI Challenge 2019 development log and the BPI Chall
 Author: Marian Pompiliu Cristescu
 Affiliation: Lucian Blaga University of Sibiu, Romania
 Contact: marian.cristescu@ulbsibiu.ro
+Public repository URL: https://github.com/REPLACE_WITH_GITHUB_USERNAME/bpi2019-robust-bottleneck-prioritization
 
 ## Scope
 
