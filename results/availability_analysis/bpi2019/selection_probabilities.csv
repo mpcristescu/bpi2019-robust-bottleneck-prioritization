@@ -1,0 +1,90 @@
+method,K,transition,selection_probability,eligibility_probability,in_primary
+Frequency,3,Record Service Entry Sheet -> Record Service Entry Sheet,1.0,1.0,True
+Frequency,3,Record Invoice Receipt -> Clear Invoice,0.168,1.0,False
+Frequency,3,Create Purchase Order Item -> Vendor creates invoice,0.96,1.0,True
+Frequency,3,Vendor creates invoice -> Record Goods Receipt,0.872,1.0,True
+Frequency,5,Record Service Entry Sheet -> Record Service Entry Sheet,1.0,1.0,True
+Frequency,5,Record Invoice Receipt -> Clear Invoice,0.74,1.0,True
+Frequency,5,Create Purchase Order Item -> Vendor creates invoice,1.0,1.0,True
+Frequency,5,Vendor creates invoice -> Record Goods Receipt,1.0,1.0,True
+Frequency,5,Record Goods Receipt -> Record Invoice Receipt,0.994,1.0,True
+Frequency,5,Vendor creates invoice -> Record Invoice Receipt,0.214,1.0,False
+Frequency,5,Create Purchase Order Item -> Record Goods Receipt,0.014,1.0,False
+Frequency,5,Record Goods Receipt -> Vendor creates invoice,0.038,1.0,False
+Frequency,10,Record Service Entry Sheet -> Record Service Entry Sheet,1.0,1.0,True
+Frequency,10,Record Invoice Receipt -> Clear Invoice,1.0,1.0,True
+Frequency,10,Create Purchase Order Item -> Vendor creates invoice,1.0,1.0,True
+Frequency,10,Vendor creates invoice -> Record Goods Receipt,1.0,1.0,True
+Frequency,10,Record Goods Receipt -> Record Invoice Receipt,1.0,1.0,True
+Frequency,10,Vendor creates invoice -> Record Invoice Receipt,1.0,1.0,True
+Frequency,10,Record Goods Receipt -> Vendor creates invoice,1.0,1.0,True
+Frequency,10,Create Purchase Order Item -> Record Goods Receipt,1.0,1.0,True
+Frequency,10,Record Goods Receipt -> Record Goods Receipt,1.0,1.0,True
+Frequency,10,Remove Payment Block -> Clear Invoice,0.706,1.0,True
+Frequency,10,Create Purchase Order Item -> Receive Order Confirmation,0.294,1.0,False
+Mean burden,3,Record Invoice Receipt -> Clear Invoice,1.0,1.0,True
+Mean burden,3,Remove Payment Block -> Clear Invoice,0.37,1.0,False
+Mean burden,3,Record Goods Receipt -> Record Invoice Receipt,0.646,1.0,True
+Mean burden,3,Create Purchase Order Item -> Vendor creates invoice,0.926,1.0,True
+Mean burden,3,Create Purchase Order Item -> Record Goods Receipt,0.058,1.0,False
+Mean burden,5,Record Invoice Receipt -> Clear Invoice,1.0,1.0,True
+Mean burden,5,Remove Payment Block -> Clear Invoice,1.0,1.0,True
+Mean burden,5,Record Goods Receipt -> Record Invoice Receipt,1.0,1.0,True
+Mean burden,5,Create Purchase Order Item -> Vendor creates invoice,1.0,1.0,True
+Mean burden,5,Create Purchase Order Item -> Record Goods Receipt,1.0,1.0,True
+Mean burden,10,Record Invoice Receipt -> Clear Invoice,1.0,1.0,True
+Mean burden,10,Remove Payment Block -> Clear Invoice,1.0,1.0,True
+Mean burden,10,Record Goods Receipt -> Record Invoice Receipt,1.0,1.0,True
+Mean burden,10,Create Purchase Order Item -> Vendor creates invoice,1.0,1.0,True
+Mean burden,10,Create Purchase Order Item -> Record Goods Receipt,1.0,1.0,True
+Mean burden,10,Vendor creates invoice -> Record Invoice Receipt,1.0,1.0,True
+Mean burden,10,Record Invoice Receipt -> Remove Payment Block,1.0,1.0,True
+Mean burden,10,Vendor creates invoice -> Record Goods Receipt,1.0,1.0,True
+Mean burden,10,Record Goods Receipt -> Vendor creates invoice,1.0,1.0,True
+Mean burden,10,Vendor creates invoice -> Create Purchase Order Item,0.036,1.0,False
+Mean burden,10,Create Purchase Order Item -> Change Quantity,0.736,1.0,True
+Mean burden,10,Receive Order Confirmation -> Record Goods Receipt,0.228,1.0,False
+Empirical Tail,3,Record Invoice Receipt -> Clear Invoice,1.0,1.0,True
+Empirical Tail,3,Create Purchase Order Item -> Vendor creates invoice,0.982,1.0,True
+Empirical Tail,3,Record Goods Receipt -> Record Invoice Receipt,0.966,1.0,True
+Empirical Tail,3,Vendor creates invoice -> Record Invoice Receipt,0.052,1.0,False
+Empirical Tail,5,Record Invoice Receipt -> Clear Invoice,1.0,1.0,True
+Empirical Tail,5,Create Purchase Order Item -> Vendor creates invoice,1.0,1.0,True
+Empirical Tail,5,Record Goods Receipt -> Record Invoice Receipt,1.0,1.0,True
+Empirical Tail,5,Vendor creates invoice -> Record Invoice Receipt,1.0,1.0,True
+Empirical Tail,5,Create Purchase Order Item -> Record Goods Receipt,1.0,1.0,True
+Empirical Tail,10,Record Invoice Receipt -> Clear Invoice,1.0,1.0,True
+Empirical Tail,10,Create Purchase Order Item -> Vendor creates invoice,1.0,1.0,True
+Empirical Tail,10,Record Goods Receipt -> Record Invoice Receipt,1.0,1.0,True
+Empirical Tail,10,Vendor creates invoice -> Record Invoice Receipt,1.0,1.0,True
+Empirical Tail,10,Create Purchase Order Item -> Record Goods Receipt,1.0,1.0,True
+Empirical Tail,10,Remove Payment Block -> Clear Invoice,1.0,1.0,True
+Empirical Tail,10,Record Invoice Receipt -> Remove Payment Block,1.0,1.0,True
+Empirical Tail,10,Record Goods Receipt -> Vendor creates invoice,1.0,1.0,True
+Empirical Tail,10,Vendor creates invoice -> Record Goods Receipt,1.0,1.0,True
+Empirical Tail,10,Create Purchase Order Item -> Change Quantity,0.85,1.0,True
+Empirical Tail,10,Record Goods Receipt -> Remove Payment Block,0.128,1.0,False
+Empirical Tail,10,Receive Order Confirmation -> Record Goods Receipt,0.022,1.0,False
+Original DRO,3,Record Invoice Receipt -> Clear Invoice,0.752,1.0,True
+Original DRO,3,Create Purchase Order Item -> Vendor creates invoice,0.998,1.0,True
+Original DRO,3,Record Goods Receipt -> Record Invoice Receipt,0.994,1.0,True
+Original DRO,3,Vendor creates invoice -> Record Invoice Receipt,0.24,1.0,False
+Original DRO,3,Create Purchase Order Item -> Record Goods Receipt,0.016,1.0,False
+Original DRO,5,Record Invoice Receipt -> Clear Invoice,1.0,1.0,True
+Original DRO,5,Create Purchase Order Item -> Vendor creates invoice,1.0,1.0,True
+Original DRO,5,Record Goods Receipt -> Record Invoice Receipt,1.0,1.0,True
+Original DRO,5,Vendor creates invoice -> Record Invoice Receipt,1.0,1.0,True
+Original DRO,5,Create Purchase Order Item -> Record Goods Receipt,1.0,1.0,True
+Original DRO,10,Record Invoice Receipt -> Clear Invoice,1.0,1.0,True
+Original DRO,10,Create Purchase Order Item -> Vendor creates invoice,1.0,1.0,True
+Original DRO,10,Record Goods Receipt -> Record Invoice Receipt,1.0,1.0,True
+Original DRO,10,Vendor creates invoice -> Record Invoice Receipt,1.0,1.0,True
+Original DRO,10,Create Purchase Order Item -> Record Goods Receipt,1.0,1.0,True
+Original DRO,10,Record Goods Receipt -> Vendor creates invoice,1.0,1.0,True
+Original DRO,10,Remove Payment Block -> Clear Invoice,1.0,1.0,True
+Original DRO,10,Vendor creates invoice -> Record Goods Receipt,1.0,1.0,True
+Original DRO,10,Record Invoice Receipt -> Remove Payment Block,1.0,1.0,True
+Original DRO,10,Record Goods Receipt -> Remove Payment Block,0.404,1.0,True
+Original DRO,10,Receive Order Confirmation -> Record Goods Receipt,0.412,1.0,False
+Original DRO,10,Create Purchase Order Item -> Receive Order Confirmation,0.166,1.0,False
+Original DRO,10,Create Purchase Order Item -> Change Quantity,0.018,1.0,False

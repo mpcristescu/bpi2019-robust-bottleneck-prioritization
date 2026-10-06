@@ -1,0 +1,13 @@
+method,K,replicates,mean_jaccard,p05_jaccard,p95_jaccard,median_eligible_candidates,min_eligible_candidates,max_eligible_candidates
+Frequency,3,500,0.916,0.5,1.0,59.0,46,67
+Frequency,5,500,0.9113333333333333,0.6666666666666666,1.0,59.0,46,67
+Frequency,10,500,0.9465454545454545,0.8181818181818182,1.0,59.0,46,67
+Mean burden,3,500,0.786,0.5,1.0,59.0,46,67
+Mean burden,5,500,1.0,1.0,1.0,59.0,46,67
+Mean burden,10,500,0.952,0.8181818181818182,1.0,59.0,46,67
+Empirical Tail,3,500,0.974,0.5,1.0,59.0,46,67
+Empirical Tail,5,500,1.0,1.0,1.0,59.0,46,67
+Empirical Tail,10,500,0.9727272727272728,0.8181818181818182,1.0,59.0,46,67
+Original DRO,3,500,0.872,0.5,1.0,59.0,46,67
+Original DRO,5,500,1.0,1.0,1.0,59.0,46,67
+Original DRO,10,500,0.8916363636363638,0.8181818181818182,1.0,59.0,46,67

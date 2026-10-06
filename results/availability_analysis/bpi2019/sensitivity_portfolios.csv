@@ -1,0 +1,1369 @@
+log,method,K,rank,transition,configuration
+bpi2019,Frequency,3,1,Record Service Entry Sheet -> Record Service Entry Sheet,primary
+bpi2019,Frequency,3,2,Create Purchase Order Item -> Vendor creates invoice,primary
+bpi2019,Frequency,3,3,Vendor creates invoice -> Record Goods Receipt,primary
+bpi2019,Frequency,5,1,Record Service Entry Sheet -> Record Service Entry Sheet,primary
+bpi2019,Frequency,5,2,Create Purchase Order Item -> Vendor creates invoice,primary
+bpi2019,Frequency,5,3,Vendor creates invoice -> Record Goods Receipt,primary
+bpi2019,Frequency,5,4,Record Invoice Receipt -> Clear Invoice,primary
+bpi2019,Frequency,5,5,Record Goods Receipt -> Record Invoice Receipt,primary
+bpi2019,Frequency,10,1,Record Service Entry Sheet -> Record Service Entry Sheet,primary
+bpi2019,Frequency,10,2,Create Purchase Order Item -> Vendor creates invoice,primary
+bpi2019,Frequency,10,3,Vendor creates invoice -> Record Goods Receipt,primary
+bpi2019,Frequency,10,4,Record Invoice Receipt -> Clear Invoice,primary
+bpi2019,Frequency,10,5,Record Goods Receipt -> Record Invoice Receipt,primary
+bpi2019,Frequency,10,6,Vendor creates invoice -> Record Invoice Receipt,primary
+bpi2019,Frequency,10,7,Record Goods Receipt -> Vendor creates invoice,primary
+bpi2019,Frequency,10,8,Create Purchase Order Item -> Record Goods Receipt,primary
+bpi2019,Frequency,10,9,Record Goods Receipt -> Record Goods Receipt,primary
+bpi2019,Frequency,10,10,Remove Payment Block -> Clear Invoice,primary
+bpi2019,Mean burden,3,1,Record Invoice Receipt -> Clear Invoice,primary
+bpi2019,Mean burden,3,2,Create Purchase Order Item -> Vendor creates invoice,primary
+bpi2019,Mean burden,3,3,Record Goods Receipt -> Record Invoice Receipt,primary
+bpi2019,Mean burden,5,1,Record Invoice Receipt -> Clear Invoice,primary
+bpi2019,Mean burden,5,2,Create Purchase Order Item -> Vendor creates invoice,primary
+bpi2019,Mean burden,5,3,Record Goods Receipt -> Record Invoice Receipt,primary
+bpi2019,Mean burden,5,4,Remove Payment Block -> Clear Invoice,primary
+bpi2019,Mean burden,5,5,Create Purchase Order Item -> Record Goods Receipt,primary
+bpi2019,Mean burden,10,1,Record Invoice Receipt -> Clear Invoice,primary
+bpi2019,Mean burden,10,2,Create Purchase Order Item -> Vendor creates invoice,primary
+bpi2019,Mean burden,10,3,Record Goods Receipt -> Record Invoice Receipt,primary
+bpi2019,Mean burden,10,4,Remove Payment Block -> Clear Invoice,primary
+bpi2019,Mean burden,10,5,Create Purchase Order Item -> Record Goods Receipt,primary
+bpi2019,Mean burden,10,6,Vendor creates invoice -> Record Invoice Receipt,primary
+bpi2019,Mean burden,10,7,Record Invoice Receipt -> Remove Payment Block,primary
+bpi2019,Mean burden,10,8,Vendor creates invoice -> Record Goods Receipt,primary
+bpi2019,Mean burden,10,9,Record Goods Receipt -> Vendor creates invoice,primary
+bpi2019,Mean burden,10,10,Create Purchase Order Item -> Change Quantity,primary
+bpi2019,Empirical Tail,3,1,Record Invoice Receipt -> Clear Invoice,primary
+bpi2019,Empirical Tail,3,2,Create Purchase Order Item -> Vendor creates invoice,primary
+bpi2019,Empirical Tail,3,3,Record Goods Receipt -> Record Invoice Receipt,primary
+bpi2019,Empirical Tail,5,1,Record Invoice Receipt -> Clear Invoice,primary
+bpi2019,Empirical Tail,5,2,Create Purchase Order Item -> Vendor creates invoice,primary
+bpi2019,Empirical Tail,5,3,Record Goods Receipt -> Record Invoice Receipt,primary
+bpi2019,Empirical Tail,5,4,Vendor creates invoice -> Record Invoice Receipt,primary
+bpi2019,Empirical Tail,5,5,Create Purchase Order Item -> Record Goods Receipt,primary
+bpi2019,Empirical Tail,10,1,Record Invoice Receipt -> Clear Invoice,primary
+bpi2019,Empirical Tail,10,2,Create Purchase Order Item -> Vendor creates invoice,primary
+bpi2019,Empirical Tail,10,3,Record Goods Receipt -> Record Invoice Receipt,primary
+bpi2019,Empirical Tail,10,4,Vendor creates invoice -> Record Invoice Receipt,primary
+bpi2019,Empirical Tail,10,5,Create Purchase Order Item -> Record Goods Receipt,primary
+bpi2019,Empirical Tail,10,6,Remove Payment Block -> Clear Invoice,primary
+bpi2019,Empirical Tail,10,7,Record Goods Receipt -> Vendor creates invoice,primary
+bpi2019,Empirical Tail,10,8,Record Invoice Receipt -> Remove Payment Block,primary
+bpi2019,Empirical Tail,10,9,Vendor creates invoice -> Record Goods Receipt,primary
+bpi2019,Empirical Tail,10,10,Create Purchase Order Item -> Change Quantity,primary
+bpi2019,Original DRO,3,1,Create Purchase Order Item -> Vendor creates invoice,primary
+bpi2019,Original DRO,3,2,Record Invoice Receipt -> Clear Invoice,primary
+bpi2019,Original DRO,3,3,Record Goods Receipt -> Record Invoice Receipt,primary
+bpi2019,Original DRO,5,1,Create Purchase Order Item -> Vendor creates invoice,primary
+bpi2019,Original DRO,5,2,Record Invoice Receipt -> Clear Invoice,primary
+bpi2019,Original DRO,5,3,Record Goods Receipt -> Record Invoice Receipt,primary
+bpi2019,Original DRO,5,4,Vendor creates invoice -> Record Invoice Receipt,primary
+bpi2019,Original DRO,5,5,Create Purchase Order Item -> Record Goods Receipt,primary
+bpi2019,Original DRO,10,1,Create Purchase Order Item -> Vendor creates invoice,primary
+bpi2019,Original DRO,10,2,Record Invoice Receipt -> Clear Invoice,primary
+bpi2019,Original DRO,10,3,Record Goods Receipt -> Record Invoice Receipt,primary
+bpi2019,Original DRO,10,4,Vendor creates invoice -> Record Invoice Receipt,primary
+bpi2019,Original DRO,10,5,Create Purchase Order Item -> Record Goods Receipt,primary
+bpi2019,Original DRO,10,6,Record Goods Receipt -> Vendor creates invoice,primary
+bpi2019,Original DRO,10,7,Remove Payment Block -> Clear Invoice,primary
+bpi2019,Original DRO,10,8,Vendor creates invoice -> Record Goods Receipt,primary
+bpi2019,Original DRO,10,9,Record Invoice Receipt -> Remove Payment Block,primary
+bpi2019,Original DRO,10,10,Record Goods Receipt -> Remove Payment Block,primary
+bpi2019,Frequency,3,1,Record Service Entry Sheet -> Record Service Entry Sheet,block_7d
+bpi2019,Frequency,3,2,Create Purchase Order Item -> Vendor creates invoice,block_7d
+bpi2019,Frequency,3,3,Vendor creates invoice -> Record Goods Receipt,block_7d
+bpi2019,Frequency,5,1,Record Service Entry Sheet -> Record Service Entry Sheet,block_7d
+bpi2019,Frequency,5,2,Create Purchase Order Item -> Vendor creates invoice,block_7d
+bpi2019,Frequency,5,3,Vendor creates invoice -> Record Goods Receipt,block_7d
+bpi2019,Frequency,5,4,Record Invoice Receipt -> Clear Invoice,block_7d
+bpi2019,Frequency,5,5,Record Goods Receipt -> Record Invoice Receipt,block_7d
+bpi2019,Frequency,10,1,Record Service Entry Sheet -> Record Service Entry Sheet,block_7d
+bpi2019,Frequency,10,2,Create Purchase Order Item -> Vendor creates invoice,block_7d
+bpi2019,Frequency,10,3,Vendor creates invoice -> Record Goods Receipt,block_7d
+bpi2019,Frequency,10,4,Record Invoice Receipt -> Clear Invoice,block_7d
+bpi2019,Frequency,10,5,Record Goods Receipt -> Record Invoice Receipt,block_7d
+bpi2019,Frequency,10,6,Vendor creates invoice -> Record Invoice Receipt,block_7d
+bpi2019,Frequency,10,7,Record Goods Receipt -> Vendor creates invoice,block_7d
+bpi2019,Frequency,10,8,Create Purchase Order Item -> Record Goods Receipt,block_7d
+bpi2019,Frequency,10,9,Record Goods Receipt -> Record Goods Receipt,block_7d
+bpi2019,Frequency,10,10,Remove Payment Block -> Clear Invoice,block_7d
+bpi2019,Mean burden,3,1,Record Invoice Receipt -> Clear Invoice,block_7d
+bpi2019,Mean burden,3,2,Create Purchase Order Item -> Vendor creates invoice,block_7d
+bpi2019,Mean burden,3,3,Record Goods Receipt -> Record Invoice Receipt,block_7d
+bpi2019,Mean burden,5,1,Record Invoice Receipt -> Clear Invoice,block_7d
+bpi2019,Mean burden,5,2,Create Purchase Order Item -> Vendor creates invoice,block_7d
+bpi2019,Mean burden,5,3,Record Goods Receipt -> Record Invoice Receipt,block_7d
+bpi2019,Mean burden,5,4,Remove Payment Block -> Clear Invoice,block_7d
+bpi2019,Mean burden,5,5,Create Purchase Order Item -> Record Goods Receipt,block_7d
+bpi2019,Mean burden,10,1,Record Invoice Receipt -> Clear Invoice,block_7d
+bpi2019,Mean burden,10,2,Create Purchase Order Item -> Vendor creates invoice,block_7d
+bpi2019,Mean burden,10,3,Record Goods Receipt -> Record Invoice Receipt,block_7d
+bpi2019,Mean burden,10,4,Remove Payment Block -> Clear Invoice,block_7d
+bpi2019,Mean burden,10,5,Create Purchase Order Item -> Record Goods Receipt,block_7d
+bpi2019,Mean burden,10,6,Vendor creates invoice -> Record Invoice Receipt,block_7d
+bpi2019,Mean burden,10,7,Record Invoice Receipt -> Remove Payment Block,block_7d
+bpi2019,Mean burden,10,8,Vendor creates invoice -> Record Goods Receipt,block_7d
+bpi2019,Mean burden,10,9,Record Goods Receipt -> Vendor creates invoice,block_7d
+bpi2019,Mean burden,10,10,Create Purchase Order Item -> Change Quantity,block_7d
+bpi2019,Empirical Tail,3,1,Record Invoice Receipt -> Clear Invoice,block_7d
+bpi2019,Empirical Tail,3,2,Create Purchase Order Item -> Vendor creates invoice,block_7d
+bpi2019,Empirical Tail,3,3,Record Goods Receipt -> Record Invoice Receipt,block_7d
+bpi2019,Empirical Tail,5,1,Record Invoice Receipt -> Clear Invoice,block_7d
+bpi2019,Empirical Tail,5,2,Create Purchase Order Item -> Vendor creates invoice,block_7d
+bpi2019,Empirical Tail,5,3,Record Goods Receipt -> Record Invoice Receipt,block_7d
+bpi2019,Empirical Tail,5,4,Vendor creates invoice -> Record Invoice Receipt,block_7d
+bpi2019,Empirical Tail,5,5,Create Purchase Order Item -> Record Goods Receipt,block_7d
+bpi2019,Empirical Tail,10,1,Record Invoice Receipt -> Clear Invoice,block_7d
+bpi2019,Empirical Tail,10,2,Create Purchase Order Item -> Vendor creates invoice,block_7d
+bpi2019,Empirical Tail,10,3,Record Goods Receipt -> Record Invoice Receipt,block_7d
+bpi2019,Empirical Tail,10,4,Vendor creates invoice -> Record Invoice Receipt,block_7d
+bpi2019,Empirical Tail,10,5,Create Purchase Order Item -> Record Goods Receipt,block_7d
+bpi2019,Empirical Tail,10,6,Remove Payment Block -> Clear Invoice,block_7d
+bpi2019,Empirical Tail,10,7,Record Goods Receipt -> Vendor creates invoice,block_7d
+bpi2019,Empirical Tail,10,8,Record Invoice Receipt -> Remove Payment Block,block_7d
+bpi2019,Empirical Tail,10,9,Vendor creates invoice -> Record Goods Receipt,block_7d
+bpi2019,Empirical Tail,10,10,Create Purchase Order Item -> Change Quantity,block_7d
+bpi2019,Original DRO,3,1,Create Purchase Order Item -> Vendor creates invoice,block_7d
+bpi2019,Original DRO,3,2,Record Invoice Receipt -> Clear Invoice,block_7d
+bpi2019,Original DRO,3,3,Record Goods Receipt -> Record Invoice Receipt,block_7d
+bpi2019,Original DRO,5,1,Create Purchase Order Item -> Vendor creates invoice,block_7d
+bpi2019,Original DRO,5,2,Record Invoice Receipt -> Clear Invoice,block_7d
+bpi2019,Original DRO,5,3,Record Goods Receipt -> Record Invoice Receipt,block_7d
+bpi2019,Original DRO,5,4,Vendor creates invoice -> Record Invoice Receipt,block_7d
+bpi2019,Original DRO,5,5,Create Purchase Order Item -> Record Goods Receipt,block_7d
+bpi2019,Original DRO,10,1,Create Purchase Order Item -> Vendor creates invoice,block_7d
+bpi2019,Original DRO,10,2,Record Invoice Receipt -> Clear Invoice,block_7d
+bpi2019,Original DRO,10,3,Record Goods Receipt -> Record Invoice Receipt,block_7d
+bpi2019,Original DRO,10,4,Vendor creates invoice -> Record Invoice Receipt,block_7d
+bpi2019,Original DRO,10,5,Create Purchase Order Item -> Record Goods Receipt,block_7d
+bpi2019,Original DRO,10,6,Record Goods Receipt -> Vendor creates invoice,block_7d
+bpi2019,Original DRO,10,7,Remove Payment Block -> Clear Invoice,block_7d
+bpi2019,Original DRO,10,8,Vendor creates invoice -> Record Goods Receipt,block_7d
+bpi2019,Original DRO,10,9,Record Invoice Receipt -> Remove Payment Block,block_7d
+bpi2019,Original DRO,10,10,Record Goods Receipt -> Remove Payment Block,block_7d
+bpi2019,Frequency,3,1,Record Service Entry Sheet -> Record Service Entry Sheet,block_28d
+bpi2019,Frequency,3,2,Create Purchase Order Item -> Vendor creates invoice,block_28d
+bpi2019,Frequency,3,3,Vendor creates invoice -> Record Goods Receipt,block_28d
+bpi2019,Frequency,5,1,Record Service Entry Sheet -> Record Service Entry Sheet,block_28d
+bpi2019,Frequency,5,2,Create Purchase Order Item -> Vendor creates invoice,block_28d
+bpi2019,Frequency,5,3,Vendor creates invoice -> Record Goods Receipt,block_28d
+bpi2019,Frequency,5,4,Record Invoice Receipt -> Clear Invoice,block_28d
+bpi2019,Frequency,5,5,Record Goods Receipt -> Record Invoice Receipt,block_28d
+bpi2019,Frequency,10,1,Record Service Entry Sheet -> Record Service Entry Sheet,block_28d
+bpi2019,Frequency,10,2,Create Purchase Order Item -> Vendor creates invoice,block_28d
+bpi2019,Frequency,10,3,Vendor creates invoice -> Record Goods Receipt,block_28d
+bpi2019,Frequency,10,4,Record Invoice Receipt -> Clear Invoice,block_28d
+bpi2019,Frequency,10,5,Record Goods Receipt -> Record Invoice Receipt,block_28d
+bpi2019,Frequency,10,6,Vendor creates invoice -> Record Invoice Receipt,block_28d
+bpi2019,Frequency,10,7,Record Goods Receipt -> Vendor creates invoice,block_28d
+bpi2019,Frequency,10,8,Create Purchase Order Item -> Record Goods Receipt,block_28d
+bpi2019,Frequency,10,9,Record Goods Receipt -> Record Goods Receipt,block_28d
+bpi2019,Frequency,10,10,Remove Payment Block -> Clear Invoice,block_28d
+bpi2019,Mean burden,3,1,Record Invoice Receipt -> Clear Invoice,block_28d
+bpi2019,Mean burden,3,2,Create Purchase Order Item -> Vendor creates invoice,block_28d
+bpi2019,Mean burden,3,3,Record Goods Receipt -> Record Invoice Receipt,block_28d
+bpi2019,Mean burden,5,1,Record Invoice Receipt -> Clear Invoice,block_28d
+bpi2019,Mean burden,5,2,Create Purchase Order Item -> Vendor creates invoice,block_28d
+bpi2019,Mean burden,5,3,Record Goods Receipt -> Record Invoice Receipt,block_28d
+bpi2019,Mean burden,5,4,Remove Payment Block -> Clear Invoice,block_28d
+bpi2019,Mean burden,5,5,Create Purchase Order Item -> Record Goods Receipt,block_28d
+bpi2019,Mean burden,10,1,Record Invoice Receipt -> Clear Invoice,block_28d
+bpi2019,Mean burden,10,2,Create Purchase Order Item -> Vendor creates invoice,block_28d
+bpi2019,Mean burden,10,3,Record Goods Receipt -> Record Invoice Receipt,block_28d
+bpi2019,Mean burden,10,4,Remove Payment Block -> Clear Invoice,block_28d
+bpi2019,Mean burden,10,5,Create Purchase Order Item -> Record Goods Receipt,block_28d
+bpi2019,Mean burden,10,6,Vendor creates invoice -> Record Invoice Receipt,block_28d
+bpi2019,Mean burden,10,7,Record Invoice Receipt -> Remove Payment Block,block_28d
+bpi2019,Mean burden,10,8,Vendor creates invoice -> Record Goods Receipt,block_28d
+bpi2019,Mean burden,10,9,Record Goods Receipt -> Vendor creates invoice,block_28d
+bpi2019,Mean burden,10,10,Create Purchase Order Item -> Change Quantity,block_28d
+bpi2019,Empirical Tail,3,1,Record Invoice Receipt -> Clear Invoice,block_28d
+bpi2019,Empirical Tail,3,2,Create Purchase Order Item -> Vendor creates invoice,block_28d
+bpi2019,Empirical Tail,3,3,Record Goods Receipt -> Record Invoice Receipt,block_28d
+bpi2019,Empirical Tail,5,1,Record Invoice Receipt -> Clear Invoice,block_28d
+bpi2019,Empirical Tail,5,2,Create Purchase Order Item -> Vendor creates invoice,block_28d
+bpi2019,Empirical Tail,5,3,Record Goods Receipt -> Record Invoice Receipt,block_28d
+bpi2019,Empirical Tail,5,4,Vendor creates invoice -> Record Invoice Receipt,block_28d
+bpi2019,Empirical Tail,5,5,Create Purchase Order Item -> Record Goods Receipt,block_28d
+bpi2019,Empirical Tail,10,1,Record Invoice Receipt -> Clear Invoice,block_28d
+bpi2019,Empirical Tail,10,2,Create Purchase Order Item -> Vendor creates invoice,block_28d
+bpi2019,Empirical Tail,10,3,Record Goods Receipt -> Record Invoice Receipt,block_28d
+bpi2019,Empirical Tail,10,4,Vendor creates invoice -> Record Invoice Receipt,block_28d
+bpi2019,Empirical Tail,10,5,Create Purchase Order Item -> Record Goods Receipt,block_28d
+bpi2019,Empirical Tail,10,6,Remove Payment Block -> Clear Invoice,block_28d
+bpi2019,Empirical Tail,10,7,Record Goods Receipt -> Vendor creates invoice,block_28d
+bpi2019,Empirical Tail,10,8,Record Invoice Receipt -> Remove Payment Block,block_28d
+bpi2019,Empirical Tail,10,9,Vendor creates invoice -> Record Goods Receipt,block_28d
+bpi2019,Empirical Tail,10,10,Create Purchase Order Item -> Change Quantity,block_28d
+bpi2019,Original DRO,3,1,Create Purchase Order Item -> Vendor creates invoice,block_28d
+bpi2019,Original DRO,3,2,Record Invoice Receipt -> Clear Invoice,block_28d
+bpi2019,Original DRO,3,3,Record Goods Receipt -> Record Invoice Receipt,block_28d
+bpi2019,Original DRO,5,1,Create Purchase Order Item -> Vendor creates invoice,block_28d
+bpi2019,Original DRO,5,2,Record Invoice Receipt -> Clear Invoice,block_28d
+bpi2019,Original DRO,5,3,Record Goods Receipt -> Record Invoice Receipt,block_28d
+bpi2019,Original DRO,5,4,Vendor creates invoice -> Record Invoice Receipt,block_28d
+bpi2019,Original DRO,5,5,Create Purchase Order Item -> Record Goods Receipt,block_28d
+bpi2019,Original DRO,10,1,Create Purchase Order Item -> Vendor creates invoice,block_28d
+bpi2019,Original DRO,10,2,Record Invoice Receipt -> Clear Invoice,block_28d
+bpi2019,Original DRO,10,3,Record Goods Receipt -> Record Invoice Receipt,block_28d
+bpi2019,Original DRO,10,4,Vendor creates invoice -> Record Invoice Receipt,block_28d
+bpi2019,Original DRO,10,5,Create Purchase Order Item -> Record Goods Receipt,block_28d
+bpi2019,Original DRO,10,6,Record Goods Receipt -> Vendor creates invoice,block_28d
+bpi2019,Original DRO,10,7,Remove Payment Block -> Clear Invoice,block_28d
+bpi2019,Original DRO,10,8,Vendor creates invoice -> Record Goods Receipt,block_28d
+bpi2019,Original DRO,10,9,Record Invoice Receipt -> Remove Payment Block,block_28d
+bpi2019,Original DRO,10,10,Receive Order Confirmation -> Record Goods Receipt,block_28d
+bpi2019,Frequency,3,1,Record Service Entry Sheet -> Record Service Entry Sheet,block_min_50
+bpi2019,Frequency,3,2,Create Purchase Order Item -> Vendor creates invoice,block_min_50
+bpi2019,Frequency,3,3,Vendor creates invoice -> Record Goods Receipt,block_min_50
+bpi2019,Frequency,5,1,Record Service Entry Sheet -> Record Service Entry Sheet,block_min_50
+bpi2019,Frequency,5,2,Create Purchase Order Item -> Vendor creates invoice,block_min_50
+bpi2019,Frequency,5,3,Vendor creates invoice -> Record Goods Receipt,block_min_50
+bpi2019,Frequency,5,4,Record Invoice Receipt -> Clear Invoice,block_min_50
+bpi2019,Frequency,5,5,Record Goods Receipt -> Record Invoice Receipt,block_min_50
+bpi2019,Frequency,10,1,Record Service Entry Sheet -> Record Service Entry Sheet,block_min_50
+bpi2019,Frequency,10,2,Create Purchase Order Item -> Vendor creates invoice,block_min_50
+bpi2019,Frequency,10,3,Vendor creates invoice -> Record Goods Receipt,block_min_50
+bpi2019,Frequency,10,4,Record Invoice Receipt -> Clear Invoice,block_min_50
+bpi2019,Frequency,10,5,Record Goods Receipt -> Record Invoice Receipt,block_min_50
+bpi2019,Frequency,10,6,Vendor creates invoice -> Record Invoice Receipt,block_min_50
+bpi2019,Frequency,10,7,Record Goods Receipt -> Vendor creates invoice,block_min_50
+bpi2019,Frequency,10,8,Create Purchase Order Item -> Record Goods Receipt,block_min_50
+bpi2019,Frequency,10,9,Record Goods Receipt -> Record Goods Receipt,block_min_50
+bpi2019,Frequency,10,10,Remove Payment Block -> Clear Invoice,block_min_50
+bpi2019,Mean burden,3,1,Record Invoice Receipt -> Clear Invoice,block_min_50
+bpi2019,Mean burden,3,2,Create Purchase Order Item -> Vendor creates invoice,block_min_50
+bpi2019,Mean burden,3,3,Record Goods Receipt -> Record Invoice Receipt,block_min_50
+bpi2019,Mean burden,5,1,Record Invoice Receipt -> Clear Invoice,block_min_50
+bpi2019,Mean burden,5,2,Create Purchase Order Item -> Vendor creates invoice,block_min_50
+bpi2019,Mean burden,5,3,Record Goods Receipt -> Record Invoice Receipt,block_min_50
+bpi2019,Mean burden,5,4,Remove Payment Block -> Clear Invoice,block_min_50
+bpi2019,Mean burden,5,5,Create Purchase Order Item -> Record Goods Receipt,block_min_50
+bpi2019,Mean burden,10,1,Record Invoice Receipt -> Clear Invoice,block_min_50
+bpi2019,Mean burden,10,2,Create Purchase Order Item -> Vendor creates invoice,block_min_50
+bpi2019,Mean burden,10,3,Record Goods Receipt -> Record Invoice Receipt,block_min_50
+bpi2019,Mean burden,10,4,Remove Payment Block -> Clear Invoice,block_min_50
+bpi2019,Mean burden,10,5,Create Purchase Order Item -> Record Goods Receipt,block_min_50
+bpi2019,Mean burden,10,6,Vendor creates invoice -> Record Invoice Receipt,block_min_50
+bpi2019,Mean burden,10,7,Record Invoice Receipt -> Remove Payment Block,block_min_50
+bpi2019,Mean burden,10,8,Vendor creates invoice -> Record Goods Receipt,block_min_50
+bpi2019,Mean burden,10,9,Record Goods Receipt -> Vendor creates invoice,block_min_50
+bpi2019,Mean burden,10,10,Create Purchase Order Item -> Change Quantity,block_min_50
+bpi2019,Empirical Tail,3,1,Record Invoice Receipt -> Clear Invoice,block_min_50
+bpi2019,Empirical Tail,3,2,Create Purchase Order Item -> Vendor creates invoice,block_min_50
+bpi2019,Empirical Tail,3,3,Record Goods Receipt -> Record Invoice Receipt,block_min_50
+bpi2019,Empirical Tail,5,1,Record Invoice Receipt -> Clear Invoice,block_min_50
+bpi2019,Empirical Tail,5,2,Create Purchase Order Item -> Vendor creates invoice,block_min_50
+bpi2019,Empirical Tail,5,3,Record Goods Receipt -> Record Invoice Receipt,block_min_50
+bpi2019,Empirical Tail,5,4,Vendor creates invoice -> Record Invoice Receipt,block_min_50
+bpi2019,Empirical Tail,5,5,Create Purchase Order Item -> Record Goods Receipt,block_min_50
+bpi2019,Empirical Tail,10,1,Record Invoice Receipt -> Clear Invoice,block_min_50
+bpi2019,Empirical Tail,10,2,Create Purchase Order Item -> Vendor creates invoice,block_min_50
+bpi2019,Empirical Tail,10,3,Record Goods Receipt -> Record Invoice Receipt,block_min_50
+bpi2019,Empirical Tail,10,4,Vendor creates invoice -> Record Invoice Receipt,block_min_50
+bpi2019,Empirical Tail,10,5,Create Purchase Order Item -> Record Goods Receipt,block_min_50
+bpi2019,Empirical Tail,10,6,Remove Payment Block -> Clear Invoice,block_min_50
+bpi2019,Empirical Tail,10,7,Record Goods Receipt -> Vendor creates invoice,block_min_50
+bpi2019,Empirical Tail,10,8,Record Invoice Receipt -> Remove Payment Block,block_min_50
+bpi2019,Empirical Tail,10,9,Vendor creates invoice -> Record Goods Receipt,block_min_50
+bpi2019,Empirical Tail,10,10,Create Purchase Order Item -> Change Quantity,block_min_50
+bpi2019,Original DRO,3,1,Create Purchase Order Item -> Vendor creates invoice,block_min_50
+bpi2019,Original DRO,3,2,Record Invoice Receipt -> Clear Invoice,block_min_50
+bpi2019,Original DRO,3,3,Record Goods Receipt -> Record Invoice Receipt,block_min_50
+bpi2019,Original DRO,5,1,Create Purchase Order Item -> Vendor creates invoice,block_min_50
+bpi2019,Original DRO,5,2,Record Invoice Receipt -> Clear Invoice,block_min_50
+bpi2019,Original DRO,5,3,Record Goods Receipt -> Record Invoice Receipt,block_min_50
+bpi2019,Original DRO,5,4,Vendor creates invoice -> Record Invoice Receipt,block_min_50
+bpi2019,Original DRO,5,5,Create Purchase Order Item -> Record Goods Receipt,block_min_50
+bpi2019,Original DRO,10,1,Create Purchase Order Item -> Vendor creates invoice,block_min_50
+bpi2019,Original DRO,10,2,Record Invoice Receipt -> Clear Invoice,block_min_50
+bpi2019,Original DRO,10,3,Record Goods Receipt -> Record Invoice Receipt,block_min_50
+bpi2019,Original DRO,10,4,Vendor creates invoice -> Record Invoice Receipt,block_min_50
+bpi2019,Original DRO,10,5,Create Purchase Order Item -> Record Goods Receipt,block_min_50
+bpi2019,Original DRO,10,6,Record Goods Receipt -> Vendor creates invoice,block_min_50
+bpi2019,Original DRO,10,7,Remove Payment Block -> Clear Invoice,block_min_50
+bpi2019,Original DRO,10,8,Vendor creates invoice -> Record Goods Receipt,block_min_50
+bpi2019,Original DRO,10,9,Record Invoice Receipt -> Remove Payment Block,block_min_50
+bpi2019,Original DRO,10,10,Record Goods Receipt -> Remove Payment Block,block_min_50
+bpi2019,Frequency,3,1,Record Service Entry Sheet -> Record Service Entry Sheet,block_min_100
+bpi2019,Frequency,3,2,Create Purchase Order Item -> Vendor creates invoice,block_min_100
+bpi2019,Frequency,3,3,Vendor creates invoice -> Record Goods Receipt,block_min_100
+bpi2019,Frequency,5,1,Record Service Entry Sheet -> Record Service Entry Sheet,block_min_100
+bpi2019,Frequency,5,2,Create Purchase Order Item -> Vendor creates invoice,block_min_100
+bpi2019,Frequency,5,3,Vendor creates invoice -> Record Goods Receipt,block_min_100
+bpi2019,Frequency,5,4,Record Invoice Receipt -> Clear Invoice,block_min_100
+bpi2019,Frequency,5,5,Record Goods Receipt -> Record Invoice Receipt,block_min_100
+bpi2019,Frequency,10,1,Record Service Entry Sheet -> Record Service Entry Sheet,block_min_100
+bpi2019,Frequency,10,2,Create Purchase Order Item -> Vendor creates invoice,block_min_100
+bpi2019,Frequency,10,3,Vendor creates invoice -> Record Goods Receipt,block_min_100
+bpi2019,Frequency,10,4,Record Invoice Receipt -> Clear Invoice,block_min_100
+bpi2019,Frequency,10,5,Record Goods Receipt -> Record Invoice Receipt,block_min_100
+bpi2019,Frequency,10,6,Vendor creates invoice -> Record Invoice Receipt,block_min_100
+bpi2019,Frequency,10,7,Record Goods Receipt -> Vendor creates invoice,block_min_100
+bpi2019,Frequency,10,8,Create Purchase Order Item -> Record Goods Receipt,block_min_100
+bpi2019,Frequency,10,9,Record Goods Receipt -> Record Goods Receipt,block_min_100
+bpi2019,Frequency,10,10,Remove Payment Block -> Clear Invoice,block_min_100
+bpi2019,Mean burden,3,1,Record Invoice Receipt -> Clear Invoice,block_min_100
+bpi2019,Mean burden,3,2,Create Purchase Order Item -> Vendor creates invoice,block_min_100
+bpi2019,Mean burden,3,3,Record Goods Receipt -> Record Invoice Receipt,block_min_100
+bpi2019,Mean burden,5,1,Record Invoice Receipt -> Clear Invoice,block_min_100
+bpi2019,Mean burden,5,2,Create Purchase Order Item -> Vendor creates invoice,block_min_100
+bpi2019,Mean burden,5,3,Record Goods Receipt -> Record Invoice Receipt,block_min_100
+bpi2019,Mean burden,5,4,Remove Payment Block -> Clear Invoice,block_min_100
+bpi2019,Mean burden,5,5,Create Purchase Order Item -> Record Goods Receipt,block_min_100
+bpi2019,Mean burden,10,1,Record Invoice Receipt -> Clear Invoice,block_min_100
+bpi2019,Mean burden,10,2,Create Purchase Order Item -> Vendor creates invoice,block_min_100
+bpi2019,Mean burden,10,3,Record Goods Receipt -> Record Invoice Receipt,block_min_100
+bpi2019,Mean burden,10,4,Remove Payment Block -> Clear Invoice,block_min_100
+bpi2019,Mean burden,10,5,Create Purchase Order Item -> Record Goods Receipt,block_min_100
+bpi2019,Mean burden,10,6,Vendor creates invoice -> Record Invoice Receipt,block_min_100
+bpi2019,Mean burden,10,7,Record Invoice Receipt -> Remove Payment Block,block_min_100
+bpi2019,Mean burden,10,8,Vendor creates invoice -> Record Goods Receipt,block_min_100
+bpi2019,Mean burden,10,9,Record Goods Receipt -> Vendor creates invoice,block_min_100
+bpi2019,Mean burden,10,10,Create Purchase Order Item -> Change Quantity,block_min_100
+bpi2019,Empirical Tail,3,1,Record Invoice Receipt -> Clear Invoice,block_min_100
+bpi2019,Empirical Tail,3,2,Create Purchase Order Item -> Vendor creates invoice,block_min_100
+bpi2019,Empirical Tail,3,3,Record Goods Receipt -> Record Invoice Receipt,block_min_100
+bpi2019,Empirical Tail,5,1,Record Invoice Receipt -> Clear Invoice,block_min_100
+bpi2019,Empirical Tail,5,2,Create Purchase Order Item -> Vendor creates invoice,block_min_100
+bpi2019,Empirical Tail,5,3,Record Goods Receipt -> Record Invoice Receipt,block_min_100
+bpi2019,Empirical Tail,5,4,Vendor creates invoice -> Record Invoice Receipt,block_min_100
+bpi2019,Empirical Tail,5,5,Create Purchase Order Item -> Record Goods Receipt,block_min_100
+bpi2019,Empirical Tail,10,1,Record Invoice Receipt -> Clear Invoice,block_min_100
+bpi2019,Empirical Tail,10,2,Create Purchase Order Item -> Vendor creates invoice,block_min_100
+bpi2019,Empirical Tail,10,3,Record Goods Receipt -> Record Invoice Receipt,block_min_100
+bpi2019,Empirical Tail,10,4,Vendor creates invoice -> Record Invoice Receipt,block_min_100
+bpi2019,Empirical Tail,10,5,Create Purchase Order Item -> Record Goods Receipt,block_min_100
+bpi2019,Empirical Tail,10,6,Remove Payment Block -> Clear Invoice,block_min_100
+bpi2019,Empirical Tail,10,7,Record Goods Receipt -> Vendor creates invoice,block_min_100
+bpi2019,Empirical Tail,10,8,Record Invoice Receipt -> Remove Payment Block,block_min_100
+bpi2019,Empirical Tail,10,9,Vendor creates invoice -> Record Goods Receipt,block_min_100
+bpi2019,Empirical Tail,10,10,Create Purchase Order Item -> Change Quantity,block_min_100
+bpi2019,Original DRO,3,1,Create Purchase Order Item -> Vendor creates invoice,block_min_100
+bpi2019,Original DRO,3,2,Record Invoice Receipt -> Clear Invoice,block_min_100
+bpi2019,Original DRO,3,3,Record Goods Receipt -> Record Invoice Receipt,block_min_100
+bpi2019,Original DRO,5,1,Create Purchase Order Item -> Vendor creates invoice,block_min_100
+bpi2019,Original DRO,5,2,Record Invoice Receipt -> Clear Invoice,block_min_100
+bpi2019,Original DRO,5,3,Record Goods Receipt -> Record Invoice Receipt,block_min_100
+bpi2019,Original DRO,5,4,Vendor creates invoice -> Record Invoice Receipt,block_min_100
+bpi2019,Original DRO,5,5,Create Purchase Order Item -> Record Goods Receipt,block_min_100
+bpi2019,Original DRO,10,1,Create Purchase Order Item -> Vendor creates invoice,block_min_100
+bpi2019,Original DRO,10,2,Record Invoice Receipt -> Clear Invoice,block_min_100
+bpi2019,Original DRO,10,3,Record Goods Receipt -> Record Invoice Receipt,block_min_100
+bpi2019,Original DRO,10,4,Vendor creates invoice -> Record Invoice Receipt,block_min_100
+bpi2019,Original DRO,10,5,Create Purchase Order Item -> Record Goods Receipt,block_min_100
+bpi2019,Original DRO,10,6,Record Goods Receipt -> Vendor creates invoice,block_min_100
+bpi2019,Original DRO,10,7,Remove Payment Block -> Clear Invoice,block_min_100
+bpi2019,Original DRO,10,8,Vendor creates invoice -> Record Goods Receipt,block_min_100
+bpi2019,Original DRO,10,9,Record Invoice Receipt -> Remove Payment Block,block_min_100
+bpi2019,Original DRO,10,10,Record Goods Receipt -> Remove Payment Block,block_min_100
+bpi2019,Frequency,3,1,Record Service Entry Sheet -> Record Service Entry Sheet,leave_one_block_out
+bpi2019,Frequency,3,2,Create Purchase Order Item -> Vendor creates invoice,leave_one_block_out
+bpi2019,Frequency,3,3,Vendor creates invoice -> Record Goods Receipt,leave_one_block_out
+bpi2019,Frequency,5,1,Record Service Entry Sheet -> Record Service Entry Sheet,leave_one_block_out
+bpi2019,Frequency,5,2,Create Purchase Order Item -> Vendor creates invoice,leave_one_block_out
+bpi2019,Frequency,5,3,Vendor creates invoice -> Record Goods Receipt,leave_one_block_out
+bpi2019,Frequency,5,4,Record Invoice Receipt -> Clear Invoice,leave_one_block_out
+bpi2019,Frequency,5,5,Record Goods Receipt -> Record Invoice Receipt,leave_one_block_out
+bpi2019,Frequency,10,1,Record Service Entry Sheet -> Record Service Entry Sheet,leave_one_block_out
+bpi2019,Frequency,10,2,Create Purchase Order Item -> Vendor creates invoice,leave_one_block_out
+bpi2019,Frequency,10,3,Vendor creates invoice -> Record Goods Receipt,leave_one_block_out
+bpi2019,Frequency,10,4,Record Invoice Receipt -> Clear Invoice,leave_one_block_out
+bpi2019,Frequency,10,5,Record Goods Receipt -> Record Invoice Receipt,leave_one_block_out
+bpi2019,Frequency,10,6,Vendor creates invoice -> Record Invoice Receipt,leave_one_block_out
+bpi2019,Frequency,10,7,Record Goods Receipt -> Vendor creates invoice,leave_one_block_out
+bpi2019,Frequency,10,8,Create Purchase Order Item -> Record Goods Receipt,leave_one_block_out
+bpi2019,Frequency,10,9,Record Goods Receipt -> Record Goods Receipt,leave_one_block_out
+bpi2019,Frequency,10,10,Remove Payment Block -> Clear Invoice,leave_one_block_out
+bpi2019,Mean burden,3,1,Record Invoice Receipt -> Clear Invoice,leave_one_block_out
+bpi2019,Mean burden,3,2,Create Purchase Order Item -> Vendor creates invoice,leave_one_block_out
+bpi2019,Mean burden,3,3,Record Goods Receipt -> Record Invoice Receipt,leave_one_block_out
+bpi2019,Mean burden,5,1,Record Invoice Receipt -> Clear Invoice,leave_one_block_out
+bpi2019,Mean burden,5,2,Create Purchase Order Item -> Vendor creates invoice,leave_one_block_out
+bpi2019,Mean burden,5,3,Record Goods Receipt -> Record Invoice Receipt,leave_one_block_out
+bpi2019,Mean burden,5,4,Remove Payment Block -> Clear Invoice,leave_one_block_out
+bpi2019,Mean burden,5,5,Create Purchase Order Item -> Record Goods Receipt,leave_one_block_out
+bpi2019,Mean burden,10,1,Record Invoice Receipt -> Clear Invoice,leave_one_block_out
+bpi2019,Mean burden,10,2,Create Purchase Order Item -> Vendor creates invoice,leave_one_block_out
+bpi2019,Mean burden,10,3,Record Goods Receipt -> Record Invoice Receipt,leave_one_block_out
+bpi2019,Mean burden,10,4,Remove Payment Block -> Clear Invoice,leave_one_block_out
+bpi2019,Mean burden,10,5,Create Purchase Order Item -> Record Goods Receipt,leave_one_block_out
+bpi2019,Mean burden,10,6,Vendor creates invoice -> Record Invoice Receipt,leave_one_block_out
+bpi2019,Mean burden,10,7,Record Invoice Receipt -> Remove Payment Block,leave_one_block_out
+bpi2019,Mean burden,10,8,Vendor creates invoice -> Record Goods Receipt,leave_one_block_out
+bpi2019,Mean burden,10,9,Record Goods Receipt -> Vendor creates invoice,leave_one_block_out
+bpi2019,Mean burden,10,10,Create Purchase Order Item -> Change Quantity,leave_one_block_out
+bpi2019,Empirical Tail,3,1,Record Invoice Receipt -> Clear Invoice,leave_one_block_out
+bpi2019,Empirical Tail,3,2,Create Purchase Order Item -> Vendor creates invoice,leave_one_block_out
+bpi2019,Empirical Tail,3,3,Record Goods Receipt -> Record Invoice Receipt,leave_one_block_out
+bpi2019,Empirical Tail,5,1,Record Invoice Receipt -> Clear Invoice,leave_one_block_out
+bpi2019,Empirical Tail,5,2,Create Purchase Order Item -> Vendor creates invoice,leave_one_block_out
+bpi2019,Empirical Tail,5,3,Record Goods Receipt -> Record Invoice Receipt,leave_one_block_out
+bpi2019,Empirical Tail,5,4,Vendor creates invoice -> Record Invoice Receipt,leave_one_block_out
+bpi2019,Empirical Tail,5,5,Create Purchase Order Item -> Record Goods Receipt,leave_one_block_out
+bpi2019,Empirical Tail,10,1,Record Invoice Receipt -> Clear Invoice,leave_one_block_out
+bpi2019,Empirical Tail,10,2,Create Purchase Order Item -> Vendor creates invoice,leave_one_block_out
+bpi2019,Empirical Tail,10,3,Record Goods Receipt -> Record Invoice Receipt,leave_one_block_out
+bpi2019,Empirical Tail,10,4,Vendor creates invoice -> Record Invoice Receipt,leave_one_block_out
+bpi2019,Empirical Tail,10,5,Create Purchase Order Item -> Record Goods Receipt,leave_one_block_out
+bpi2019,Empirical Tail,10,6,Remove Payment Block -> Clear Invoice,leave_one_block_out
+bpi2019,Empirical Tail,10,7,Record Goods Receipt -> Vendor creates invoice,leave_one_block_out
+bpi2019,Empirical Tail,10,8,Record Invoice Receipt -> Remove Payment Block,leave_one_block_out
+bpi2019,Empirical Tail,10,9,Vendor creates invoice -> Record Goods Receipt,leave_one_block_out
+bpi2019,Empirical Tail,10,10,Create Purchase Order Item -> Change Quantity,leave_one_block_out
+bpi2019,Original DRO,3,1,Create Purchase Order Item -> Vendor creates invoice,leave_one_block_out
+bpi2019,Original DRO,3,2,Record Invoice Receipt -> Clear Invoice,leave_one_block_out
+bpi2019,Original DRO,3,3,Record Goods Receipt -> Record Invoice Receipt,leave_one_block_out
+bpi2019,Original DRO,5,1,Create Purchase Order Item -> Vendor creates invoice,leave_one_block_out
+bpi2019,Original DRO,5,2,Record Invoice Receipt -> Clear Invoice,leave_one_block_out
+bpi2019,Original DRO,5,3,Record Goods Receipt -> Record Invoice Receipt,leave_one_block_out
+bpi2019,Original DRO,5,4,Vendor creates invoice -> Record Invoice Receipt,leave_one_block_out
+bpi2019,Original DRO,5,5,Create Purchase Order Item -> Record Goods Receipt,leave_one_block_out
+bpi2019,Original DRO,10,1,Create Purchase Order Item -> Vendor creates invoice,leave_one_block_out
+bpi2019,Original DRO,10,2,Record Invoice Receipt -> Clear Invoice,leave_one_block_out
+bpi2019,Original DRO,10,3,Record Goods Receipt -> Record Invoice Receipt,leave_one_block_out
+bpi2019,Original DRO,10,4,Vendor creates invoice -> Record Invoice Receipt,leave_one_block_out
+bpi2019,Original DRO,10,5,Create Purchase Order Item -> Record Goods Receipt,leave_one_block_out
+bpi2019,Original DRO,10,6,Record Goods Receipt -> Vendor creates invoice,leave_one_block_out
+bpi2019,Original DRO,10,7,Remove Payment Block -> Clear Invoice,leave_one_block_out
+bpi2019,Original DRO,10,8,Vendor creates invoice -> Record Goods Receipt,leave_one_block_out
+bpi2019,Original DRO,10,9,Record Invoice Receipt -> Remove Payment Block,leave_one_block_out
+bpi2019,Original DRO,10,10,Record Goods Receipt -> Remove Payment Block,leave_one_block_out
+bpi2019,Frequency,3,1,Record Service Entry Sheet -> Record Service Entry Sheet,grid_12h
+bpi2019,Frequency,3,2,Create Purchase Order Item -> Vendor creates invoice,grid_12h
+bpi2019,Frequency,3,3,Vendor creates invoice -> Record Goods Receipt,grid_12h
+bpi2019,Frequency,5,1,Record Service Entry Sheet -> Record Service Entry Sheet,grid_12h
+bpi2019,Frequency,5,2,Create Purchase Order Item -> Vendor creates invoice,grid_12h
+bpi2019,Frequency,5,3,Vendor creates invoice -> Record Goods Receipt,grid_12h
+bpi2019,Frequency,5,4,Record Invoice Receipt -> Clear Invoice,grid_12h
+bpi2019,Frequency,5,5,Record Goods Receipt -> Record Invoice Receipt,grid_12h
+bpi2019,Frequency,10,1,Record Service Entry Sheet -> Record Service Entry Sheet,grid_12h
+bpi2019,Frequency,10,2,Create Purchase Order Item -> Vendor creates invoice,grid_12h
+bpi2019,Frequency,10,3,Vendor creates invoice -> Record Goods Receipt,grid_12h
+bpi2019,Frequency,10,4,Record Invoice Receipt -> Clear Invoice,grid_12h
+bpi2019,Frequency,10,5,Record Goods Receipt -> Record Invoice Receipt,grid_12h
+bpi2019,Frequency,10,6,Vendor creates invoice -> Record Invoice Receipt,grid_12h
+bpi2019,Frequency,10,7,Record Goods Receipt -> Vendor creates invoice,grid_12h
+bpi2019,Frequency,10,8,Create Purchase Order Item -> Record Goods Receipt,grid_12h
+bpi2019,Frequency,10,9,Record Goods Receipt -> Record Goods Receipt,grid_12h
+bpi2019,Frequency,10,10,Remove Payment Block -> Clear Invoice,grid_12h
+bpi2019,Mean burden,3,1,Record Invoice Receipt -> Clear Invoice,grid_12h
+bpi2019,Mean burden,3,2,Create Purchase Order Item -> Vendor creates invoice,grid_12h
+bpi2019,Mean burden,3,3,Record Goods Receipt -> Record Invoice Receipt,grid_12h
+bpi2019,Mean burden,5,1,Record Invoice Receipt -> Clear Invoice,grid_12h
+bpi2019,Mean burden,5,2,Create Purchase Order Item -> Vendor creates invoice,grid_12h
+bpi2019,Mean burden,5,3,Record Goods Receipt -> Record Invoice Receipt,grid_12h
+bpi2019,Mean burden,5,4,Remove Payment Block -> Clear Invoice,grid_12h
+bpi2019,Mean burden,5,5,Create Purchase Order Item -> Record Goods Receipt,grid_12h
+bpi2019,Mean burden,10,1,Record Invoice Receipt -> Clear Invoice,grid_12h
+bpi2019,Mean burden,10,2,Create Purchase Order Item -> Vendor creates invoice,grid_12h
+bpi2019,Mean burden,10,3,Record Goods Receipt -> Record Invoice Receipt,grid_12h
+bpi2019,Mean burden,10,4,Remove Payment Block -> Clear Invoice,grid_12h
+bpi2019,Mean burden,10,5,Create Purchase Order Item -> Record Goods Receipt,grid_12h
+bpi2019,Mean burden,10,6,Vendor creates invoice -> Record Invoice Receipt,grid_12h
+bpi2019,Mean burden,10,7,Record Invoice Receipt -> Remove Payment Block,grid_12h
+bpi2019,Mean burden,10,8,Vendor creates invoice -> Record Goods Receipt,grid_12h
+bpi2019,Mean burden,10,9,Record Goods Receipt -> Vendor creates invoice,grid_12h
+bpi2019,Mean burden,10,10,Create Purchase Order Item -> Change Quantity,grid_12h
+bpi2019,Empirical Tail,3,1,Record Invoice Receipt -> Clear Invoice,grid_12h
+bpi2019,Empirical Tail,3,2,Create Purchase Order Item -> Vendor creates invoice,grid_12h
+bpi2019,Empirical Tail,3,3,Record Goods Receipt -> Record Invoice Receipt,grid_12h
+bpi2019,Empirical Tail,5,1,Record Invoice Receipt -> Clear Invoice,grid_12h
+bpi2019,Empirical Tail,5,2,Create Purchase Order Item -> Vendor creates invoice,grid_12h
+bpi2019,Empirical Tail,5,3,Record Goods Receipt -> Record Invoice Receipt,grid_12h
+bpi2019,Empirical Tail,5,4,Vendor creates invoice -> Record Invoice Receipt,grid_12h
+bpi2019,Empirical Tail,5,5,Create Purchase Order Item -> Record Goods Receipt,grid_12h
+bpi2019,Empirical Tail,10,1,Record Invoice Receipt -> Clear Invoice,grid_12h
+bpi2019,Empirical Tail,10,2,Create Purchase Order Item -> Vendor creates invoice,grid_12h
+bpi2019,Empirical Tail,10,3,Record Goods Receipt -> Record Invoice Receipt,grid_12h
+bpi2019,Empirical Tail,10,4,Vendor creates invoice -> Record Invoice Receipt,grid_12h
+bpi2019,Empirical Tail,10,5,Create Purchase Order Item -> Record Goods Receipt,grid_12h
+bpi2019,Empirical Tail,10,6,Remove Payment Block -> Clear Invoice,grid_12h
+bpi2019,Empirical Tail,10,7,Record Goods Receipt -> Vendor creates invoice,grid_12h
+bpi2019,Empirical Tail,10,8,Record Invoice Receipt -> Remove Payment Block,grid_12h
+bpi2019,Empirical Tail,10,9,Vendor creates invoice -> Record Goods Receipt,grid_12h
+bpi2019,Empirical Tail,10,10,Create Purchase Order Item -> Change Quantity,grid_12h
+bpi2019,Original DRO,3,1,Create Purchase Order Item -> Vendor creates invoice,grid_12h
+bpi2019,Original DRO,3,2,Record Invoice Receipt -> Clear Invoice,grid_12h
+bpi2019,Original DRO,3,3,Record Goods Receipt -> Record Invoice Receipt,grid_12h
+bpi2019,Original DRO,5,1,Create Purchase Order Item -> Vendor creates invoice,grid_12h
+bpi2019,Original DRO,5,2,Record Invoice Receipt -> Clear Invoice,grid_12h
+bpi2019,Original DRO,5,3,Record Goods Receipt -> Record Invoice Receipt,grid_12h
+bpi2019,Original DRO,5,4,Vendor creates invoice -> Record Invoice Receipt,grid_12h
+bpi2019,Original DRO,5,5,Create Purchase Order Item -> Record Goods Receipt,grid_12h
+bpi2019,Original DRO,10,1,Create Purchase Order Item -> Vendor creates invoice,grid_12h
+bpi2019,Original DRO,10,2,Record Invoice Receipt -> Clear Invoice,grid_12h
+bpi2019,Original DRO,10,3,Record Goods Receipt -> Record Invoice Receipt,grid_12h
+bpi2019,Original DRO,10,4,Vendor creates invoice -> Record Invoice Receipt,grid_12h
+bpi2019,Original DRO,10,5,Create Purchase Order Item -> Record Goods Receipt,grid_12h
+bpi2019,Original DRO,10,6,Record Goods Receipt -> Vendor creates invoice,grid_12h
+bpi2019,Original DRO,10,7,Remove Payment Block -> Clear Invoice,grid_12h
+bpi2019,Original DRO,10,8,Vendor creates invoice -> Record Goods Receipt,grid_12h
+bpi2019,Original DRO,10,9,Record Invoice Receipt -> Remove Payment Block,grid_12h
+bpi2019,Original DRO,10,10,Record Goods Receipt -> Remove Payment Block,grid_12h
+bpi2019,Frequency,3,1,Record Service Entry Sheet -> Record Service Entry Sheet,grid_24h
+bpi2019,Frequency,3,2,Create Purchase Order Item -> Vendor creates invoice,grid_24h
+bpi2019,Frequency,3,3,Vendor creates invoice -> Record Goods Receipt,grid_24h
+bpi2019,Frequency,5,1,Record Service Entry Sheet -> Record Service Entry Sheet,grid_24h
+bpi2019,Frequency,5,2,Create Purchase Order Item -> Vendor creates invoice,grid_24h
+bpi2019,Frequency,5,3,Vendor creates invoice -> Record Goods Receipt,grid_24h
+bpi2019,Frequency,5,4,Record Invoice Receipt -> Clear Invoice,grid_24h
+bpi2019,Frequency,5,5,Record Goods Receipt -> Record Invoice Receipt,grid_24h
+bpi2019,Frequency,10,1,Record Service Entry Sheet -> Record Service Entry Sheet,grid_24h
+bpi2019,Frequency,10,2,Create Purchase Order Item -> Vendor creates invoice,grid_24h
+bpi2019,Frequency,10,3,Vendor creates invoice -> Record Goods Receipt,grid_24h
+bpi2019,Frequency,10,4,Record Invoice Receipt -> Clear Invoice,grid_24h
+bpi2019,Frequency,10,5,Record Goods Receipt -> Record Invoice Receipt,grid_24h
+bpi2019,Frequency,10,6,Vendor creates invoice -> Record Invoice Receipt,grid_24h
+bpi2019,Frequency,10,7,Record Goods Receipt -> Vendor creates invoice,grid_24h
+bpi2019,Frequency,10,8,Create Purchase Order Item -> Record Goods Receipt,grid_24h
+bpi2019,Frequency,10,9,Record Goods Receipt -> Record Goods Receipt,grid_24h
+bpi2019,Frequency,10,10,Remove Payment Block -> Clear Invoice,grid_24h
+bpi2019,Mean burden,3,1,Record Invoice Receipt -> Clear Invoice,grid_24h
+bpi2019,Mean burden,3,2,Create Purchase Order Item -> Vendor creates invoice,grid_24h
+bpi2019,Mean burden,3,3,Record Goods Receipt -> Record Invoice Receipt,grid_24h
+bpi2019,Mean burden,5,1,Record Invoice Receipt -> Clear Invoice,grid_24h
+bpi2019,Mean burden,5,2,Create Purchase Order Item -> Vendor creates invoice,grid_24h
+bpi2019,Mean burden,5,3,Record Goods Receipt -> Record Invoice Receipt,grid_24h
+bpi2019,Mean burden,5,4,Remove Payment Block -> Clear Invoice,grid_24h
+bpi2019,Mean burden,5,5,Create Purchase Order Item -> Record Goods Receipt,grid_24h
+bpi2019,Mean burden,10,1,Record Invoice Receipt -> Clear Invoice,grid_24h
+bpi2019,Mean burden,10,2,Create Purchase Order Item -> Vendor creates invoice,grid_24h
+bpi2019,Mean burden,10,3,Record Goods Receipt -> Record Invoice Receipt,grid_24h
+bpi2019,Mean burden,10,4,Remove Payment Block -> Clear Invoice,grid_24h
+bpi2019,Mean burden,10,5,Create Purchase Order Item -> Record Goods Receipt,grid_24h
+bpi2019,Mean burden,10,6,Vendor creates invoice -> Record Invoice Receipt,grid_24h
+bpi2019,Mean burden,10,7,Record Invoice Receipt -> Remove Payment Block,grid_24h
+bpi2019,Mean burden,10,8,Vendor creates invoice -> Record Goods Receipt,grid_24h
+bpi2019,Mean burden,10,9,Record Goods Receipt -> Vendor creates invoice,grid_24h
+bpi2019,Mean burden,10,10,Create Purchase Order Item -> Change Quantity,grid_24h
+bpi2019,Empirical Tail,3,1,Record Invoice Receipt -> Clear Invoice,grid_24h
+bpi2019,Empirical Tail,3,2,Create Purchase Order Item -> Vendor creates invoice,grid_24h
+bpi2019,Empirical Tail,3,3,Record Goods Receipt -> Record Invoice Receipt,grid_24h
+bpi2019,Empirical Tail,5,1,Record Invoice Receipt -> Clear Invoice,grid_24h
+bpi2019,Empirical Tail,5,2,Create Purchase Order Item -> Vendor creates invoice,grid_24h
+bpi2019,Empirical Tail,5,3,Record Goods Receipt -> Record Invoice Receipt,grid_24h
+bpi2019,Empirical Tail,5,4,Vendor creates invoice -> Record Invoice Receipt,grid_24h
+bpi2019,Empirical Tail,5,5,Create Purchase Order Item -> Record Goods Receipt,grid_24h
+bpi2019,Empirical Tail,10,1,Record Invoice Receipt -> Clear Invoice,grid_24h
+bpi2019,Empirical Tail,10,2,Create Purchase Order Item -> Vendor creates invoice,grid_24h
+bpi2019,Empirical Tail,10,3,Record Goods Receipt -> Record Invoice Receipt,grid_24h
+bpi2019,Empirical Tail,10,4,Vendor creates invoice -> Record Invoice Receipt,grid_24h
+bpi2019,Empirical Tail,10,5,Create Purchase Order Item -> Record Goods Receipt,grid_24h
+bpi2019,Empirical Tail,10,6,Remove Payment Block -> Clear Invoice,grid_24h
+bpi2019,Empirical Tail,10,7,Record Goods Receipt -> Vendor creates invoice,grid_24h
+bpi2019,Empirical Tail,10,8,Record Invoice Receipt -> Remove Payment Block,grid_24h
+bpi2019,Empirical Tail,10,9,Vendor creates invoice -> Record Goods Receipt,grid_24h
+bpi2019,Empirical Tail,10,10,Create Purchase Order Item -> Change Quantity,grid_24h
+bpi2019,Original DRO,3,1,Create Purchase Order Item -> Vendor creates invoice,grid_24h
+bpi2019,Original DRO,3,2,Record Invoice Receipt -> Clear Invoice,grid_24h
+bpi2019,Original DRO,3,3,Record Goods Receipt -> Record Invoice Receipt,grid_24h
+bpi2019,Original DRO,5,1,Create Purchase Order Item -> Vendor creates invoice,grid_24h
+bpi2019,Original DRO,5,2,Record Invoice Receipt -> Clear Invoice,grid_24h
+bpi2019,Original DRO,5,3,Record Goods Receipt -> Record Invoice Receipt,grid_24h
+bpi2019,Original DRO,5,4,Vendor creates invoice -> Record Invoice Receipt,grid_24h
+bpi2019,Original DRO,5,5,Create Purchase Order Item -> Record Goods Receipt,grid_24h
+bpi2019,Original DRO,10,1,Create Purchase Order Item -> Vendor creates invoice,grid_24h
+bpi2019,Original DRO,10,2,Record Invoice Receipt -> Clear Invoice,grid_24h
+bpi2019,Original DRO,10,3,Record Goods Receipt -> Record Invoice Receipt,grid_24h
+bpi2019,Original DRO,10,4,Vendor creates invoice -> Record Invoice Receipt,grid_24h
+bpi2019,Original DRO,10,5,Create Purchase Order Item -> Record Goods Receipt,grid_24h
+bpi2019,Original DRO,10,6,Record Goods Receipt -> Vendor creates invoice,grid_24h
+bpi2019,Original DRO,10,7,Remove Payment Block -> Clear Invoice,grid_24h
+bpi2019,Original DRO,10,8,Vendor creates invoice -> Record Goods Receipt,grid_24h
+bpi2019,Original DRO,10,9,Record Invoice Receipt -> Remove Payment Block,grid_24h
+bpi2019,Original DRO,10,10,Record Goods Receipt -> Remove Payment Block,grid_24h
+bpi2019,Frequency,3,1,Record Service Entry Sheet -> Record Service Entry Sheet,alpha_090
+bpi2019,Frequency,3,2,Create Purchase Order Item -> Vendor creates invoice,alpha_090
+bpi2019,Frequency,3,3,Vendor creates invoice -> Record Goods Receipt,alpha_090
+bpi2019,Frequency,5,1,Record Service Entry Sheet -> Record Service Entry Sheet,alpha_090
+bpi2019,Frequency,5,2,Create Purchase Order Item -> Vendor creates invoice,alpha_090
+bpi2019,Frequency,5,3,Vendor creates invoice -> Record Goods Receipt,alpha_090
+bpi2019,Frequency,5,4,Record Invoice Receipt -> Clear Invoice,alpha_090
+bpi2019,Frequency,5,5,Record Goods Receipt -> Record Invoice Receipt,alpha_090
+bpi2019,Frequency,10,1,Record Service Entry Sheet -> Record Service Entry Sheet,alpha_090
+bpi2019,Frequency,10,2,Create Purchase Order Item -> Vendor creates invoice,alpha_090
+bpi2019,Frequency,10,3,Vendor creates invoice -> Record Goods Receipt,alpha_090
+bpi2019,Frequency,10,4,Record Invoice Receipt -> Clear Invoice,alpha_090
+bpi2019,Frequency,10,5,Record Goods Receipt -> Record Invoice Receipt,alpha_090
+bpi2019,Frequency,10,6,Vendor creates invoice -> Record Invoice Receipt,alpha_090
+bpi2019,Frequency,10,7,Record Goods Receipt -> Vendor creates invoice,alpha_090
+bpi2019,Frequency,10,8,Create Purchase Order Item -> Record Goods Receipt,alpha_090
+bpi2019,Frequency,10,9,Record Goods Receipt -> Record Goods Receipt,alpha_090
+bpi2019,Frequency,10,10,Remove Payment Block -> Clear Invoice,alpha_090
+bpi2019,Mean burden,3,1,Record Invoice Receipt -> Clear Invoice,alpha_090
+bpi2019,Mean burden,3,2,Create Purchase Order Item -> Vendor creates invoice,alpha_090
+bpi2019,Mean burden,3,3,Record Goods Receipt -> Record Invoice Receipt,alpha_090
+bpi2019,Mean burden,5,1,Record Invoice Receipt -> Clear Invoice,alpha_090
+bpi2019,Mean burden,5,2,Create Purchase Order Item -> Vendor creates invoice,alpha_090
+bpi2019,Mean burden,5,3,Record Goods Receipt -> Record Invoice Receipt,alpha_090
+bpi2019,Mean burden,5,4,Remove Payment Block -> Clear Invoice,alpha_090
+bpi2019,Mean burden,5,5,Create Purchase Order Item -> Record Goods Receipt,alpha_090
+bpi2019,Mean burden,10,1,Record Invoice Receipt -> Clear Invoice,alpha_090
+bpi2019,Mean burden,10,2,Create Purchase Order Item -> Vendor creates invoice,alpha_090
+bpi2019,Mean burden,10,3,Record Goods Receipt -> Record Invoice Receipt,alpha_090
+bpi2019,Mean burden,10,4,Remove Payment Block -> Clear Invoice,alpha_090
+bpi2019,Mean burden,10,5,Create Purchase Order Item -> Record Goods Receipt,alpha_090
+bpi2019,Mean burden,10,6,Vendor creates invoice -> Record Invoice Receipt,alpha_090
+bpi2019,Mean burden,10,7,Record Invoice Receipt -> Remove Payment Block,alpha_090
+bpi2019,Mean burden,10,8,Vendor creates invoice -> Record Goods Receipt,alpha_090
+bpi2019,Mean burden,10,9,Record Goods Receipt -> Vendor creates invoice,alpha_090
+bpi2019,Mean burden,10,10,Create Purchase Order Item -> Change Quantity,alpha_090
+bpi2019,Empirical Tail,3,1,Record Invoice Receipt -> Clear Invoice,alpha_090
+bpi2019,Empirical Tail,3,2,Create Purchase Order Item -> Vendor creates invoice,alpha_090
+bpi2019,Empirical Tail,3,3,Record Goods Receipt -> Record Invoice Receipt,alpha_090
+bpi2019,Empirical Tail,5,1,Record Invoice Receipt -> Clear Invoice,alpha_090
+bpi2019,Empirical Tail,5,2,Create Purchase Order Item -> Vendor creates invoice,alpha_090
+bpi2019,Empirical Tail,5,3,Record Goods Receipt -> Record Invoice Receipt,alpha_090
+bpi2019,Empirical Tail,5,4,Vendor creates invoice -> Record Invoice Receipt,alpha_090
+bpi2019,Empirical Tail,5,5,Create Purchase Order Item -> Record Goods Receipt,alpha_090
+bpi2019,Empirical Tail,10,1,Record Invoice Receipt -> Clear Invoice,alpha_090
+bpi2019,Empirical Tail,10,2,Create Purchase Order Item -> Vendor creates invoice,alpha_090
+bpi2019,Empirical Tail,10,3,Record Goods Receipt -> Record Invoice Receipt,alpha_090
+bpi2019,Empirical Tail,10,4,Vendor creates invoice -> Record Invoice Receipt,alpha_090
+bpi2019,Empirical Tail,10,5,Create Purchase Order Item -> Record Goods Receipt,alpha_090
+bpi2019,Empirical Tail,10,6,Remove Payment Block -> Clear Invoice,alpha_090
+bpi2019,Empirical Tail,10,7,Record Invoice Receipt -> Remove Payment Block,alpha_090
+bpi2019,Empirical Tail,10,8,Record Goods Receipt -> Vendor creates invoice,alpha_090
+bpi2019,Empirical Tail,10,9,Vendor creates invoice -> Record Goods Receipt,alpha_090
+bpi2019,Empirical Tail,10,10,Create Purchase Order Item -> Change Quantity,alpha_090
+bpi2019,Original DRO,3,1,Create Purchase Order Item -> Vendor creates invoice,alpha_090
+bpi2019,Original DRO,3,2,Record Invoice Receipt -> Clear Invoice,alpha_090
+bpi2019,Original DRO,3,3,Record Goods Receipt -> Record Invoice Receipt,alpha_090
+bpi2019,Original DRO,5,1,Create Purchase Order Item -> Vendor creates invoice,alpha_090
+bpi2019,Original DRO,5,2,Record Invoice Receipt -> Clear Invoice,alpha_090
+bpi2019,Original DRO,5,3,Record Goods Receipt -> Record Invoice Receipt,alpha_090
+bpi2019,Original DRO,5,4,Vendor creates invoice -> Record Invoice Receipt,alpha_090
+bpi2019,Original DRO,5,5,Create Purchase Order Item -> Record Goods Receipt,alpha_090
+bpi2019,Original DRO,10,1,Create Purchase Order Item -> Vendor creates invoice,alpha_090
+bpi2019,Original DRO,10,2,Record Invoice Receipt -> Clear Invoice,alpha_090
+bpi2019,Original DRO,10,3,Record Goods Receipt -> Record Invoice Receipt,alpha_090
+bpi2019,Original DRO,10,4,Vendor creates invoice -> Record Invoice Receipt,alpha_090
+bpi2019,Original DRO,10,5,Create Purchase Order Item -> Record Goods Receipt,alpha_090
+bpi2019,Original DRO,10,6,Remove Payment Block -> Clear Invoice,alpha_090
+bpi2019,Original DRO,10,7,Record Goods Receipt -> Vendor creates invoice,alpha_090
+bpi2019,Original DRO,10,8,Record Invoice Receipt -> Remove Payment Block,alpha_090
+bpi2019,Original DRO,10,9,Vendor creates invoice -> Record Goods Receipt,alpha_090
+bpi2019,Original DRO,10,10,Create Purchase Order Item -> Change Quantity,alpha_090
+bpi2019,Frequency,3,1,Record Service Entry Sheet -> Record Service Entry Sheet,radius_0
+bpi2019,Frequency,3,2,Create Purchase Order Item -> Vendor creates invoice,radius_0
+bpi2019,Frequency,3,3,Vendor creates invoice -> Record Goods Receipt,radius_0
+bpi2019,Frequency,5,1,Record Service Entry Sheet -> Record Service Entry Sheet,radius_0
+bpi2019,Frequency,5,2,Create Purchase Order Item -> Vendor creates invoice,radius_0
+bpi2019,Frequency,5,3,Vendor creates invoice -> Record Goods Receipt,radius_0
+bpi2019,Frequency,5,4,Record Invoice Receipt -> Clear Invoice,radius_0
+bpi2019,Frequency,5,5,Record Goods Receipt -> Record Invoice Receipt,radius_0
+bpi2019,Frequency,10,1,Record Service Entry Sheet -> Record Service Entry Sheet,radius_0
+bpi2019,Frequency,10,2,Create Purchase Order Item -> Vendor creates invoice,radius_0
+bpi2019,Frequency,10,3,Vendor creates invoice -> Record Goods Receipt,radius_0
+bpi2019,Frequency,10,4,Record Invoice Receipt -> Clear Invoice,radius_0
+bpi2019,Frequency,10,5,Record Goods Receipt -> Record Invoice Receipt,radius_0
+bpi2019,Frequency,10,6,Vendor creates invoice -> Record Invoice Receipt,radius_0
+bpi2019,Frequency,10,7,Record Goods Receipt -> Vendor creates invoice,radius_0
+bpi2019,Frequency,10,8,Create Purchase Order Item -> Record Goods Receipt,radius_0
+bpi2019,Frequency,10,9,Record Goods Receipt -> Record Goods Receipt,radius_0
+bpi2019,Frequency,10,10,Remove Payment Block -> Clear Invoice,radius_0
+bpi2019,Mean burden,3,1,Record Invoice Receipt -> Clear Invoice,radius_0
+bpi2019,Mean burden,3,2,Create Purchase Order Item -> Vendor creates invoice,radius_0
+bpi2019,Mean burden,3,3,Record Goods Receipt -> Record Invoice Receipt,radius_0
+bpi2019,Mean burden,5,1,Record Invoice Receipt -> Clear Invoice,radius_0
+bpi2019,Mean burden,5,2,Create Purchase Order Item -> Vendor creates invoice,radius_0
+bpi2019,Mean burden,5,3,Record Goods Receipt -> Record Invoice Receipt,radius_0
+bpi2019,Mean burden,5,4,Remove Payment Block -> Clear Invoice,radius_0
+bpi2019,Mean burden,5,5,Create Purchase Order Item -> Record Goods Receipt,radius_0
+bpi2019,Mean burden,10,1,Record Invoice Receipt -> Clear Invoice,radius_0
+bpi2019,Mean burden,10,2,Create Purchase Order Item -> Vendor creates invoice,radius_0
+bpi2019,Mean burden,10,3,Record Goods Receipt -> Record Invoice Receipt,radius_0
+bpi2019,Mean burden,10,4,Remove Payment Block -> Clear Invoice,radius_0
+bpi2019,Mean burden,10,5,Create Purchase Order Item -> Record Goods Receipt,radius_0
+bpi2019,Mean burden,10,6,Vendor creates invoice -> Record Invoice Receipt,radius_0
+bpi2019,Mean burden,10,7,Record Invoice Receipt -> Remove Payment Block,radius_0
+bpi2019,Mean burden,10,8,Vendor creates invoice -> Record Goods Receipt,radius_0
+bpi2019,Mean burden,10,9,Record Goods Receipt -> Vendor creates invoice,radius_0
+bpi2019,Mean burden,10,10,Create Purchase Order Item -> Change Quantity,radius_0
+bpi2019,Empirical Tail,3,1,Record Invoice Receipt -> Clear Invoice,radius_0
+bpi2019,Empirical Tail,3,2,Create Purchase Order Item -> Vendor creates invoice,radius_0
+bpi2019,Empirical Tail,3,3,Record Goods Receipt -> Record Invoice Receipt,radius_0
+bpi2019,Empirical Tail,5,1,Record Invoice Receipt -> Clear Invoice,radius_0
+bpi2019,Empirical Tail,5,2,Create Purchase Order Item -> Vendor creates invoice,radius_0
+bpi2019,Empirical Tail,5,3,Record Goods Receipt -> Record Invoice Receipt,radius_0
+bpi2019,Empirical Tail,5,4,Vendor creates invoice -> Record Invoice Receipt,radius_0
+bpi2019,Empirical Tail,5,5,Create Purchase Order Item -> Record Goods Receipt,radius_0
+bpi2019,Empirical Tail,10,1,Record Invoice Receipt -> Clear Invoice,radius_0
+bpi2019,Empirical Tail,10,2,Create Purchase Order Item -> Vendor creates invoice,radius_0
+bpi2019,Empirical Tail,10,3,Record Goods Receipt -> Record Invoice Receipt,radius_0
+bpi2019,Empirical Tail,10,4,Vendor creates invoice -> Record Invoice Receipt,radius_0
+bpi2019,Empirical Tail,10,5,Create Purchase Order Item -> Record Goods Receipt,radius_0
+bpi2019,Empirical Tail,10,6,Remove Payment Block -> Clear Invoice,radius_0
+bpi2019,Empirical Tail,10,7,Record Goods Receipt -> Vendor creates invoice,radius_0
+bpi2019,Empirical Tail,10,8,Record Invoice Receipt -> Remove Payment Block,radius_0
+bpi2019,Empirical Tail,10,9,Vendor creates invoice -> Record Goods Receipt,radius_0
+bpi2019,Empirical Tail,10,10,Create Purchase Order Item -> Change Quantity,radius_0
+bpi2019,Original DRO,3,1,Record Invoice Receipt -> Clear Invoice,radius_0
+bpi2019,Original DRO,3,2,Create Purchase Order Item -> Vendor creates invoice,radius_0
+bpi2019,Original DRO,3,3,Record Goods Receipt -> Record Invoice Receipt,radius_0
+bpi2019,Original DRO,5,1,Record Invoice Receipt -> Clear Invoice,radius_0
+bpi2019,Original DRO,5,2,Create Purchase Order Item -> Vendor creates invoice,radius_0
+bpi2019,Original DRO,5,3,Record Goods Receipt -> Record Invoice Receipt,radius_0
+bpi2019,Original DRO,5,4,Vendor creates invoice -> Record Invoice Receipt,radius_0
+bpi2019,Original DRO,5,5,Create Purchase Order Item -> Record Goods Receipt,radius_0
+bpi2019,Original DRO,10,1,Record Invoice Receipt -> Clear Invoice,radius_0
+bpi2019,Original DRO,10,2,Create Purchase Order Item -> Vendor creates invoice,radius_0
+bpi2019,Original DRO,10,3,Record Goods Receipt -> Record Invoice Receipt,radius_0
+bpi2019,Original DRO,10,4,Vendor creates invoice -> Record Invoice Receipt,radius_0
+bpi2019,Original DRO,10,5,Create Purchase Order Item -> Record Goods Receipt,radius_0
+bpi2019,Original DRO,10,6,Remove Payment Block -> Clear Invoice,radius_0
+bpi2019,Original DRO,10,7,Record Goods Receipt -> Vendor creates invoice,radius_0
+bpi2019,Original DRO,10,8,Record Invoice Receipt -> Remove Payment Block,radius_0
+bpi2019,Original DRO,10,9,Vendor creates invoice -> Record Goods Receipt,radius_0
+bpi2019,Original DRO,10,10,Create Purchase Order Item -> Change Quantity,radius_0
+bpi2019,Frequency,3,1,Record Service Entry Sheet -> Record Service Entry Sheet,radius_0.5
+bpi2019,Frequency,3,2,Create Purchase Order Item -> Vendor creates invoice,radius_0.5
+bpi2019,Frequency,3,3,Vendor creates invoice -> Record Goods Receipt,radius_0.5
+bpi2019,Frequency,5,1,Record Service Entry Sheet -> Record Service Entry Sheet,radius_0.5
+bpi2019,Frequency,5,2,Create Purchase Order Item -> Vendor creates invoice,radius_0.5
+bpi2019,Frequency,5,3,Vendor creates invoice -> Record Goods Receipt,radius_0.5
+bpi2019,Frequency,5,4,Record Invoice Receipt -> Clear Invoice,radius_0.5
+bpi2019,Frequency,5,5,Record Goods Receipt -> Record Invoice Receipt,radius_0.5
+bpi2019,Frequency,10,1,Record Service Entry Sheet -> Record Service Entry Sheet,radius_0.5
+bpi2019,Frequency,10,2,Create Purchase Order Item -> Vendor creates invoice,radius_0.5
+bpi2019,Frequency,10,3,Vendor creates invoice -> Record Goods Receipt,radius_0.5
+bpi2019,Frequency,10,4,Record Invoice Receipt -> Clear Invoice,radius_0.5
+bpi2019,Frequency,10,5,Record Goods Receipt -> Record Invoice Receipt,radius_0.5
+bpi2019,Frequency,10,6,Vendor creates invoice -> Record Invoice Receipt,radius_0.5
+bpi2019,Frequency,10,7,Record Goods Receipt -> Vendor creates invoice,radius_0.5
+bpi2019,Frequency,10,8,Create Purchase Order Item -> Record Goods Receipt,radius_0.5
+bpi2019,Frequency,10,9,Record Goods Receipt -> Record Goods Receipt,radius_0.5
+bpi2019,Frequency,10,10,Remove Payment Block -> Clear Invoice,radius_0.5
+bpi2019,Mean burden,3,1,Record Invoice Receipt -> Clear Invoice,radius_0.5
+bpi2019,Mean burden,3,2,Create Purchase Order Item -> Vendor creates invoice,radius_0.5
+bpi2019,Mean burden,3,3,Record Goods Receipt -> Record Invoice Receipt,radius_0.5
+bpi2019,Mean burden,5,1,Record Invoice Receipt -> Clear Invoice,radius_0.5
+bpi2019,Mean burden,5,2,Create Purchase Order Item -> Vendor creates invoice,radius_0.5
+bpi2019,Mean burden,5,3,Record Goods Receipt -> Record Invoice Receipt,radius_0.5
+bpi2019,Mean burden,5,4,Remove Payment Block -> Clear Invoice,radius_0.5
+bpi2019,Mean burden,5,5,Create Purchase Order Item -> Record Goods Receipt,radius_0.5
+bpi2019,Mean burden,10,1,Record Invoice Receipt -> Clear Invoice,radius_0.5
+bpi2019,Mean burden,10,2,Create Purchase Order Item -> Vendor creates invoice,radius_0.5
+bpi2019,Mean burden,10,3,Record Goods Receipt -> Record Invoice Receipt,radius_0.5
+bpi2019,Mean burden,10,4,Remove Payment Block -> Clear Invoice,radius_0.5
+bpi2019,Mean burden,10,5,Create Purchase Order Item -> Record Goods Receipt,radius_0.5
+bpi2019,Mean burden,10,6,Vendor creates invoice -> Record Invoice Receipt,radius_0.5
+bpi2019,Mean burden,10,7,Record Invoice Receipt -> Remove Payment Block,radius_0.5
+bpi2019,Mean burden,10,8,Vendor creates invoice -> Record Goods Receipt,radius_0.5
+bpi2019,Mean burden,10,9,Record Goods Receipt -> Vendor creates invoice,radius_0.5
+bpi2019,Mean burden,10,10,Create Purchase Order Item -> Change Quantity,radius_0.5
+bpi2019,Empirical Tail,3,1,Record Invoice Receipt -> Clear Invoice,radius_0.5
+bpi2019,Empirical Tail,3,2,Create Purchase Order Item -> Vendor creates invoice,radius_0.5
+bpi2019,Empirical Tail,3,3,Record Goods Receipt -> Record Invoice Receipt,radius_0.5
+bpi2019,Empirical Tail,5,1,Record Invoice Receipt -> Clear Invoice,radius_0.5
+bpi2019,Empirical Tail,5,2,Create Purchase Order Item -> Vendor creates invoice,radius_0.5
+bpi2019,Empirical Tail,5,3,Record Goods Receipt -> Record Invoice Receipt,radius_0.5
+bpi2019,Empirical Tail,5,4,Vendor creates invoice -> Record Invoice Receipt,radius_0.5
+bpi2019,Empirical Tail,5,5,Create Purchase Order Item -> Record Goods Receipt,radius_0.5
+bpi2019,Empirical Tail,10,1,Record Invoice Receipt -> Clear Invoice,radius_0.5
+bpi2019,Empirical Tail,10,2,Create Purchase Order Item -> Vendor creates invoice,radius_0.5
+bpi2019,Empirical Tail,10,3,Record Goods Receipt -> Record Invoice Receipt,radius_0.5
+bpi2019,Empirical Tail,10,4,Vendor creates invoice -> Record Invoice Receipt,radius_0.5
+bpi2019,Empirical Tail,10,5,Create Purchase Order Item -> Record Goods Receipt,radius_0.5
+bpi2019,Empirical Tail,10,6,Remove Payment Block -> Clear Invoice,radius_0.5
+bpi2019,Empirical Tail,10,7,Record Goods Receipt -> Vendor creates invoice,radius_0.5
+bpi2019,Empirical Tail,10,8,Record Invoice Receipt -> Remove Payment Block,radius_0.5
+bpi2019,Empirical Tail,10,9,Vendor creates invoice -> Record Goods Receipt,radius_0.5
+bpi2019,Empirical Tail,10,10,Create Purchase Order Item -> Change Quantity,radius_0.5
+bpi2019,Original DRO,3,1,Create Purchase Order Item -> Vendor creates invoice,radius_0.5
+bpi2019,Original DRO,3,2,Record Invoice Receipt -> Clear Invoice,radius_0.5
+bpi2019,Original DRO,3,3,Record Goods Receipt -> Record Invoice Receipt,radius_0.5
+bpi2019,Original DRO,5,1,Create Purchase Order Item -> Vendor creates invoice,radius_0.5
+bpi2019,Original DRO,5,2,Record Invoice Receipt -> Clear Invoice,radius_0.5
+bpi2019,Original DRO,5,3,Record Goods Receipt -> Record Invoice Receipt,radius_0.5
+bpi2019,Original DRO,5,4,Vendor creates invoice -> Record Invoice Receipt,radius_0.5
+bpi2019,Original DRO,5,5,Create Purchase Order Item -> Record Goods Receipt,radius_0.5
+bpi2019,Original DRO,10,1,Create Purchase Order Item -> Vendor creates invoice,radius_0.5
+bpi2019,Original DRO,10,2,Record Invoice Receipt -> Clear Invoice,radius_0.5
+bpi2019,Original DRO,10,3,Record Goods Receipt -> Record Invoice Receipt,radius_0.5
+bpi2019,Original DRO,10,4,Vendor creates invoice -> Record Invoice Receipt,radius_0.5
+bpi2019,Original DRO,10,5,Create Purchase Order Item -> Record Goods Receipt,radius_0.5
+bpi2019,Original DRO,10,6,Remove Payment Block -> Clear Invoice,radius_0.5
+bpi2019,Original DRO,10,7,Record Goods Receipt -> Vendor creates invoice,radius_0.5
+bpi2019,Original DRO,10,8,Record Invoice Receipt -> Remove Payment Block,radius_0.5
+bpi2019,Original DRO,10,9,Vendor creates invoice -> Record Goods Receipt,radius_0.5
+bpi2019,Original DRO,10,10,Create Purchase Order Item -> Change Quantity,radius_0.5
+bpi2019,Frequency,3,1,Record Service Entry Sheet -> Record Service Entry Sheet,radius_1.5
+bpi2019,Frequency,3,2,Create Purchase Order Item -> Vendor creates invoice,radius_1.5
+bpi2019,Frequency,3,3,Vendor creates invoice -> Record Goods Receipt,radius_1.5
+bpi2019,Frequency,5,1,Record Service Entry Sheet -> Record Service Entry Sheet,radius_1.5
+bpi2019,Frequency,5,2,Create Purchase Order Item -> Vendor creates invoice,radius_1.5
+bpi2019,Frequency,5,3,Vendor creates invoice -> Record Goods Receipt,radius_1.5
+bpi2019,Frequency,5,4,Record Invoice Receipt -> Clear Invoice,radius_1.5
+bpi2019,Frequency,5,5,Record Goods Receipt -> Record Invoice Receipt,radius_1.5
+bpi2019,Frequency,10,1,Record Service Entry Sheet -> Record Service Entry Sheet,radius_1.5
+bpi2019,Frequency,10,2,Create Purchase Order Item -> Vendor creates invoice,radius_1.5
+bpi2019,Frequency,10,3,Vendor creates invoice -> Record Goods Receipt,radius_1.5
+bpi2019,Frequency,10,4,Record Invoice Receipt -> Clear Invoice,radius_1.5
+bpi2019,Frequency,10,5,Record Goods Receipt -> Record Invoice Receipt,radius_1.5
+bpi2019,Frequency,10,6,Vendor creates invoice -> Record Invoice Receipt,radius_1.5
+bpi2019,Frequency,10,7,Record Goods Receipt -> Vendor creates invoice,radius_1.5
+bpi2019,Frequency,10,8,Create Purchase Order Item -> Record Goods Receipt,radius_1.5
+bpi2019,Frequency,10,9,Record Goods Receipt -> Record Goods Receipt,radius_1.5
+bpi2019,Frequency,10,10,Remove Payment Block -> Clear Invoice,radius_1.5
+bpi2019,Mean burden,3,1,Record Invoice Receipt -> Clear Invoice,radius_1.5
+bpi2019,Mean burden,3,2,Create Purchase Order Item -> Vendor creates invoice,radius_1.5
+bpi2019,Mean burden,3,3,Record Goods Receipt -> Record Invoice Receipt,radius_1.5
+bpi2019,Mean burden,5,1,Record Invoice Receipt -> Clear Invoice,radius_1.5
+bpi2019,Mean burden,5,2,Create Purchase Order Item -> Vendor creates invoice,radius_1.5
+bpi2019,Mean burden,5,3,Record Goods Receipt -> Record Invoice Receipt,radius_1.5
+bpi2019,Mean burden,5,4,Remove Payment Block -> Clear Invoice,radius_1.5
+bpi2019,Mean burden,5,5,Create Purchase Order Item -> Record Goods Receipt,radius_1.5
+bpi2019,Mean burden,10,1,Record Invoice Receipt -> Clear Invoice,radius_1.5
+bpi2019,Mean burden,10,2,Create Purchase Order Item -> Vendor creates invoice,radius_1.5
+bpi2019,Mean burden,10,3,Record Goods Receipt -> Record Invoice Receipt,radius_1.5
+bpi2019,Mean burden,10,4,Remove Payment Block -> Clear Invoice,radius_1.5
+bpi2019,Mean burden,10,5,Create Purchase Order Item -> Record Goods Receipt,radius_1.5
+bpi2019,Mean burden,10,6,Vendor creates invoice -> Record Invoice Receipt,radius_1.5
+bpi2019,Mean burden,10,7,Record Invoice Receipt -> Remove Payment Block,radius_1.5
+bpi2019,Mean burden,10,8,Vendor creates invoice -> Record Goods Receipt,radius_1.5
+bpi2019,Mean burden,10,9,Record Goods Receipt -> Vendor creates invoice,radius_1.5
+bpi2019,Mean burden,10,10,Create Purchase Order Item -> Change Quantity,radius_1.5
+bpi2019,Empirical Tail,3,1,Record Invoice Receipt -> Clear Invoice,radius_1.5
+bpi2019,Empirical Tail,3,2,Create Purchase Order Item -> Vendor creates invoice,radius_1.5
+bpi2019,Empirical Tail,3,3,Record Goods Receipt -> Record Invoice Receipt,radius_1.5
+bpi2019,Empirical Tail,5,1,Record Invoice Receipt -> Clear Invoice,radius_1.5
+bpi2019,Empirical Tail,5,2,Create Purchase Order Item -> Vendor creates invoice,radius_1.5
+bpi2019,Empirical Tail,5,3,Record Goods Receipt -> Record Invoice Receipt,radius_1.5
+bpi2019,Empirical Tail,5,4,Vendor creates invoice -> Record Invoice Receipt,radius_1.5
+bpi2019,Empirical Tail,5,5,Create Purchase Order Item -> Record Goods Receipt,radius_1.5
+bpi2019,Empirical Tail,10,1,Record Invoice Receipt -> Clear Invoice,radius_1.5
+bpi2019,Empirical Tail,10,2,Create Purchase Order Item -> Vendor creates invoice,radius_1.5
+bpi2019,Empirical Tail,10,3,Record Goods Receipt -> Record Invoice Receipt,radius_1.5
+bpi2019,Empirical Tail,10,4,Vendor creates invoice -> Record Invoice Receipt,radius_1.5
+bpi2019,Empirical Tail,10,5,Create Purchase Order Item -> Record Goods Receipt,radius_1.5
+bpi2019,Empirical Tail,10,6,Remove Payment Block -> Clear Invoice,radius_1.5
+bpi2019,Empirical Tail,10,7,Record Goods Receipt -> Vendor creates invoice,radius_1.5
+bpi2019,Empirical Tail,10,8,Record Invoice Receipt -> Remove Payment Block,radius_1.5
+bpi2019,Empirical Tail,10,9,Vendor creates invoice -> Record Goods Receipt,radius_1.5
+bpi2019,Empirical Tail,10,10,Create Purchase Order Item -> Change Quantity,radius_1.5
+bpi2019,Original DRO,3,1,Create Purchase Order Item -> Vendor creates invoice,radius_1.5
+bpi2019,Original DRO,3,2,Record Invoice Receipt -> Clear Invoice,radius_1.5
+bpi2019,Original DRO,3,3,Record Goods Receipt -> Record Invoice Receipt,radius_1.5
+bpi2019,Original DRO,5,1,Create Purchase Order Item -> Vendor creates invoice,radius_1.5
+bpi2019,Original DRO,5,2,Record Invoice Receipt -> Clear Invoice,radius_1.5
+bpi2019,Original DRO,5,3,Record Goods Receipt -> Record Invoice Receipt,radius_1.5
+bpi2019,Original DRO,5,4,Vendor creates invoice -> Record Invoice Receipt,radius_1.5
+bpi2019,Original DRO,5,5,Create Purchase Order Item -> Record Goods Receipt,radius_1.5
+bpi2019,Original DRO,10,1,Create Purchase Order Item -> Vendor creates invoice,radius_1.5
+bpi2019,Original DRO,10,2,Record Invoice Receipt -> Clear Invoice,radius_1.5
+bpi2019,Original DRO,10,3,Record Goods Receipt -> Record Invoice Receipt,radius_1.5
+bpi2019,Original DRO,10,4,Vendor creates invoice -> Record Invoice Receipt,radius_1.5
+bpi2019,Original DRO,10,5,Create Purchase Order Item -> Record Goods Receipt,radius_1.5
+bpi2019,Original DRO,10,6,Record Goods Receipt -> Vendor creates invoice,radius_1.5
+bpi2019,Original DRO,10,7,Vendor creates invoice -> Record Goods Receipt,radius_1.5
+bpi2019,Original DRO,10,8,Remove Payment Block -> Clear Invoice,radius_1.5
+bpi2019,Original DRO,10,9,Record Invoice Receipt -> Remove Payment Block,radius_1.5
+bpi2019,Original DRO,10,10,Record Goods Receipt -> Remove Payment Block,radius_1.5
+bpi2019,Frequency,3,1,Record Service Entry Sheet -> Record Service Entry Sheet,radius_2
+bpi2019,Frequency,3,2,Create Purchase Order Item -> Vendor creates invoice,radius_2
+bpi2019,Frequency,3,3,Vendor creates invoice -> Record Goods Receipt,radius_2
+bpi2019,Frequency,5,1,Record Service Entry Sheet -> Record Service Entry Sheet,radius_2
+bpi2019,Frequency,5,2,Create Purchase Order Item -> Vendor creates invoice,radius_2
+bpi2019,Frequency,5,3,Vendor creates invoice -> Record Goods Receipt,radius_2
+bpi2019,Frequency,5,4,Record Invoice Receipt -> Clear Invoice,radius_2
+bpi2019,Frequency,5,5,Record Goods Receipt -> Record Invoice Receipt,radius_2
+bpi2019,Frequency,10,1,Record Service Entry Sheet -> Record Service Entry Sheet,radius_2
+bpi2019,Frequency,10,2,Create Purchase Order Item -> Vendor creates invoice,radius_2
+bpi2019,Frequency,10,3,Vendor creates invoice -> Record Goods Receipt,radius_2
+bpi2019,Frequency,10,4,Record Invoice Receipt -> Clear Invoice,radius_2
+bpi2019,Frequency,10,5,Record Goods Receipt -> Record Invoice Receipt,radius_2
+bpi2019,Frequency,10,6,Vendor creates invoice -> Record Invoice Receipt,radius_2
+bpi2019,Frequency,10,7,Record Goods Receipt -> Vendor creates invoice,radius_2
+bpi2019,Frequency,10,8,Create Purchase Order Item -> Record Goods Receipt,radius_2
+bpi2019,Frequency,10,9,Record Goods Receipt -> Record Goods Receipt,radius_2
+bpi2019,Frequency,10,10,Remove Payment Block -> Clear Invoice,radius_2
+bpi2019,Mean burden,3,1,Record Invoice Receipt -> Clear Invoice,radius_2
+bpi2019,Mean burden,3,2,Create Purchase Order Item -> Vendor creates invoice,radius_2
+bpi2019,Mean burden,3,3,Record Goods Receipt -> Record Invoice Receipt,radius_2
+bpi2019,Mean burden,5,1,Record Invoice Receipt -> Clear Invoice,radius_2
+bpi2019,Mean burden,5,2,Create Purchase Order Item -> Vendor creates invoice,radius_2
+bpi2019,Mean burden,5,3,Record Goods Receipt -> Record Invoice Receipt,radius_2
+bpi2019,Mean burden,5,4,Remove Payment Block -> Clear Invoice,radius_2
+bpi2019,Mean burden,5,5,Create Purchase Order Item -> Record Goods Receipt,radius_2
+bpi2019,Mean burden,10,1,Record Invoice Receipt -> Clear Invoice,radius_2
+bpi2019,Mean burden,10,2,Create Purchase Order Item -> Vendor creates invoice,radius_2
+bpi2019,Mean burden,10,3,Record Goods Receipt -> Record Invoice Receipt,radius_2
+bpi2019,Mean burden,10,4,Remove Payment Block -> Clear Invoice,radius_2
+bpi2019,Mean burden,10,5,Create Purchase Order Item -> Record Goods Receipt,radius_2
+bpi2019,Mean burden,10,6,Vendor creates invoice -> Record Invoice Receipt,radius_2
+bpi2019,Mean burden,10,7,Record Invoice Receipt -> Remove Payment Block,radius_2
+bpi2019,Mean burden,10,8,Vendor creates invoice -> Record Goods Receipt,radius_2
+bpi2019,Mean burden,10,9,Record Goods Receipt -> Vendor creates invoice,radius_2
+bpi2019,Mean burden,10,10,Create Purchase Order Item -> Change Quantity,radius_2
+bpi2019,Empirical Tail,3,1,Record Invoice Receipt -> Clear Invoice,radius_2
+bpi2019,Empirical Tail,3,2,Create Purchase Order Item -> Vendor creates invoice,radius_2
+bpi2019,Empirical Tail,3,3,Record Goods Receipt -> Record Invoice Receipt,radius_2
+bpi2019,Empirical Tail,5,1,Record Invoice Receipt -> Clear Invoice,radius_2
+bpi2019,Empirical Tail,5,2,Create Purchase Order Item -> Vendor creates invoice,radius_2
+bpi2019,Empirical Tail,5,3,Record Goods Receipt -> Record Invoice Receipt,radius_2
+bpi2019,Empirical Tail,5,4,Vendor creates invoice -> Record Invoice Receipt,radius_2
+bpi2019,Empirical Tail,5,5,Create Purchase Order Item -> Record Goods Receipt,radius_2
+bpi2019,Empirical Tail,10,1,Record Invoice Receipt -> Clear Invoice,radius_2
+bpi2019,Empirical Tail,10,2,Create Purchase Order Item -> Vendor creates invoice,radius_2
+bpi2019,Empirical Tail,10,3,Record Goods Receipt -> Record Invoice Receipt,radius_2
+bpi2019,Empirical Tail,10,4,Vendor creates invoice -> Record Invoice Receipt,radius_2
+bpi2019,Empirical Tail,10,5,Create Purchase Order Item -> Record Goods Receipt,radius_2
+bpi2019,Empirical Tail,10,6,Remove Payment Block -> Clear Invoice,radius_2
+bpi2019,Empirical Tail,10,7,Record Goods Receipt -> Vendor creates invoice,radius_2
+bpi2019,Empirical Tail,10,8,Record Invoice Receipt -> Remove Payment Block,radius_2
+bpi2019,Empirical Tail,10,9,Vendor creates invoice -> Record Goods Receipt,radius_2
+bpi2019,Empirical Tail,10,10,Create Purchase Order Item -> Change Quantity,radius_2
+bpi2019,Original DRO,3,1,Create Purchase Order Item -> Vendor creates invoice,radius_2
+bpi2019,Original DRO,3,2,Record Invoice Receipt -> Clear Invoice,radius_2
+bpi2019,Original DRO,3,3,Record Goods Receipt -> Record Invoice Receipt,radius_2
+bpi2019,Original DRO,5,1,Create Purchase Order Item -> Vendor creates invoice,radius_2
+bpi2019,Original DRO,5,2,Record Invoice Receipt -> Clear Invoice,radius_2
+bpi2019,Original DRO,5,3,Record Goods Receipt -> Record Invoice Receipt,radius_2
+bpi2019,Original DRO,5,4,Vendor creates invoice -> Record Invoice Receipt,radius_2
+bpi2019,Original DRO,5,5,Create Purchase Order Item -> Record Goods Receipt,radius_2
+bpi2019,Original DRO,10,1,Create Purchase Order Item -> Vendor creates invoice,radius_2
+bpi2019,Original DRO,10,2,Record Invoice Receipt -> Clear Invoice,radius_2
+bpi2019,Original DRO,10,3,Record Goods Receipt -> Record Invoice Receipt,radius_2
+bpi2019,Original DRO,10,4,Vendor creates invoice -> Record Invoice Receipt,radius_2
+bpi2019,Original DRO,10,5,Create Purchase Order Item -> Record Goods Receipt,radius_2
+bpi2019,Original DRO,10,6,Record Goods Receipt -> Vendor creates invoice,radius_2
+bpi2019,Original DRO,10,7,Vendor creates invoice -> Record Goods Receipt,radius_2
+bpi2019,Original DRO,10,8,Remove Payment Block -> Clear Invoice,radius_2
+bpi2019,Original DRO,10,9,Record Invoice Receipt -> Remove Payment Block,radius_2
+bpi2019,Original DRO,10,10,Record Goods Receipt -> Remove Payment Block,radius_2
+bpi2019,Frequency,3,1,Record Service Entry Sheet -> Record Service Entry Sheet,kappa_0.50
+bpi2019,Frequency,3,2,Create Purchase Order Item -> Vendor creates invoice,kappa_0.50
+bpi2019,Frequency,3,3,Vendor creates invoice -> Record Goods Receipt,kappa_0.50
+bpi2019,Frequency,5,1,Record Service Entry Sheet -> Record Service Entry Sheet,kappa_0.50
+bpi2019,Frequency,5,2,Create Purchase Order Item -> Vendor creates invoice,kappa_0.50
+bpi2019,Frequency,5,3,Vendor creates invoice -> Record Goods Receipt,kappa_0.50
+bpi2019,Frequency,5,4,Record Invoice Receipt -> Clear Invoice,kappa_0.50
+bpi2019,Frequency,5,5,Record Goods Receipt -> Record Invoice Receipt,kappa_0.50
+bpi2019,Frequency,10,1,Record Service Entry Sheet -> Record Service Entry Sheet,kappa_0.50
+bpi2019,Frequency,10,2,Create Purchase Order Item -> Vendor creates invoice,kappa_0.50
+bpi2019,Frequency,10,3,Vendor creates invoice -> Record Goods Receipt,kappa_0.50
+bpi2019,Frequency,10,4,Record Invoice Receipt -> Clear Invoice,kappa_0.50
+bpi2019,Frequency,10,5,Record Goods Receipt -> Record Invoice Receipt,kappa_0.50
+bpi2019,Frequency,10,6,Vendor creates invoice -> Record Invoice Receipt,kappa_0.50
+bpi2019,Frequency,10,7,Record Goods Receipt -> Vendor creates invoice,kappa_0.50
+bpi2019,Frequency,10,8,Create Purchase Order Item -> Record Goods Receipt,kappa_0.50
+bpi2019,Frequency,10,9,Record Goods Receipt -> Record Goods Receipt,kappa_0.50
+bpi2019,Frequency,10,10,Remove Payment Block -> Clear Invoice,kappa_0.50
+bpi2019,Mean burden,3,1,Record Invoice Receipt -> Clear Invoice,kappa_0.50
+bpi2019,Mean burden,3,2,Create Purchase Order Item -> Vendor creates invoice,kappa_0.50
+bpi2019,Mean burden,3,3,Record Goods Receipt -> Record Invoice Receipt,kappa_0.50
+bpi2019,Mean burden,5,1,Record Invoice Receipt -> Clear Invoice,kappa_0.50
+bpi2019,Mean burden,5,2,Create Purchase Order Item -> Vendor creates invoice,kappa_0.50
+bpi2019,Mean burden,5,3,Record Goods Receipt -> Record Invoice Receipt,kappa_0.50
+bpi2019,Mean burden,5,4,Remove Payment Block -> Clear Invoice,kappa_0.50
+bpi2019,Mean burden,5,5,Create Purchase Order Item -> Record Goods Receipt,kappa_0.50
+bpi2019,Mean burden,10,1,Record Invoice Receipt -> Clear Invoice,kappa_0.50
+bpi2019,Mean burden,10,2,Create Purchase Order Item -> Vendor creates invoice,kappa_0.50
+bpi2019,Mean burden,10,3,Record Goods Receipt -> Record Invoice Receipt,kappa_0.50
+bpi2019,Mean burden,10,4,Remove Payment Block -> Clear Invoice,kappa_0.50
+bpi2019,Mean burden,10,5,Create Purchase Order Item -> Record Goods Receipt,kappa_0.50
+bpi2019,Mean burden,10,6,Vendor creates invoice -> Record Invoice Receipt,kappa_0.50
+bpi2019,Mean burden,10,7,Record Invoice Receipt -> Remove Payment Block,kappa_0.50
+bpi2019,Mean burden,10,8,Vendor creates invoice -> Record Goods Receipt,kappa_0.50
+bpi2019,Mean burden,10,9,Record Goods Receipt -> Vendor creates invoice,kappa_0.50
+bpi2019,Mean burden,10,10,Create Purchase Order Item -> Change Quantity,kappa_0.50
+bpi2019,Empirical Tail,3,1,Record Invoice Receipt -> Clear Invoice,kappa_0.50
+bpi2019,Empirical Tail,3,2,Create Purchase Order Item -> Vendor creates invoice,kappa_0.50
+bpi2019,Empirical Tail,3,3,Record Goods Receipt -> Record Invoice Receipt,kappa_0.50
+bpi2019,Empirical Tail,5,1,Record Invoice Receipt -> Clear Invoice,kappa_0.50
+bpi2019,Empirical Tail,5,2,Create Purchase Order Item -> Vendor creates invoice,kappa_0.50
+bpi2019,Empirical Tail,5,3,Record Goods Receipt -> Record Invoice Receipt,kappa_0.50
+bpi2019,Empirical Tail,5,4,Vendor creates invoice -> Record Invoice Receipt,kappa_0.50
+bpi2019,Empirical Tail,5,5,Create Purchase Order Item -> Record Goods Receipt,kappa_0.50
+bpi2019,Empirical Tail,10,1,Record Invoice Receipt -> Clear Invoice,kappa_0.50
+bpi2019,Empirical Tail,10,2,Create Purchase Order Item -> Vendor creates invoice,kappa_0.50
+bpi2019,Empirical Tail,10,3,Record Goods Receipt -> Record Invoice Receipt,kappa_0.50
+bpi2019,Empirical Tail,10,4,Vendor creates invoice -> Record Invoice Receipt,kappa_0.50
+bpi2019,Empirical Tail,10,5,Create Purchase Order Item -> Record Goods Receipt,kappa_0.50
+bpi2019,Empirical Tail,10,6,Remove Payment Block -> Clear Invoice,kappa_0.50
+bpi2019,Empirical Tail,10,7,Record Goods Receipt -> Vendor creates invoice,kappa_0.50
+bpi2019,Empirical Tail,10,8,Record Invoice Receipt -> Remove Payment Block,kappa_0.50
+bpi2019,Empirical Tail,10,9,Vendor creates invoice -> Record Goods Receipt,kappa_0.50
+bpi2019,Empirical Tail,10,10,Create Purchase Order Item -> Change Quantity,kappa_0.50
+bpi2019,Original DRO,3,1,Create Purchase Order Item -> Vendor creates invoice,kappa_0.50
+bpi2019,Original DRO,3,2,Record Invoice Receipt -> Clear Invoice,kappa_0.50
+bpi2019,Original DRO,3,3,Record Goods Receipt -> Record Invoice Receipt,kappa_0.50
+bpi2019,Original DRO,5,1,Create Purchase Order Item -> Vendor creates invoice,kappa_0.50
+bpi2019,Original DRO,5,2,Record Invoice Receipt -> Clear Invoice,kappa_0.50
+bpi2019,Original DRO,5,3,Record Goods Receipt -> Record Invoice Receipt,kappa_0.50
+bpi2019,Original DRO,5,4,Vendor creates invoice -> Record Invoice Receipt,kappa_0.50
+bpi2019,Original DRO,5,5,Create Purchase Order Item -> Record Goods Receipt,kappa_0.50
+bpi2019,Original DRO,10,1,Create Purchase Order Item -> Vendor creates invoice,kappa_0.50
+bpi2019,Original DRO,10,2,Record Invoice Receipt -> Clear Invoice,kappa_0.50
+bpi2019,Original DRO,10,3,Record Goods Receipt -> Record Invoice Receipt,kappa_0.50
+bpi2019,Original DRO,10,4,Vendor creates invoice -> Record Invoice Receipt,kappa_0.50
+bpi2019,Original DRO,10,5,Create Purchase Order Item -> Record Goods Receipt,kappa_0.50
+bpi2019,Original DRO,10,6,Record Goods Receipt -> Vendor creates invoice,kappa_0.50
+bpi2019,Original DRO,10,7,Remove Payment Block -> Clear Invoice,kappa_0.50
+bpi2019,Original DRO,10,8,Vendor creates invoice -> Record Goods Receipt,kappa_0.50
+bpi2019,Original DRO,10,9,Record Invoice Receipt -> Remove Payment Block,kappa_0.50
+bpi2019,Original DRO,10,10,Record Goods Receipt -> Remove Payment Block,kappa_0.50
+bpi2019,Frequency,3,1,Record Service Entry Sheet -> Record Service Entry Sheet,kappa_0.75
+bpi2019,Frequency,3,2,Create Purchase Order Item -> Vendor creates invoice,kappa_0.75
+bpi2019,Frequency,3,3,Vendor creates invoice -> Record Goods Receipt,kappa_0.75
+bpi2019,Frequency,5,1,Record Service Entry Sheet -> Record Service Entry Sheet,kappa_0.75
+bpi2019,Frequency,5,2,Create Purchase Order Item -> Vendor creates invoice,kappa_0.75
+bpi2019,Frequency,5,3,Vendor creates invoice -> Record Goods Receipt,kappa_0.75
+bpi2019,Frequency,5,4,Record Invoice Receipt -> Clear Invoice,kappa_0.75
+bpi2019,Frequency,5,5,Record Goods Receipt -> Record Invoice Receipt,kappa_0.75
+bpi2019,Frequency,10,1,Record Service Entry Sheet -> Record Service Entry Sheet,kappa_0.75
+bpi2019,Frequency,10,2,Create Purchase Order Item -> Vendor creates invoice,kappa_0.75
+bpi2019,Frequency,10,3,Vendor creates invoice -> Record Goods Receipt,kappa_0.75
+bpi2019,Frequency,10,4,Record Invoice Receipt -> Clear Invoice,kappa_0.75
+bpi2019,Frequency,10,5,Record Goods Receipt -> Record Invoice Receipt,kappa_0.75
+bpi2019,Frequency,10,6,Vendor creates invoice -> Record Invoice Receipt,kappa_0.75
+bpi2019,Frequency,10,7,Record Goods Receipt -> Vendor creates invoice,kappa_0.75
+bpi2019,Frequency,10,8,Create Purchase Order Item -> Record Goods Receipt,kappa_0.75
+bpi2019,Frequency,10,9,Record Goods Receipt -> Record Goods Receipt,kappa_0.75
+bpi2019,Frequency,10,10,Remove Payment Block -> Clear Invoice,kappa_0.75
+bpi2019,Mean burden,3,1,Record Invoice Receipt -> Clear Invoice,kappa_0.75
+bpi2019,Mean burden,3,2,Create Purchase Order Item -> Vendor creates invoice,kappa_0.75
+bpi2019,Mean burden,3,3,Record Goods Receipt -> Record Invoice Receipt,kappa_0.75
+bpi2019,Mean burden,5,1,Record Invoice Receipt -> Clear Invoice,kappa_0.75
+bpi2019,Mean burden,5,2,Create Purchase Order Item -> Vendor creates invoice,kappa_0.75
+bpi2019,Mean burden,5,3,Record Goods Receipt -> Record Invoice Receipt,kappa_0.75
+bpi2019,Mean burden,5,4,Remove Payment Block -> Clear Invoice,kappa_0.75
+bpi2019,Mean burden,5,5,Create Purchase Order Item -> Record Goods Receipt,kappa_0.75
+bpi2019,Mean burden,10,1,Record Invoice Receipt -> Clear Invoice,kappa_0.75
+bpi2019,Mean burden,10,2,Create Purchase Order Item -> Vendor creates invoice,kappa_0.75
+bpi2019,Mean burden,10,3,Record Goods Receipt -> Record Invoice Receipt,kappa_0.75
+bpi2019,Mean burden,10,4,Remove Payment Block -> Clear Invoice,kappa_0.75
+bpi2019,Mean burden,10,5,Create Purchase Order Item -> Record Goods Receipt,kappa_0.75
+bpi2019,Mean burden,10,6,Vendor creates invoice -> Record Invoice Receipt,kappa_0.75
+bpi2019,Mean burden,10,7,Record Invoice Receipt -> Remove Payment Block,kappa_0.75
+bpi2019,Mean burden,10,8,Vendor creates invoice -> Record Goods Receipt,kappa_0.75
+bpi2019,Mean burden,10,9,Record Goods Receipt -> Vendor creates invoice,kappa_0.75
+bpi2019,Mean burden,10,10,Create Purchase Order Item -> Change Quantity,kappa_0.75
+bpi2019,Empirical Tail,3,1,Record Invoice Receipt -> Clear Invoice,kappa_0.75
+bpi2019,Empirical Tail,3,2,Create Purchase Order Item -> Vendor creates invoice,kappa_0.75
+bpi2019,Empirical Tail,3,3,Record Goods Receipt -> Record Invoice Receipt,kappa_0.75
+bpi2019,Empirical Tail,5,1,Record Invoice Receipt -> Clear Invoice,kappa_0.75
+bpi2019,Empirical Tail,5,2,Create Purchase Order Item -> Vendor creates invoice,kappa_0.75
+bpi2019,Empirical Tail,5,3,Record Goods Receipt -> Record Invoice Receipt,kappa_0.75
+bpi2019,Empirical Tail,5,4,Vendor creates invoice -> Record Invoice Receipt,kappa_0.75
+bpi2019,Empirical Tail,5,5,Create Purchase Order Item -> Record Goods Receipt,kappa_0.75
+bpi2019,Empirical Tail,10,1,Record Invoice Receipt -> Clear Invoice,kappa_0.75
+bpi2019,Empirical Tail,10,2,Create Purchase Order Item -> Vendor creates invoice,kappa_0.75
+bpi2019,Empirical Tail,10,3,Record Goods Receipt -> Record Invoice Receipt,kappa_0.75
+bpi2019,Empirical Tail,10,4,Vendor creates invoice -> Record Invoice Receipt,kappa_0.75
+bpi2019,Empirical Tail,10,5,Create Purchase Order Item -> Record Goods Receipt,kappa_0.75
+bpi2019,Empirical Tail,10,6,Remove Payment Block -> Clear Invoice,kappa_0.75
+bpi2019,Empirical Tail,10,7,Record Goods Receipt -> Vendor creates invoice,kappa_0.75
+bpi2019,Empirical Tail,10,8,Record Invoice Receipt -> Remove Payment Block,kappa_0.75
+bpi2019,Empirical Tail,10,9,Vendor creates invoice -> Record Goods Receipt,kappa_0.75
+bpi2019,Empirical Tail,10,10,Create Purchase Order Item -> Change Quantity,kappa_0.75
+bpi2019,Original DRO,3,1,Create Purchase Order Item -> Vendor creates invoice,kappa_0.75
+bpi2019,Original DRO,3,2,Record Invoice Receipt -> Clear Invoice,kappa_0.75
+bpi2019,Original DRO,3,3,Record Goods Receipt -> Record Invoice Receipt,kappa_0.75
+bpi2019,Original DRO,5,1,Create Purchase Order Item -> Vendor creates invoice,kappa_0.75
+bpi2019,Original DRO,5,2,Record Invoice Receipt -> Clear Invoice,kappa_0.75
+bpi2019,Original DRO,5,3,Record Goods Receipt -> Record Invoice Receipt,kappa_0.75
+bpi2019,Original DRO,5,4,Vendor creates invoice -> Record Invoice Receipt,kappa_0.75
+bpi2019,Original DRO,5,5,Create Purchase Order Item -> Record Goods Receipt,kappa_0.75
+bpi2019,Original DRO,10,1,Create Purchase Order Item -> Vendor creates invoice,kappa_0.75
+bpi2019,Original DRO,10,2,Record Invoice Receipt -> Clear Invoice,kappa_0.75
+bpi2019,Original DRO,10,3,Record Goods Receipt -> Record Invoice Receipt,kappa_0.75
+bpi2019,Original DRO,10,4,Vendor creates invoice -> Record Invoice Receipt,kappa_0.75
+bpi2019,Original DRO,10,5,Create Purchase Order Item -> Record Goods Receipt,kappa_0.75
+bpi2019,Original DRO,10,6,Record Goods Receipt -> Vendor creates invoice,kappa_0.75
+bpi2019,Original DRO,10,7,Remove Payment Block -> Clear Invoice,kappa_0.75
+bpi2019,Original DRO,10,8,Vendor creates invoice -> Record Goods Receipt,kappa_0.75
+bpi2019,Original DRO,10,9,Record Invoice Receipt -> Remove Payment Block,kappa_0.75
+bpi2019,Original DRO,10,10,Record Goods Receipt -> Remove Payment Block,kappa_0.75
+bpi2019,Frequency,3,1,Record Service Entry Sheet -> Record Service Entry Sheet,kappa_0.95
+bpi2019,Frequency,3,2,Create Purchase Order Item -> Vendor creates invoice,kappa_0.95
+bpi2019,Frequency,3,3,Vendor creates invoice -> Record Goods Receipt,kappa_0.95
+bpi2019,Frequency,5,1,Record Service Entry Sheet -> Record Service Entry Sheet,kappa_0.95
+bpi2019,Frequency,5,2,Create Purchase Order Item -> Vendor creates invoice,kappa_0.95
+bpi2019,Frequency,5,3,Vendor creates invoice -> Record Goods Receipt,kappa_0.95
+bpi2019,Frequency,5,4,Record Invoice Receipt -> Clear Invoice,kappa_0.95
+bpi2019,Frequency,5,5,Record Goods Receipt -> Record Invoice Receipt,kappa_0.95
+bpi2019,Frequency,10,1,Record Service Entry Sheet -> Record Service Entry Sheet,kappa_0.95
+bpi2019,Frequency,10,2,Create Purchase Order Item -> Vendor creates invoice,kappa_0.95
+bpi2019,Frequency,10,3,Vendor creates invoice -> Record Goods Receipt,kappa_0.95
+bpi2019,Frequency,10,4,Record Invoice Receipt -> Clear Invoice,kappa_0.95
+bpi2019,Frequency,10,5,Record Goods Receipt -> Record Invoice Receipt,kappa_0.95
+bpi2019,Frequency,10,6,Vendor creates invoice -> Record Invoice Receipt,kappa_0.95
+bpi2019,Frequency,10,7,Record Goods Receipt -> Vendor creates invoice,kappa_0.95
+bpi2019,Frequency,10,8,Create Purchase Order Item -> Record Goods Receipt,kappa_0.95
+bpi2019,Frequency,10,9,Record Goods Receipt -> Record Goods Receipt,kappa_0.95
+bpi2019,Frequency,10,10,Remove Payment Block -> Clear Invoice,kappa_0.95
+bpi2019,Mean burden,3,1,Record Invoice Receipt -> Clear Invoice,kappa_0.95
+bpi2019,Mean burden,3,2,Create Purchase Order Item -> Vendor creates invoice,kappa_0.95
+bpi2019,Mean burden,3,3,Record Goods Receipt -> Record Invoice Receipt,kappa_0.95
+bpi2019,Mean burden,5,1,Record Invoice Receipt -> Clear Invoice,kappa_0.95
+bpi2019,Mean burden,5,2,Create Purchase Order Item -> Vendor creates invoice,kappa_0.95
+bpi2019,Mean burden,5,3,Record Goods Receipt -> Record Invoice Receipt,kappa_0.95
+bpi2019,Mean burden,5,4,Remove Payment Block -> Clear Invoice,kappa_0.95
+bpi2019,Mean burden,5,5,Create Purchase Order Item -> Record Goods Receipt,kappa_0.95
+bpi2019,Mean burden,10,1,Record Invoice Receipt -> Clear Invoice,kappa_0.95
+bpi2019,Mean burden,10,2,Create Purchase Order Item -> Vendor creates invoice,kappa_0.95
+bpi2019,Mean burden,10,3,Record Goods Receipt -> Record Invoice Receipt,kappa_0.95
+bpi2019,Mean burden,10,4,Remove Payment Block -> Clear Invoice,kappa_0.95
+bpi2019,Mean burden,10,5,Create Purchase Order Item -> Record Goods Receipt,kappa_0.95
+bpi2019,Mean burden,10,6,Vendor creates invoice -> Record Invoice Receipt,kappa_0.95
+bpi2019,Mean burden,10,7,Record Invoice Receipt -> Remove Payment Block,kappa_0.95
+bpi2019,Mean burden,10,8,Vendor creates invoice -> Record Goods Receipt,kappa_0.95
+bpi2019,Mean burden,10,9,Record Goods Receipt -> Vendor creates invoice,kappa_0.95
+bpi2019,Mean burden,10,10,Create Purchase Order Item -> Change Quantity,kappa_0.95
+bpi2019,Empirical Tail,3,1,Record Invoice Receipt -> Clear Invoice,kappa_0.95
+bpi2019,Empirical Tail,3,2,Create Purchase Order Item -> Vendor creates invoice,kappa_0.95
+bpi2019,Empirical Tail,3,3,Record Goods Receipt -> Record Invoice Receipt,kappa_0.95
+bpi2019,Empirical Tail,5,1,Record Invoice Receipt -> Clear Invoice,kappa_0.95
+bpi2019,Empirical Tail,5,2,Create Purchase Order Item -> Vendor creates invoice,kappa_0.95
+bpi2019,Empirical Tail,5,3,Record Goods Receipt -> Record Invoice Receipt,kappa_0.95
+bpi2019,Empirical Tail,5,4,Vendor creates invoice -> Record Invoice Receipt,kappa_0.95
+bpi2019,Empirical Tail,5,5,Create Purchase Order Item -> Record Goods Receipt,kappa_0.95
+bpi2019,Empirical Tail,10,1,Record Invoice Receipt -> Clear Invoice,kappa_0.95
+bpi2019,Empirical Tail,10,2,Create Purchase Order Item -> Vendor creates invoice,kappa_0.95
+bpi2019,Empirical Tail,10,3,Record Goods Receipt -> Record Invoice Receipt,kappa_0.95
+bpi2019,Empirical Tail,10,4,Vendor creates invoice -> Record Invoice Receipt,kappa_0.95
+bpi2019,Empirical Tail,10,5,Create Purchase Order Item -> Record Goods Receipt,kappa_0.95
+bpi2019,Empirical Tail,10,6,Remove Payment Block -> Clear Invoice,kappa_0.95
+bpi2019,Empirical Tail,10,7,Record Goods Receipt -> Vendor creates invoice,kappa_0.95
+bpi2019,Empirical Tail,10,8,Record Invoice Receipt -> Remove Payment Block,kappa_0.95
+bpi2019,Empirical Tail,10,9,Vendor creates invoice -> Record Goods Receipt,kappa_0.95
+bpi2019,Empirical Tail,10,10,Create Purchase Order Item -> Change Quantity,kappa_0.95
+bpi2019,Original DRO,3,1,Create Purchase Order Item -> Vendor creates invoice,kappa_0.95
+bpi2019,Original DRO,3,2,Record Invoice Receipt -> Clear Invoice,kappa_0.95
+bpi2019,Original DRO,3,3,Record Goods Receipt -> Record Invoice Receipt,kappa_0.95
+bpi2019,Original DRO,5,1,Create Purchase Order Item -> Vendor creates invoice,kappa_0.95
+bpi2019,Original DRO,5,2,Record Invoice Receipt -> Clear Invoice,kappa_0.95
+bpi2019,Original DRO,5,3,Record Goods Receipt -> Record Invoice Receipt,kappa_0.95
+bpi2019,Original DRO,5,4,Vendor creates invoice -> Record Invoice Receipt,kappa_0.95
+bpi2019,Original DRO,5,5,Create Purchase Order Item -> Record Goods Receipt,kappa_0.95
+bpi2019,Original DRO,10,1,Create Purchase Order Item -> Vendor creates invoice,kappa_0.95
+bpi2019,Original DRO,10,2,Record Invoice Receipt -> Clear Invoice,kappa_0.95
+bpi2019,Original DRO,10,3,Record Goods Receipt -> Record Invoice Receipt,kappa_0.95
+bpi2019,Original DRO,10,4,Vendor creates invoice -> Record Invoice Receipt,kappa_0.95
+bpi2019,Original DRO,10,5,Create Purchase Order Item -> Record Goods Receipt,kappa_0.95
+bpi2019,Original DRO,10,6,Record Goods Receipt -> Vendor creates invoice,kappa_0.95
+bpi2019,Original DRO,10,7,Remove Payment Block -> Clear Invoice,kappa_0.95
+bpi2019,Original DRO,10,8,Vendor creates invoice -> Record Goods Receipt,kappa_0.95
+bpi2019,Original DRO,10,9,Record Invoice Receipt -> Remove Payment Block,kappa_0.95
+bpi2019,Original DRO,10,10,Record Goods Receipt -> Remove Payment Block,kappa_0.95
+bpi2019,Frequency,3,1,Record Service Entry Sheet -> Record Service Entry Sheet,kappa_0.99
+bpi2019,Frequency,3,2,Create Purchase Order Item -> Vendor creates invoice,kappa_0.99
+bpi2019,Frequency,3,3,Vendor creates invoice -> Record Goods Receipt,kappa_0.99
+bpi2019,Frequency,5,1,Record Service Entry Sheet -> Record Service Entry Sheet,kappa_0.99
+bpi2019,Frequency,5,2,Create Purchase Order Item -> Vendor creates invoice,kappa_0.99
+bpi2019,Frequency,5,3,Vendor creates invoice -> Record Goods Receipt,kappa_0.99
+bpi2019,Frequency,5,4,Record Invoice Receipt -> Clear Invoice,kappa_0.99
+bpi2019,Frequency,5,5,Record Goods Receipt -> Record Invoice Receipt,kappa_0.99
+bpi2019,Frequency,10,1,Record Service Entry Sheet -> Record Service Entry Sheet,kappa_0.99
+bpi2019,Frequency,10,2,Create Purchase Order Item -> Vendor creates invoice,kappa_0.99
+bpi2019,Frequency,10,3,Vendor creates invoice -> Record Goods Receipt,kappa_0.99
+bpi2019,Frequency,10,4,Record Invoice Receipt -> Clear Invoice,kappa_0.99
+bpi2019,Frequency,10,5,Record Goods Receipt -> Record Invoice Receipt,kappa_0.99
+bpi2019,Frequency,10,6,Vendor creates invoice -> Record Invoice Receipt,kappa_0.99
+bpi2019,Frequency,10,7,Record Goods Receipt -> Vendor creates invoice,kappa_0.99
+bpi2019,Frequency,10,8,Create Purchase Order Item -> Record Goods Receipt,kappa_0.99
+bpi2019,Frequency,10,9,Record Goods Receipt -> Record Goods Receipt,kappa_0.99
+bpi2019,Frequency,10,10,Remove Payment Block -> Clear Invoice,kappa_0.99
+bpi2019,Mean burden,3,1,Record Invoice Receipt -> Clear Invoice,kappa_0.99
+bpi2019,Mean burden,3,2,Create Purchase Order Item -> Vendor creates invoice,kappa_0.99
+bpi2019,Mean burden,3,3,Record Goods Receipt -> Record Invoice Receipt,kappa_0.99
+bpi2019,Mean burden,5,1,Record Invoice Receipt -> Clear Invoice,kappa_0.99
+bpi2019,Mean burden,5,2,Create Purchase Order Item -> Vendor creates invoice,kappa_0.99
+bpi2019,Mean burden,5,3,Record Goods Receipt -> Record Invoice Receipt,kappa_0.99
+bpi2019,Mean burden,5,4,Remove Payment Block -> Clear Invoice,kappa_0.99
+bpi2019,Mean burden,5,5,Create Purchase Order Item -> Record Goods Receipt,kappa_0.99
+bpi2019,Mean burden,10,1,Record Invoice Receipt -> Clear Invoice,kappa_0.99
+bpi2019,Mean burden,10,2,Create Purchase Order Item -> Vendor creates invoice,kappa_0.99
+bpi2019,Mean burden,10,3,Record Goods Receipt -> Record Invoice Receipt,kappa_0.99
+bpi2019,Mean burden,10,4,Remove Payment Block -> Clear Invoice,kappa_0.99
+bpi2019,Mean burden,10,5,Create Purchase Order Item -> Record Goods Receipt,kappa_0.99
+bpi2019,Mean burden,10,6,Vendor creates invoice -> Record Invoice Receipt,kappa_0.99
+bpi2019,Mean burden,10,7,Record Invoice Receipt -> Remove Payment Block,kappa_0.99
+bpi2019,Mean burden,10,8,Vendor creates invoice -> Record Goods Receipt,kappa_0.99
+bpi2019,Mean burden,10,9,Record Goods Receipt -> Vendor creates invoice,kappa_0.99
+bpi2019,Mean burden,10,10,Create Purchase Order Item -> Change Quantity,kappa_0.99
+bpi2019,Empirical Tail,3,1,Record Invoice Receipt -> Clear Invoice,kappa_0.99
+bpi2019,Empirical Tail,3,2,Create Purchase Order Item -> Vendor creates invoice,kappa_0.99
+bpi2019,Empirical Tail,3,3,Record Goods Receipt -> Record Invoice Receipt,kappa_0.99
+bpi2019,Empirical Tail,5,1,Record Invoice Receipt -> Clear Invoice,kappa_0.99
+bpi2019,Empirical Tail,5,2,Create Purchase Order Item -> Vendor creates invoice,kappa_0.99
+bpi2019,Empirical Tail,5,3,Record Goods Receipt -> Record Invoice Receipt,kappa_0.99
+bpi2019,Empirical Tail,5,4,Vendor creates invoice -> Record Invoice Receipt,kappa_0.99
+bpi2019,Empirical Tail,5,5,Create Purchase Order Item -> Record Goods Receipt,kappa_0.99
+bpi2019,Empirical Tail,10,1,Record Invoice Receipt -> Clear Invoice,kappa_0.99
+bpi2019,Empirical Tail,10,2,Create Purchase Order Item -> Vendor creates invoice,kappa_0.99
+bpi2019,Empirical Tail,10,3,Record Goods Receipt -> Record Invoice Receipt,kappa_0.99
+bpi2019,Empirical Tail,10,4,Vendor creates invoice -> Record Invoice Receipt,kappa_0.99
+bpi2019,Empirical Tail,10,5,Create Purchase Order Item -> Record Goods Receipt,kappa_0.99
+bpi2019,Empirical Tail,10,6,Remove Payment Block -> Clear Invoice,kappa_0.99
+bpi2019,Empirical Tail,10,7,Record Goods Receipt -> Vendor creates invoice,kappa_0.99
+bpi2019,Empirical Tail,10,8,Record Invoice Receipt -> Remove Payment Block,kappa_0.99
+bpi2019,Empirical Tail,10,9,Vendor creates invoice -> Record Goods Receipt,kappa_0.99
+bpi2019,Empirical Tail,10,10,Create Purchase Order Item -> Change Quantity,kappa_0.99
+bpi2019,Original DRO,3,1,Create Purchase Order Item -> Vendor creates invoice,kappa_0.99
+bpi2019,Original DRO,3,2,Record Invoice Receipt -> Clear Invoice,kappa_0.99
+bpi2019,Original DRO,3,3,Record Goods Receipt -> Record Invoice Receipt,kappa_0.99
+bpi2019,Original DRO,5,1,Create Purchase Order Item -> Vendor creates invoice,kappa_0.99
+bpi2019,Original DRO,5,2,Record Invoice Receipt -> Clear Invoice,kappa_0.99
+bpi2019,Original DRO,5,3,Record Goods Receipt -> Record Invoice Receipt,kappa_0.99
+bpi2019,Original DRO,5,4,Vendor creates invoice -> Record Invoice Receipt,kappa_0.99
+bpi2019,Original DRO,5,5,Create Purchase Order Item -> Record Goods Receipt,kappa_0.99
+bpi2019,Original DRO,10,1,Create Purchase Order Item -> Vendor creates invoice,kappa_0.99
+bpi2019,Original DRO,10,2,Record Invoice Receipt -> Clear Invoice,kappa_0.99
+bpi2019,Original DRO,10,3,Record Goods Receipt -> Record Invoice Receipt,kappa_0.99
+bpi2019,Original DRO,10,4,Vendor creates invoice -> Record Invoice Receipt,kappa_0.99
+bpi2019,Original DRO,10,5,Create Purchase Order Item -> Record Goods Receipt,kappa_0.99
+bpi2019,Original DRO,10,6,Record Goods Receipt -> Vendor creates invoice,kappa_0.99
+bpi2019,Original DRO,10,7,Remove Payment Block -> Clear Invoice,kappa_0.99
+bpi2019,Original DRO,10,8,Vendor creates invoice -> Record Goods Receipt,kappa_0.99
+bpi2019,Original DRO,10,9,Record Invoice Receipt -> Remove Payment Block,kappa_0.99
+bpi2019,Original DRO,10,10,Record Goods Receipt -> Remove Payment Block,kappa_0.99
+bpi2019,Frequency,3,1,Record Service Entry Sheet -> Record Service Entry Sheet,maturity_90d
+bpi2019,Frequency,3,2,Record Invoice Receipt -> Clear Invoice,maturity_90d
+bpi2019,Frequency,3,3,Create Purchase Order Item -> Vendor creates invoice,maturity_90d
+bpi2019,Frequency,5,1,Record Service Entry Sheet -> Record Service Entry Sheet,maturity_90d
+bpi2019,Frequency,5,2,Record Invoice Receipt -> Clear Invoice,maturity_90d
+bpi2019,Frequency,5,3,Create Purchase Order Item -> Vendor creates invoice,maturity_90d
+bpi2019,Frequency,5,4,Vendor creates invoice -> Record Goods Receipt,maturity_90d
+bpi2019,Frequency,5,5,Record Goods Receipt -> Record Invoice Receipt,maturity_90d
+bpi2019,Frequency,10,1,Record Service Entry Sheet -> Record Service Entry Sheet,maturity_90d
+bpi2019,Frequency,10,2,Record Invoice Receipt -> Clear Invoice,maturity_90d
+bpi2019,Frequency,10,3,Create Purchase Order Item -> Vendor creates invoice,maturity_90d
+bpi2019,Frequency,10,4,Vendor creates invoice -> Record Goods Receipt,maturity_90d
+bpi2019,Frequency,10,5,Record Goods Receipt -> Record Invoice Receipt,maturity_90d
+bpi2019,Frequency,10,6,Vendor creates invoice -> Record Invoice Receipt,maturity_90d
+bpi2019,Frequency,10,7,Create Purchase Order Item -> Record Goods Receipt,maturity_90d
+bpi2019,Frequency,10,8,Record Goods Receipt -> Vendor creates invoice,maturity_90d
+bpi2019,Frequency,10,9,Record Goods Receipt -> Record Goods Receipt,maturity_90d
+bpi2019,Frequency,10,10,Remove Payment Block -> Clear Invoice,maturity_90d
+bpi2019,Mean burden,3,1,Record Invoice Receipt -> Clear Invoice,maturity_90d
+bpi2019,Mean burden,3,2,Remove Payment Block -> Clear Invoice,maturity_90d
+bpi2019,Mean burden,3,3,Create Purchase Order Item -> Vendor creates invoice,maturity_90d
+bpi2019,Mean burden,5,1,Record Invoice Receipt -> Clear Invoice,maturity_90d
+bpi2019,Mean burden,5,2,Remove Payment Block -> Clear Invoice,maturity_90d
+bpi2019,Mean burden,5,3,Create Purchase Order Item -> Vendor creates invoice,maturity_90d
+bpi2019,Mean burden,5,4,Record Goods Receipt -> Record Invoice Receipt,maturity_90d
+bpi2019,Mean burden,5,5,Create Purchase Order Item -> Record Goods Receipt,maturity_90d
+bpi2019,Mean burden,10,1,Record Invoice Receipt -> Clear Invoice,maturity_90d
+bpi2019,Mean burden,10,2,Remove Payment Block -> Clear Invoice,maturity_90d
+bpi2019,Mean burden,10,3,Create Purchase Order Item -> Vendor creates invoice,maturity_90d
+bpi2019,Mean burden,10,4,Record Goods Receipt -> Record Invoice Receipt,maturity_90d
+bpi2019,Mean burden,10,5,Create Purchase Order Item -> Record Goods Receipt,maturity_90d
+bpi2019,Mean burden,10,6,Vendor creates invoice -> Record Invoice Receipt,maturity_90d
+bpi2019,Mean burden,10,7,Record Invoice Receipt -> Remove Payment Block,maturity_90d
+bpi2019,Mean burden,10,8,Vendor creates invoice -> Record Goods Receipt,maturity_90d
+bpi2019,Mean burden,10,9,Record Goods Receipt -> Vendor creates invoice,maturity_90d
+bpi2019,Mean burden,10,10,Create Purchase Order Item -> Change Quantity,maturity_90d
+bpi2019,Empirical Tail,3,1,Record Invoice Receipt -> Clear Invoice,maturity_90d
+bpi2019,Empirical Tail,3,2,Create Purchase Order Item -> Vendor creates invoice,maturity_90d
+bpi2019,Empirical Tail,3,3,Record Goods Receipt -> Record Invoice Receipt,maturity_90d
+bpi2019,Empirical Tail,5,1,Record Invoice Receipt -> Clear Invoice,maturity_90d
+bpi2019,Empirical Tail,5,2,Create Purchase Order Item -> Vendor creates invoice,maturity_90d
+bpi2019,Empirical Tail,5,3,Record Goods Receipt -> Record Invoice Receipt,maturity_90d
+bpi2019,Empirical Tail,5,4,Vendor creates invoice -> Record Invoice Receipt,maturity_90d
+bpi2019,Empirical Tail,5,5,Create Purchase Order Item -> Record Goods Receipt,maturity_90d
+bpi2019,Empirical Tail,10,1,Record Invoice Receipt -> Clear Invoice,maturity_90d
+bpi2019,Empirical Tail,10,2,Create Purchase Order Item -> Vendor creates invoice,maturity_90d
+bpi2019,Empirical Tail,10,3,Record Goods Receipt -> Record Invoice Receipt,maturity_90d
+bpi2019,Empirical Tail,10,4,Vendor creates invoice -> Record Invoice Receipt,maturity_90d
+bpi2019,Empirical Tail,10,5,Create Purchase Order Item -> Record Goods Receipt,maturity_90d
+bpi2019,Empirical Tail,10,6,Remove Payment Block -> Clear Invoice,maturity_90d
+bpi2019,Empirical Tail,10,7,Record Invoice Receipt -> Remove Payment Block,maturity_90d
+bpi2019,Empirical Tail,10,8,Record Goods Receipt -> Vendor creates invoice,maturity_90d
+bpi2019,Empirical Tail,10,9,Vendor creates invoice -> Record Goods Receipt,maturity_90d
+bpi2019,Empirical Tail,10,10,Create Purchase Order Item -> Change Quantity,maturity_90d
+bpi2019,Original DRO,3,1,Record Invoice Receipt -> Clear Invoice,maturity_90d
+bpi2019,Original DRO,3,2,Create Purchase Order Item -> Vendor creates invoice,maturity_90d
+bpi2019,Original DRO,3,3,Record Goods Receipt -> Record Invoice Receipt,maturity_90d
+bpi2019,Original DRO,5,1,Record Invoice Receipt -> Clear Invoice,maturity_90d
+bpi2019,Original DRO,5,2,Create Purchase Order Item -> Vendor creates invoice,maturity_90d
+bpi2019,Original DRO,5,3,Record Goods Receipt -> Record Invoice Receipt,maturity_90d
+bpi2019,Original DRO,5,4,Vendor creates invoice -> Record Invoice Receipt,maturity_90d
+bpi2019,Original DRO,5,5,Create Purchase Order Item -> Record Goods Receipt,maturity_90d
+bpi2019,Original DRO,10,1,Record Invoice Receipt -> Clear Invoice,maturity_90d
+bpi2019,Original DRO,10,2,Create Purchase Order Item -> Vendor creates invoice,maturity_90d
+bpi2019,Original DRO,10,3,Record Goods Receipt -> Record Invoice Receipt,maturity_90d
+bpi2019,Original DRO,10,4,Vendor creates invoice -> Record Invoice Receipt,maturity_90d
+bpi2019,Original DRO,10,5,Create Purchase Order Item -> Record Goods Receipt,maturity_90d
+bpi2019,Original DRO,10,6,Record Goods Receipt -> Vendor creates invoice,maturity_90d
+bpi2019,Original DRO,10,7,Remove Payment Block -> Clear Invoice,maturity_90d
+bpi2019,Original DRO,10,8,Vendor creates invoice -> Record Goods Receipt,maturity_90d
+bpi2019,Original DRO,10,9,Record Invoice Receipt -> Remove Payment Block,maturity_90d
+bpi2019,Original DRO,10,10,Create Purchase Order Item -> Change Quantity,maturity_90d
+bpi2019,Frequency,3,1,Record Service Entry Sheet -> Record Service Entry Sheet,maturity_120d
+bpi2019,Frequency,3,2,Create Purchase Order Item -> Vendor creates invoice,maturity_120d
+bpi2019,Frequency,3,3,Vendor creates invoice -> Record Goods Receipt,maturity_120d
+bpi2019,Frequency,5,1,Record Service Entry Sheet -> Record Service Entry Sheet,maturity_120d
+bpi2019,Frequency,5,2,Create Purchase Order Item -> Vendor creates invoice,maturity_120d
+bpi2019,Frequency,5,3,Vendor creates invoice -> Record Goods Receipt,maturity_120d
+bpi2019,Frequency,5,4,Record Goods Receipt -> Record Invoice Receipt,maturity_120d
+bpi2019,Frequency,5,5,Record Invoice Receipt -> Clear Invoice,maturity_120d
+bpi2019,Frequency,10,1,Record Service Entry Sheet -> Record Service Entry Sheet,maturity_120d
+bpi2019,Frequency,10,2,Create Purchase Order Item -> Vendor creates invoice,maturity_120d
+bpi2019,Frequency,10,3,Vendor creates invoice -> Record Goods Receipt,maturity_120d
+bpi2019,Frequency,10,4,Record Goods Receipt -> Record Invoice Receipt,maturity_120d
+bpi2019,Frequency,10,5,Record Invoice Receipt -> Clear Invoice,maturity_120d
+bpi2019,Frequency,10,6,Create Purchase Order Item -> Record Goods Receipt,maturity_120d
+bpi2019,Frequency,10,7,Vendor creates invoice -> Record Invoice Receipt,maturity_120d
+bpi2019,Frequency,10,8,Record Goods Receipt -> Vendor creates invoice,maturity_120d
+bpi2019,Frequency,10,9,Record Goods Receipt -> Record Goods Receipt,maturity_120d
+bpi2019,Frequency,10,10,Create Purchase Order Item -> Receive Order Confirmation,maturity_120d
+bpi2019,Mean burden,3,1,Record Invoice Receipt -> Clear Invoice,maturity_120d
+bpi2019,Mean burden,3,2,Create Purchase Order Item -> Vendor creates invoice,maturity_120d
+bpi2019,Mean burden,3,3,Remove Payment Block -> Clear Invoice,maturity_120d
+bpi2019,Mean burden,5,1,Record Invoice Receipt -> Clear Invoice,maturity_120d
+bpi2019,Mean burden,5,2,Create Purchase Order Item -> Vendor creates invoice,maturity_120d
+bpi2019,Mean burden,5,3,Remove Payment Block -> Clear Invoice,maturity_120d
+bpi2019,Mean burden,5,4,Create Purchase Order Item -> Record Goods Receipt,maturity_120d
+bpi2019,Mean burden,5,5,Record Goods Receipt -> Record Invoice Receipt,maturity_120d
+bpi2019,Mean burden,10,1,Record Invoice Receipt -> Clear Invoice,maturity_120d
+bpi2019,Mean burden,10,2,Create Purchase Order Item -> Vendor creates invoice,maturity_120d
+bpi2019,Mean burden,10,3,Remove Payment Block -> Clear Invoice,maturity_120d
+bpi2019,Mean burden,10,4,Create Purchase Order Item -> Record Goods Receipt,maturity_120d
+bpi2019,Mean burden,10,5,Record Goods Receipt -> Record Invoice Receipt,maturity_120d
+bpi2019,Mean burden,10,6,Vendor creates invoice -> Record Invoice Receipt,maturity_120d
+bpi2019,Mean burden,10,7,Record Invoice Receipt -> Remove Payment Block,maturity_120d
+bpi2019,Mean burden,10,8,Vendor creates invoice -> Record Goods Receipt,maturity_120d
+bpi2019,Mean burden,10,9,Record Goods Receipt -> Vendor creates invoice,maturity_120d
+bpi2019,Mean burden,10,10,Create Purchase Order Item -> Change Quantity,maturity_120d
+bpi2019,Empirical Tail,3,1,Record Invoice Receipt -> Clear Invoice,maturity_120d
+bpi2019,Empirical Tail,3,2,Create Purchase Order Item -> Vendor creates invoice,maturity_120d
+bpi2019,Empirical Tail,3,3,Record Goods Receipt -> Record Invoice Receipt,maturity_120d
+bpi2019,Empirical Tail,5,1,Record Invoice Receipt -> Clear Invoice,maturity_120d
+bpi2019,Empirical Tail,5,2,Create Purchase Order Item -> Vendor creates invoice,maturity_120d
+bpi2019,Empirical Tail,5,3,Record Goods Receipt -> Record Invoice Receipt,maturity_120d
+bpi2019,Empirical Tail,5,4,Vendor creates invoice -> Record Invoice Receipt,maturity_120d
+bpi2019,Empirical Tail,5,5,Create Purchase Order Item -> Record Goods Receipt,maturity_120d
+bpi2019,Empirical Tail,10,1,Record Invoice Receipt -> Clear Invoice,maturity_120d
+bpi2019,Empirical Tail,10,2,Create Purchase Order Item -> Vendor creates invoice,maturity_120d
+bpi2019,Empirical Tail,10,3,Record Goods Receipt -> Record Invoice Receipt,maturity_120d
+bpi2019,Empirical Tail,10,4,Vendor creates invoice -> Record Invoice Receipt,maturity_120d
+bpi2019,Empirical Tail,10,5,Create Purchase Order Item -> Record Goods Receipt,maturity_120d
+bpi2019,Empirical Tail,10,6,Remove Payment Block -> Clear Invoice,maturity_120d
+bpi2019,Empirical Tail,10,7,Record Goods Receipt -> Vendor creates invoice,maturity_120d
+bpi2019,Empirical Tail,10,8,Record Invoice Receipt -> Remove Payment Block,maturity_120d
+bpi2019,Empirical Tail,10,9,Vendor creates invoice -> Record Goods Receipt,maturity_120d
+bpi2019,Empirical Tail,10,10,Create Purchase Order Item -> Change Quantity,maturity_120d
+bpi2019,Original DRO,3,1,Create Purchase Order Item -> Vendor creates invoice,maturity_120d
+bpi2019,Original DRO,3,2,Record Goods Receipt -> Record Invoice Receipt,maturity_120d
+bpi2019,Original DRO,3,3,Record Invoice Receipt -> Clear Invoice,maturity_120d
+bpi2019,Original DRO,5,1,Create Purchase Order Item -> Vendor creates invoice,maturity_120d
+bpi2019,Original DRO,5,2,Record Goods Receipt -> Record Invoice Receipt,maturity_120d
+bpi2019,Original DRO,5,3,Record Invoice Receipt -> Clear Invoice,maturity_120d
+bpi2019,Original DRO,5,4,Create Purchase Order Item -> Record Goods Receipt,maturity_120d
+bpi2019,Original DRO,5,5,Vendor creates invoice -> Record Invoice Receipt,maturity_120d
+bpi2019,Original DRO,10,1,Create Purchase Order Item -> Vendor creates invoice,maturity_120d
+bpi2019,Original DRO,10,2,Record Goods Receipt -> Record Invoice Receipt,maturity_120d
+bpi2019,Original DRO,10,3,Record Invoice Receipt -> Clear Invoice,maturity_120d
+bpi2019,Original DRO,10,4,Create Purchase Order Item -> Record Goods Receipt,maturity_120d
+bpi2019,Original DRO,10,5,Vendor creates invoice -> Record Invoice Receipt,maturity_120d
+bpi2019,Original DRO,10,6,Record Goods Receipt -> Vendor creates invoice,maturity_120d
+bpi2019,Original DRO,10,7,Remove Payment Block -> Clear Invoice,maturity_120d
+bpi2019,Original DRO,10,8,Vendor creates invoice -> Record Goods Receipt,maturity_120d
+bpi2019,Original DRO,10,9,Record Invoice Receipt -> Remove Payment Block,maturity_120d
+bpi2019,Original DRO,10,10,Create Purchase Order Item -> Change Quantity,maturity_120d

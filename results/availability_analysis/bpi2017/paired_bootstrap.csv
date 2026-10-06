@@ -1,0 +1,361 @@
+scheme,clusters,replicates,K,left,right,target,difference_bootstrap_mean_pp,ci_lower_pp,ci_upper_pp,identical_membership
+calendar_7d,14,1000,3,Frequency,Mean burden,mean,-54.744613335324864,-56.41002226488786,-53.009511084715754,False
+calendar_7d,14,1000,3,Frequency,Mean burden,tail,-30.370539558213284,-31.690763994528297,-29.089211161082606,False
+calendar_7d,14,1000,3,Frequency,Empirical Tail,mean,-54.744613335324864,-56.41002226488786,-53.009511084715754,False
+calendar_7d,14,1000,3,Frequency,Empirical Tail,tail,-30.370539558213284,-31.690763994528297,-29.089211161082606,False
+calendar_7d,14,1000,3,Frequency,Original DRO,mean,-54.744613335324864,-56.41002226488786,-53.009511084715754,False
+calendar_7d,14,1000,3,Frequency,Original DRO,tail,-30.370539558213284,-31.690763994528297,-29.089211161082606,False
+calendar_7d,14,1000,3,Frequency,Saturation-Aware DRO,mean,-54.744613335324864,-56.41002226488786,-53.009511084715754,False
+calendar_7d,14,1000,3,Frequency,Saturation-Aware DRO,tail,-30.370539558213284,-31.690763994528297,-29.089211161082606,False
+calendar_7d,14,1000,3,Mean burden,Empirical Tail,mean,0.0,0.0,0.0,True
+calendar_7d,14,1000,3,Mean burden,Empirical Tail,tail,0.0,0.0,0.0,True
+calendar_7d,14,1000,3,Mean burden,Original DRO,mean,0.0,0.0,0.0,True
+calendar_7d,14,1000,3,Mean burden,Original DRO,tail,0.0,0.0,0.0,True
+calendar_7d,14,1000,3,Mean burden,Saturation-Aware DRO,mean,0.0,0.0,0.0,True
+calendar_7d,14,1000,3,Mean burden,Saturation-Aware DRO,tail,0.0,0.0,0.0,True
+calendar_7d,14,1000,3,Empirical Tail,Original DRO,mean,0.0,0.0,0.0,True
+calendar_7d,14,1000,3,Empirical Tail,Original DRO,tail,0.0,0.0,0.0,True
+calendar_7d,14,1000,3,Empirical Tail,Saturation-Aware DRO,mean,0.0,0.0,0.0,True
+calendar_7d,14,1000,3,Empirical Tail,Saturation-Aware DRO,tail,0.0,0.0,0.0,True
+calendar_7d,14,1000,3,Original DRO,Saturation-Aware DRO,mean,0.0,0.0,0.0,True
+calendar_7d,14,1000,3,Original DRO,Saturation-Aware DRO,tail,0.0,0.0,0.0,True
+calendar_7d,14,1000,3,Eligible oracle,Frequency,mean,54.75190761692379,53.009511084715754,56.41723817766519,False
+calendar_7d,14,1000,3,Eligible oracle,Frequency,tail,31.19831640909113,30.000181914014508,32.65966828776697,False
+calendar_7d,14,1000,3,Eligible oracle,Mean burden,mean,0.0072942815989251245,-1.4210854715202004e-14,0.1107452085167512,False
+calendar_7d,14,1000,3,Eligible oracle,Mean burden,tail,0.8277768508778434,-7.105427357601002e-15,2.6165371357396956,False
+calendar_7d,14,1000,3,Eligible oracle,Empirical Tail,mean,0.0072942815989251245,-1.4210854715202004e-14,0.1107452085167512,False
+calendar_7d,14,1000,3,Eligible oracle,Empirical Tail,tail,0.8277768508778434,-7.105427357601002e-15,2.6165371357396956,False
+calendar_7d,14,1000,3,Eligible oracle,Original DRO,mean,0.0072942815989251245,-1.4210854715202004e-14,0.1107452085167512,False
+calendar_7d,14,1000,3,Eligible oracle,Original DRO,tail,0.8277768508778434,-7.105427357601002e-15,2.6165371357396956,False
+calendar_7d,14,1000,3,Eligible oracle,Saturation-Aware DRO,mean,0.0072942815989251245,-1.4210854715202004e-14,0.1107452085167512,False
+calendar_7d,14,1000,3,Eligible oracle,Saturation-Aware DRO,tail,0.8277768508778434,-7.105427357601002e-15,2.6165371357396956,False
+calendar_7d,14,1000,5,Frequency,Mean burden,mean,-62.91245178011816,-64.43878669260191,-61.377623623837174,False
+calendar_7d,14,1000,5,Frequency,Mean burden,tail,-42.79070661554701,-45.07940697228407,-40.501844619445365,False
+calendar_7d,14,1000,5,Frequency,Empirical Tail,mean,-62.91245178011816,-64.43878669260191,-61.377623623837174,False
+calendar_7d,14,1000,5,Frequency,Empirical Tail,tail,-42.79070661554701,-45.07940697228407,-40.501844619445365,False
+calendar_7d,14,1000,5,Frequency,Original DRO,mean,-62.91245178011816,-64.43878669260191,-61.377623623837174,False
+calendar_7d,14,1000,5,Frequency,Original DRO,tail,-42.79070661554701,-45.07940697228407,-40.501844619445365,False
+calendar_7d,14,1000,5,Frequency,Saturation-Aware DRO,mean,-62.91245178011816,-64.43878669260191,-61.377623623837174,False
+calendar_7d,14,1000,5,Frequency,Saturation-Aware DRO,tail,-42.79070661554701,-45.07940697228407,-40.501844619445365,False
+calendar_7d,14,1000,5,Mean burden,Empirical Tail,mean,0.0,0.0,0.0,True
+calendar_7d,14,1000,5,Mean burden,Empirical Tail,tail,0.0,0.0,0.0,True
+calendar_7d,14,1000,5,Mean burden,Original DRO,mean,0.0,0.0,0.0,True
+calendar_7d,14,1000,5,Mean burden,Original DRO,tail,0.0,0.0,0.0,True
+calendar_7d,14,1000,5,Mean burden,Saturation-Aware DRO,mean,0.0,0.0,0.0,True
+calendar_7d,14,1000,5,Mean burden,Saturation-Aware DRO,tail,0.0,0.0,0.0,True
+calendar_7d,14,1000,5,Empirical Tail,Original DRO,mean,0.0,0.0,0.0,True
+calendar_7d,14,1000,5,Empirical Tail,Original DRO,tail,0.0,0.0,0.0,True
+calendar_7d,14,1000,5,Empirical Tail,Saturation-Aware DRO,mean,0.0,0.0,0.0,True
+calendar_7d,14,1000,5,Empirical Tail,Saturation-Aware DRO,tail,0.0,0.0,0.0,True
+calendar_7d,14,1000,5,Original DRO,Saturation-Aware DRO,mean,0.0,0.0,0.0,True
+calendar_7d,14,1000,5,Original DRO,Saturation-Aware DRO,tail,0.0,0.0,0.0,True
+calendar_7d,14,1000,5,Eligible oracle,Frequency,mean,63.568518044030235,62.16539514897937,65.05291966638283,False
+calendar_7d,14,1000,5,Eligible oracle,Frequency,tail,42.97481678593433,40.93541930984532,45.213722642226834,False
+calendar_7d,14,1000,5,Eligible oracle,Mean burden,mean,0.6560662639120719,0.0,1.6515845026655487,False
+calendar_7d,14,1000,5,Eligible oracle,Mean burden,tail,0.18411017038732394,-1.4210854715202004e-14,1.069429207570334,False
+calendar_7d,14,1000,5,Eligible oracle,Empirical Tail,mean,0.6560662639120719,0.0,1.6515845026655487,False
+calendar_7d,14,1000,5,Eligible oracle,Empirical Tail,tail,0.18411017038732394,-1.4210854715202004e-14,1.069429207570334,False
+calendar_7d,14,1000,5,Eligible oracle,Original DRO,mean,0.6560662639120719,0.0,1.6515845026655487,False
+calendar_7d,14,1000,5,Eligible oracle,Original DRO,tail,0.18411017038732394,-1.4210854715202004e-14,1.069429207570334,False
+calendar_7d,14,1000,5,Eligible oracle,Saturation-Aware DRO,mean,0.6560662639120719,0.0,1.6515845026655487,False
+calendar_7d,14,1000,5,Eligible oracle,Saturation-Aware DRO,tail,0.18411017038732394,-1.4210854715202004e-14,1.069429207570334,False
+calendar_7d,14,1000,10,Frequency,Mean burden,mean,-54.3554909702403,-55.656309664501286,-52.937170035204566,False
+calendar_7d,14,1000,10,Frequency,Mean burden,tail,-37.734455083413145,-39.82769051935748,-35.76731672033651,False
+calendar_7d,14,1000,10,Frequency,Empirical Tail,mean,-51.10688151842147,-52.56684922175907,-49.77790757088724,False
+calendar_7d,14,1000,10,Frequency,Empirical Tail,tail,-37.212199296212766,-39.16763532292402,-35.30991690664766,False
+calendar_7d,14,1000,10,Frequency,Original DRO,mean,-54.3554909702403,-55.656309664501286,-52.937170035204566,False
+calendar_7d,14,1000,10,Frequency,Original DRO,tail,-37.734455083413145,-39.82769051935748,-35.76731672033651,False
+calendar_7d,14,1000,10,Frequency,Saturation-Aware DRO,mean,-54.3554909702403,-55.656309664501286,-52.937170035204566,False
+calendar_7d,14,1000,10,Frequency,Saturation-Aware DRO,tail,-37.734455083413145,-39.82769051935748,-35.76731672033651,False
+calendar_7d,14,1000,10,Mean burden,Empirical Tail,mean,3.248609451818822,2.6033133172658154,4.01635799698119,False
+calendar_7d,14,1000,10,Mean burden,Empirical Tail,tail,0.5222557872003672,-0.403801141370393,1.439574903959574,False
+calendar_7d,14,1000,10,Mean burden,Original DRO,mean,0.0,0.0,0.0,True
+calendar_7d,14,1000,10,Mean burden,Original DRO,tail,0.0,0.0,0.0,True
+calendar_7d,14,1000,10,Mean burden,Saturation-Aware DRO,mean,0.0,0.0,0.0,True
+calendar_7d,14,1000,10,Mean burden,Saturation-Aware DRO,tail,0.0,0.0,0.0,True
+calendar_7d,14,1000,10,Empirical Tail,Original DRO,mean,-3.248609451818822,-4.01635799698119,-2.6033133172658154,False
+calendar_7d,14,1000,10,Empirical Tail,Original DRO,tail,-0.5222557872003672,-1.4395749039595742,0.4038011413703922,False
+calendar_7d,14,1000,10,Empirical Tail,Saturation-Aware DRO,mean,-3.248609451818822,-4.01635799698119,-2.6033133172658154,False
+calendar_7d,14,1000,10,Empirical Tail,Saturation-Aware DRO,tail,-0.5222557872003672,-1.4395749039595742,0.4038011413703922,False
+calendar_7d,14,1000,10,Original DRO,Saturation-Aware DRO,mean,0.0,0.0,0.0,True
+calendar_7d,14,1000,10,Original DRO,Saturation-Aware DRO,tail,0.0,0.0,0.0,True
+calendar_7d,14,1000,10,Eligible oracle,Frequency,mean,54.45433033816933,53.13944331381507,55.73243607754904,False
+calendar_7d,14,1000,10,Eligible oracle,Frequency,tail,39.070908383426655,37.24211886387877,41.24142867236864,False
+calendar_7d,14,1000,10,Eligible oracle,Mean burden,mean,0.09883936792902798,-2.842170943040401e-14,0.6534599941795683,False
+calendar_7d,14,1000,10,Eligible oracle,Mean burden,tail,1.336453300013516,0.7085658743654246,2.075416199445216,False
+calendar_7d,14,1000,10,Eligible oracle,Empirical Tail,mean,3.3474488197478496,2.6033133172658154,4.4469432851313915,False
+calendar_7d,14,1000,10,Eligible oracle,Empirical Tail,tail,1.858709087213883,0.900814343433655,3.0766884642622423,False
+calendar_7d,14,1000,10,Eligible oracle,Original DRO,mean,0.09883936792902798,-2.842170943040401e-14,0.6534599941795683,False
+calendar_7d,14,1000,10,Eligible oracle,Original DRO,tail,1.336453300013516,0.7085658743654246,2.075416199445216,False
+calendar_7d,14,1000,10,Eligible oracle,Saturation-Aware DRO,mean,0.09883936792902798,-2.842170943040401e-14,0.6534599941795683,False
+calendar_7d,14,1000,10,Eligible oracle,Saturation-Aware DRO,tail,1.336453300013516,0.7085658743654246,2.075416199445216,False
+calendar_14d,7,1000,3,Frequency,Mean burden,mean,-54.77251158991291,-56.36814201099673,-53.4189582718051,False
+calendar_14d,7,1000,3,Frequency,Mean burden,tail,-30.41105884510271,-31.836454645025007,-29.00041280316842,False
+calendar_14d,7,1000,3,Frequency,Empirical Tail,mean,-54.77251158991291,-56.36814201099673,-53.4189582718051,False
+calendar_14d,7,1000,3,Frequency,Empirical Tail,tail,-30.41105884510271,-31.836454645025007,-29.00041280316842,False
+calendar_14d,7,1000,3,Frequency,Original DRO,mean,-54.77251158991291,-56.36814201099673,-53.4189582718051,False
+calendar_14d,7,1000,3,Frequency,Original DRO,tail,-30.41105884510271,-31.836454645025007,-29.00041280316842,False
+calendar_14d,7,1000,3,Frequency,Saturation-Aware DRO,mean,-54.77251158991291,-56.36814201099673,-53.4189582718051,False
+calendar_14d,7,1000,3,Frequency,Saturation-Aware DRO,tail,-30.41105884510271,-31.836454645025007,-29.00041280316842,False
+calendar_14d,7,1000,3,Mean burden,Empirical Tail,mean,0.0,0.0,0.0,True
+calendar_14d,7,1000,3,Mean burden,Empirical Tail,tail,0.0,0.0,0.0,True
+calendar_14d,7,1000,3,Mean burden,Original DRO,mean,0.0,0.0,0.0,True
+calendar_14d,7,1000,3,Mean burden,Original DRO,tail,0.0,0.0,0.0,True
+calendar_14d,7,1000,3,Mean burden,Saturation-Aware DRO,mean,0.0,0.0,0.0,True
+calendar_14d,7,1000,3,Mean burden,Saturation-Aware DRO,tail,0.0,0.0,0.0,True
+calendar_14d,7,1000,3,Empirical Tail,Original DRO,mean,0.0,0.0,0.0,True
+calendar_14d,7,1000,3,Empirical Tail,Original DRO,tail,0.0,0.0,0.0,True
+calendar_14d,7,1000,3,Empirical Tail,Saturation-Aware DRO,mean,0.0,0.0,0.0,True
+calendar_14d,7,1000,3,Empirical Tail,Saturation-Aware DRO,tail,0.0,0.0,0.0,True
+calendar_14d,7,1000,3,Original DRO,Saturation-Aware DRO,mean,0.0,0.0,0.0,True
+calendar_14d,7,1000,3,Original DRO,Saturation-Aware DRO,tail,0.0,0.0,0.0,True
+calendar_14d,7,1000,3,Eligible oracle,Frequency,mean,54.772743214745674,53.418958271805096,56.36866079441874,False
+calendar_14d,7,1000,3,Eligible oracle,Frequency,tail,31.304102539073334,30.06506183754621,32.79686051916537,False
+calendar_14d,7,1000,3,Eligible oracle,Mean burden,mean,0.00023162483276298218,-1.4210854715202004e-14,1.4210854715202004e-14,False
+calendar_14d,7,1000,3,Eligible oracle,Mean burden,tail,0.8930436939706273,-7.105427357601002e-15,2.8452018289317005,False
+calendar_14d,7,1000,3,Eligible oracle,Empirical Tail,mean,0.00023162483276298218,-1.4210854715202004e-14,1.4210854715202004e-14,False
+calendar_14d,7,1000,3,Eligible oracle,Empirical Tail,tail,0.8930436939706273,-7.105427357601002e-15,2.8452018289317005,False
+calendar_14d,7,1000,3,Eligible oracle,Original DRO,mean,0.00023162483276298218,-1.4210854715202004e-14,1.4210854715202004e-14,False
+calendar_14d,7,1000,3,Eligible oracle,Original DRO,tail,0.8930436939706273,-7.105427357601002e-15,2.8452018289317005,False
+calendar_14d,7,1000,3,Eligible oracle,Saturation-Aware DRO,mean,0.00023162483276298218,-1.4210854715202004e-14,1.4210854715202004e-14,False
+calendar_14d,7,1000,3,Eligible oracle,Saturation-Aware DRO,tail,0.8930436939706273,-7.105427357601002e-15,2.8452018289317005,False
+calendar_14d,7,1000,5,Frequency,Mean burden,mean,-62.93001591397445,-64.00257385705744,-61.964212387733795,False
+calendar_14d,7,1000,5,Frequency,Mean burden,tail,-42.80858075508491,-45.1758899272541,-40.36304121224598,False
+calendar_14d,7,1000,5,Frequency,Empirical Tail,mean,-62.93001591397445,-64.00257385705744,-61.964212387733795,False
+calendar_14d,7,1000,5,Frequency,Empirical Tail,tail,-42.80858075508491,-45.1758899272541,-40.36304121224598,False
+calendar_14d,7,1000,5,Frequency,Original DRO,mean,-62.93001591397445,-64.00257385705744,-61.964212387733795,False
+calendar_14d,7,1000,5,Frequency,Original DRO,tail,-42.80858075508491,-45.1758899272541,-40.36304121224598,False
+calendar_14d,7,1000,5,Frequency,Saturation-Aware DRO,mean,-62.93001591397445,-64.00257385705744,-61.964212387733795,False
+calendar_14d,7,1000,5,Frequency,Saturation-Aware DRO,tail,-42.80858075508491,-45.1758899272541,-40.36304121224598,False
+calendar_14d,7,1000,5,Mean burden,Empirical Tail,mean,0.0,0.0,0.0,True
+calendar_14d,7,1000,5,Mean burden,Empirical Tail,tail,0.0,0.0,0.0,True
+calendar_14d,7,1000,5,Mean burden,Original DRO,mean,0.0,0.0,0.0,True
+calendar_14d,7,1000,5,Mean burden,Original DRO,tail,0.0,0.0,0.0,True
+calendar_14d,7,1000,5,Mean burden,Saturation-Aware DRO,mean,0.0,0.0,0.0,True
+calendar_14d,7,1000,5,Mean burden,Saturation-Aware DRO,tail,0.0,0.0,0.0,True
+calendar_14d,7,1000,5,Empirical Tail,Original DRO,mean,0.0,0.0,0.0,True
+calendar_14d,7,1000,5,Empirical Tail,Original DRO,tail,0.0,0.0,0.0,True
+calendar_14d,7,1000,5,Empirical Tail,Saturation-Aware DRO,mean,0.0,0.0,0.0,True
+calendar_14d,7,1000,5,Empirical Tail,Saturation-Aware DRO,tail,0.0,0.0,0.0,True
+calendar_14d,7,1000,5,Original DRO,Saturation-Aware DRO,mean,0.0,0.0,0.0,True
+calendar_14d,7,1000,5,Original DRO,Saturation-Aware DRO,tail,0.0,0.0,0.0,True
+calendar_14d,7,1000,5,Eligible oracle,Frequency,mean,63.558962761694104,62.70109410125661,64.56771041409196,False
+calendar_14d,7,1000,5,Eligible oracle,Frequency,tail,42.962970971596896,40.85850574597079,45.1758899272541,False
+calendar_14d,7,1000,5,Eligible oracle,Mean burden,mean,0.6289468477196621,0.0,1.3037942070026833,False
+calendar_14d,7,1000,5,Eligible oracle,Mean burden,tail,0.15439021651198484,-1.4210854715202004e-14,0.8984063720092763,False
+calendar_14d,7,1000,5,Eligible oracle,Empirical Tail,mean,0.6289468477196621,0.0,1.3037942070026833,False
+calendar_14d,7,1000,5,Eligible oracle,Empirical Tail,tail,0.15439021651198484,-1.4210854715202004e-14,0.8984063720092763,False
+calendar_14d,7,1000,5,Eligible oracle,Original DRO,mean,0.6289468477196621,0.0,1.3037942070026833,False
+calendar_14d,7,1000,5,Eligible oracle,Original DRO,tail,0.15439021651198484,-1.4210854715202004e-14,0.8984063720092763,False
+calendar_14d,7,1000,5,Eligible oracle,Saturation-Aware DRO,mean,0.6289468477196621,0.0,1.3037942070026833,False
+calendar_14d,7,1000,5,Eligible oracle,Saturation-Aware DRO,tail,0.15439021651198484,-1.4210854715202004e-14,0.8984063720092763,False
+calendar_14d,7,1000,10,Frequency,Mean burden,mean,-54.33678735591902,-55.799614968280764,-52.71348254811868,False
+calendar_14d,7,1000,10,Frequency,Mean burden,tail,-37.717016774287,-39.43082071645588,-35.91991937509383,False
+calendar_14d,7,1000,10,Frequency,Empirical Tail,mean,-51.08931584238723,-52.9312376263347,-49.361768408008906,False
+calendar_14d,7,1000,10,Frequency,Empirical Tail,tail,-37.21145589461977,-39.10466005294688,-35.307705627415345,False
+calendar_14d,7,1000,10,Frequency,Original DRO,mean,-54.33678735591902,-55.799614968280764,-52.71348254811868,False
+calendar_14d,7,1000,10,Frequency,Original DRO,tail,-37.717016774287,-39.43082071645588,-35.91991937509383,False
+calendar_14d,7,1000,10,Frequency,Saturation-Aware DRO,mean,-54.33678735591902,-55.799614968280764,-52.71348254811868,False
+calendar_14d,7,1000,10,Frequency,Saturation-Aware DRO,tail,-37.717016774287,-39.43082071645588,-35.91991937509383,False
+calendar_14d,7,1000,10,Mean burden,Empirical Tail,mean,3.247471513531785,2.6207564480718273,4.035331511712852,False
+calendar_14d,7,1000,10,Mean burden,Empirical Tail,tail,0.5055608796672493,-0.47818953625851746,1.1666127766343186,False
+calendar_14d,7,1000,10,Mean burden,Original DRO,mean,0.0,0.0,0.0,True
+calendar_14d,7,1000,10,Mean burden,Original DRO,tail,0.0,0.0,0.0,True
+calendar_14d,7,1000,10,Mean burden,Saturation-Aware DRO,mean,0.0,0.0,0.0,True
+calendar_14d,7,1000,10,Mean burden,Saturation-Aware DRO,tail,0.0,0.0,0.0,True
+calendar_14d,7,1000,10,Empirical Tail,Original DRO,mean,-3.247471513531785,-4.035331511712852,-2.6207564480718273,False
+calendar_14d,7,1000,10,Empirical Tail,Original DRO,tail,-0.5055608796672493,-1.1666127766343188,0.47818953625851723,False
+calendar_14d,7,1000,10,Empirical Tail,Saturation-Aware DRO,mean,-3.247471513531785,-4.035331511712852,-2.6207564480718273,False
+calendar_14d,7,1000,10,Empirical Tail,Saturation-Aware DRO,tail,-0.5055608796672493,-1.1666127766343188,0.47818953625851723,False
+calendar_14d,7,1000,10,Original DRO,Saturation-Aware DRO,mean,0.0,0.0,0.0,True
+calendar_14d,7,1000,10,Original DRO,Saturation-Aware DRO,tail,0.0,0.0,0.0,True
+calendar_14d,7,1000,10,Eligible oracle,Frequency,mean,54.51102033332453,53.11489514126178,55.8544696768088,False
+calendar_14d,7,1000,10,Eligible oracle,Frequency,tail,39.02510155014227,37.0717910825796,41.04527926638369,False
+calendar_14d,7,1000,10,Eligible oracle,Mean burden,mean,0.17423297740551322,-2.842170943040401e-14,0.8513853353423476,False
+calendar_14d,7,1000,10,Eligible oracle,Mean burden,tail,1.3080847758552532,0.8139082090690362,1.7894384014317666,False
+calendar_14d,7,1000,10,Eligible oracle,Empirical Tail,mean,3.421704490937298,2.6207564480718273,4.697665704317473,False
+calendar_14d,7,1000,10,Eligible oracle,Empirical Tail,tail,1.8136456555225022,1.0361454557337737,2.7247845993983315,False
+calendar_14d,7,1000,10,Eligible oracle,Original DRO,mean,0.17423297740551322,-2.842170943040401e-14,0.8513853353423476,False
+calendar_14d,7,1000,10,Eligible oracle,Original DRO,tail,1.3080847758552532,0.8139082090690362,1.7894384014317666,False
+calendar_14d,7,1000,10,Eligible oracle,Saturation-Aware DRO,mean,0.17423297740551322,-2.842170943040401e-14,0.8513853353423476,False
+calendar_14d,7,1000,10,Eligible oracle,Saturation-Aware DRO,tail,1.3080847758552532,0.8139082090690362,1.7894384014317666,False
+calendar_28d,4,1000,3,Frequency,Mean burden,mean,-54.810239196388984,-56.58817297361352,-53.12219949692764,False
+calendar_28d,4,1000,3,Frequency,Mean burden,tail,-30.476692610381367,-32.40072275766426,-29.279512272622824,False
+calendar_28d,4,1000,3,Frequency,Empirical Tail,mean,-54.810239196388984,-56.58817297361352,-53.12219949692764,False
+calendar_28d,4,1000,3,Frequency,Empirical Tail,tail,-30.476692610381367,-32.40072275766426,-29.279512272622824,False
+calendar_28d,4,1000,3,Frequency,Original DRO,mean,-54.810239196388984,-56.58817297361352,-53.12219949692764,False
+calendar_28d,4,1000,3,Frequency,Original DRO,tail,-30.476692610381367,-32.40072275766426,-29.279512272622824,False
+calendar_28d,4,1000,3,Frequency,Saturation-Aware DRO,mean,-54.810239196388984,-56.58817297361352,-53.12219949692764,False
+calendar_28d,4,1000,3,Frequency,Saturation-Aware DRO,tail,-30.476692610381367,-32.40072275766426,-29.279512272622824,False
+calendar_28d,4,1000,3,Mean burden,Empirical Tail,mean,0.0,0.0,0.0,True
+calendar_28d,4,1000,3,Mean burden,Empirical Tail,tail,0.0,0.0,0.0,True
+calendar_28d,4,1000,3,Mean burden,Original DRO,mean,0.0,0.0,0.0,True
+calendar_28d,4,1000,3,Mean burden,Original DRO,tail,0.0,0.0,0.0,True
+calendar_28d,4,1000,3,Mean burden,Saturation-Aware DRO,mean,0.0,0.0,0.0,True
+calendar_28d,4,1000,3,Mean burden,Saturation-Aware DRO,tail,0.0,0.0,0.0,True
+calendar_28d,4,1000,3,Empirical Tail,Original DRO,mean,0.0,0.0,0.0,True
+calendar_28d,4,1000,3,Empirical Tail,Original DRO,tail,0.0,0.0,0.0,True
+calendar_28d,4,1000,3,Empirical Tail,Saturation-Aware DRO,mean,0.0,0.0,0.0,True
+calendar_28d,4,1000,3,Empirical Tail,Saturation-Aware DRO,tail,0.0,0.0,0.0,True
+calendar_28d,4,1000,3,Original DRO,Saturation-Aware DRO,mean,0.0,0.0,0.0,True
+calendar_28d,4,1000,3,Original DRO,Saturation-Aware DRO,tail,0.0,0.0,0.0,True
+calendar_28d,4,1000,3,Eligible oracle,Frequency,mean,54.81075650179046,53.12219949692763,56.58817297361352,False
+calendar_28d,4,1000,3,Eligible oracle,Frequency,tail,31.499076198666067,30.53030902425172,33.193376153312244,False
+calendar_28d,4,1000,3,Eligible oracle,Mean burden,mean,0.0005173054014758094,-1.4210854715202004e-14,2.1316282072803006e-14,False
+calendar_28d,4,1000,3,Eligible oracle,Mean burden,tail,1.0223835882846957,0.0,3.4357213353478784,False
+calendar_28d,4,1000,3,Eligible oracle,Empirical Tail,mean,0.0005173054014758094,-1.4210854715202004e-14,2.1316282072803006e-14,False
+calendar_28d,4,1000,3,Eligible oracle,Empirical Tail,tail,1.0223835882846957,0.0,3.4357213353478784,False
+calendar_28d,4,1000,3,Eligible oracle,Original DRO,mean,0.0005173054014758094,-1.4210854715202004e-14,2.1316282072803006e-14,False
+calendar_28d,4,1000,3,Eligible oracle,Original DRO,tail,1.0223835882846957,0.0,3.4357213353478784,False
+calendar_28d,4,1000,3,Eligible oracle,Saturation-Aware DRO,mean,0.0005173054014758094,-1.4210854715202004e-14,2.1316282072803006e-14,False
+calendar_28d,4,1000,3,Eligible oracle,Saturation-Aware DRO,tail,1.0223835882846957,0.0,3.4357213353478784,False
+calendar_28d,4,1000,5,Frequency,Mean burden,mean,-62.9595408954779,-64.27353851572393,-61.77657856755072,False
+calendar_28d,4,1000,5,Frequency,Mean burden,tail,-42.91283074220503,-45.76586004664301,-40.491416490666865,False
+calendar_28d,4,1000,5,Frequency,Empirical Tail,mean,-62.9595408954779,-64.27353851572393,-61.77657856755072,False
+calendar_28d,4,1000,5,Frequency,Empirical Tail,tail,-42.91283074220503,-45.76586004664301,-40.491416490666865,False
+calendar_28d,4,1000,5,Frequency,Original DRO,mean,-62.9595408954779,-64.27353851572393,-61.77657856755072,False
+calendar_28d,4,1000,5,Frequency,Original DRO,tail,-42.91283074220503,-45.76586004664301,-40.491416490666865,False
+calendar_28d,4,1000,5,Frequency,Saturation-Aware DRO,mean,-62.9595408954779,-64.27353851572393,-61.77657856755072,False
+calendar_28d,4,1000,5,Frequency,Saturation-Aware DRO,tail,-42.91283074220503,-45.76586004664301,-40.491416490666865,False
+calendar_28d,4,1000,5,Mean burden,Empirical Tail,mean,0.0,0.0,0.0,True
+calendar_28d,4,1000,5,Mean burden,Empirical Tail,tail,0.0,0.0,0.0,True
+calendar_28d,4,1000,5,Mean burden,Original DRO,mean,0.0,0.0,0.0,True
+calendar_28d,4,1000,5,Mean burden,Original DRO,tail,0.0,0.0,0.0,True
+calendar_28d,4,1000,5,Mean burden,Saturation-Aware DRO,mean,0.0,0.0,0.0,True
+calendar_28d,4,1000,5,Mean burden,Saturation-Aware DRO,tail,0.0,0.0,0.0,True
+calendar_28d,4,1000,5,Empirical Tail,Original DRO,mean,0.0,0.0,0.0,True
+calendar_28d,4,1000,5,Empirical Tail,Original DRO,tail,0.0,0.0,0.0,True
+calendar_28d,4,1000,5,Empirical Tail,Saturation-Aware DRO,mean,0.0,0.0,0.0,True
+calendar_28d,4,1000,5,Empirical Tail,Saturation-Aware DRO,tail,0.0,0.0,0.0,True
+calendar_28d,4,1000,5,Original DRO,Saturation-Aware DRO,mean,0.0,0.0,0.0,True
+calendar_28d,4,1000,5,Original DRO,Saturation-Aware DRO,tail,0.0,0.0,0.0,True
+calendar_28d,4,1000,5,Eligible oracle,Frequency,mean,63.55310324861777,62.64219108036659,64.62221966458202,False
+calendar_28d,4,1000,5,Eligible oracle,Frequency,tail,43.11449197816633,41.1732220124218,45.765860046643,False
+calendar_28d,4,1000,5,Eligible oracle,Mean burden,mean,0.5935623531398612,-1.4210854715202004e-14,1.5557343160063084,False
+calendar_28d,4,1000,5,Eligible oracle,Mean burden,tail,0.20166123596129762,-2.1316282072803006e-14,0.9794534306123133,False
+calendar_28d,4,1000,5,Eligible oracle,Empirical Tail,mean,0.5935623531398612,-1.4210854715202004e-14,1.5557343160063084,False
+calendar_28d,4,1000,5,Eligible oracle,Empirical Tail,tail,0.20166123596129762,-2.1316282072803006e-14,0.9794534306123133,False
+calendar_28d,4,1000,5,Eligible oracle,Original DRO,mean,0.5935623531398612,-1.4210854715202004e-14,1.5557343160063084,False
+calendar_28d,4,1000,5,Eligible oracle,Original DRO,tail,0.20166123596129762,-2.1316282072803006e-14,0.9794534306123133,False
+calendar_28d,4,1000,5,Eligible oracle,Saturation-Aware DRO,mean,0.5935623531398612,-1.4210854715202004e-14,1.5557343160063084,False
+calendar_28d,4,1000,5,Eligible oracle,Saturation-Aware DRO,tail,0.20166123596129762,-2.1316282072803006e-14,0.9794534306123133,False
+calendar_28d,4,1000,10,Frequency,Mean burden,mean,-54.33685985967874,-55.49767905040852,-52.86468366408961,False
+calendar_28d,4,1000,10,Frequency,Mean burden,tail,-37.67089246934914,-39.53702397578074,-36.37879941088212,False
+calendar_28d,4,1000,10,Frequency,Empirical Tail,mean,-51.08673299666004,-52.69479095975403,-48.918982227792284,False
+calendar_28d,4,1000,10,Frequency,Empirical Tail,tail,-37.263801459902986,-39.53443645761378,-35.25265738379273,False
+calendar_28d,4,1000,10,Frequency,Original DRO,mean,-54.33685985967874,-55.49767905040852,-52.86468366408961,False
+calendar_28d,4,1000,10,Frequency,Original DRO,tail,-37.67089246934914,-39.53702397578074,-36.37879941088212,False
+calendar_28d,4,1000,10,Frequency,Saturation-Aware DRO,mean,-54.33685985967874,-55.49767905040852,-52.86468366408961,False
+calendar_28d,4,1000,10,Frequency,Saturation-Aware DRO,tail,-37.67089246934914,-39.53702397578074,-36.37879941088212,False
+calendar_28d,4,1000,10,Mean burden,Empirical Tail,mean,3.2501268630187066,2.822532689698832,3.945701436297327,False
+calendar_28d,4,1000,10,Mean burden,Empirical Tail,tail,0.40709100944615284,-0.6206525420725484,1.1261420270893865,False
+calendar_28d,4,1000,10,Mean burden,Original DRO,mean,0.0,0.0,0.0,True
+calendar_28d,4,1000,10,Mean burden,Original DRO,tail,0.0,0.0,0.0,True
+calendar_28d,4,1000,10,Mean burden,Saturation-Aware DRO,mean,0.0,0.0,0.0,True
+calendar_28d,4,1000,10,Mean burden,Saturation-Aware DRO,tail,0.0,0.0,0.0,True
+calendar_28d,4,1000,10,Empirical Tail,Original DRO,mean,-3.2501268630187066,-3.945701436297327,-2.822532689698832,False
+calendar_28d,4,1000,10,Empirical Tail,Original DRO,tail,-0.40709100944615284,-1.1261420270893865,0.6206525420725484,False
+calendar_28d,4,1000,10,Empirical Tail,Saturation-Aware DRO,mean,-3.2501268630187066,-3.945701436297327,-2.822532689698832,False
+calendar_28d,4,1000,10,Empirical Tail,Saturation-Aware DRO,tail,-0.40709100944615284,-1.1261420270893865,0.6206525420725484,False
+calendar_28d,4,1000,10,Original DRO,Saturation-Aware DRO,mean,0.0,0.0,0.0,True
+calendar_28d,4,1000,10,Original DRO,Saturation-Aware DRO,tail,0.0,0.0,0.0,True
+calendar_28d,4,1000,10,Eligible oracle,Frequency,mean,54.571238035884484,53.8057484095564,55.49767905040852,False
+calendar_28d,4,1000,10,Eligible oracle,Frequency,tail,39.01714778259235,37.36445028982169,41.07637354439335,False
+calendar_28d,4,1000,10,Eligible oracle,Mean burden,mean,0.23437817620574275,-1.4210854715202004e-14,1.0920157667473518,False
+calendar_28d,4,1000,10,Eligible oracle,Mean burden,tail,1.3462553132432071,0.825554695827023,1.6568360971292435,False
+calendar_28d,4,1000,10,Eligible oracle,Empirical Tail,mean,3.4845050392244494,2.822532689698818,4.99416614708754,False
+calendar_28d,4,1000,10,Eligible oracle,Empirical Tail,tail,1.75334632268936,0.9098361121395868,2.660327620030813,False
+calendar_28d,4,1000,10,Eligible oracle,Original DRO,mean,0.23437817620574275,-1.4210854715202004e-14,1.0920157667473518,False
+calendar_28d,4,1000,10,Eligible oracle,Original DRO,tail,1.3462553132432071,0.825554695827023,1.6568360971292435,False
+calendar_28d,4,1000,10,Eligible oracle,Saturation-Aware DRO,mean,0.23437817620574275,-1.4210854715202004e-14,1.0920157667473518,False
+calendar_28d,4,1000,10,Eligible oracle,Saturation-Aware DRO,tail,1.3462553132432071,0.825554695827023,1.6568360971292435,False
+case_cluster,11263,1000,3,Frequency,Mean burden,mean,-54.738414601484514,-55.57020143551908,-53.86216191017129,False
+case_cluster,11263,1000,3,Frequency,Mean burden,tail,-30.254342344714576,-31.16888544914472,-29.33391030261959,False
+case_cluster,11263,1000,3,Frequency,Empirical Tail,mean,-54.738414601484514,-55.57020143551908,-53.86216191017129,False
+case_cluster,11263,1000,3,Frequency,Empirical Tail,tail,-30.254342344714576,-31.16888544914472,-29.33391030261959,False
+case_cluster,11263,1000,3,Frequency,Original DRO,mean,-54.738414601484514,-55.57020143551908,-53.86216191017129,False
+case_cluster,11263,1000,3,Frequency,Original DRO,tail,-30.254342344714576,-31.16888544914472,-29.33391030261959,False
+case_cluster,11263,1000,3,Frequency,Saturation-Aware DRO,mean,-54.738414601484514,-55.57020143551908,-53.86216191017129,False
+case_cluster,11263,1000,3,Frequency,Saturation-Aware DRO,tail,-30.254342344714576,-31.16888544914472,-29.33391030261959,False
+case_cluster,11263,1000,3,Mean burden,Empirical Tail,mean,0.0,0.0,0.0,True
+case_cluster,11263,1000,3,Mean burden,Empirical Tail,tail,0.0,0.0,0.0,True
+case_cluster,11263,1000,3,Mean burden,Original DRO,mean,0.0,0.0,0.0,True
+case_cluster,11263,1000,3,Mean burden,Original DRO,tail,0.0,0.0,0.0,True
+case_cluster,11263,1000,3,Mean burden,Saturation-Aware DRO,mean,0.0,0.0,0.0,True
+case_cluster,11263,1000,3,Mean burden,Saturation-Aware DRO,tail,0.0,0.0,0.0,True
+case_cluster,11263,1000,3,Empirical Tail,Original DRO,mean,0.0,0.0,0.0,True
+case_cluster,11263,1000,3,Empirical Tail,Original DRO,tail,0.0,0.0,0.0,True
+case_cluster,11263,1000,3,Empirical Tail,Saturation-Aware DRO,mean,0.0,0.0,0.0,True
+case_cluster,11263,1000,3,Empirical Tail,Saturation-Aware DRO,tail,0.0,0.0,0.0,True
+case_cluster,11263,1000,3,Original DRO,Saturation-Aware DRO,mean,0.0,0.0,0.0,True
+case_cluster,11263,1000,3,Original DRO,Saturation-Aware DRO,tail,0.0,0.0,0.0,True
+case_cluster,11263,1000,3,Eligible oracle,Frequency,mean,54.738414601484514,53.8621619101713,55.570201435519095,False
+case_cluster,11263,1000,3,Eligible oracle,Frequency,tail,31.070923297684146,30.099841201650424,32.15337789436923,False
+case_cluster,11263,1000,3,Eligible oracle,Mean burden,mean,7.105427357601002e-18,-1.4210854715202004e-14,1.4210854715202004e-14,False
+case_cluster,11263,1000,3,Eligible oracle,Mean burden,tail,0.8165809529695666,0.0,2.2253001539058457,False
+case_cluster,11263,1000,3,Eligible oracle,Empirical Tail,mean,7.105427357601002e-18,-1.4210854715202004e-14,1.4210854715202004e-14,False
+case_cluster,11263,1000,3,Eligible oracle,Empirical Tail,tail,0.8165809529695666,0.0,2.2253001539058457,False
+case_cluster,11263,1000,3,Eligible oracle,Original DRO,mean,7.105427357601002e-18,-1.4210854715202004e-14,1.4210854715202004e-14,False
+case_cluster,11263,1000,3,Eligible oracle,Original DRO,tail,0.8165809529695666,0.0,2.2253001539058457,False
+case_cluster,11263,1000,3,Eligible oracle,Saturation-Aware DRO,mean,7.105427357601002e-18,-1.4210854715202004e-14,1.4210854715202004e-14,False
+case_cluster,11263,1000,3,Eligible oracle,Saturation-Aware DRO,tail,0.8165809529695666,0.0,2.2253001539058457,False
+case_cluster,11263,1000,5,Frequency,Mean burden,mean,-62.913672663906965,-63.614148162872205,-62.1493639693215,False
+case_cluster,11263,1000,5,Frequency,Mean burden,tail,-42.663945397832855,-44.1614591334689,-41.28266819211775,False
+case_cluster,11263,1000,5,Frequency,Empirical Tail,mean,-62.913672663906965,-63.614148162872205,-62.1493639693215,False
+case_cluster,11263,1000,5,Frequency,Empirical Tail,tail,-42.663945397832855,-44.1614591334689,-41.28266819211775,False
+case_cluster,11263,1000,5,Frequency,Original DRO,mean,-62.913672663906965,-63.614148162872205,-62.1493639693215,False
+case_cluster,11263,1000,5,Frequency,Original DRO,tail,-42.663945397832855,-44.1614591334689,-41.28266819211775,False
+case_cluster,11263,1000,5,Frequency,Saturation-Aware DRO,mean,-62.913672663906965,-63.614148162872205,-62.1493639693215,False
+case_cluster,11263,1000,5,Frequency,Saturation-Aware DRO,tail,-42.663945397832855,-44.1614591334689,-41.28266819211775,False
+case_cluster,11263,1000,5,Mean burden,Empirical Tail,mean,0.0,0.0,0.0,True
+case_cluster,11263,1000,5,Mean burden,Empirical Tail,tail,0.0,0.0,0.0,True
+case_cluster,11263,1000,5,Mean burden,Original DRO,mean,0.0,0.0,0.0,True
+case_cluster,11263,1000,5,Mean burden,Original DRO,tail,0.0,0.0,0.0,True
+case_cluster,11263,1000,5,Mean burden,Saturation-Aware DRO,mean,0.0,0.0,0.0,True
+case_cluster,11263,1000,5,Mean burden,Saturation-Aware DRO,tail,0.0,0.0,0.0,True
+case_cluster,11263,1000,5,Empirical Tail,Original DRO,mean,0.0,0.0,0.0,True
+case_cluster,11263,1000,5,Empirical Tail,Original DRO,tail,0.0,0.0,0.0,True
+case_cluster,11263,1000,5,Empirical Tail,Saturation-Aware DRO,mean,0.0,0.0,0.0,True
+case_cluster,11263,1000,5,Empirical Tail,Saturation-Aware DRO,tail,0.0,0.0,0.0,True
+case_cluster,11263,1000,5,Original DRO,Saturation-Aware DRO,mean,0.0,0.0,0.0,True
+case_cluster,11263,1000,5,Original DRO,Saturation-Aware DRO,tail,0.0,0.0,0.0,True
+case_cluster,11263,1000,5,Eligible oracle,Frequency,mean,63.36841263300122,62.53230289224106,64.14949311642683,False
+case_cluster,11263,1000,5,Eligible oracle,Frequency,tail,42.715948317567324,41.31755106241036,44.2560003431851,False
+case_cluster,11263,1000,5,Eligible oracle,Mean burden,mean,0.4547399690942536,0.09280077920488061,0.8140773397778484,False
+case_cluster,11263,1000,5,Eligible oracle,Mean burden,tail,0.05200291973447407,-1.4210854715202004e-14,0.3442414496235939,False
+case_cluster,11263,1000,5,Eligible oracle,Empirical Tail,mean,0.4547399690942536,0.09280077920488061,0.8140773397778484,False
+case_cluster,11263,1000,5,Eligible oracle,Empirical Tail,tail,0.05200291973447407,-1.4210854715202004e-14,0.3442414496235939,False
+case_cluster,11263,1000,5,Eligible oracle,Original DRO,mean,0.4547399690942536,0.09280077920488061,0.8140773397778484,False
+case_cluster,11263,1000,5,Eligible oracle,Original DRO,tail,0.05200291973447407,-1.4210854715202004e-14,0.3442414496235939,False
+case_cluster,11263,1000,5,Eligible oracle,Saturation-Aware DRO,mean,0.4547399690942536,0.09280077920488061,0.8140773397778484,False
+case_cluster,11263,1000,5,Eligible oracle,Saturation-Aware DRO,tail,0.05200291973447407,-1.4210854715202004e-14,0.3442414496235939,False
+case_cluster,11263,1000,10,Frequency,Mean burden,mean,-54.341034198292235,-55.18395601036848,-53.502336459804624,False
+case_cluster,11263,1000,10,Frequency,Mean burden,tail,-37.83722945300178,-39.34886242848089,-36.38111756433665,False
+case_cluster,11263,1000,10,Frequency,Empirical Tail,mean,-51.086549344733356,-52.00377087790317,-50.23438275221439,False
+case_cluster,11263,1000,10,Frequency,Empirical Tail,tail,-37.23522905015254,-38.477146584288924,-36.07968799709972,False
+case_cluster,11263,1000,10,Frequency,Original DRO,mean,-54.341034198292235,-55.18395601036848,-53.502336459804624,False
+case_cluster,11263,1000,10,Frequency,Original DRO,tail,-37.83722945300178,-39.34886242848089,-36.38111756433665,False
+case_cluster,11263,1000,10,Frequency,Saturation-Aware DRO,mean,-54.341034198292235,-55.18395601036848,-53.502336459804624,False
+case_cluster,11263,1000,10,Frequency,Saturation-Aware DRO,tail,-37.83722945300178,-39.34886242848089,-36.38111756433665,False
+case_cluster,11263,1000,10,Mean burden,Empirical Tail,mean,3.2544848535588793,3.044353523308007,3.468562179168199,False
+case_cluster,11263,1000,10,Mean burden,Empirical Tail,tail,0.602000402849242,-0.07435262573638823,1.191050203631618,False
+case_cluster,11263,1000,10,Mean burden,Original DRO,mean,0.0,0.0,0.0,True
+case_cluster,11263,1000,10,Mean burden,Original DRO,tail,0.0,0.0,0.0,True
+case_cluster,11263,1000,10,Mean burden,Saturation-Aware DRO,mean,0.0,0.0,0.0,True
+case_cluster,11263,1000,10,Mean burden,Saturation-Aware DRO,tail,0.0,0.0,0.0,True
+case_cluster,11263,1000,10,Empirical Tail,Original DRO,mean,-3.2544848535588793,-3.468562179168199,-3.044353523308007,False
+case_cluster,11263,1000,10,Empirical Tail,Original DRO,tail,-0.602000402849242,-1.1910502036316182,0.07435262573638818,False
+case_cluster,11263,1000,10,Empirical Tail,Saturation-Aware DRO,mean,-3.2544848535588793,-3.468562179168199,-3.044353523308007,False
+case_cluster,11263,1000,10,Empirical Tail,Saturation-Aware DRO,tail,-0.602000402849242,-1.1910502036316182,0.07435262573638818,False
+case_cluster,11263,1000,10,Original DRO,Saturation-Aware DRO,mean,0.0,0.0,0.0,True
+case_cluster,11263,1000,10,Original DRO,Saturation-Aware DRO,tail,0.0,0.0,0.0,True
+case_cluster,11263,1000,10,Eligible oracle,Frequency,mean,54.34103534792789,53.502336459804624,55.183956010368455,False
+case_cluster,11263,1000,10,Eligible oracle,Frequency,tail,39.08907007891209,37.91362043027734,40.292011120474484,False
+case_cluster,11263,1000,10,Eligible oracle,Mean burden,mean,1.1496356599849378e-06,-2.842170943040401e-14,2.842170943040401e-14,False
+case_cluster,11263,1000,10,Eligible oracle,Mean burden,tail,1.2518406259103092,0.6212173078677768,1.9824802655162905,False
+case_cluster,11263,1000,10,Eligible oracle,Empirical Tail,mean,3.2544860031945397,3.044353523308007,3.468562179168199,False
+case_cluster,11263,1000,10,Eligible oracle,Empirical Tail,tail,1.853841028759551,1.4958063971697135,2.287735558136072,False
+case_cluster,11263,1000,10,Eligible oracle,Original DRO,mean,1.1496356599849378e-06,-2.842170943040401e-14,2.842170943040401e-14,False
+case_cluster,11263,1000,10,Eligible oracle,Original DRO,tail,1.2518406259103092,0.6212173078677768,1.9824802655162905,False
+case_cluster,11263,1000,10,Eligible oracle,Saturation-Aware DRO,mean,1.1496356599849378e-06,-2.842170943040401e-14,2.842170943040401e-14,False
+case_cluster,11263,1000,10,Eligible oracle,Saturation-Aware DRO,tail,1.2518406259103092,0.6212173078677768,1.9824802655162905,False

@@ -1,0 +1,31 @@
+K,left,right,jaccard,same_membership
+3,Frequency,Mean burden,0.2,False
+3,Frequency,Empirical Tail,0.2,False
+3,Frequency,Original DRO,0.2,False
+3,Frequency,Saturation-Aware DRO,0.2,False
+3,Mean burden,Empirical Tail,1.0,True
+3,Mean burden,Original DRO,1.0,True
+3,Mean burden,Saturation-Aware DRO,1.0,True
+3,Empirical Tail,Original DRO,1.0,True
+3,Empirical Tail,Saturation-Aware DRO,1.0,True
+3,Original DRO,Saturation-Aware DRO,1.0,True
+5,Frequency,Mean burden,0.1111111111111111,False
+5,Frequency,Empirical Tail,0.1111111111111111,False
+5,Frequency,Original DRO,0.1111111111111111,False
+5,Frequency,Saturation-Aware DRO,0.1111111111111111,False
+5,Mean burden,Empirical Tail,1.0,True
+5,Mean burden,Original DRO,1.0,True
+5,Mean burden,Saturation-Aware DRO,1.0,True
+5,Empirical Tail,Original DRO,1.0,True
+5,Empirical Tail,Saturation-Aware DRO,1.0,True
+5,Original DRO,Saturation-Aware DRO,1.0,True
+10,Frequency,Mean burden,0.1111111111111111,False
+10,Frequency,Empirical Tail,0.17647058823529413,False
+10,Frequency,Original DRO,0.1111111111111111,False
+10,Frequency,Saturation-Aware DRO,0.1111111111111111,False
+10,Mean burden,Empirical Tail,0.8181818181818182,False
+10,Mean burden,Original DRO,1.0,True
+10,Mean burden,Saturation-Aware DRO,1.0,True
+10,Empirical Tail,Original DRO,0.8181818181818182,False
+10,Empirical Tail,Saturation-Aware DRO,0.8181818181818182,False
+10,Original DRO,Saturation-Aware DRO,1.0,True

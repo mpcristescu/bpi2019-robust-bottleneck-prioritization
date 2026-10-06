@@ -1,0 +1,1711 @@
+log,method,K,rank,transition,configuration
+bpi2017,Frequency,3,1,O_Create Offer -> O_Created,primary
+bpi2017,Frequency,3,2,O_Created -> O_Sent (mail and online),primary
+bpi2017,Frequency,3,3,A_Concept -> A_Accepted,primary
+bpi2017,Frequency,5,1,O_Create Offer -> O_Created,primary
+bpi2017,Frequency,5,2,O_Created -> O_Sent (mail and online),primary
+bpi2017,Frequency,5,3,A_Concept -> A_Accepted,primary
+bpi2017,Frequency,5,4,A_Accepted -> O_Create Offer,primary
+bpi2017,Frequency,5,5,A_Validating -> O_Returned,primary
+bpi2017,Frequency,10,1,O_Create Offer -> O_Created,primary
+bpi2017,Frequency,10,2,O_Created -> O_Sent (mail and online),primary
+bpi2017,Frequency,10,3,A_Concept -> A_Accepted,primary
+bpi2017,Frequency,10,4,A_Accepted -> O_Create Offer,primary
+bpi2017,Frequency,10,5,A_Validating -> O_Returned,primary
+bpi2017,Frequency,10,6,A_Create Application -> A_Submitted,primary
+bpi2017,Frequency,10,7,W_Complete application -> A_Complete,primary
+bpi2017,Frequency,10,8,O_Sent (mail and online) -> W_Complete application,primary
+bpi2017,Frequency,10,9,A_Submitted -> A_Concept,primary
+bpi2017,Frequency,10,10,A_Complete -> A_Validating,primary
+bpi2017,Mean burden,3,1,A_Complete -> A_Cancelled,primary
+bpi2017,Mean burden,3,2,A_Complete -> A_Validating,primary
+bpi2017,Mean burden,3,3,A_Concept -> A_Accepted,primary
+bpi2017,Mean burden,5,1,A_Complete -> A_Cancelled,primary
+bpi2017,Mean burden,5,2,A_Complete -> A_Validating,primary
+bpi2017,Mean burden,5,3,A_Concept -> A_Accepted,primary
+bpi2017,Mean burden,5,4,A_Complete -> O_Create Offer,primary
+bpi2017,Mean burden,5,5,A_Incomplete -> A_Validating,primary
+bpi2017,Mean burden,10,1,A_Complete -> A_Cancelled,primary
+bpi2017,Mean burden,10,2,A_Complete -> A_Validating,primary
+bpi2017,Mean burden,10,3,A_Concept -> A_Accepted,primary
+bpi2017,Mean burden,10,4,A_Complete -> O_Create Offer,primary
+bpi2017,Mean burden,10,5,A_Incomplete -> A_Validating,primary
+bpi2017,Mean burden,10,6,O_Sent (mail and online) -> A_Validating,primary
+bpi2017,Mean burden,10,7,A_Incomplete -> O_Accepted,primary
+bpi2017,Mean burden,10,8,O_Returned -> W_Validate application,primary
+bpi2017,Mean burden,10,9,O_Returned -> O_Accepted,primary
+bpi2017,Mean burden,10,10,O_Returned -> A_Incomplete,primary
+bpi2017,Empirical Tail,3,1,A_Complete -> A_Validating,primary
+bpi2017,Empirical Tail,3,2,A_Concept -> A_Accepted,primary
+bpi2017,Empirical Tail,3,3,A_Complete -> A_Cancelled,primary
+bpi2017,Empirical Tail,5,1,A_Complete -> A_Validating,primary
+bpi2017,Empirical Tail,5,2,A_Concept -> A_Accepted,primary
+bpi2017,Empirical Tail,5,3,A_Complete -> A_Cancelled,primary
+bpi2017,Empirical Tail,5,4,A_Incomplete -> A_Validating,primary
+bpi2017,Empirical Tail,5,5,A_Complete -> O_Create Offer,primary
+bpi2017,Empirical Tail,10,1,A_Complete -> A_Validating,primary
+bpi2017,Empirical Tail,10,2,A_Concept -> A_Accepted,primary
+bpi2017,Empirical Tail,10,3,A_Complete -> A_Cancelled,primary
+bpi2017,Empirical Tail,10,4,A_Incomplete -> A_Validating,primary
+bpi2017,Empirical Tail,10,5,A_Complete -> O_Create Offer,primary
+bpi2017,Empirical Tail,10,6,O_Sent (mail and online) -> A_Validating,primary
+bpi2017,Empirical Tail,10,7,A_Accepted -> O_Create Offer,primary
+bpi2017,Empirical Tail,10,8,A_Incomplete -> O_Accepted,primary
+bpi2017,Empirical Tail,10,9,O_Returned -> W_Validate application,primary
+bpi2017,Empirical Tail,10,10,O_Returned -> O_Accepted,primary
+bpi2017,Original DRO,3,1,A_Complete -> A_Validating,primary
+bpi2017,Original DRO,3,2,A_Concept -> A_Accepted,primary
+bpi2017,Original DRO,3,3,A_Complete -> A_Cancelled,primary
+bpi2017,Original DRO,5,1,A_Complete -> A_Validating,primary
+bpi2017,Original DRO,5,2,A_Concept -> A_Accepted,primary
+bpi2017,Original DRO,5,3,A_Complete -> A_Cancelled,primary
+bpi2017,Original DRO,5,4,A_Complete -> O_Create Offer,primary
+bpi2017,Original DRO,5,5,A_Incomplete -> A_Validating,primary
+bpi2017,Original DRO,10,1,A_Complete -> A_Validating,primary
+bpi2017,Original DRO,10,2,A_Concept -> A_Accepted,primary
+bpi2017,Original DRO,10,3,A_Complete -> A_Cancelled,primary
+bpi2017,Original DRO,10,4,A_Complete -> O_Create Offer,primary
+bpi2017,Original DRO,10,5,A_Incomplete -> A_Validating,primary
+bpi2017,Original DRO,10,6,A_Incomplete -> O_Accepted,primary
+bpi2017,Original DRO,10,7,O_Returned -> W_Validate application,primary
+bpi2017,Original DRO,10,8,O_Sent (mail and online) -> A_Validating,primary
+bpi2017,Original DRO,10,9,O_Returned -> A_Incomplete,primary
+bpi2017,Original DRO,10,10,O_Returned -> O_Accepted,primary
+bpi2017,Saturation-Aware DRO,3,1,A_Complete -> A_Validating,primary
+bpi2017,Saturation-Aware DRO,3,2,A_Concept -> A_Accepted,primary
+bpi2017,Saturation-Aware DRO,3,3,A_Complete -> A_Cancelled,primary
+bpi2017,Saturation-Aware DRO,5,1,A_Complete -> A_Validating,primary
+bpi2017,Saturation-Aware DRO,5,2,A_Concept -> A_Accepted,primary
+bpi2017,Saturation-Aware DRO,5,3,A_Complete -> A_Cancelled,primary
+bpi2017,Saturation-Aware DRO,5,4,A_Complete -> O_Create Offer,primary
+bpi2017,Saturation-Aware DRO,5,5,A_Incomplete -> A_Validating,primary
+bpi2017,Saturation-Aware DRO,10,1,A_Complete -> A_Validating,primary
+bpi2017,Saturation-Aware DRO,10,2,A_Concept -> A_Accepted,primary
+bpi2017,Saturation-Aware DRO,10,3,A_Complete -> A_Cancelled,primary
+bpi2017,Saturation-Aware DRO,10,4,A_Complete -> O_Create Offer,primary
+bpi2017,Saturation-Aware DRO,10,5,A_Incomplete -> A_Validating,primary
+bpi2017,Saturation-Aware DRO,10,6,A_Incomplete -> O_Accepted,primary
+bpi2017,Saturation-Aware DRO,10,7,O_Returned -> W_Validate application,primary
+bpi2017,Saturation-Aware DRO,10,8,O_Sent (mail and online) -> A_Validating,primary
+bpi2017,Saturation-Aware DRO,10,9,O_Returned -> A_Incomplete,primary
+bpi2017,Saturation-Aware DRO,10,10,O_Returned -> O_Accepted,primary
+bpi2017,Frequency,3,1,O_Create Offer -> O_Created,block_7d
+bpi2017,Frequency,3,2,O_Created -> O_Sent (mail and online),block_7d
+bpi2017,Frequency,3,3,A_Concept -> A_Accepted,block_7d
+bpi2017,Frequency,5,1,O_Create Offer -> O_Created,block_7d
+bpi2017,Frequency,5,2,O_Created -> O_Sent (mail and online),block_7d
+bpi2017,Frequency,5,3,A_Concept -> A_Accepted,block_7d
+bpi2017,Frequency,5,4,A_Accepted -> O_Create Offer,block_7d
+bpi2017,Frequency,5,5,A_Validating -> O_Returned,block_7d
+bpi2017,Frequency,10,1,O_Create Offer -> O_Created,block_7d
+bpi2017,Frequency,10,2,O_Created -> O_Sent (mail and online),block_7d
+bpi2017,Frequency,10,3,A_Concept -> A_Accepted,block_7d
+bpi2017,Frequency,10,4,A_Accepted -> O_Create Offer,block_7d
+bpi2017,Frequency,10,5,A_Validating -> O_Returned,block_7d
+bpi2017,Frequency,10,6,A_Create Application -> A_Submitted,block_7d
+bpi2017,Frequency,10,7,W_Complete application -> A_Complete,block_7d
+bpi2017,Frequency,10,8,O_Sent (mail and online) -> W_Complete application,block_7d
+bpi2017,Frequency,10,9,A_Submitted -> A_Concept,block_7d
+bpi2017,Frequency,10,10,A_Complete -> A_Validating,block_7d
+bpi2017,Mean burden,3,1,A_Complete -> A_Cancelled,block_7d
+bpi2017,Mean burden,3,2,A_Complete -> A_Validating,block_7d
+bpi2017,Mean burden,3,3,A_Concept -> A_Accepted,block_7d
+bpi2017,Mean burden,5,1,A_Complete -> A_Cancelled,block_7d
+bpi2017,Mean burden,5,2,A_Complete -> A_Validating,block_7d
+bpi2017,Mean burden,5,3,A_Concept -> A_Accepted,block_7d
+bpi2017,Mean burden,5,4,A_Complete -> O_Create Offer,block_7d
+bpi2017,Mean burden,5,5,A_Incomplete -> A_Validating,block_7d
+bpi2017,Mean burden,10,1,A_Complete -> A_Cancelled,block_7d
+bpi2017,Mean burden,10,2,A_Complete -> A_Validating,block_7d
+bpi2017,Mean burden,10,3,A_Concept -> A_Accepted,block_7d
+bpi2017,Mean burden,10,4,A_Complete -> O_Create Offer,block_7d
+bpi2017,Mean burden,10,5,A_Incomplete -> A_Validating,block_7d
+bpi2017,Mean burden,10,6,O_Sent (mail and online) -> A_Validating,block_7d
+bpi2017,Mean burden,10,7,A_Incomplete -> O_Accepted,block_7d
+bpi2017,Mean burden,10,8,O_Returned -> W_Validate application,block_7d
+bpi2017,Mean burden,10,9,O_Returned -> O_Accepted,block_7d
+bpi2017,Mean burden,10,10,O_Returned -> A_Incomplete,block_7d
+bpi2017,Empirical Tail,3,1,A_Complete -> A_Validating,block_7d
+bpi2017,Empirical Tail,3,2,A_Concept -> A_Accepted,block_7d
+bpi2017,Empirical Tail,3,3,A_Complete -> A_Cancelled,block_7d
+bpi2017,Empirical Tail,5,1,A_Complete -> A_Validating,block_7d
+bpi2017,Empirical Tail,5,2,A_Concept -> A_Accepted,block_7d
+bpi2017,Empirical Tail,5,3,A_Complete -> A_Cancelled,block_7d
+bpi2017,Empirical Tail,5,4,A_Incomplete -> A_Validating,block_7d
+bpi2017,Empirical Tail,5,5,A_Complete -> O_Create Offer,block_7d
+bpi2017,Empirical Tail,10,1,A_Complete -> A_Validating,block_7d
+bpi2017,Empirical Tail,10,2,A_Concept -> A_Accepted,block_7d
+bpi2017,Empirical Tail,10,3,A_Complete -> A_Cancelled,block_7d
+bpi2017,Empirical Tail,10,4,A_Incomplete -> A_Validating,block_7d
+bpi2017,Empirical Tail,10,5,A_Complete -> O_Create Offer,block_7d
+bpi2017,Empirical Tail,10,6,O_Sent (mail and online) -> A_Validating,block_7d
+bpi2017,Empirical Tail,10,7,A_Accepted -> O_Create Offer,block_7d
+bpi2017,Empirical Tail,10,8,A_Incomplete -> O_Accepted,block_7d
+bpi2017,Empirical Tail,10,9,O_Returned -> W_Validate application,block_7d
+bpi2017,Empirical Tail,10,10,O_Returned -> O_Accepted,block_7d
+bpi2017,Original DRO,3,1,A_Complete -> A_Validating,block_7d
+bpi2017,Original DRO,3,2,A_Concept -> A_Accepted,block_7d
+bpi2017,Original DRO,3,3,A_Complete -> O_Create Offer,block_7d
+bpi2017,Original DRO,5,1,A_Complete -> A_Validating,block_7d
+bpi2017,Original DRO,5,2,A_Concept -> A_Accepted,block_7d
+bpi2017,Original DRO,5,3,A_Complete -> O_Create Offer,block_7d
+bpi2017,Original DRO,5,4,A_Complete -> A_Cancelled,block_7d
+bpi2017,Original DRO,5,5,A_Incomplete -> A_Validating,block_7d
+bpi2017,Original DRO,10,1,A_Complete -> A_Validating,block_7d
+bpi2017,Original DRO,10,2,A_Concept -> A_Accepted,block_7d
+bpi2017,Original DRO,10,3,A_Complete -> O_Create Offer,block_7d
+bpi2017,Original DRO,10,4,A_Complete -> A_Cancelled,block_7d
+bpi2017,Original DRO,10,5,A_Incomplete -> A_Validating,block_7d
+bpi2017,Original DRO,10,6,A_Incomplete -> O_Accepted,block_7d
+bpi2017,Original DRO,10,7,O_Returned -> W_Validate application,block_7d
+bpi2017,Original DRO,10,8,O_Sent (mail and online) -> A_Validating,block_7d
+bpi2017,Original DRO,10,9,O_Returned -> O_Accepted,block_7d
+bpi2017,Original DRO,10,10,O_Returned -> A_Incomplete,block_7d
+bpi2017,Saturation-Aware DRO,3,1,A_Complete -> A_Validating,block_7d
+bpi2017,Saturation-Aware DRO,3,2,A_Concept -> A_Accepted,block_7d
+bpi2017,Saturation-Aware DRO,3,3,A_Complete -> A_Cancelled,block_7d
+bpi2017,Saturation-Aware DRO,5,1,A_Complete -> A_Validating,block_7d
+bpi2017,Saturation-Aware DRO,5,2,A_Concept -> A_Accepted,block_7d
+bpi2017,Saturation-Aware DRO,5,3,A_Complete -> A_Cancelled,block_7d
+bpi2017,Saturation-Aware DRO,5,4,A_Complete -> O_Create Offer,block_7d
+bpi2017,Saturation-Aware DRO,5,5,A_Incomplete -> A_Validating,block_7d
+bpi2017,Saturation-Aware DRO,10,1,A_Complete -> A_Validating,block_7d
+bpi2017,Saturation-Aware DRO,10,2,A_Concept -> A_Accepted,block_7d
+bpi2017,Saturation-Aware DRO,10,3,A_Complete -> A_Cancelled,block_7d
+bpi2017,Saturation-Aware DRO,10,4,A_Complete -> O_Create Offer,block_7d
+bpi2017,Saturation-Aware DRO,10,5,A_Incomplete -> A_Validating,block_7d
+bpi2017,Saturation-Aware DRO,10,6,O_Returned -> W_Validate application,block_7d
+bpi2017,Saturation-Aware DRO,10,7,A_Incomplete -> O_Accepted,block_7d
+bpi2017,Saturation-Aware DRO,10,8,O_Sent (mail and online) -> A_Validating,block_7d
+bpi2017,Saturation-Aware DRO,10,9,O_Returned -> O_Accepted,block_7d
+bpi2017,Saturation-Aware DRO,10,10,O_Returned -> A_Incomplete,block_7d
+bpi2017,Frequency,3,1,O_Create Offer -> O_Created,block_28d
+bpi2017,Frequency,3,2,O_Created -> O_Sent (mail and online),block_28d
+bpi2017,Frequency,3,3,A_Concept -> A_Accepted,block_28d
+bpi2017,Frequency,5,1,O_Create Offer -> O_Created,block_28d
+bpi2017,Frequency,5,2,O_Created -> O_Sent (mail and online),block_28d
+bpi2017,Frequency,5,3,A_Concept -> A_Accepted,block_28d
+bpi2017,Frequency,5,4,A_Accepted -> O_Create Offer,block_28d
+bpi2017,Frequency,5,5,A_Validating -> O_Returned,block_28d
+bpi2017,Frequency,10,1,O_Create Offer -> O_Created,block_28d
+bpi2017,Frequency,10,2,O_Created -> O_Sent (mail and online),block_28d
+bpi2017,Frequency,10,3,A_Concept -> A_Accepted,block_28d
+bpi2017,Frequency,10,4,A_Accepted -> O_Create Offer,block_28d
+bpi2017,Frequency,10,5,A_Validating -> O_Returned,block_28d
+bpi2017,Frequency,10,6,A_Create Application -> A_Submitted,block_28d
+bpi2017,Frequency,10,7,W_Complete application -> A_Complete,block_28d
+bpi2017,Frequency,10,8,O_Sent (mail and online) -> W_Complete application,block_28d
+bpi2017,Frequency,10,9,A_Submitted -> A_Concept,block_28d
+bpi2017,Frequency,10,10,A_Complete -> A_Validating,block_28d
+bpi2017,Mean burden,3,1,A_Complete -> A_Cancelled,block_28d
+bpi2017,Mean burden,3,2,A_Complete -> A_Validating,block_28d
+bpi2017,Mean burden,3,3,A_Concept -> A_Accepted,block_28d
+bpi2017,Mean burden,5,1,A_Complete -> A_Cancelled,block_28d
+bpi2017,Mean burden,5,2,A_Complete -> A_Validating,block_28d
+bpi2017,Mean burden,5,3,A_Concept -> A_Accepted,block_28d
+bpi2017,Mean burden,5,4,A_Complete -> O_Create Offer,block_28d
+bpi2017,Mean burden,5,5,A_Incomplete -> A_Validating,block_28d
+bpi2017,Mean burden,10,1,A_Complete -> A_Cancelled,block_28d
+bpi2017,Mean burden,10,2,A_Complete -> A_Validating,block_28d
+bpi2017,Mean burden,10,3,A_Concept -> A_Accepted,block_28d
+bpi2017,Mean burden,10,4,A_Complete -> O_Create Offer,block_28d
+bpi2017,Mean burden,10,5,A_Incomplete -> A_Validating,block_28d
+bpi2017,Mean burden,10,6,O_Sent (mail and online) -> A_Validating,block_28d
+bpi2017,Mean burden,10,7,A_Incomplete -> O_Accepted,block_28d
+bpi2017,Mean burden,10,8,O_Returned -> W_Validate application,block_28d
+bpi2017,Mean burden,10,9,O_Returned -> O_Accepted,block_28d
+bpi2017,Mean burden,10,10,O_Returned -> A_Incomplete,block_28d
+bpi2017,Empirical Tail,3,1,A_Complete -> A_Validating,block_28d
+bpi2017,Empirical Tail,3,2,A_Concept -> A_Accepted,block_28d
+bpi2017,Empirical Tail,3,3,A_Complete -> A_Cancelled,block_28d
+bpi2017,Empirical Tail,5,1,A_Complete -> A_Validating,block_28d
+bpi2017,Empirical Tail,5,2,A_Concept -> A_Accepted,block_28d
+bpi2017,Empirical Tail,5,3,A_Complete -> A_Cancelled,block_28d
+bpi2017,Empirical Tail,5,4,A_Incomplete -> A_Validating,block_28d
+bpi2017,Empirical Tail,5,5,A_Complete -> O_Create Offer,block_28d
+bpi2017,Empirical Tail,10,1,A_Complete -> A_Validating,block_28d
+bpi2017,Empirical Tail,10,2,A_Concept -> A_Accepted,block_28d
+bpi2017,Empirical Tail,10,3,A_Complete -> A_Cancelled,block_28d
+bpi2017,Empirical Tail,10,4,A_Incomplete -> A_Validating,block_28d
+bpi2017,Empirical Tail,10,5,A_Complete -> O_Create Offer,block_28d
+bpi2017,Empirical Tail,10,6,O_Sent (mail and online) -> A_Validating,block_28d
+bpi2017,Empirical Tail,10,7,A_Accepted -> O_Create Offer,block_28d
+bpi2017,Empirical Tail,10,8,A_Incomplete -> O_Accepted,block_28d
+bpi2017,Empirical Tail,10,9,O_Returned -> W_Validate application,block_28d
+bpi2017,Empirical Tail,10,10,O_Returned -> O_Accepted,block_28d
+bpi2017,Original DRO,3,1,A_Complete -> A_Validating,block_28d
+bpi2017,Original DRO,3,2,A_Complete -> A_Cancelled,block_28d
+bpi2017,Original DRO,3,3,A_Concept -> A_Accepted,block_28d
+bpi2017,Original DRO,5,1,A_Complete -> A_Validating,block_28d
+bpi2017,Original DRO,5,2,A_Complete -> A_Cancelled,block_28d
+bpi2017,Original DRO,5,3,A_Concept -> A_Accepted,block_28d
+bpi2017,Original DRO,5,4,A_Complete -> O_Create Offer,block_28d
+bpi2017,Original DRO,5,5,A_Incomplete -> A_Validating,block_28d
+bpi2017,Original DRO,10,1,A_Complete -> A_Validating,block_28d
+bpi2017,Original DRO,10,2,A_Complete -> A_Cancelled,block_28d
+bpi2017,Original DRO,10,3,A_Concept -> A_Accepted,block_28d
+bpi2017,Original DRO,10,4,A_Complete -> O_Create Offer,block_28d
+bpi2017,Original DRO,10,5,A_Incomplete -> A_Validating,block_28d
+bpi2017,Original DRO,10,6,A_Incomplete -> O_Accepted,block_28d
+bpi2017,Original DRO,10,7,O_Returned -> W_Validate application,block_28d
+bpi2017,Original DRO,10,8,O_Sent (mail and online) -> A_Validating,block_28d
+bpi2017,Original DRO,10,9,O_Returned -> A_Incomplete,block_28d
+bpi2017,Original DRO,10,10,O_Returned -> O_Accepted,block_28d
+bpi2017,Saturation-Aware DRO,3,1,A_Complete -> A_Validating,block_28d
+bpi2017,Saturation-Aware DRO,3,2,A_Concept -> A_Accepted,block_28d
+bpi2017,Saturation-Aware DRO,3,3,A_Complete -> A_Cancelled,block_28d
+bpi2017,Saturation-Aware DRO,5,1,A_Complete -> A_Validating,block_28d
+bpi2017,Saturation-Aware DRO,5,2,A_Concept -> A_Accepted,block_28d
+bpi2017,Saturation-Aware DRO,5,3,A_Complete -> A_Cancelled,block_28d
+bpi2017,Saturation-Aware DRO,5,4,A_Complete -> O_Create Offer,block_28d
+bpi2017,Saturation-Aware DRO,5,5,A_Incomplete -> A_Validating,block_28d
+bpi2017,Saturation-Aware DRO,10,1,A_Complete -> A_Validating,block_28d
+bpi2017,Saturation-Aware DRO,10,2,A_Concept -> A_Accepted,block_28d
+bpi2017,Saturation-Aware DRO,10,3,A_Complete -> A_Cancelled,block_28d
+bpi2017,Saturation-Aware DRO,10,4,A_Complete -> O_Create Offer,block_28d
+bpi2017,Saturation-Aware DRO,10,5,A_Incomplete -> A_Validating,block_28d
+bpi2017,Saturation-Aware DRO,10,6,A_Incomplete -> O_Accepted,block_28d
+bpi2017,Saturation-Aware DRO,10,7,O_Returned -> W_Validate application,block_28d
+bpi2017,Saturation-Aware DRO,10,8,O_Sent (mail and online) -> A_Validating,block_28d
+bpi2017,Saturation-Aware DRO,10,9,O_Returned -> A_Incomplete,block_28d
+bpi2017,Saturation-Aware DRO,10,10,O_Returned -> O_Accepted,block_28d
+bpi2017,Frequency,3,1,O_Create Offer -> O_Created,block_min_50
+bpi2017,Frequency,3,2,O_Created -> O_Sent (mail and online),block_min_50
+bpi2017,Frequency,3,3,A_Concept -> A_Accepted,block_min_50
+bpi2017,Frequency,5,1,O_Create Offer -> O_Created,block_min_50
+bpi2017,Frequency,5,2,O_Created -> O_Sent (mail and online),block_min_50
+bpi2017,Frequency,5,3,A_Concept -> A_Accepted,block_min_50
+bpi2017,Frequency,5,4,A_Accepted -> O_Create Offer,block_min_50
+bpi2017,Frequency,5,5,A_Validating -> O_Returned,block_min_50
+bpi2017,Frequency,10,1,O_Create Offer -> O_Created,block_min_50
+bpi2017,Frequency,10,2,O_Created -> O_Sent (mail and online),block_min_50
+bpi2017,Frequency,10,3,A_Concept -> A_Accepted,block_min_50
+bpi2017,Frequency,10,4,A_Accepted -> O_Create Offer,block_min_50
+bpi2017,Frequency,10,5,A_Validating -> O_Returned,block_min_50
+bpi2017,Frequency,10,6,A_Create Application -> A_Submitted,block_min_50
+bpi2017,Frequency,10,7,W_Complete application -> A_Complete,block_min_50
+bpi2017,Frequency,10,8,O_Sent (mail and online) -> W_Complete application,block_min_50
+bpi2017,Frequency,10,9,A_Submitted -> A_Concept,block_min_50
+bpi2017,Frequency,10,10,A_Complete -> A_Validating,block_min_50
+bpi2017,Mean burden,3,1,A_Complete -> A_Cancelled,block_min_50
+bpi2017,Mean burden,3,2,A_Complete -> A_Validating,block_min_50
+bpi2017,Mean burden,3,3,A_Concept -> A_Accepted,block_min_50
+bpi2017,Mean burden,5,1,A_Complete -> A_Cancelled,block_min_50
+bpi2017,Mean burden,5,2,A_Complete -> A_Validating,block_min_50
+bpi2017,Mean burden,5,3,A_Concept -> A_Accepted,block_min_50
+bpi2017,Mean burden,5,4,A_Complete -> O_Create Offer,block_min_50
+bpi2017,Mean burden,5,5,A_Incomplete -> A_Validating,block_min_50
+bpi2017,Mean burden,10,1,A_Complete -> A_Cancelled,block_min_50
+bpi2017,Mean burden,10,2,A_Complete -> A_Validating,block_min_50
+bpi2017,Mean burden,10,3,A_Concept -> A_Accepted,block_min_50
+bpi2017,Mean burden,10,4,A_Complete -> O_Create Offer,block_min_50
+bpi2017,Mean burden,10,5,A_Incomplete -> A_Validating,block_min_50
+bpi2017,Mean burden,10,6,O_Sent (mail and online) -> A_Validating,block_min_50
+bpi2017,Mean burden,10,7,A_Incomplete -> O_Accepted,block_min_50
+bpi2017,Mean burden,10,8,O_Returned -> W_Validate application,block_min_50
+bpi2017,Mean burden,10,9,O_Returned -> O_Accepted,block_min_50
+bpi2017,Mean burden,10,10,O_Returned -> A_Incomplete,block_min_50
+bpi2017,Empirical Tail,3,1,A_Complete -> A_Validating,block_min_50
+bpi2017,Empirical Tail,3,2,A_Concept -> A_Accepted,block_min_50
+bpi2017,Empirical Tail,3,3,A_Complete -> A_Cancelled,block_min_50
+bpi2017,Empirical Tail,5,1,A_Complete -> A_Validating,block_min_50
+bpi2017,Empirical Tail,5,2,A_Concept -> A_Accepted,block_min_50
+bpi2017,Empirical Tail,5,3,A_Complete -> A_Cancelled,block_min_50
+bpi2017,Empirical Tail,5,4,A_Incomplete -> A_Validating,block_min_50
+bpi2017,Empirical Tail,5,5,A_Complete -> O_Create Offer,block_min_50
+bpi2017,Empirical Tail,10,1,A_Complete -> A_Validating,block_min_50
+bpi2017,Empirical Tail,10,2,A_Concept -> A_Accepted,block_min_50
+bpi2017,Empirical Tail,10,3,A_Complete -> A_Cancelled,block_min_50
+bpi2017,Empirical Tail,10,4,A_Incomplete -> A_Validating,block_min_50
+bpi2017,Empirical Tail,10,5,A_Complete -> O_Create Offer,block_min_50
+bpi2017,Empirical Tail,10,6,O_Sent (mail and online) -> A_Validating,block_min_50
+bpi2017,Empirical Tail,10,7,A_Accepted -> O_Create Offer,block_min_50
+bpi2017,Empirical Tail,10,8,A_Incomplete -> O_Accepted,block_min_50
+bpi2017,Empirical Tail,10,9,O_Returned -> W_Validate application,block_min_50
+bpi2017,Empirical Tail,10,10,O_Returned -> O_Accepted,block_min_50
+bpi2017,Original DRO,3,1,A_Complete -> A_Validating,block_min_50
+bpi2017,Original DRO,3,2,A_Concept -> A_Accepted,block_min_50
+bpi2017,Original DRO,3,3,A_Complete -> O_Create Offer,block_min_50
+bpi2017,Original DRO,5,1,A_Complete -> A_Validating,block_min_50
+bpi2017,Original DRO,5,2,A_Concept -> A_Accepted,block_min_50
+bpi2017,Original DRO,5,3,A_Complete -> O_Create Offer,block_min_50
+bpi2017,Original DRO,5,4,A_Incomplete -> A_Validating,block_min_50
+bpi2017,Original DRO,5,5,A_Complete -> A_Cancelled,block_min_50
+bpi2017,Original DRO,10,1,A_Complete -> A_Validating,block_min_50
+bpi2017,Original DRO,10,2,A_Concept -> A_Accepted,block_min_50
+bpi2017,Original DRO,10,3,A_Complete -> O_Create Offer,block_min_50
+bpi2017,Original DRO,10,4,A_Incomplete -> A_Validating,block_min_50
+bpi2017,Original DRO,10,5,A_Complete -> A_Cancelled,block_min_50
+bpi2017,Original DRO,10,6,A_Incomplete -> O_Accepted,block_min_50
+bpi2017,Original DRO,10,7,O_Returned -> W_Validate application,block_min_50
+bpi2017,Original DRO,10,8,O_Sent (mail and online) -> A_Validating,block_min_50
+bpi2017,Original DRO,10,9,O_Returned -> A_Incomplete,block_min_50
+bpi2017,Original DRO,10,10,O_Returned -> O_Accepted,block_min_50
+bpi2017,Saturation-Aware DRO,3,1,A_Complete -> A_Validating,block_min_50
+bpi2017,Saturation-Aware DRO,3,2,A_Concept -> A_Accepted,block_min_50
+bpi2017,Saturation-Aware DRO,3,3,A_Complete -> O_Create Offer,block_min_50
+bpi2017,Saturation-Aware DRO,5,1,A_Complete -> A_Validating,block_min_50
+bpi2017,Saturation-Aware DRO,5,2,A_Concept -> A_Accepted,block_min_50
+bpi2017,Saturation-Aware DRO,5,3,A_Complete -> O_Create Offer,block_min_50
+bpi2017,Saturation-Aware DRO,5,4,A_Incomplete -> A_Validating,block_min_50
+bpi2017,Saturation-Aware DRO,5,5,A_Complete -> A_Cancelled,block_min_50
+bpi2017,Saturation-Aware DRO,10,1,A_Complete -> A_Validating,block_min_50
+bpi2017,Saturation-Aware DRO,10,2,A_Concept -> A_Accepted,block_min_50
+bpi2017,Saturation-Aware DRO,10,3,A_Complete -> O_Create Offer,block_min_50
+bpi2017,Saturation-Aware DRO,10,4,A_Incomplete -> A_Validating,block_min_50
+bpi2017,Saturation-Aware DRO,10,5,A_Complete -> A_Cancelled,block_min_50
+bpi2017,Saturation-Aware DRO,10,6,A_Incomplete -> O_Accepted,block_min_50
+bpi2017,Saturation-Aware DRO,10,7,O_Returned -> W_Validate application,block_min_50
+bpi2017,Saturation-Aware DRO,10,8,O_Sent (mail and online) -> A_Validating,block_min_50
+bpi2017,Saturation-Aware DRO,10,9,O_Returned -> A_Incomplete,block_min_50
+bpi2017,Saturation-Aware DRO,10,10,O_Returned -> O_Accepted,block_min_50
+bpi2017,Frequency,3,1,O_Create Offer -> O_Created,block_min_100
+bpi2017,Frequency,3,2,O_Created -> O_Sent (mail and online),block_min_100
+bpi2017,Frequency,3,3,A_Concept -> A_Accepted,block_min_100
+bpi2017,Frequency,5,1,O_Create Offer -> O_Created,block_min_100
+bpi2017,Frequency,5,2,O_Created -> O_Sent (mail and online),block_min_100
+bpi2017,Frequency,5,3,A_Concept -> A_Accepted,block_min_100
+bpi2017,Frequency,5,4,A_Accepted -> O_Create Offer,block_min_100
+bpi2017,Frequency,5,5,A_Validating -> O_Returned,block_min_100
+bpi2017,Frequency,10,1,O_Create Offer -> O_Created,block_min_100
+bpi2017,Frequency,10,2,O_Created -> O_Sent (mail and online),block_min_100
+bpi2017,Frequency,10,3,A_Concept -> A_Accepted,block_min_100
+bpi2017,Frequency,10,4,A_Accepted -> O_Create Offer,block_min_100
+bpi2017,Frequency,10,5,A_Validating -> O_Returned,block_min_100
+bpi2017,Frequency,10,6,A_Create Application -> A_Submitted,block_min_100
+bpi2017,Frequency,10,7,W_Complete application -> A_Complete,block_min_100
+bpi2017,Frequency,10,8,O_Sent (mail and online) -> W_Complete application,block_min_100
+bpi2017,Frequency,10,9,A_Submitted -> A_Concept,block_min_100
+bpi2017,Frequency,10,10,A_Complete -> A_Validating,block_min_100
+bpi2017,Mean burden,3,1,A_Complete -> A_Cancelled,block_min_100
+bpi2017,Mean burden,3,2,A_Complete -> A_Validating,block_min_100
+bpi2017,Mean burden,3,3,A_Concept -> A_Accepted,block_min_100
+bpi2017,Mean burden,5,1,A_Complete -> A_Cancelled,block_min_100
+bpi2017,Mean burden,5,2,A_Complete -> A_Validating,block_min_100
+bpi2017,Mean burden,5,3,A_Concept -> A_Accepted,block_min_100
+bpi2017,Mean burden,5,4,A_Complete -> O_Create Offer,block_min_100
+bpi2017,Mean burden,5,5,A_Incomplete -> A_Validating,block_min_100
+bpi2017,Mean burden,10,1,A_Complete -> A_Cancelled,block_min_100
+bpi2017,Mean burden,10,2,A_Complete -> A_Validating,block_min_100
+bpi2017,Mean burden,10,3,A_Concept -> A_Accepted,block_min_100
+bpi2017,Mean burden,10,4,A_Complete -> O_Create Offer,block_min_100
+bpi2017,Mean burden,10,5,A_Incomplete -> A_Validating,block_min_100
+bpi2017,Mean burden,10,6,O_Sent (mail and online) -> A_Validating,block_min_100
+bpi2017,Mean burden,10,7,A_Incomplete -> O_Accepted,block_min_100
+bpi2017,Mean burden,10,8,O_Returned -> W_Validate application,block_min_100
+bpi2017,Mean burden,10,9,O_Returned -> O_Accepted,block_min_100
+bpi2017,Mean burden,10,10,O_Returned -> A_Incomplete,block_min_100
+bpi2017,Empirical Tail,3,1,A_Complete -> A_Validating,block_min_100
+bpi2017,Empirical Tail,3,2,A_Concept -> A_Accepted,block_min_100
+bpi2017,Empirical Tail,3,3,A_Complete -> A_Cancelled,block_min_100
+bpi2017,Empirical Tail,5,1,A_Complete -> A_Validating,block_min_100
+bpi2017,Empirical Tail,5,2,A_Concept -> A_Accepted,block_min_100
+bpi2017,Empirical Tail,5,3,A_Complete -> A_Cancelled,block_min_100
+bpi2017,Empirical Tail,5,4,A_Incomplete -> A_Validating,block_min_100
+bpi2017,Empirical Tail,5,5,A_Complete -> O_Create Offer,block_min_100
+bpi2017,Empirical Tail,10,1,A_Complete -> A_Validating,block_min_100
+bpi2017,Empirical Tail,10,2,A_Concept -> A_Accepted,block_min_100
+bpi2017,Empirical Tail,10,3,A_Complete -> A_Cancelled,block_min_100
+bpi2017,Empirical Tail,10,4,A_Incomplete -> A_Validating,block_min_100
+bpi2017,Empirical Tail,10,5,A_Complete -> O_Create Offer,block_min_100
+bpi2017,Empirical Tail,10,6,O_Sent (mail and online) -> A_Validating,block_min_100
+bpi2017,Empirical Tail,10,7,A_Accepted -> O_Create Offer,block_min_100
+bpi2017,Empirical Tail,10,8,A_Incomplete -> O_Accepted,block_min_100
+bpi2017,Empirical Tail,10,9,O_Returned -> W_Validate application,block_min_100
+bpi2017,Empirical Tail,10,10,O_Returned -> O_Accepted,block_min_100
+bpi2017,Original DRO,3,1,A_Complete -> A_Validating,block_min_100
+bpi2017,Original DRO,3,2,A_Concept -> A_Accepted,block_min_100
+bpi2017,Original DRO,3,3,A_Complete -> O_Create Offer,block_min_100
+bpi2017,Original DRO,5,1,A_Complete -> A_Validating,block_min_100
+bpi2017,Original DRO,5,2,A_Concept -> A_Accepted,block_min_100
+bpi2017,Original DRO,5,3,A_Complete -> O_Create Offer,block_min_100
+bpi2017,Original DRO,5,4,A_Complete -> A_Cancelled,block_min_100
+bpi2017,Original DRO,5,5,A_Incomplete -> A_Validating,block_min_100
+bpi2017,Original DRO,10,1,A_Complete -> A_Validating,block_min_100
+bpi2017,Original DRO,10,2,A_Concept -> A_Accepted,block_min_100
+bpi2017,Original DRO,10,3,A_Complete -> O_Create Offer,block_min_100
+bpi2017,Original DRO,10,4,A_Complete -> A_Cancelled,block_min_100
+bpi2017,Original DRO,10,5,A_Incomplete -> A_Validating,block_min_100
+bpi2017,Original DRO,10,6,A_Incomplete -> O_Accepted,block_min_100
+bpi2017,Original DRO,10,7,O_Returned -> W_Validate application,block_min_100
+bpi2017,Original DRO,10,8,O_Returned -> A_Incomplete,block_min_100
+bpi2017,Original DRO,10,9,O_Returned -> O_Accepted,block_min_100
+bpi2017,Original DRO,10,10,O_Sent (mail and online) -> A_Validating,block_min_100
+bpi2017,Saturation-Aware DRO,3,1,A_Complete -> A_Validating,block_min_100
+bpi2017,Saturation-Aware DRO,3,2,A_Concept -> A_Accepted,block_min_100
+bpi2017,Saturation-Aware DRO,3,3,A_Complete -> O_Create Offer,block_min_100
+bpi2017,Saturation-Aware DRO,5,1,A_Complete -> A_Validating,block_min_100
+bpi2017,Saturation-Aware DRO,5,2,A_Concept -> A_Accepted,block_min_100
+bpi2017,Saturation-Aware DRO,5,3,A_Complete -> O_Create Offer,block_min_100
+bpi2017,Saturation-Aware DRO,5,4,A_Complete -> A_Cancelled,block_min_100
+bpi2017,Saturation-Aware DRO,5,5,A_Incomplete -> A_Validating,block_min_100
+bpi2017,Saturation-Aware DRO,10,1,A_Complete -> A_Validating,block_min_100
+bpi2017,Saturation-Aware DRO,10,2,A_Concept -> A_Accepted,block_min_100
+bpi2017,Saturation-Aware DRO,10,3,A_Complete -> O_Create Offer,block_min_100
+bpi2017,Saturation-Aware DRO,10,4,A_Complete -> A_Cancelled,block_min_100
+bpi2017,Saturation-Aware DRO,10,5,A_Incomplete -> A_Validating,block_min_100
+bpi2017,Saturation-Aware DRO,10,6,A_Incomplete -> O_Accepted,block_min_100
+bpi2017,Saturation-Aware DRO,10,7,O_Returned -> W_Validate application,block_min_100
+bpi2017,Saturation-Aware DRO,10,8,O_Returned -> A_Incomplete,block_min_100
+bpi2017,Saturation-Aware DRO,10,9,O_Returned -> O_Accepted,block_min_100
+bpi2017,Saturation-Aware DRO,10,10,O_Sent (mail and online) -> A_Validating,block_min_100
+bpi2017,Frequency,3,1,O_Create Offer -> O_Created,leave_one_block_out
+bpi2017,Frequency,3,2,O_Created -> O_Sent (mail and online),leave_one_block_out
+bpi2017,Frequency,3,3,A_Concept -> A_Accepted,leave_one_block_out
+bpi2017,Frequency,5,1,O_Create Offer -> O_Created,leave_one_block_out
+bpi2017,Frequency,5,2,O_Created -> O_Sent (mail and online),leave_one_block_out
+bpi2017,Frequency,5,3,A_Concept -> A_Accepted,leave_one_block_out
+bpi2017,Frequency,5,4,A_Accepted -> O_Create Offer,leave_one_block_out
+bpi2017,Frequency,5,5,A_Validating -> O_Returned,leave_one_block_out
+bpi2017,Frequency,10,1,O_Create Offer -> O_Created,leave_one_block_out
+bpi2017,Frequency,10,2,O_Created -> O_Sent (mail and online),leave_one_block_out
+bpi2017,Frequency,10,3,A_Concept -> A_Accepted,leave_one_block_out
+bpi2017,Frequency,10,4,A_Accepted -> O_Create Offer,leave_one_block_out
+bpi2017,Frequency,10,5,A_Validating -> O_Returned,leave_one_block_out
+bpi2017,Frequency,10,6,A_Create Application -> A_Submitted,leave_one_block_out
+bpi2017,Frequency,10,7,W_Complete application -> A_Complete,leave_one_block_out
+bpi2017,Frequency,10,8,O_Sent (mail and online) -> W_Complete application,leave_one_block_out
+bpi2017,Frequency,10,9,A_Submitted -> A_Concept,leave_one_block_out
+bpi2017,Frequency,10,10,A_Complete -> A_Validating,leave_one_block_out
+bpi2017,Mean burden,3,1,A_Complete -> A_Cancelled,leave_one_block_out
+bpi2017,Mean burden,3,2,A_Complete -> A_Validating,leave_one_block_out
+bpi2017,Mean burden,3,3,A_Concept -> A_Accepted,leave_one_block_out
+bpi2017,Mean burden,5,1,A_Complete -> A_Cancelled,leave_one_block_out
+bpi2017,Mean burden,5,2,A_Complete -> A_Validating,leave_one_block_out
+bpi2017,Mean burden,5,3,A_Concept -> A_Accepted,leave_one_block_out
+bpi2017,Mean burden,5,4,A_Complete -> O_Create Offer,leave_one_block_out
+bpi2017,Mean burden,5,5,A_Incomplete -> A_Validating,leave_one_block_out
+bpi2017,Mean burden,10,1,A_Complete -> A_Cancelled,leave_one_block_out
+bpi2017,Mean burden,10,2,A_Complete -> A_Validating,leave_one_block_out
+bpi2017,Mean burden,10,3,A_Concept -> A_Accepted,leave_one_block_out
+bpi2017,Mean burden,10,4,A_Complete -> O_Create Offer,leave_one_block_out
+bpi2017,Mean burden,10,5,A_Incomplete -> A_Validating,leave_one_block_out
+bpi2017,Mean burden,10,6,O_Sent (mail and online) -> A_Validating,leave_one_block_out
+bpi2017,Mean burden,10,7,A_Incomplete -> O_Accepted,leave_one_block_out
+bpi2017,Mean burden,10,8,O_Returned -> W_Validate application,leave_one_block_out
+bpi2017,Mean burden,10,9,O_Returned -> O_Accepted,leave_one_block_out
+bpi2017,Mean burden,10,10,O_Returned -> A_Incomplete,leave_one_block_out
+bpi2017,Empirical Tail,3,1,A_Complete -> A_Validating,leave_one_block_out
+bpi2017,Empirical Tail,3,2,A_Concept -> A_Accepted,leave_one_block_out
+bpi2017,Empirical Tail,3,3,A_Complete -> A_Cancelled,leave_one_block_out
+bpi2017,Empirical Tail,5,1,A_Complete -> A_Validating,leave_one_block_out
+bpi2017,Empirical Tail,5,2,A_Concept -> A_Accepted,leave_one_block_out
+bpi2017,Empirical Tail,5,3,A_Complete -> A_Cancelled,leave_one_block_out
+bpi2017,Empirical Tail,5,4,A_Incomplete -> A_Validating,leave_one_block_out
+bpi2017,Empirical Tail,5,5,A_Complete -> O_Create Offer,leave_one_block_out
+bpi2017,Empirical Tail,10,1,A_Complete -> A_Validating,leave_one_block_out
+bpi2017,Empirical Tail,10,2,A_Concept -> A_Accepted,leave_one_block_out
+bpi2017,Empirical Tail,10,3,A_Complete -> A_Cancelled,leave_one_block_out
+bpi2017,Empirical Tail,10,4,A_Incomplete -> A_Validating,leave_one_block_out
+bpi2017,Empirical Tail,10,5,A_Complete -> O_Create Offer,leave_one_block_out
+bpi2017,Empirical Tail,10,6,O_Sent (mail and online) -> A_Validating,leave_one_block_out
+bpi2017,Empirical Tail,10,7,A_Accepted -> O_Create Offer,leave_one_block_out
+bpi2017,Empirical Tail,10,8,A_Incomplete -> O_Accepted,leave_one_block_out
+bpi2017,Empirical Tail,10,9,O_Returned -> W_Validate application,leave_one_block_out
+bpi2017,Empirical Tail,10,10,O_Returned -> O_Accepted,leave_one_block_out
+bpi2017,Original DRO,3,1,A_Complete -> A_Validating,leave_one_block_out
+bpi2017,Original DRO,3,2,A_Concept -> A_Accepted,leave_one_block_out
+bpi2017,Original DRO,3,3,A_Complete -> A_Cancelled,leave_one_block_out
+bpi2017,Original DRO,5,1,A_Complete -> A_Validating,leave_one_block_out
+bpi2017,Original DRO,5,2,A_Concept -> A_Accepted,leave_one_block_out
+bpi2017,Original DRO,5,3,A_Complete -> A_Cancelled,leave_one_block_out
+bpi2017,Original DRO,5,4,A_Complete -> O_Create Offer,leave_one_block_out
+bpi2017,Original DRO,5,5,A_Incomplete -> A_Validating,leave_one_block_out
+bpi2017,Original DRO,10,1,A_Complete -> A_Validating,leave_one_block_out
+bpi2017,Original DRO,10,2,A_Concept -> A_Accepted,leave_one_block_out
+bpi2017,Original DRO,10,3,A_Complete -> A_Cancelled,leave_one_block_out
+bpi2017,Original DRO,10,4,A_Complete -> O_Create Offer,leave_one_block_out
+bpi2017,Original DRO,10,5,A_Incomplete -> A_Validating,leave_one_block_out
+bpi2017,Original DRO,10,6,A_Incomplete -> O_Accepted,leave_one_block_out
+bpi2017,Original DRO,10,7,O_Returned -> W_Validate application,leave_one_block_out
+bpi2017,Original DRO,10,8,O_Sent (mail and online) -> A_Validating,leave_one_block_out
+bpi2017,Original DRO,10,9,O_Returned -> A_Incomplete,leave_one_block_out
+bpi2017,Original DRO,10,10,O_Returned -> O_Accepted,leave_one_block_out
+bpi2017,Saturation-Aware DRO,3,1,A_Complete -> A_Validating,leave_one_block_out
+bpi2017,Saturation-Aware DRO,3,2,A_Concept -> A_Accepted,leave_one_block_out
+bpi2017,Saturation-Aware DRO,3,3,A_Complete -> A_Cancelled,leave_one_block_out
+bpi2017,Saturation-Aware DRO,5,1,A_Complete -> A_Validating,leave_one_block_out
+bpi2017,Saturation-Aware DRO,5,2,A_Concept -> A_Accepted,leave_one_block_out
+bpi2017,Saturation-Aware DRO,5,3,A_Complete -> A_Cancelled,leave_one_block_out
+bpi2017,Saturation-Aware DRO,5,4,A_Complete -> O_Create Offer,leave_one_block_out
+bpi2017,Saturation-Aware DRO,5,5,A_Incomplete -> A_Validating,leave_one_block_out
+bpi2017,Saturation-Aware DRO,10,1,A_Complete -> A_Validating,leave_one_block_out
+bpi2017,Saturation-Aware DRO,10,2,A_Concept -> A_Accepted,leave_one_block_out
+bpi2017,Saturation-Aware DRO,10,3,A_Complete -> A_Cancelled,leave_one_block_out
+bpi2017,Saturation-Aware DRO,10,4,A_Complete -> O_Create Offer,leave_one_block_out
+bpi2017,Saturation-Aware DRO,10,5,A_Incomplete -> A_Validating,leave_one_block_out
+bpi2017,Saturation-Aware DRO,10,6,O_Returned -> W_Validate application,leave_one_block_out
+bpi2017,Saturation-Aware DRO,10,7,A_Incomplete -> O_Accepted,leave_one_block_out
+bpi2017,Saturation-Aware DRO,10,8,O_Sent (mail and online) -> A_Validating,leave_one_block_out
+bpi2017,Saturation-Aware DRO,10,9,O_Returned -> A_Incomplete,leave_one_block_out
+bpi2017,Saturation-Aware DRO,10,10,O_Returned -> O_Accepted,leave_one_block_out
+bpi2017,Frequency,3,1,O_Create Offer -> O_Created,grid_12h
+bpi2017,Frequency,3,2,O_Created -> O_Sent (mail and online),grid_12h
+bpi2017,Frequency,3,3,A_Concept -> A_Accepted,grid_12h
+bpi2017,Frequency,5,1,O_Create Offer -> O_Created,grid_12h
+bpi2017,Frequency,5,2,O_Created -> O_Sent (mail and online),grid_12h
+bpi2017,Frequency,5,3,A_Concept -> A_Accepted,grid_12h
+bpi2017,Frequency,5,4,A_Accepted -> O_Create Offer,grid_12h
+bpi2017,Frequency,5,5,A_Validating -> O_Returned,grid_12h
+bpi2017,Frequency,10,1,O_Create Offer -> O_Created,grid_12h
+bpi2017,Frequency,10,2,O_Created -> O_Sent (mail and online),grid_12h
+bpi2017,Frequency,10,3,A_Concept -> A_Accepted,grid_12h
+bpi2017,Frequency,10,4,A_Accepted -> O_Create Offer,grid_12h
+bpi2017,Frequency,10,5,A_Validating -> O_Returned,grid_12h
+bpi2017,Frequency,10,6,A_Create Application -> A_Submitted,grid_12h
+bpi2017,Frequency,10,7,W_Complete application -> A_Complete,grid_12h
+bpi2017,Frequency,10,8,O_Sent (mail and online) -> W_Complete application,grid_12h
+bpi2017,Frequency,10,9,A_Submitted -> A_Concept,grid_12h
+bpi2017,Frequency,10,10,A_Complete -> A_Validating,grid_12h
+bpi2017,Mean burden,3,1,A_Complete -> A_Cancelled,grid_12h
+bpi2017,Mean burden,3,2,A_Complete -> A_Validating,grid_12h
+bpi2017,Mean burden,3,3,A_Concept -> A_Accepted,grid_12h
+bpi2017,Mean burden,5,1,A_Complete -> A_Cancelled,grid_12h
+bpi2017,Mean burden,5,2,A_Complete -> A_Validating,grid_12h
+bpi2017,Mean burden,5,3,A_Concept -> A_Accepted,grid_12h
+bpi2017,Mean burden,5,4,A_Complete -> O_Create Offer,grid_12h
+bpi2017,Mean burden,5,5,A_Incomplete -> A_Validating,grid_12h
+bpi2017,Mean burden,10,1,A_Complete -> A_Cancelled,grid_12h
+bpi2017,Mean burden,10,2,A_Complete -> A_Validating,grid_12h
+bpi2017,Mean burden,10,3,A_Concept -> A_Accepted,grid_12h
+bpi2017,Mean burden,10,4,A_Complete -> O_Create Offer,grid_12h
+bpi2017,Mean burden,10,5,A_Incomplete -> A_Validating,grid_12h
+bpi2017,Mean burden,10,6,O_Sent (mail and online) -> A_Validating,grid_12h
+bpi2017,Mean burden,10,7,A_Incomplete -> O_Accepted,grid_12h
+bpi2017,Mean burden,10,8,O_Returned -> W_Validate application,grid_12h
+bpi2017,Mean burden,10,9,O_Returned -> O_Accepted,grid_12h
+bpi2017,Mean burden,10,10,O_Returned -> A_Incomplete,grid_12h
+bpi2017,Empirical Tail,3,1,A_Complete -> A_Validating,grid_12h
+bpi2017,Empirical Tail,3,2,A_Concept -> A_Accepted,grid_12h
+bpi2017,Empirical Tail,3,3,A_Complete -> A_Cancelled,grid_12h
+bpi2017,Empirical Tail,5,1,A_Complete -> A_Validating,grid_12h
+bpi2017,Empirical Tail,5,2,A_Concept -> A_Accepted,grid_12h
+bpi2017,Empirical Tail,5,3,A_Complete -> A_Cancelled,grid_12h
+bpi2017,Empirical Tail,5,4,A_Incomplete -> A_Validating,grid_12h
+bpi2017,Empirical Tail,5,5,A_Complete -> O_Create Offer,grid_12h
+bpi2017,Empirical Tail,10,1,A_Complete -> A_Validating,grid_12h
+bpi2017,Empirical Tail,10,2,A_Concept -> A_Accepted,grid_12h
+bpi2017,Empirical Tail,10,3,A_Complete -> A_Cancelled,grid_12h
+bpi2017,Empirical Tail,10,4,A_Incomplete -> A_Validating,grid_12h
+bpi2017,Empirical Tail,10,5,A_Complete -> O_Create Offer,grid_12h
+bpi2017,Empirical Tail,10,6,O_Sent (mail and online) -> A_Validating,grid_12h
+bpi2017,Empirical Tail,10,7,A_Accepted -> O_Create Offer,grid_12h
+bpi2017,Empirical Tail,10,8,A_Incomplete -> O_Accepted,grid_12h
+bpi2017,Empirical Tail,10,9,O_Returned -> W_Validate application,grid_12h
+bpi2017,Empirical Tail,10,10,O_Returned -> O_Accepted,grid_12h
+bpi2017,Original DRO,3,1,A_Complete -> A_Validating,grid_12h
+bpi2017,Original DRO,3,2,A_Concept -> A_Accepted,grid_12h
+bpi2017,Original DRO,3,3,A_Complete -> A_Cancelled,grid_12h
+bpi2017,Original DRO,5,1,A_Complete -> A_Validating,grid_12h
+bpi2017,Original DRO,5,2,A_Concept -> A_Accepted,grid_12h
+bpi2017,Original DRO,5,3,A_Complete -> A_Cancelled,grid_12h
+bpi2017,Original DRO,5,4,A_Complete -> O_Create Offer,grid_12h
+bpi2017,Original DRO,5,5,A_Incomplete -> A_Validating,grid_12h
+bpi2017,Original DRO,10,1,A_Complete -> A_Validating,grid_12h
+bpi2017,Original DRO,10,2,A_Concept -> A_Accepted,grid_12h
+bpi2017,Original DRO,10,3,A_Complete -> A_Cancelled,grid_12h
+bpi2017,Original DRO,10,4,A_Complete -> O_Create Offer,grid_12h
+bpi2017,Original DRO,10,5,A_Incomplete -> A_Validating,grid_12h
+bpi2017,Original DRO,10,6,A_Incomplete -> O_Accepted,grid_12h
+bpi2017,Original DRO,10,7,O_Returned -> W_Validate application,grid_12h
+bpi2017,Original DRO,10,8,O_Sent (mail and online) -> A_Validating,grid_12h
+bpi2017,Original DRO,10,9,O_Returned -> A_Incomplete,grid_12h
+bpi2017,Original DRO,10,10,O_Returned -> O_Accepted,grid_12h
+bpi2017,Saturation-Aware DRO,3,1,A_Complete -> A_Validating,grid_12h
+bpi2017,Saturation-Aware DRO,3,2,A_Concept -> A_Accepted,grid_12h
+bpi2017,Saturation-Aware DRO,3,3,A_Complete -> A_Cancelled,grid_12h
+bpi2017,Saturation-Aware DRO,5,1,A_Complete -> A_Validating,grid_12h
+bpi2017,Saturation-Aware DRO,5,2,A_Concept -> A_Accepted,grid_12h
+bpi2017,Saturation-Aware DRO,5,3,A_Complete -> A_Cancelled,grid_12h
+bpi2017,Saturation-Aware DRO,5,4,A_Complete -> O_Create Offer,grid_12h
+bpi2017,Saturation-Aware DRO,5,5,A_Incomplete -> A_Validating,grid_12h
+bpi2017,Saturation-Aware DRO,10,1,A_Complete -> A_Validating,grid_12h
+bpi2017,Saturation-Aware DRO,10,2,A_Concept -> A_Accepted,grid_12h
+bpi2017,Saturation-Aware DRO,10,3,A_Complete -> A_Cancelled,grid_12h
+bpi2017,Saturation-Aware DRO,10,4,A_Complete -> O_Create Offer,grid_12h
+bpi2017,Saturation-Aware DRO,10,5,A_Incomplete -> A_Validating,grid_12h
+bpi2017,Saturation-Aware DRO,10,6,A_Incomplete -> O_Accepted,grid_12h
+bpi2017,Saturation-Aware DRO,10,7,O_Returned -> W_Validate application,grid_12h
+bpi2017,Saturation-Aware DRO,10,8,O_Sent (mail and online) -> A_Validating,grid_12h
+bpi2017,Saturation-Aware DRO,10,9,O_Returned -> A_Incomplete,grid_12h
+bpi2017,Saturation-Aware DRO,10,10,O_Returned -> O_Accepted,grid_12h
+bpi2017,Frequency,3,1,O_Create Offer -> O_Created,grid_24h
+bpi2017,Frequency,3,2,O_Created -> O_Sent (mail and online),grid_24h
+bpi2017,Frequency,3,3,A_Concept -> A_Accepted,grid_24h
+bpi2017,Frequency,5,1,O_Create Offer -> O_Created,grid_24h
+bpi2017,Frequency,5,2,O_Created -> O_Sent (mail and online),grid_24h
+bpi2017,Frequency,5,3,A_Concept -> A_Accepted,grid_24h
+bpi2017,Frequency,5,4,A_Accepted -> O_Create Offer,grid_24h
+bpi2017,Frequency,5,5,A_Validating -> O_Returned,grid_24h
+bpi2017,Frequency,10,1,O_Create Offer -> O_Created,grid_24h
+bpi2017,Frequency,10,2,O_Created -> O_Sent (mail and online),grid_24h
+bpi2017,Frequency,10,3,A_Concept -> A_Accepted,grid_24h
+bpi2017,Frequency,10,4,A_Accepted -> O_Create Offer,grid_24h
+bpi2017,Frequency,10,5,A_Validating -> O_Returned,grid_24h
+bpi2017,Frequency,10,6,A_Create Application -> A_Submitted,grid_24h
+bpi2017,Frequency,10,7,W_Complete application -> A_Complete,grid_24h
+bpi2017,Frequency,10,8,O_Sent (mail and online) -> W_Complete application,grid_24h
+bpi2017,Frequency,10,9,A_Submitted -> A_Concept,grid_24h
+bpi2017,Frequency,10,10,A_Complete -> A_Validating,grid_24h
+bpi2017,Mean burden,3,1,A_Complete -> A_Cancelled,grid_24h
+bpi2017,Mean burden,3,2,A_Complete -> A_Validating,grid_24h
+bpi2017,Mean burden,3,3,A_Concept -> A_Accepted,grid_24h
+bpi2017,Mean burden,5,1,A_Complete -> A_Cancelled,grid_24h
+bpi2017,Mean burden,5,2,A_Complete -> A_Validating,grid_24h
+bpi2017,Mean burden,5,3,A_Concept -> A_Accepted,grid_24h
+bpi2017,Mean burden,5,4,A_Complete -> O_Create Offer,grid_24h
+bpi2017,Mean burden,5,5,A_Incomplete -> A_Validating,grid_24h
+bpi2017,Mean burden,10,1,A_Complete -> A_Cancelled,grid_24h
+bpi2017,Mean burden,10,2,A_Complete -> A_Validating,grid_24h
+bpi2017,Mean burden,10,3,A_Concept -> A_Accepted,grid_24h
+bpi2017,Mean burden,10,4,A_Complete -> O_Create Offer,grid_24h
+bpi2017,Mean burden,10,5,A_Incomplete -> A_Validating,grid_24h
+bpi2017,Mean burden,10,6,O_Sent (mail and online) -> A_Validating,grid_24h
+bpi2017,Mean burden,10,7,A_Incomplete -> O_Accepted,grid_24h
+bpi2017,Mean burden,10,8,O_Returned -> W_Validate application,grid_24h
+bpi2017,Mean burden,10,9,O_Returned -> O_Accepted,grid_24h
+bpi2017,Mean burden,10,10,O_Returned -> A_Incomplete,grid_24h
+bpi2017,Empirical Tail,3,1,A_Complete -> A_Validating,grid_24h
+bpi2017,Empirical Tail,3,2,A_Concept -> A_Accepted,grid_24h
+bpi2017,Empirical Tail,3,3,A_Complete -> A_Cancelled,grid_24h
+bpi2017,Empirical Tail,5,1,A_Complete -> A_Validating,grid_24h
+bpi2017,Empirical Tail,5,2,A_Concept -> A_Accepted,grid_24h
+bpi2017,Empirical Tail,5,3,A_Complete -> A_Cancelled,grid_24h
+bpi2017,Empirical Tail,5,4,A_Incomplete -> A_Validating,grid_24h
+bpi2017,Empirical Tail,5,5,A_Complete -> O_Create Offer,grid_24h
+bpi2017,Empirical Tail,10,1,A_Complete -> A_Validating,grid_24h
+bpi2017,Empirical Tail,10,2,A_Concept -> A_Accepted,grid_24h
+bpi2017,Empirical Tail,10,3,A_Complete -> A_Cancelled,grid_24h
+bpi2017,Empirical Tail,10,4,A_Incomplete -> A_Validating,grid_24h
+bpi2017,Empirical Tail,10,5,A_Complete -> O_Create Offer,grid_24h
+bpi2017,Empirical Tail,10,6,O_Sent (mail and online) -> A_Validating,grid_24h
+bpi2017,Empirical Tail,10,7,A_Accepted -> O_Create Offer,grid_24h
+bpi2017,Empirical Tail,10,8,A_Incomplete -> O_Accepted,grid_24h
+bpi2017,Empirical Tail,10,9,O_Returned -> W_Validate application,grid_24h
+bpi2017,Empirical Tail,10,10,O_Returned -> O_Accepted,grid_24h
+bpi2017,Original DRO,3,1,A_Complete -> A_Validating,grid_24h
+bpi2017,Original DRO,3,2,A_Concept -> A_Accepted,grid_24h
+bpi2017,Original DRO,3,3,A_Complete -> A_Cancelled,grid_24h
+bpi2017,Original DRO,5,1,A_Complete -> A_Validating,grid_24h
+bpi2017,Original DRO,5,2,A_Concept -> A_Accepted,grid_24h
+bpi2017,Original DRO,5,3,A_Complete -> A_Cancelled,grid_24h
+bpi2017,Original DRO,5,4,A_Complete -> O_Create Offer,grid_24h
+bpi2017,Original DRO,5,5,A_Incomplete -> A_Validating,grid_24h
+bpi2017,Original DRO,10,1,A_Complete -> A_Validating,grid_24h
+bpi2017,Original DRO,10,2,A_Concept -> A_Accepted,grid_24h
+bpi2017,Original DRO,10,3,A_Complete -> A_Cancelled,grid_24h
+bpi2017,Original DRO,10,4,A_Complete -> O_Create Offer,grid_24h
+bpi2017,Original DRO,10,5,A_Incomplete -> A_Validating,grid_24h
+bpi2017,Original DRO,10,6,A_Incomplete -> O_Accepted,grid_24h
+bpi2017,Original DRO,10,7,O_Returned -> W_Validate application,grid_24h
+bpi2017,Original DRO,10,8,O_Sent (mail and online) -> A_Validating,grid_24h
+bpi2017,Original DRO,10,9,O_Returned -> A_Incomplete,grid_24h
+bpi2017,Original DRO,10,10,O_Returned -> O_Accepted,grid_24h
+bpi2017,Saturation-Aware DRO,3,1,A_Complete -> A_Validating,grid_24h
+bpi2017,Saturation-Aware DRO,3,2,A_Concept -> A_Accepted,grid_24h
+bpi2017,Saturation-Aware DRO,3,3,A_Complete -> A_Cancelled,grid_24h
+bpi2017,Saturation-Aware DRO,5,1,A_Complete -> A_Validating,grid_24h
+bpi2017,Saturation-Aware DRO,5,2,A_Concept -> A_Accepted,grid_24h
+bpi2017,Saturation-Aware DRO,5,3,A_Complete -> A_Cancelled,grid_24h
+bpi2017,Saturation-Aware DRO,5,4,A_Complete -> O_Create Offer,grid_24h
+bpi2017,Saturation-Aware DRO,5,5,A_Incomplete -> A_Validating,grid_24h
+bpi2017,Saturation-Aware DRO,10,1,A_Complete -> A_Validating,grid_24h
+bpi2017,Saturation-Aware DRO,10,2,A_Concept -> A_Accepted,grid_24h
+bpi2017,Saturation-Aware DRO,10,3,A_Complete -> A_Cancelled,grid_24h
+bpi2017,Saturation-Aware DRO,10,4,A_Complete -> O_Create Offer,grid_24h
+bpi2017,Saturation-Aware DRO,10,5,A_Incomplete -> A_Validating,grid_24h
+bpi2017,Saturation-Aware DRO,10,6,A_Incomplete -> O_Accepted,grid_24h
+bpi2017,Saturation-Aware DRO,10,7,O_Returned -> W_Validate application,grid_24h
+bpi2017,Saturation-Aware DRO,10,8,O_Sent (mail and online) -> A_Validating,grid_24h
+bpi2017,Saturation-Aware DRO,10,9,O_Returned -> A_Incomplete,grid_24h
+bpi2017,Saturation-Aware DRO,10,10,O_Returned -> O_Accepted,grid_24h
+bpi2017,Frequency,3,1,O_Create Offer -> O_Created,alpha_090
+bpi2017,Frequency,3,2,O_Created -> O_Sent (mail and online),alpha_090
+bpi2017,Frequency,3,3,A_Concept -> A_Accepted,alpha_090
+bpi2017,Frequency,5,1,O_Create Offer -> O_Created,alpha_090
+bpi2017,Frequency,5,2,O_Created -> O_Sent (mail and online),alpha_090
+bpi2017,Frequency,5,3,A_Concept -> A_Accepted,alpha_090
+bpi2017,Frequency,5,4,A_Accepted -> O_Create Offer,alpha_090
+bpi2017,Frequency,5,5,A_Validating -> O_Returned,alpha_090
+bpi2017,Frequency,10,1,O_Create Offer -> O_Created,alpha_090
+bpi2017,Frequency,10,2,O_Created -> O_Sent (mail and online),alpha_090
+bpi2017,Frequency,10,3,A_Concept -> A_Accepted,alpha_090
+bpi2017,Frequency,10,4,A_Accepted -> O_Create Offer,alpha_090
+bpi2017,Frequency,10,5,A_Validating -> O_Returned,alpha_090
+bpi2017,Frequency,10,6,A_Create Application -> A_Submitted,alpha_090
+bpi2017,Frequency,10,7,W_Complete application -> A_Complete,alpha_090
+bpi2017,Frequency,10,8,O_Sent (mail and online) -> W_Complete application,alpha_090
+bpi2017,Frequency,10,9,A_Submitted -> A_Concept,alpha_090
+bpi2017,Frequency,10,10,A_Complete -> A_Validating,alpha_090
+bpi2017,Mean burden,3,1,A_Complete -> A_Cancelled,alpha_090
+bpi2017,Mean burden,3,2,A_Complete -> A_Validating,alpha_090
+bpi2017,Mean burden,3,3,A_Concept -> A_Accepted,alpha_090
+bpi2017,Mean burden,5,1,A_Complete -> A_Cancelled,alpha_090
+bpi2017,Mean burden,5,2,A_Complete -> A_Validating,alpha_090
+bpi2017,Mean burden,5,3,A_Concept -> A_Accepted,alpha_090
+bpi2017,Mean burden,5,4,A_Complete -> O_Create Offer,alpha_090
+bpi2017,Mean burden,5,5,A_Incomplete -> A_Validating,alpha_090
+bpi2017,Mean burden,10,1,A_Complete -> A_Cancelled,alpha_090
+bpi2017,Mean burden,10,2,A_Complete -> A_Validating,alpha_090
+bpi2017,Mean burden,10,3,A_Concept -> A_Accepted,alpha_090
+bpi2017,Mean burden,10,4,A_Complete -> O_Create Offer,alpha_090
+bpi2017,Mean burden,10,5,A_Incomplete -> A_Validating,alpha_090
+bpi2017,Mean burden,10,6,O_Sent (mail and online) -> A_Validating,alpha_090
+bpi2017,Mean burden,10,7,A_Incomplete -> O_Accepted,alpha_090
+bpi2017,Mean burden,10,8,O_Returned -> W_Validate application,alpha_090
+bpi2017,Mean burden,10,9,O_Returned -> O_Accepted,alpha_090
+bpi2017,Mean burden,10,10,O_Returned -> A_Incomplete,alpha_090
+bpi2017,Empirical Tail,3,1,A_Complete -> A_Validating,alpha_090
+bpi2017,Empirical Tail,3,2,A_Concept -> A_Accepted,alpha_090
+bpi2017,Empirical Tail,3,3,A_Complete -> A_Cancelled,alpha_090
+bpi2017,Empirical Tail,5,1,A_Complete -> A_Validating,alpha_090
+bpi2017,Empirical Tail,5,2,A_Concept -> A_Accepted,alpha_090
+bpi2017,Empirical Tail,5,3,A_Complete -> A_Cancelled,alpha_090
+bpi2017,Empirical Tail,5,4,A_Incomplete -> A_Validating,alpha_090
+bpi2017,Empirical Tail,5,5,A_Complete -> O_Create Offer,alpha_090
+bpi2017,Empirical Tail,10,1,A_Complete -> A_Validating,alpha_090
+bpi2017,Empirical Tail,10,2,A_Concept -> A_Accepted,alpha_090
+bpi2017,Empirical Tail,10,3,A_Complete -> A_Cancelled,alpha_090
+bpi2017,Empirical Tail,10,4,A_Incomplete -> A_Validating,alpha_090
+bpi2017,Empirical Tail,10,5,A_Complete -> O_Create Offer,alpha_090
+bpi2017,Empirical Tail,10,6,O_Sent (mail and online) -> A_Validating,alpha_090
+bpi2017,Empirical Tail,10,7,A_Incomplete -> O_Accepted,alpha_090
+bpi2017,Empirical Tail,10,8,O_Returned -> W_Validate application,alpha_090
+bpi2017,Empirical Tail,10,9,A_Accepted -> O_Create Offer,alpha_090
+bpi2017,Empirical Tail,10,10,O_Returned -> O_Accepted,alpha_090
+bpi2017,Original DRO,3,1,A_Complete -> A_Cancelled,alpha_090
+bpi2017,Original DRO,3,2,A_Complete -> A_Validating,alpha_090
+bpi2017,Original DRO,3,3,A_Concept -> A_Accepted,alpha_090
+bpi2017,Original DRO,5,1,A_Complete -> A_Cancelled,alpha_090
+bpi2017,Original DRO,5,2,A_Complete -> A_Validating,alpha_090
+bpi2017,Original DRO,5,3,A_Concept -> A_Accepted,alpha_090
+bpi2017,Original DRO,5,4,A_Complete -> O_Create Offer,alpha_090
+bpi2017,Original DRO,5,5,A_Incomplete -> A_Validating,alpha_090
+bpi2017,Original DRO,10,1,A_Complete -> A_Cancelled,alpha_090
+bpi2017,Original DRO,10,2,A_Complete -> A_Validating,alpha_090
+bpi2017,Original DRO,10,3,A_Concept -> A_Accepted,alpha_090
+bpi2017,Original DRO,10,4,A_Complete -> O_Create Offer,alpha_090
+bpi2017,Original DRO,10,5,A_Incomplete -> A_Validating,alpha_090
+bpi2017,Original DRO,10,6,A_Incomplete -> O_Accepted,alpha_090
+bpi2017,Original DRO,10,7,O_Returned -> W_Validate application,alpha_090
+bpi2017,Original DRO,10,8,O_Sent (mail and online) -> A_Validating,alpha_090
+bpi2017,Original DRO,10,9,O_Returned -> A_Incomplete,alpha_090
+bpi2017,Original DRO,10,10,O_Returned -> O_Accepted,alpha_090
+bpi2017,Saturation-Aware DRO,3,1,A_Complete -> A_Cancelled,alpha_090
+bpi2017,Saturation-Aware DRO,3,2,A_Complete -> A_Validating,alpha_090
+bpi2017,Saturation-Aware DRO,3,3,A_Concept -> A_Accepted,alpha_090
+bpi2017,Saturation-Aware DRO,5,1,A_Complete -> A_Cancelled,alpha_090
+bpi2017,Saturation-Aware DRO,5,2,A_Complete -> A_Validating,alpha_090
+bpi2017,Saturation-Aware DRO,5,3,A_Concept -> A_Accepted,alpha_090
+bpi2017,Saturation-Aware DRO,5,4,A_Complete -> O_Create Offer,alpha_090
+bpi2017,Saturation-Aware DRO,5,5,A_Incomplete -> A_Validating,alpha_090
+bpi2017,Saturation-Aware DRO,10,1,A_Complete -> A_Cancelled,alpha_090
+bpi2017,Saturation-Aware DRO,10,2,A_Complete -> A_Validating,alpha_090
+bpi2017,Saturation-Aware DRO,10,3,A_Concept -> A_Accepted,alpha_090
+bpi2017,Saturation-Aware DRO,10,4,A_Complete -> O_Create Offer,alpha_090
+bpi2017,Saturation-Aware DRO,10,5,A_Incomplete -> A_Validating,alpha_090
+bpi2017,Saturation-Aware DRO,10,6,A_Incomplete -> O_Accepted,alpha_090
+bpi2017,Saturation-Aware DRO,10,7,O_Returned -> W_Validate application,alpha_090
+bpi2017,Saturation-Aware DRO,10,8,O_Sent (mail and online) -> A_Validating,alpha_090
+bpi2017,Saturation-Aware DRO,10,9,O_Returned -> A_Incomplete,alpha_090
+bpi2017,Saturation-Aware DRO,10,10,O_Returned -> O_Accepted,alpha_090
+bpi2017,Frequency,3,1,O_Create Offer -> O_Created,radius_0
+bpi2017,Frequency,3,2,O_Created -> O_Sent (mail and online),radius_0
+bpi2017,Frequency,3,3,A_Concept -> A_Accepted,radius_0
+bpi2017,Frequency,5,1,O_Create Offer -> O_Created,radius_0
+bpi2017,Frequency,5,2,O_Created -> O_Sent (mail and online),radius_0
+bpi2017,Frequency,5,3,A_Concept -> A_Accepted,radius_0
+bpi2017,Frequency,5,4,A_Accepted -> O_Create Offer,radius_0
+bpi2017,Frequency,5,5,A_Validating -> O_Returned,radius_0
+bpi2017,Frequency,10,1,O_Create Offer -> O_Created,radius_0
+bpi2017,Frequency,10,2,O_Created -> O_Sent (mail and online),radius_0
+bpi2017,Frequency,10,3,A_Concept -> A_Accepted,radius_0
+bpi2017,Frequency,10,4,A_Accepted -> O_Create Offer,radius_0
+bpi2017,Frequency,10,5,A_Validating -> O_Returned,radius_0
+bpi2017,Frequency,10,6,A_Create Application -> A_Submitted,radius_0
+bpi2017,Frequency,10,7,W_Complete application -> A_Complete,radius_0
+bpi2017,Frequency,10,8,O_Sent (mail and online) -> W_Complete application,radius_0
+bpi2017,Frequency,10,9,A_Submitted -> A_Concept,radius_0
+bpi2017,Frequency,10,10,A_Complete -> A_Validating,radius_0
+bpi2017,Mean burden,3,1,A_Complete -> A_Cancelled,radius_0
+bpi2017,Mean burden,3,2,A_Complete -> A_Validating,radius_0
+bpi2017,Mean burden,3,3,A_Concept -> A_Accepted,radius_0
+bpi2017,Mean burden,5,1,A_Complete -> A_Cancelled,radius_0
+bpi2017,Mean burden,5,2,A_Complete -> A_Validating,radius_0
+bpi2017,Mean burden,5,3,A_Concept -> A_Accepted,radius_0
+bpi2017,Mean burden,5,4,A_Complete -> O_Create Offer,radius_0
+bpi2017,Mean burden,5,5,A_Incomplete -> A_Validating,radius_0
+bpi2017,Mean burden,10,1,A_Complete -> A_Cancelled,radius_0
+bpi2017,Mean burden,10,2,A_Complete -> A_Validating,radius_0
+bpi2017,Mean burden,10,3,A_Concept -> A_Accepted,radius_0
+bpi2017,Mean burden,10,4,A_Complete -> O_Create Offer,radius_0
+bpi2017,Mean burden,10,5,A_Incomplete -> A_Validating,radius_0
+bpi2017,Mean burden,10,6,O_Sent (mail and online) -> A_Validating,radius_0
+bpi2017,Mean burden,10,7,A_Incomplete -> O_Accepted,radius_0
+bpi2017,Mean burden,10,8,O_Returned -> W_Validate application,radius_0
+bpi2017,Mean burden,10,9,O_Returned -> O_Accepted,radius_0
+bpi2017,Mean burden,10,10,O_Returned -> A_Incomplete,radius_0
+bpi2017,Empirical Tail,3,1,A_Complete -> A_Validating,radius_0
+bpi2017,Empirical Tail,3,2,A_Concept -> A_Accepted,radius_0
+bpi2017,Empirical Tail,3,3,A_Complete -> A_Cancelled,radius_0
+bpi2017,Empirical Tail,5,1,A_Complete -> A_Validating,radius_0
+bpi2017,Empirical Tail,5,2,A_Concept -> A_Accepted,radius_0
+bpi2017,Empirical Tail,5,3,A_Complete -> A_Cancelled,radius_0
+bpi2017,Empirical Tail,5,4,A_Incomplete -> A_Validating,radius_0
+bpi2017,Empirical Tail,5,5,A_Complete -> O_Create Offer,radius_0
+bpi2017,Empirical Tail,10,1,A_Complete -> A_Validating,radius_0
+bpi2017,Empirical Tail,10,2,A_Concept -> A_Accepted,radius_0
+bpi2017,Empirical Tail,10,3,A_Complete -> A_Cancelled,radius_0
+bpi2017,Empirical Tail,10,4,A_Incomplete -> A_Validating,radius_0
+bpi2017,Empirical Tail,10,5,A_Complete -> O_Create Offer,radius_0
+bpi2017,Empirical Tail,10,6,O_Sent (mail and online) -> A_Validating,radius_0
+bpi2017,Empirical Tail,10,7,A_Accepted -> O_Create Offer,radius_0
+bpi2017,Empirical Tail,10,8,A_Incomplete -> O_Accepted,radius_0
+bpi2017,Empirical Tail,10,9,O_Returned -> W_Validate application,radius_0
+bpi2017,Empirical Tail,10,10,O_Returned -> O_Accepted,radius_0
+bpi2017,Original DRO,3,1,A_Complete -> A_Validating,radius_0
+bpi2017,Original DRO,3,2,A_Concept -> A_Accepted,radius_0
+bpi2017,Original DRO,3,3,A_Complete -> A_Cancelled,radius_0
+bpi2017,Original DRO,5,1,A_Complete -> A_Validating,radius_0
+bpi2017,Original DRO,5,2,A_Concept -> A_Accepted,radius_0
+bpi2017,Original DRO,5,3,A_Complete -> A_Cancelled,radius_0
+bpi2017,Original DRO,5,4,A_Incomplete -> A_Validating,radius_0
+bpi2017,Original DRO,5,5,A_Complete -> O_Create Offer,radius_0
+bpi2017,Original DRO,10,1,A_Complete -> A_Validating,radius_0
+bpi2017,Original DRO,10,2,A_Concept -> A_Accepted,radius_0
+bpi2017,Original DRO,10,3,A_Complete -> A_Cancelled,radius_0
+bpi2017,Original DRO,10,4,A_Incomplete -> A_Validating,radius_0
+bpi2017,Original DRO,10,5,A_Complete -> O_Create Offer,radius_0
+bpi2017,Original DRO,10,6,O_Sent (mail and online) -> A_Validating,radius_0
+bpi2017,Original DRO,10,7,A_Accepted -> O_Create Offer,radius_0
+bpi2017,Original DRO,10,8,A_Incomplete -> O_Accepted,radius_0
+bpi2017,Original DRO,10,9,O_Returned -> W_Validate application,radius_0
+bpi2017,Original DRO,10,10,O_Returned -> O_Accepted,radius_0
+bpi2017,Saturation-Aware DRO,3,1,A_Complete -> A_Validating,radius_0
+bpi2017,Saturation-Aware DRO,3,2,A_Concept -> A_Accepted,radius_0
+bpi2017,Saturation-Aware DRO,3,3,A_Complete -> A_Cancelled,radius_0
+bpi2017,Saturation-Aware DRO,5,1,A_Complete -> A_Validating,radius_0
+bpi2017,Saturation-Aware DRO,5,2,A_Concept -> A_Accepted,radius_0
+bpi2017,Saturation-Aware DRO,5,3,A_Complete -> A_Cancelled,radius_0
+bpi2017,Saturation-Aware DRO,5,4,A_Incomplete -> A_Validating,radius_0
+bpi2017,Saturation-Aware DRO,5,5,A_Complete -> O_Create Offer,radius_0
+bpi2017,Saturation-Aware DRO,10,1,A_Complete -> A_Validating,radius_0
+bpi2017,Saturation-Aware DRO,10,2,A_Concept -> A_Accepted,radius_0
+bpi2017,Saturation-Aware DRO,10,3,A_Complete -> A_Cancelled,radius_0
+bpi2017,Saturation-Aware DRO,10,4,A_Incomplete -> A_Validating,radius_0
+bpi2017,Saturation-Aware DRO,10,5,A_Complete -> O_Create Offer,radius_0
+bpi2017,Saturation-Aware DRO,10,6,O_Sent (mail and online) -> A_Validating,radius_0
+bpi2017,Saturation-Aware DRO,10,7,A_Accepted -> O_Create Offer,radius_0
+bpi2017,Saturation-Aware DRO,10,8,A_Incomplete -> O_Accepted,radius_0
+bpi2017,Saturation-Aware DRO,10,9,O_Returned -> W_Validate application,radius_0
+bpi2017,Saturation-Aware DRO,10,10,O_Returned -> O_Accepted,radius_0
+bpi2017,Frequency,3,1,O_Create Offer -> O_Created,radius_0.5
+bpi2017,Frequency,3,2,O_Created -> O_Sent (mail and online),radius_0.5
+bpi2017,Frequency,3,3,A_Concept -> A_Accepted,radius_0.5
+bpi2017,Frequency,5,1,O_Create Offer -> O_Created,radius_0.5
+bpi2017,Frequency,5,2,O_Created -> O_Sent (mail and online),radius_0.5
+bpi2017,Frequency,5,3,A_Concept -> A_Accepted,radius_0.5
+bpi2017,Frequency,5,4,A_Accepted -> O_Create Offer,radius_0.5
+bpi2017,Frequency,5,5,A_Validating -> O_Returned,radius_0.5
+bpi2017,Frequency,10,1,O_Create Offer -> O_Created,radius_0.5
+bpi2017,Frequency,10,2,O_Created -> O_Sent (mail and online),radius_0.5
+bpi2017,Frequency,10,3,A_Concept -> A_Accepted,radius_0.5
+bpi2017,Frequency,10,4,A_Accepted -> O_Create Offer,radius_0.5
+bpi2017,Frequency,10,5,A_Validating -> O_Returned,radius_0.5
+bpi2017,Frequency,10,6,A_Create Application -> A_Submitted,radius_0.5
+bpi2017,Frequency,10,7,W_Complete application -> A_Complete,radius_0.5
+bpi2017,Frequency,10,8,O_Sent (mail and online) -> W_Complete application,radius_0.5
+bpi2017,Frequency,10,9,A_Submitted -> A_Concept,radius_0.5
+bpi2017,Frequency,10,10,A_Complete -> A_Validating,radius_0.5
+bpi2017,Mean burden,3,1,A_Complete -> A_Cancelled,radius_0.5
+bpi2017,Mean burden,3,2,A_Complete -> A_Validating,radius_0.5
+bpi2017,Mean burden,3,3,A_Concept -> A_Accepted,radius_0.5
+bpi2017,Mean burden,5,1,A_Complete -> A_Cancelled,radius_0.5
+bpi2017,Mean burden,5,2,A_Complete -> A_Validating,radius_0.5
+bpi2017,Mean burden,5,3,A_Concept -> A_Accepted,radius_0.5
+bpi2017,Mean burden,5,4,A_Complete -> O_Create Offer,radius_0.5
+bpi2017,Mean burden,5,5,A_Incomplete -> A_Validating,radius_0.5
+bpi2017,Mean burden,10,1,A_Complete -> A_Cancelled,radius_0.5
+bpi2017,Mean burden,10,2,A_Complete -> A_Validating,radius_0.5
+bpi2017,Mean burden,10,3,A_Concept -> A_Accepted,radius_0.5
+bpi2017,Mean burden,10,4,A_Complete -> O_Create Offer,radius_0.5
+bpi2017,Mean burden,10,5,A_Incomplete -> A_Validating,radius_0.5
+bpi2017,Mean burden,10,6,O_Sent (mail and online) -> A_Validating,radius_0.5
+bpi2017,Mean burden,10,7,A_Incomplete -> O_Accepted,radius_0.5
+bpi2017,Mean burden,10,8,O_Returned -> W_Validate application,radius_0.5
+bpi2017,Mean burden,10,9,O_Returned -> O_Accepted,radius_0.5
+bpi2017,Mean burden,10,10,O_Returned -> A_Incomplete,radius_0.5
+bpi2017,Empirical Tail,3,1,A_Complete -> A_Validating,radius_0.5
+bpi2017,Empirical Tail,3,2,A_Concept -> A_Accepted,radius_0.5
+bpi2017,Empirical Tail,3,3,A_Complete -> A_Cancelled,radius_0.5
+bpi2017,Empirical Tail,5,1,A_Complete -> A_Validating,radius_0.5
+bpi2017,Empirical Tail,5,2,A_Concept -> A_Accepted,radius_0.5
+bpi2017,Empirical Tail,5,3,A_Complete -> A_Cancelled,radius_0.5
+bpi2017,Empirical Tail,5,4,A_Incomplete -> A_Validating,radius_0.5
+bpi2017,Empirical Tail,5,5,A_Complete -> O_Create Offer,radius_0.5
+bpi2017,Empirical Tail,10,1,A_Complete -> A_Validating,radius_0.5
+bpi2017,Empirical Tail,10,2,A_Concept -> A_Accepted,radius_0.5
+bpi2017,Empirical Tail,10,3,A_Complete -> A_Cancelled,radius_0.5
+bpi2017,Empirical Tail,10,4,A_Incomplete -> A_Validating,radius_0.5
+bpi2017,Empirical Tail,10,5,A_Complete -> O_Create Offer,radius_0.5
+bpi2017,Empirical Tail,10,6,O_Sent (mail and online) -> A_Validating,radius_0.5
+bpi2017,Empirical Tail,10,7,A_Accepted -> O_Create Offer,radius_0.5
+bpi2017,Empirical Tail,10,8,A_Incomplete -> O_Accepted,radius_0.5
+bpi2017,Empirical Tail,10,9,O_Returned -> W_Validate application,radius_0.5
+bpi2017,Empirical Tail,10,10,O_Returned -> O_Accepted,radius_0.5
+bpi2017,Original DRO,3,1,A_Complete -> A_Cancelled,radius_0.5
+bpi2017,Original DRO,3,2,A_Complete -> A_Validating,radius_0.5
+bpi2017,Original DRO,3,3,A_Concept -> A_Accepted,radius_0.5
+bpi2017,Original DRO,5,1,A_Complete -> A_Cancelled,radius_0.5
+bpi2017,Original DRO,5,2,A_Complete -> A_Validating,radius_0.5
+bpi2017,Original DRO,5,3,A_Concept -> A_Accepted,radius_0.5
+bpi2017,Original DRO,5,4,A_Complete -> O_Create Offer,radius_0.5
+bpi2017,Original DRO,5,5,A_Incomplete -> A_Validating,radius_0.5
+bpi2017,Original DRO,10,1,A_Complete -> A_Cancelled,radius_0.5
+bpi2017,Original DRO,10,2,A_Complete -> A_Validating,radius_0.5
+bpi2017,Original DRO,10,3,A_Concept -> A_Accepted,radius_0.5
+bpi2017,Original DRO,10,4,A_Complete -> O_Create Offer,radius_0.5
+bpi2017,Original DRO,10,5,A_Incomplete -> A_Validating,radius_0.5
+bpi2017,Original DRO,10,6,A_Incomplete -> O_Accepted,radius_0.5
+bpi2017,Original DRO,10,7,O_Returned -> W_Validate application,radius_0.5
+bpi2017,Original DRO,10,8,O_Sent (mail and online) -> A_Validating,radius_0.5
+bpi2017,Original DRO,10,9,O_Returned -> A_Incomplete,radius_0.5
+bpi2017,Original DRO,10,10,A_Accepted -> O_Create Offer,radius_0.5
+bpi2017,Saturation-Aware DRO,3,1,A_Complete -> A_Cancelled,radius_0.5
+bpi2017,Saturation-Aware DRO,3,2,A_Complete -> A_Validating,radius_0.5
+bpi2017,Saturation-Aware DRO,3,3,A_Concept -> A_Accepted,radius_0.5
+bpi2017,Saturation-Aware DRO,5,1,A_Complete -> A_Cancelled,radius_0.5
+bpi2017,Saturation-Aware DRO,5,2,A_Complete -> A_Validating,radius_0.5
+bpi2017,Saturation-Aware DRO,5,3,A_Concept -> A_Accepted,radius_0.5
+bpi2017,Saturation-Aware DRO,5,4,A_Complete -> O_Create Offer,radius_0.5
+bpi2017,Saturation-Aware DRO,5,5,A_Incomplete -> A_Validating,radius_0.5
+bpi2017,Saturation-Aware DRO,10,1,A_Complete -> A_Cancelled,radius_0.5
+bpi2017,Saturation-Aware DRO,10,2,A_Complete -> A_Validating,radius_0.5
+bpi2017,Saturation-Aware DRO,10,3,A_Concept -> A_Accepted,radius_0.5
+bpi2017,Saturation-Aware DRO,10,4,A_Complete -> O_Create Offer,radius_0.5
+bpi2017,Saturation-Aware DRO,10,5,A_Incomplete -> A_Validating,radius_0.5
+bpi2017,Saturation-Aware DRO,10,6,A_Incomplete -> O_Accepted,radius_0.5
+bpi2017,Saturation-Aware DRO,10,7,O_Returned -> W_Validate application,radius_0.5
+bpi2017,Saturation-Aware DRO,10,8,O_Sent (mail and online) -> A_Validating,radius_0.5
+bpi2017,Saturation-Aware DRO,10,9,O_Returned -> A_Incomplete,radius_0.5
+bpi2017,Saturation-Aware DRO,10,10,A_Accepted -> O_Create Offer,radius_0.5
+bpi2017,Frequency,3,1,O_Create Offer -> O_Created,radius_1.5
+bpi2017,Frequency,3,2,O_Created -> O_Sent (mail and online),radius_1.5
+bpi2017,Frequency,3,3,A_Concept -> A_Accepted,radius_1.5
+bpi2017,Frequency,5,1,O_Create Offer -> O_Created,radius_1.5
+bpi2017,Frequency,5,2,O_Created -> O_Sent (mail and online),radius_1.5
+bpi2017,Frequency,5,3,A_Concept -> A_Accepted,radius_1.5
+bpi2017,Frequency,5,4,A_Accepted -> O_Create Offer,radius_1.5
+bpi2017,Frequency,5,5,A_Validating -> O_Returned,radius_1.5
+bpi2017,Frequency,10,1,O_Create Offer -> O_Created,radius_1.5
+bpi2017,Frequency,10,2,O_Created -> O_Sent (mail and online),radius_1.5
+bpi2017,Frequency,10,3,A_Concept -> A_Accepted,radius_1.5
+bpi2017,Frequency,10,4,A_Accepted -> O_Create Offer,radius_1.5
+bpi2017,Frequency,10,5,A_Validating -> O_Returned,radius_1.5
+bpi2017,Frequency,10,6,A_Create Application -> A_Submitted,radius_1.5
+bpi2017,Frequency,10,7,W_Complete application -> A_Complete,radius_1.5
+bpi2017,Frequency,10,8,O_Sent (mail and online) -> W_Complete application,radius_1.5
+bpi2017,Frequency,10,9,A_Submitted -> A_Concept,radius_1.5
+bpi2017,Frequency,10,10,A_Complete -> A_Validating,radius_1.5
+bpi2017,Mean burden,3,1,A_Complete -> A_Cancelled,radius_1.5
+bpi2017,Mean burden,3,2,A_Complete -> A_Validating,radius_1.5
+bpi2017,Mean burden,3,3,A_Concept -> A_Accepted,radius_1.5
+bpi2017,Mean burden,5,1,A_Complete -> A_Cancelled,radius_1.5
+bpi2017,Mean burden,5,2,A_Complete -> A_Validating,radius_1.5
+bpi2017,Mean burden,5,3,A_Concept -> A_Accepted,radius_1.5
+bpi2017,Mean burden,5,4,A_Complete -> O_Create Offer,radius_1.5
+bpi2017,Mean burden,5,5,A_Incomplete -> A_Validating,radius_1.5
+bpi2017,Mean burden,10,1,A_Complete -> A_Cancelled,radius_1.5
+bpi2017,Mean burden,10,2,A_Complete -> A_Validating,radius_1.5
+bpi2017,Mean burden,10,3,A_Concept -> A_Accepted,radius_1.5
+bpi2017,Mean burden,10,4,A_Complete -> O_Create Offer,radius_1.5
+bpi2017,Mean burden,10,5,A_Incomplete -> A_Validating,radius_1.5
+bpi2017,Mean burden,10,6,O_Sent (mail and online) -> A_Validating,radius_1.5
+bpi2017,Mean burden,10,7,A_Incomplete -> O_Accepted,radius_1.5
+bpi2017,Mean burden,10,8,O_Returned -> W_Validate application,radius_1.5
+bpi2017,Mean burden,10,9,O_Returned -> O_Accepted,radius_1.5
+bpi2017,Mean burden,10,10,O_Returned -> A_Incomplete,radius_1.5
+bpi2017,Empirical Tail,3,1,A_Complete -> A_Validating,radius_1.5
+bpi2017,Empirical Tail,3,2,A_Concept -> A_Accepted,radius_1.5
+bpi2017,Empirical Tail,3,3,A_Complete -> A_Cancelled,radius_1.5
+bpi2017,Empirical Tail,5,1,A_Complete -> A_Validating,radius_1.5
+bpi2017,Empirical Tail,5,2,A_Concept -> A_Accepted,radius_1.5
+bpi2017,Empirical Tail,5,3,A_Complete -> A_Cancelled,radius_1.5
+bpi2017,Empirical Tail,5,4,A_Incomplete -> A_Validating,radius_1.5
+bpi2017,Empirical Tail,5,5,A_Complete -> O_Create Offer,radius_1.5
+bpi2017,Empirical Tail,10,1,A_Complete -> A_Validating,radius_1.5
+bpi2017,Empirical Tail,10,2,A_Concept -> A_Accepted,radius_1.5
+bpi2017,Empirical Tail,10,3,A_Complete -> A_Cancelled,radius_1.5
+bpi2017,Empirical Tail,10,4,A_Incomplete -> A_Validating,radius_1.5
+bpi2017,Empirical Tail,10,5,A_Complete -> O_Create Offer,radius_1.5
+bpi2017,Empirical Tail,10,6,O_Sent (mail and online) -> A_Validating,radius_1.5
+bpi2017,Empirical Tail,10,7,A_Accepted -> O_Create Offer,radius_1.5
+bpi2017,Empirical Tail,10,8,A_Incomplete -> O_Accepted,radius_1.5
+bpi2017,Empirical Tail,10,9,O_Returned -> W_Validate application,radius_1.5
+bpi2017,Empirical Tail,10,10,O_Returned -> O_Accepted,radius_1.5
+bpi2017,Original DRO,3,1,A_Complete -> A_Validating,radius_1.5
+bpi2017,Original DRO,3,2,A_Concept -> A_Accepted,radius_1.5
+bpi2017,Original DRO,3,3,A_Complete -> A_Cancelled,radius_1.5
+bpi2017,Original DRO,5,1,A_Complete -> A_Validating,radius_1.5
+bpi2017,Original DRO,5,2,A_Concept -> A_Accepted,radius_1.5
+bpi2017,Original DRO,5,3,A_Complete -> A_Cancelled,radius_1.5
+bpi2017,Original DRO,5,4,A_Incomplete -> A_Validating,radius_1.5
+bpi2017,Original DRO,5,5,A_Complete -> O_Create Offer,radius_1.5
+bpi2017,Original DRO,10,1,A_Complete -> A_Validating,radius_1.5
+bpi2017,Original DRO,10,2,A_Concept -> A_Accepted,radius_1.5
+bpi2017,Original DRO,10,3,A_Complete -> A_Cancelled,radius_1.5
+bpi2017,Original DRO,10,4,A_Incomplete -> A_Validating,radius_1.5
+bpi2017,Original DRO,10,5,A_Complete -> O_Create Offer,radius_1.5
+bpi2017,Original DRO,10,6,O_Returned -> W_Validate application,radius_1.5
+bpi2017,Original DRO,10,7,A_Incomplete -> O_Accepted,radius_1.5
+bpi2017,Original DRO,10,8,O_Sent (mail and online) -> A_Validating,radius_1.5
+bpi2017,Original DRO,10,9,O_Returned -> A_Incomplete,radius_1.5
+bpi2017,Original DRO,10,10,O_Returned -> O_Accepted,radius_1.5
+bpi2017,Saturation-Aware DRO,3,1,A_Complete -> A_Validating,radius_1.5
+bpi2017,Saturation-Aware DRO,3,2,A_Concept -> A_Accepted,radius_1.5
+bpi2017,Saturation-Aware DRO,3,3,A_Complete -> A_Cancelled,radius_1.5
+bpi2017,Saturation-Aware DRO,5,1,A_Complete -> A_Validating,radius_1.5
+bpi2017,Saturation-Aware DRO,5,2,A_Concept -> A_Accepted,radius_1.5
+bpi2017,Saturation-Aware DRO,5,3,A_Complete -> A_Cancelled,radius_1.5
+bpi2017,Saturation-Aware DRO,5,4,A_Incomplete -> A_Validating,radius_1.5
+bpi2017,Saturation-Aware DRO,5,5,A_Complete -> O_Create Offer,radius_1.5
+bpi2017,Saturation-Aware DRO,10,1,A_Complete -> A_Validating,radius_1.5
+bpi2017,Saturation-Aware DRO,10,2,A_Concept -> A_Accepted,radius_1.5
+bpi2017,Saturation-Aware DRO,10,3,A_Complete -> A_Cancelled,radius_1.5
+bpi2017,Saturation-Aware DRO,10,4,A_Incomplete -> A_Validating,radius_1.5
+bpi2017,Saturation-Aware DRO,10,5,A_Complete -> O_Create Offer,radius_1.5
+bpi2017,Saturation-Aware DRO,10,6,O_Returned -> W_Validate application,radius_1.5
+bpi2017,Saturation-Aware DRO,10,7,A_Incomplete -> O_Accepted,radius_1.5
+bpi2017,Saturation-Aware DRO,10,8,O_Sent (mail and online) -> A_Validating,radius_1.5
+bpi2017,Saturation-Aware DRO,10,9,O_Returned -> A_Incomplete,radius_1.5
+bpi2017,Saturation-Aware DRO,10,10,O_Returned -> O_Accepted,radius_1.5
+bpi2017,Frequency,3,1,O_Create Offer -> O_Created,radius_2
+bpi2017,Frequency,3,2,O_Created -> O_Sent (mail and online),radius_2
+bpi2017,Frequency,3,3,A_Concept -> A_Accepted,radius_2
+bpi2017,Frequency,5,1,O_Create Offer -> O_Created,radius_2
+bpi2017,Frequency,5,2,O_Created -> O_Sent (mail and online),radius_2
+bpi2017,Frequency,5,3,A_Concept -> A_Accepted,radius_2
+bpi2017,Frequency,5,4,A_Accepted -> O_Create Offer,radius_2
+bpi2017,Frequency,5,5,A_Validating -> O_Returned,radius_2
+bpi2017,Frequency,10,1,O_Create Offer -> O_Created,radius_2
+bpi2017,Frequency,10,2,O_Created -> O_Sent (mail and online),radius_2
+bpi2017,Frequency,10,3,A_Concept -> A_Accepted,radius_2
+bpi2017,Frequency,10,4,A_Accepted -> O_Create Offer,radius_2
+bpi2017,Frequency,10,5,A_Validating -> O_Returned,radius_2
+bpi2017,Frequency,10,6,A_Create Application -> A_Submitted,radius_2
+bpi2017,Frequency,10,7,W_Complete application -> A_Complete,radius_2
+bpi2017,Frequency,10,8,O_Sent (mail and online) -> W_Complete application,radius_2
+bpi2017,Frequency,10,9,A_Submitted -> A_Concept,radius_2
+bpi2017,Frequency,10,10,A_Complete -> A_Validating,radius_2
+bpi2017,Mean burden,3,1,A_Complete -> A_Cancelled,radius_2
+bpi2017,Mean burden,3,2,A_Complete -> A_Validating,radius_2
+bpi2017,Mean burden,3,3,A_Concept -> A_Accepted,radius_2
+bpi2017,Mean burden,5,1,A_Complete -> A_Cancelled,radius_2
+bpi2017,Mean burden,5,2,A_Complete -> A_Validating,radius_2
+bpi2017,Mean burden,5,3,A_Concept -> A_Accepted,radius_2
+bpi2017,Mean burden,5,4,A_Complete -> O_Create Offer,radius_2
+bpi2017,Mean burden,5,5,A_Incomplete -> A_Validating,radius_2
+bpi2017,Mean burden,10,1,A_Complete -> A_Cancelled,radius_2
+bpi2017,Mean burden,10,2,A_Complete -> A_Validating,radius_2
+bpi2017,Mean burden,10,3,A_Concept -> A_Accepted,radius_2
+bpi2017,Mean burden,10,4,A_Complete -> O_Create Offer,radius_2
+bpi2017,Mean burden,10,5,A_Incomplete -> A_Validating,radius_2
+bpi2017,Mean burden,10,6,O_Sent (mail and online) -> A_Validating,radius_2
+bpi2017,Mean burden,10,7,A_Incomplete -> O_Accepted,radius_2
+bpi2017,Mean burden,10,8,O_Returned -> W_Validate application,radius_2
+bpi2017,Mean burden,10,9,O_Returned -> O_Accepted,radius_2
+bpi2017,Mean burden,10,10,O_Returned -> A_Incomplete,radius_2
+bpi2017,Empirical Tail,3,1,A_Complete -> A_Validating,radius_2
+bpi2017,Empirical Tail,3,2,A_Concept -> A_Accepted,radius_2
+bpi2017,Empirical Tail,3,3,A_Complete -> A_Cancelled,radius_2
+bpi2017,Empirical Tail,5,1,A_Complete -> A_Validating,radius_2
+bpi2017,Empirical Tail,5,2,A_Concept -> A_Accepted,radius_2
+bpi2017,Empirical Tail,5,3,A_Complete -> A_Cancelled,radius_2
+bpi2017,Empirical Tail,5,4,A_Incomplete -> A_Validating,radius_2
+bpi2017,Empirical Tail,5,5,A_Complete -> O_Create Offer,radius_2
+bpi2017,Empirical Tail,10,1,A_Complete -> A_Validating,radius_2
+bpi2017,Empirical Tail,10,2,A_Concept -> A_Accepted,radius_2
+bpi2017,Empirical Tail,10,3,A_Complete -> A_Cancelled,radius_2
+bpi2017,Empirical Tail,10,4,A_Incomplete -> A_Validating,radius_2
+bpi2017,Empirical Tail,10,5,A_Complete -> O_Create Offer,radius_2
+bpi2017,Empirical Tail,10,6,O_Sent (mail and online) -> A_Validating,radius_2
+bpi2017,Empirical Tail,10,7,A_Accepted -> O_Create Offer,radius_2
+bpi2017,Empirical Tail,10,8,A_Incomplete -> O_Accepted,radius_2
+bpi2017,Empirical Tail,10,9,O_Returned -> W_Validate application,radius_2
+bpi2017,Empirical Tail,10,10,O_Returned -> O_Accepted,radius_2
+bpi2017,Original DRO,3,1,A_Concept -> A_Accepted,radius_2
+bpi2017,Original DRO,3,2,A_Complete -> A_Validating,radius_2
+bpi2017,Original DRO,3,3,A_Complete -> A_Cancelled,radius_2
+bpi2017,Original DRO,5,1,A_Concept -> A_Accepted,radius_2
+bpi2017,Original DRO,5,2,A_Complete -> A_Validating,radius_2
+bpi2017,Original DRO,5,3,A_Complete -> A_Cancelled,radius_2
+bpi2017,Original DRO,5,4,A_Incomplete -> A_Validating,radius_2
+bpi2017,Original DRO,5,5,O_Returned -> W_Validate application,radius_2
+bpi2017,Original DRO,10,1,A_Concept -> A_Accepted,radius_2
+bpi2017,Original DRO,10,2,A_Complete -> A_Validating,radius_2
+bpi2017,Original DRO,10,3,A_Complete -> A_Cancelled,radius_2
+bpi2017,Original DRO,10,4,A_Incomplete -> A_Validating,radius_2
+bpi2017,Original DRO,10,5,O_Returned -> W_Validate application,radius_2
+bpi2017,Original DRO,10,6,A_Complete -> O_Create Offer,radius_2
+bpi2017,Original DRO,10,7,O_Sent (mail and online) -> A_Validating,radius_2
+bpi2017,Original DRO,10,8,O_Returned -> A_Incomplete,radius_2
+bpi2017,Original DRO,10,9,A_Incomplete -> O_Accepted,radius_2
+bpi2017,Original DRO,10,10,O_Returned -> O_Accepted,radius_2
+bpi2017,Saturation-Aware DRO,3,1,A_Concept -> A_Accepted,radius_2
+bpi2017,Saturation-Aware DRO,3,2,A_Complete -> A_Validating,radius_2
+bpi2017,Saturation-Aware DRO,3,3,A_Incomplete -> A_Validating,radius_2
+bpi2017,Saturation-Aware DRO,5,1,A_Concept -> A_Accepted,radius_2
+bpi2017,Saturation-Aware DRO,5,2,A_Complete -> A_Validating,radius_2
+bpi2017,Saturation-Aware DRO,5,3,A_Incomplete -> A_Validating,radius_2
+bpi2017,Saturation-Aware DRO,5,4,A_Complete -> A_Cancelled,radius_2
+bpi2017,Saturation-Aware DRO,5,5,O_Returned -> W_Validate application,radius_2
+bpi2017,Saturation-Aware DRO,10,1,A_Concept -> A_Accepted,radius_2
+bpi2017,Saturation-Aware DRO,10,2,A_Complete -> A_Validating,radius_2
+bpi2017,Saturation-Aware DRO,10,3,A_Incomplete -> A_Validating,radius_2
+bpi2017,Saturation-Aware DRO,10,4,A_Complete -> A_Cancelled,radius_2
+bpi2017,Saturation-Aware DRO,10,5,O_Returned -> W_Validate application,radius_2
+bpi2017,Saturation-Aware DRO,10,6,A_Complete -> O_Create Offer,radius_2
+bpi2017,Saturation-Aware DRO,10,7,O_Sent (mail and online) -> A_Validating,radius_2
+bpi2017,Saturation-Aware DRO,10,8,O_Returned -> A_Incomplete,radius_2
+bpi2017,Saturation-Aware DRO,10,9,A_Incomplete -> O_Accepted,radius_2
+bpi2017,Saturation-Aware DRO,10,10,O_Returned -> O_Accepted,radius_2
+bpi2017,Frequency,3,1,O_Create Offer -> O_Created,kappa_0.50
+bpi2017,Frequency,3,2,O_Created -> O_Sent (mail and online),kappa_0.50
+bpi2017,Frequency,3,3,A_Concept -> A_Accepted,kappa_0.50
+bpi2017,Frequency,5,1,O_Create Offer -> O_Created,kappa_0.50
+bpi2017,Frequency,5,2,O_Created -> O_Sent (mail and online),kappa_0.50
+bpi2017,Frequency,5,3,A_Concept -> A_Accepted,kappa_0.50
+bpi2017,Frequency,5,4,A_Accepted -> O_Create Offer,kappa_0.50
+bpi2017,Frequency,5,5,A_Validating -> O_Returned,kappa_0.50
+bpi2017,Frequency,10,1,O_Create Offer -> O_Created,kappa_0.50
+bpi2017,Frequency,10,2,O_Created -> O_Sent (mail and online),kappa_0.50
+bpi2017,Frequency,10,3,A_Concept -> A_Accepted,kappa_0.50
+bpi2017,Frequency,10,4,A_Accepted -> O_Create Offer,kappa_0.50
+bpi2017,Frequency,10,5,A_Validating -> O_Returned,kappa_0.50
+bpi2017,Frequency,10,6,A_Create Application -> A_Submitted,kappa_0.50
+bpi2017,Frequency,10,7,W_Complete application -> A_Complete,kappa_0.50
+bpi2017,Frequency,10,8,O_Sent (mail and online) -> W_Complete application,kappa_0.50
+bpi2017,Frequency,10,9,A_Submitted -> A_Concept,kappa_0.50
+bpi2017,Frequency,10,10,A_Complete -> A_Validating,kappa_0.50
+bpi2017,Mean burden,3,1,A_Complete -> A_Cancelled,kappa_0.50
+bpi2017,Mean burden,3,2,A_Complete -> A_Validating,kappa_0.50
+bpi2017,Mean burden,3,3,A_Concept -> A_Accepted,kappa_0.50
+bpi2017,Mean burden,5,1,A_Complete -> A_Cancelled,kappa_0.50
+bpi2017,Mean burden,5,2,A_Complete -> A_Validating,kappa_0.50
+bpi2017,Mean burden,5,3,A_Concept -> A_Accepted,kappa_0.50
+bpi2017,Mean burden,5,4,A_Complete -> O_Create Offer,kappa_0.50
+bpi2017,Mean burden,5,5,A_Incomplete -> A_Validating,kappa_0.50
+bpi2017,Mean burden,10,1,A_Complete -> A_Cancelled,kappa_0.50
+bpi2017,Mean burden,10,2,A_Complete -> A_Validating,kappa_0.50
+bpi2017,Mean burden,10,3,A_Concept -> A_Accepted,kappa_0.50
+bpi2017,Mean burden,10,4,A_Complete -> O_Create Offer,kappa_0.50
+bpi2017,Mean burden,10,5,A_Incomplete -> A_Validating,kappa_0.50
+bpi2017,Mean burden,10,6,O_Sent (mail and online) -> A_Validating,kappa_0.50
+bpi2017,Mean burden,10,7,A_Incomplete -> O_Accepted,kappa_0.50
+bpi2017,Mean burden,10,8,O_Returned -> W_Validate application,kappa_0.50
+bpi2017,Mean burden,10,9,O_Returned -> O_Accepted,kappa_0.50
+bpi2017,Mean burden,10,10,O_Returned -> A_Incomplete,kappa_0.50
+bpi2017,Empirical Tail,3,1,A_Complete -> A_Validating,kappa_0.50
+bpi2017,Empirical Tail,3,2,A_Concept -> A_Accepted,kappa_0.50
+bpi2017,Empirical Tail,3,3,A_Complete -> A_Cancelled,kappa_0.50
+bpi2017,Empirical Tail,5,1,A_Complete -> A_Validating,kappa_0.50
+bpi2017,Empirical Tail,5,2,A_Concept -> A_Accepted,kappa_0.50
+bpi2017,Empirical Tail,5,3,A_Complete -> A_Cancelled,kappa_0.50
+bpi2017,Empirical Tail,5,4,A_Incomplete -> A_Validating,kappa_0.50
+bpi2017,Empirical Tail,5,5,A_Complete -> O_Create Offer,kappa_0.50
+bpi2017,Empirical Tail,10,1,A_Complete -> A_Validating,kappa_0.50
+bpi2017,Empirical Tail,10,2,A_Concept -> A_Accepted,kappa_0.50
+bpi2017,Empirical Tail,10,3,A_Complete -> A_Cancelled,kappa_0.50
+bpi2017,Empirical Tail,10,4,A_Incomplete -> A_Validating,kappa_0.50
+bpi2017,Empirical Tail,10,5,A_Complete -> O_Create Offer,kappa_0.50
+bpi2017,Empirical Tail,10,6,O_Sent (mail and online) -> A_Validating,kappa_0.50
+bpi2017,Empirical Tail,10,7,A_Accepted -> O_Create Offer,kappa_0.50
+bpi2017,Empirical Tail,10,8,A_Incomplete -> O_Accepted,kappa_0.50
+bpi2017,Empirical Tail,10,9,O_Returned -> W_Validate application,kappa_0.50
+bpi2017,Empirical Tail,10,10,O_Returned -> O_Accepted,kappa_0.50
+bpi2017,Original DRO,3,1,A_Complete -> A_Validating,kappa_0.50
+bpi2017,Original DRO,3,2,A_Concept -> A_Accepted,kappa_0.50
+bpi2017,Original DRO,3,3,A_Complete -> A_Cancelled,kappa_0.50
+bpi2017,Original DRO,5,1,A_Complete -> A_Validating,kappa_0.50
+bpi2017,Original DRO,5,2,A_Concept -> A_Accepted,kappa_0.50
+bpi2017,Original DRO,5,3,A_Complete -> A_Cancelled,kappa_0.50
+bpi2017,Original DRO,5,4,A_Complete -> O_Create Offer,kappa_0.50
+bpi2017,Original DRO,5,5,A_Incomplete -> A_Validating,kappa_0.50
+bpi2017,Original DRO,10,1,A_Complete -> A_Validating,kappa_0.50
+bpi2017,Original DRO,10,2,A_Concept -> A_Accepted,kappa_0.50
+bpi2017,Original DRO,10,3,A_Complete -> A_Cancelled,kappa_0.50
+bpi2017,Original DRO,10,4,A_Complete -> O_Create Offer,kappa_0.50
+bpi2017,Original DRO,10,5,A_Incomplete -> A_Validating,kappa_0.50
+bpi2017,Original DRO,10,6,A_Incomplete -> O_Accepted,kappa_0.50
+bpi2017,Original DRO,10,7,O_Returned -> W_Validate application,kappa_0.50
+bpi2017,Original DRO,10,8,O_Sent (mail and online) -> A_Validating,kappa_0.50
+bpi2017,Original DRO,10,9,O_Returned -> A_Incomplete,kappa_0.50
+bpi2017,Original DRO,10,10,O_Returned -> O_Accepted,kappa_0.50
+bpi2017,Saturation-Aware DRO,3,1,A_Complete -> A_Validating,kappa_0.50
+bpi2017,Saturation-Aware DRO,3,2,A_Concept -> A_Accepted,kappa_0.50
+bpi2017,Saturation-Aware DRO,3,3,A_Complete -> A_Cancelled,kappa_0.50
+bpi2017,Saturation-Aware DRO,5,1,A_Complete -> A_Validating,kappa_0.50
+bpi2017,Saturation-Aware DRO,5,2,A_Concept -> A_Accepted,kappa_0.50
+bpi2017,Saturation-Aware DRO,5,3,A_Complete -> A_Cancelled,kappa_0.50
+bpi2017,Saturation-Aware DRO,5,4,A_Incomplete -> A_Validating,kappa_0.50
+bpi2017,Saturation-Aware DRO,5,5,A_Complete -> O_Create Offer,kappa_0.50
+bpi2017,Saturation-Aware DRO,10,1,A_Complete -> A_Validating,kappa_0.50
+bpi2017,Saturation-Aware DRO,10,2,A_Concept -> A_Accepted,kappa_0.50
+bpi2017,Saturation-Aware DRO,10,3,A_Complete -> A_Cancelled,kappa_0.50
+bpi2017,Saturation-Aware DRO,10,4,A_Incomplete -> A_Validating,kappa_0.50
+bpi2017,Saturation-Aware DRO,10,5,A_Complete -> O_Create Offer,kappa_0.50
+bpi2017,Saturation-Aware DRO,10,6,O_Returned -> W_Validate application,kappa_0.50
+bpi2017,Saturation-Aware DRO,10,7,O_Sent (mail and online) -> A_Validating,kappa_0.50
+bpi2017,Saturation-Aware DRO,10,8,A_Incomplete -> O_Accepted,kappa_0.50
+bpi2017,Saturation-Aware DRO,10,9,O_Returned -> A_Incomplete,kappa_0.50
+bpi2017,Saturation-Aware DRO,10,10,O_Returned -> O_Accepted,kappa_0.50
+bpi2017,Frequency,3,1,O_Create Offer -> O_Created,kappa_0.75
+bpi2017,Frequency,3,2,O_Created -> O_Sent (mail and online),kappa_0.75
+bpi2017,Frequency,3,3,A_Concept -> A_Accepted,kappa_0.75
+bpi2017,Frequency,5,1,O_Create Offer -> O_Created,kappa_0.75
+bpi2017,Frequency,5,2,O_Created -> O_Sent (mail and online),kappa_0.75
+bpi2017,Frequency,5,3,A_Concept -> A_Accepted,kappa_0.75
+bpi2017,Frequency,5,4,A_Accepted -> O_Create Offer,kappa_0.75
+bpi2017,Frequency,5,5,A_Validating -> O_Returned,kappa_0.75
+bpi2017,Frequency,10,1,O_Create Offer -> O_Created,kappa_0.75
+bpi2017,Frequency,10,2,O_Created -> O_Sent (mail and online),kappa_0.75
+bpi2017,Frequency,10,3,A_Concept -> A_Accepted,kappa_0.75
+bpi2017,Frequency,10,4,A_Accepted -> O_Create Offer,kappa_0.75
+bpi2017,Frequency,10,5,A_Validating -> O_Returned,kappa_0.75
+bpi2017,Frequency,10,6,A_Create Application -> A_Submitted,kappa_0.75
+bpi2017,Frequency,10,7,W_Complete application -> A_Complete,kappa_0.75
+bpi2017,Frequency,10,8,O_Sent (mail and online) -> W_Complete application,kappa_0.75
+bpi2017,Frequency,10,9,A_Submitted -> A_Concept,kappa_0.75
+bpi2017,Frequency,10,10,A_Complete -> A_Validating,kappa_0.75
+bpi2017,Mean burden,3,1,A_Complete -> A_Cancelled,kappa_0.75
+bpi2017,Mean burden,3,2,A_Complete -> A_Validating,kappa_0.75
+bpi2017,Mean burden,3,3,A_Concept -> A_Accepted,kappa_0.75
+bpi2017,Mean burden,5,1,A_Complete -> A_Cancelled,kappa_0.75
+bpi2017,Mean burden,5,2,A_Complete -> A_Validating,kappa_0.75
+bpi2017,Mean burden,5,3,A_Concept -> A_Accepted,kappa_0.75
+bpi2017,Mean burden,5,4,A_Complete -> O_Create Offer,kappa_0.75
+bpi2017,Mean burden,5,5,A_Incomplete -> A_Validating,kappa_0.75
+bpi2017,Mean burden,10,1,A_Complete -> A_Cancelled,kappa_0.75
+bpi2017,Mean burden,10,2,A_Complete -> A_Validating,kappa_0.75
+bpi2017,Mean burden,10,3,A_Concept -> A_Accepted,kappa_0.75
+bpi2017,Mean burden,10,4,A_Complete -> O_Create Offer,kappa_0.75
+bpi2017,Mean burden,10,5,A_Incomplete -> A_Validating,kappa_0.75
+bpi2017,Mean burden,10,6,O_Sent (mail and online) -> A_Validating,kappa_0.75
+bpi2017,Mean burden,10,7,A_Incomplete -> O_Accepted,kappa_0.75
+bpi2017,Mean burden,10,8,O_Returned -> W_Validate application,kappa_0.75
+bpi2017,Mean burden,10,9,O_Returned -> O_Accepted,kappa_0.75
+bpi2017,Mean burden,10,10,O_Returned -> A_Incomplete,kappa_0.75
+bpi2017,Empirical Tail,3,1,A_Complete -> A_Validating,kappa_0.75
+bpi2017,Empirical Tail,3,2,A_Concept -> A_Accepted,kappa_0.75
+bpi2017,Empirical Tail,3,3,A_Complete -> A_Cancelled,kappa_0.75
+bpi2017,Empirical Tail,5,1,A_Complete -> A_Validating,kappa_0.75
+bpi2017,Empirical Tail,5,2,A_Concept -> A_Accepted,kappa_0.75
+bpi2017,Empirical Tail,5,3,A_Complete -> A_Cancelled,kappa_0.75
+bpi2017,Empirical Tail,5,4,A_Incomplete -> A_Validating,kappa_0.75
+bpi2017,Empirical Tail,5,5,A_Complete -> O_Create Offer,kappa_0.75
+bpi2017,Empirical Tail,10,1,A_Complete -> A_Validating,kappa_0.75
+bpi2017,Empirical Tail,10,2,A_Concept -> A_Accepted,kappa_0.75
+bpi2017,Empirical Tail,10,3,A_Complete -> A_Cancelled,kappa_0.75
+bpi2017,Empirical Tail,10,4,A_Incomplete -> A_Validating,kappa_0.75
+bpi2017,Empirical Tail,10,5,A_Complete -> O_Create Offer,kappa_0.75
+bpi2017,Empirical Tail,10,6,O_Sent (mail and online) -> A_Validating,kappa_0.75
+bpi2017,Empirical Tail,10,7,A_Accepted -> O_Create Offer,kappa_0.75
+bpi2017,Empirical Tail,10,8,A_Incomplete -> O_Accepted,kappa_0.75
+bpi2017,Empirical Tail,10,9,O_Returned -> W_Validate application,kappa_0.75
+bpi2017,Empirical Tail,10,10,O_Returned -> O_Accepted,kappa_0.75
+bpi2017,Original DRO,3,1,A_Complete -> A_Validating,kappa_0.75
+bpi2017,Original DRO,3,2,A_Concept -> A_Accepted,kappa_0.75
+bpi2017,Original DRO,3,3,A_Complete -> A_Cancelled,kappa_0.75
+bpi2017,Original DRO,5,1,A_Complete -> A_Validating,kappa_0.75
+bpi2017,Original DRO,5,2,A_Concept -> A_Accepted,kappa_0.75
+bpi2017,Original DRO,5,3,A_Complete -> A_Cancelled,kappa_0.75
+bpi2017,Original DRO,5,4,A_Complete -> O_Create Offer,kappa_0.75
+bpi2017,Original DRO,5,5,A_Incomplete -> A_Validating,kappa_0.75
+bpi2017,Original DRO,10,1,A_Complete -> A_Validating,kappa_0.75
+bpi2017,Original DRO,10,2,A_Concept -> A_Accepted,kappa_0.75
+bpi2017,Original DRO,10,3,A_Complete -> A_Cancelled,kappa_0.75
+bpi2017,Original DRO,10,4,A_Complete -> O_Create Offer,kappa_0.75
+bpi2017,Original DRO,10,5,A_Incomplete -> A_Validating,kappa_0.75
+bpi2017,Original DRO,10,6,A_Incomplete -> O_Accepted,kappa_0.75
+bpi2017,Original DRO,10,7,O_Returned -> W_Validate application,kappa_0.75
+bpi2017,Original DRO,10,8,O_Sent (mail and online) -> A_Validating,kappa_0.75
+bpi2017,Original DRO,10,9,O_Returned -> A_Incomplete,kappa_0.75
+bpi2017,Original DRO,10,10,O_Returned -> O_Accepted,kappa_0.75
+bpi2017,Saturation-Aware DRO,3,1,A_Complete -> A_Validating,kappa_0.75
+bpi2017,Saturation-Aware DRO,3,2,A_Concept -> A_Accepted,kappa_0.75
+bpi2017,Saturation-Aware DRO,3,3,A_Complete -> A_Cancelled,kappa_0.75
+bpi2017,Saturation-Aware DRO,5,1,A_Complete -> A_Validating,kappa_0.75
+bpi2017,Saturation-Aware DRO,5,2,A_Concept -> A_Accepted,kappa_0.75
+bpi2017,Saturation-Aware DRO,5,3,A_Complete -> A_Cancelled,kappa_0.75
+bpi2017,Saturation-Aware DRO,5,4,A_Incomplete -> A_Validating,kappa_0.75
+bpi2017,Saturation-Aware DRO,5,5,A_Complete -> O_Create Offer,kappa_0.75
+bpi2017,Saturation-Aware DRO,10,1,A_Complete -> A_Validating,kappa_0.75
+bpi2017,Saturation-Aware DRO,10,2,A_Concept -> A_Accepted,kappa_0.75
+bpi2017,Saturation-Aware DRO,10,3,A_Complete -> A_Cancelled,kappa_0.75
+bpi2017,Saturation-Aware DRO,10,4,A_Incomplete -> A_Validating,kappa_0.75
+bpi2017,Saturation-Aware DRO,10,5,A_Complete -> O_Create Offer,kappa_0.75
+bpi2017,Saturation-Aware DRO,10,6,O_Returned -> W_Validate application,kappa_0.75
+bpi2017,Saturation-Aware DRO,10,7,A_Incomplete -> O_Accepted,kappa_0.75
+bpi2017,Saturation-Aware DRO,10,8,O_Sent (mail and online) -> A_Validating,kappa_0.75
+bpi2017,Saturation-Aware DRO,10,9,O_Returned -> A_Incomplete,kappa_0.75
+bpi2017,Saturation-Aware DRO,10,10,O_Returned -> O_Accepted,kappa_0.75
+bpi2017,Frequency,3,1,O_Create Offer -> O_Created,kappa_0.95
+bpi2017,Frequency,3,2,O_Created -> O_Sent (mail and online),kappa_0.95
+bpi2017,Frequency,3,3,A_Concept -> A_Accepted,kappa_0.95
+bpi2017,Frequency,5,1,O_Create Offer -> O_Created,kappa_0.95
+bpi2017,Frequency,5,2,O_Created -> O_Sent (mail and online),kappa_0.95
+bpi2017,Frequency,5,3,A_Concept -> A_Accepted,kappa_0.95
+bpi2017,Frequency,5,4,A_Accepted -> O_Create Offer,kappa_0.95
+bpi2017,Frequency,5,5,A_Validating -> O_Returned,kappa_0.95
+bpi2017,Frequency,10,1,O_Create Offer -> O_Created,kappa_0.95
+bpi2017,Frequency,10,2,O_Created -> O_Sent (mail and online),kappa_0.95
+bpi2017,Frequency,10,3,A_Concept -> A_Accepted,kappa_0.95
+bpi2017,Frequency,10,4,A_Accepted -> O_Create Offer,kappa_0.95
+bpi2017,Frequency,10,5,A_Validating -> O_Returned,kappa_0.95
+bpi2017,Frequency,10,6,A_Create Application -> A_Submitted,kappa_0.95
+bpi2017,Frequency,10,7,W_Complete application -> A_Complete,kappa_0.95
+bpi2017,Frequency,10,8,O_Sent (mail and online) -> W_Complete application,kappa_0.95
+bpi2017,Frequency,10,9,A_Submitted -> A_Concept,kappa_0.95
+bpi2017,Frequency,10,10,A_Complete -> A_Validating,kappa_0.95
+bpi2017,Mean burden,3,1,A_Complete -> A_Cancelled,kappa_0.95
+bpi2017,Mean burden,3,2,A_Complete -> A_Validating,kappa_0.95
+bpi2017,Mean burden,3,3,A_Concept -> A_Accepted,kappa_0.95
+bpi2017,Mean burden,5,1,A_Complete -> A_Cancelled,kappa_0.95
+bpi2017,Mean burden,5,2,A_Complete -> A_Validating,kappa_0.95
+bpi2017,Mean burden,5,3,A_Concept -> A_Accepted,kappa_0.95
+bpi2017,Mean burden,5,4,A_Complete -> O_Create Offer,kappa_0.95
+bpi2017,Mean burden,5,5,A_Incomplete -> A_Validating,kappa_0.95
+bpi2017,Mean burden,10,1,A_Complete -> A_Cancelled,kappa_0.95
+bpi2017,Mean burden,10,2,A_Complete -> A_Validating,kappa_0.95
+bpi2017,Mean burden,10,3,A_Concept -> A_Accepted,kappa_0.95
+bpi2017,Mean burden,10,4,A_Complete -> O_Create Offer,kappa_0.95
+bpi2017,Mean burden,10,5,A_Incomplete -> A_Validating,kappa_0.95
+bpi2017,Mean burden,10,6,O_Sent (mail and online) -> A_Validating,kappa_0.95
+bpi2017,Mean burden,10,7,A_Incomplete -> O_Accepted,kappa_0.95
+bpi2017,Mean burden,10,8,O_Returned -> W_Validate application,kappa_0.95
+bpi2017,Mean burden,10,9,O_Returned -> O_Accepted,kappa_0.95
+bpi2017,Mean burden,10,10,O_Returned -> A_Incomplete,kappa_0.95
+bpi2017,Empirical Tail,3,1,A_Complete -> A_Validating,kappa_0.95
+bpi2017,Empirical Tail,3,2,A_Concept -> A_Accepted,kappa_0.95
+bpi2017,Empirical Tail,3,3,A_Complete -> A_Cancelled,kappa_0.95
+bpi2017,Empirical Tail,5,1,A_Complete -> A_Validating,kappa_0.95
+bpi2017,Empirical Tail,5,2,A_Concept -> A_Accepted,kappa_0.95
+bpi2017,Empirical Tail,5,3,A_Complete -> A_Cancelled,kappa_0.95
+bpi2017,Empirical Tail,5,4,A_Incomplete -> A_Validating,kappa_0.95
+bpi2017,Empirical Tail,5,5,A_Complete -> O_Create Offer,kappa_0.95
+bpi2017,Empirical Tail,10,1,A_Complete -> A_Validating,kappa_0.95
+bpi2017,Empirical Tail,10,2,A_Concept -> A_Accepted,kappa_0.95
+bpi2017,Empirical Tail,10,3,A_Complete -> A_Cancelled,kappa_0.95
+bpi2017,Empirical Tail,10,4,A_Incomplete -> A_Validating,kappa_0.95
+bpi2017,Empirical Tail,10,5,A_Complete -> O_Create Offer,kappa_0.95
+bpi2017,Empirical Tail,10,6,O_Sent (mail and online) -> A_Validating,kappa_0.95
+bpi2017,Empirical Tail,10,7,A_Accepted -> O_Create Offer,kappa_0.95
+bpi2017,Empirical Tail,10,8,A_Incomplete -> O_Accepted,kappa_0.95
+bpi2017,Empirical Tail,10,9,O_Returned -> W_Validate application,kappa_0.95
+bpi2017,Empirical Tail,10,10,O_Returned -> O_Accepted,kappa_0.95
+bpi2017,Original DRO,3,1,A_Complete -> A_Validating,kappa_0.95
+bpi2017,Original DRO,3,2,A_Concept -> A_Accepted,kappa_0.95
+bpi2017,Original DRO,3,3,A_Complete -> A_Cancelled,kappa_0.95
+bpi2017,Original DRO,5,1,A_Complete -> A_Validating,kappa_0.95
+bpi2017,Original DRO,5,2,A_Concept -> A_Accepted,kappa_0.95
+bpi2017,Original DRO,5,3,A_Complete -> A_Cancelled,kappa_0.95
+bpi2017,Original DRO,5,4,A_Complete -> O_Create Offer,kappa_0.95
+bpi2017,Original DRO,5,5,A_Incomplete -> A_Validating,kappa_0.95
+bpi2017,Original DRO,10,1,A_Complete -> A_Validating,kappa_0.95
+bpi2017,Original DRO,10,2,A_Concept -> A_Accepted,kappa_0.95
+bpi2017,Original DRO,10,3,A_Complete -> A_Cancelled,kappa_0.95
+bpi2017,Original DRO,10,4,A_Complete -> O_Create Offer,kappa_0.95
+bpi2017,Original DRO,10,5,A_Incomplete -> A_Validating,kappa_0.95
+bpi2017,Original DRO,10,6,A_Incomplete -> O_Accepted,kappa_0.95
+bpi2017,Original DRO,10,7,O_Returned -> W_Validate application,kappa_0.95
+bpi2017,Original DRO,10,8,O_Sent (mail and online) -> A_Validating,kappa_0.95
+bpi2017,Original DRO,10,9,O_Returned -> A_Incomplete,kappa_0.95
+bpi2017,Original DRO,10,10,O_Returned -> O_Accepted,kappa_0.95
+bpi2017,Saturation-Aware DRO,3,1,A_Complete -> A_Validating,kappa_0.95
+bpi2017,Saturation-Aware DRO,3,2,A_Concept -> A_Accepted,kappa_0.95
+bpi2017,Saturation-Aware DRO,3,3,A_Complete -> A_Cancelled,kappa_0.95
+bpi2017,Saturation-Aware DRO,5,1,A_Complete -> A_Validating,kappa_0.95
+bpi2017,Saturation-Aware DRO,5,2,A_Concept -> A_Accepted,kappa_0.95
+bpi2017,Saturation-Aware DRO,5,3,A_Complete -> A_Cancelled,kappa_0.95
+bpi2017,Saturation-Aware DRO,5,4,A_Complete -> O_Create Offer,kappa_0.95
+bpi2017,Saturation-Aware DRO,5,5,A_Incomplete -> A_Validating,kappa_0.95
+bpi2017,Saturation-Aware DRO,10,1,A_Complete -> A_Validating,kappa_0.95
+bpi2017,Saturation-Aware DRO,10,2,A_Concept -> A_Accepted,kappa_0.95
+bpi2017,Saturation-Aware DRO,10,3,A_Complete -> A_Cancelled,kappa_0.95
+bpi2017,Saturation-Aware DRO,10,4,A_Complete -> O_Create Offer,kappa_0.95
+bpi2017,Saturation-Aware DRO,10,5,A_Incomplete -> A_Validating,kappa_0.95
+bpi2017,Saturation-Aware DRO,10,6,A_Incomplete -> O_Accepted,kappa_0.95
+bpi2017,Saturation-Aware DRO,10,7,O_Returned -> W_Validate application,kappa_0.95
+bpi2017,Saturation-Aware DRO,10,8,O_Sent (mail and online) -> A_Validating,kappa_0.95
+bpi2017,Saturation-Aware DRO,10,9,O_Returned -> A_Incomplete,kappa_0.95
+bpi2017,Saturation-Aware DRO,10,10,O_Returned -> O_Accepted,kappa_0.95
+bpi2017,Frequency,3,1,O_Create Offer -> O_Created,kappa_0.99
+bpi2017,Frequency,3,2,O_Created -> O_Sent (mail and online),kappa_0.99
+bpi2017,Frequency,3,3,A_Concept -> A_Accepted,kappa_0.99
+bpi2017,Frequency,5,1,O_Create Offer -> O_Created,kappa_0.99
+bpi2017,Frequency,5,2,O_Created -> O_Sent (mail and online),kappa_0.99
+bpi2017,Frequency,5,3,A_Concept -> A_Accepted,kappa_0.99
+bpi2017,Frequency,5,4,A_Accepted -> O_Create Offer,kappa_0.99
+bpi2017,Frequency,5,5,A_Validating -> O_Returned,kappa_0.99
+bpi2017,Frequency,10,1,O_Create Offer -> O_Created,kappa_0.99
+bpi2017,Frequency,10,2,O_Created -> O_Sent (mail and online),kappa_0.99
+bpi2017,Frequency,10,3,A_Concept -> A_Accepted,kappa_0.99
+bpi2017,Frequency,10,4,A_Accepted -> O_Create Offer,kappa_0.99
+bpi2017,Frequency,10,5,A_Validating -> O_Returned,kappa_0.99
+bpi2017,Frequency,10,6,A_Create Application -> A_Submitted,kappa_0.99
+bpi2017,Frequency,10,7,W_Complete application -> A_Complete,kappa_0.99
+bpi2017,Frequency,10,8,O_Sent (mail and online) -> W_Complete application,kappa_0.99
+bpi2017,Frequency,10,9,A_Submitted -> A_Concept,kappa_0.99
+bpi2017,Frequency,10,10,A_Complete -> A_Validating,kappa_0.99
+bpi2017,Mean burden,3,1,A_Complete -> A_Cancelled,kappa_0.99
+bpi2017,Mean burden,3,2,A_Complete -> A_Validating,kappa_0.99
+bpi2017,Mean burden,3,3,A_Concept -> A_Accepted,kappa_0.99
+bpi2017,Mean burden,5,1,A_Complete -> A_Cancelled,kappa_0.99
+bpi2017,Mean burden,5,2,A_Complete -> A_Validating,kappa_0.99
+bpi2017,Mean burden,5,3,A_Concept -> A_Accepted,kappa_0.99
+bpi2017,Mean burden,5,4,A_Complete -> O_Create Offer,kappa_0.99
+bpi2017,Mean burden,5,5,A_Incomplete -> A_Validating,kappa_0.99
+bpi2017,Mean burden,10,1,A_Complete -> A_Cancelled,kappa_0.99
+bpi2017,Mean burden,10,2,A_Complete -> A_Validating,kappa_0.99
+bpi2017,Mean burden,10,3,A_Concept -> A_Accepted,kappa_0.99
+bpi2017,Mean burden,10,4,A_Complete -> O_Create Offer,kappa_0.99
+bpi2017,Mean burden,10,5,A_Incomplete -> A_Validating,kappa_0.99
+bpi2017,Mean burden,10,6,O_Sent (mail and online) -> A_Validating,kappa_0.99
+bpi2017,Mean burden,10,7,A_Incomplete -> O_Accepted,kappa_0.99
+bpi2017,Mean burden,10,8,O_Returned -> W_Validate application,kappa_0.99
+bpi2017,Mean burden,10,9,O_Returned -> O_Accepted,kappa_0.99
+bpi2017,Mean burden,10,10,O_Returned -> A_Incomplete,kappa_0.99
+bpi2017,Empirical Tail,3,1,A_Complete -> A_Validating,kappa_0.99
+bpi2017,Empirical Tail,3,2,A_Concept -> A_Accepted,kappa_0.99
+bpi2017,Empirical Tail,3,3,A_Complete -> A_Cancelled,kappa_0.99
+bpi2017,Empirical Tail,5,1,A_Complete -> A_Validating,kappa_0.99
+bpi2017,Empirical Tail,5,2,A_Concept -> A_Accepted,kappa_0.99
+bpi2017,Empirical Tail,5,3,A_Complete -> A_Cancelled,kappa_0.99
+bpi2017,Empirical Tail,5,4,A_Incomplete -> A_Validating,kappa_0.99
+bpi2017,Empirical Tail,5,5,A_Complete -> O_Create Offer,kappa_0.99
+bpi2017,Empirical Tail,10,1,A_Complete -> A_Validating,kappa_0.99
+bpi2017,Empirical Tail,10,2,A_Concept -> A_Accepted,kappa_0.99
+bpi2017,Empirical Tail,10,3,A_Complete -> A_Cancelled,kappa_0.99
+bpi2017,Empirical Tail,10,4,A_Incomplete -> A_Validating,kappa_0.99
+bpi2017,Empirical Tail,10,5,A_Complete -> O_Create Offer,kappa_0.99
+bpi2017,Empirical Tail,10,6,O_Sent (mail and online) -> A_Validating,kappa_0.99
+bpi2017,Empirical Tail,10,7,A_Accepted -> O_Create Offer,kappa_0.99
+bpi2017,Empirical Tail,10,8,A_Incomplete -> O_Accepted,kappa_0.99
+bpi2017,Empirical Tail,10,9,O_Returned -> W_Validate application,kappa_0.99
+bpi2017,Empirical Tail,10,10,O_Returned -> O_Accepted,kappa_0.99
+bpi2017,Original DRO,3,1,A_Complete -> A_Validating,kappa_0.99
+bpi2017,Original DRO,3,2,A_Concept -> A_Accepted,kappa_0.99
+bpi2017,Original DRO,3,3,A_Complete -> A_Cancelled,kappa_0.99
+bpi2017,Original DRO,5,1,A_Complete -> A_Validating,kappa_0.99
+bpi2017,Original DRO,5,2,A_Concept -> A_Accepted,kappa_0.99
+bpi2017,Original DRO,5,3,A_Complete -> A_Cancelled,kappa_0.99
+bpi2017,Original DRO,5,4,A_Complete -> O_Create Offer,kappa_0.99
+bpi2017,Original DRO,5,5,A_Incomplete -> A_Validating,kappa_0.99
+bpi2017,Original DRO,10,1,A_Complete -> A_Validating,kappa_0.99
+bpi2017,Original DRO,10,2,A_Concept -> A_Accepted,kappa_0.99
+bpi2017,Original DRO,10,3,A_Complete -> A_Cancelled,kappa_0.99
+bpi2017,Original DRO,10,4,A_Complete -> O_Create Offer,kappa_0.99
+bpi2017,Original DRO,10,5,A_Incomplete -> A_Validating,kappa_0.99
+bpi2017,Original DRO,10,6,A_Incomplete -> O_Accepted,kappa_0.99
+bpi2017,Original DRO,10,7,O_Returned -> W_Validate application,kappa_0.99
+bpi2017,Original DRO,10,8,O_Sent (mail and online) -> A_Validating,kappa_0.99
+bpi2017,Original DRO,10,9,O_Returned -> A_Incomplete,kappa_0.99
+bpi2017,Original DRO,10,10,O_Returned -> O_Accepted,kappa_0.99
+bpi2017,Saturation-Aware DRO,3,1,A_Complete -> A_Validating,kappa_0.99
+bpi2017,Saturation-Aware DRO,3,2,A_Concept -> A_Accepted,kappa_0.99
+bpi2017,Saturation-Aware DRO,3,3,A_Complete -> A_Cancelled,kappa_0.99
+bpi2017,Saturation-Aware DRO,5,1,A_Complete -> A_Validating,kappa_0.99
+bpi2017,Saturation-Aware DRO,5,2,A_Concept -> A_Accepted,kappa_0.99
+bpi2017,Saturation-Aware DRO,5,3,A_Complete -> A_Cancelled,kappa_0.99
+bpi2017,Saturation-Aware DRO,5,4,A_Complete -> O_Create Offer,kappa_0.99
+bpi2017,Saturation-Aware DRO,5,5,A_Incomplete -> A_Validating,kappa_0.99
+bpi2017,Saturation-Aware DRO,10,1,A_Complete -> A_Validating,kappa_0.99
+bpi2017,Saturation-Aware DRO,10,2,A_Concept -> A_Accepted,kappa_0.99
+bpi2017,Saturation-Aware DRO,10,3,A_Complete -> A_Cancelled,kappa_0.99
+bpi2017,Saturation-Aware DRO,10,4,A_Complete -> O_Create Offer,kappa_0.99
+bpi2017,Saturation-Aware DRO,10,5,A_Incomplete -> A_Validating,kappa_0.99
+bpi2017,Saturation-Aware DRO,10,6,A_Incomplete -> O_Accepted,kappa_0.99
+bpi2017,Saturation-Aware DRO,10,7,O_Returned -> W_Validate application,kappa_0.99
+bpi2017,Saturation-Aware DRO,10,8,O_Sent (mail and online) -> A_Validating,kappa_0.99
+bpi2017,Saturation-Aware DRO,10,9,O_Returned -> A_Incomplete,kappa_0.99
+bpi2017,Saturation-Aware DRO,10,10,O_Returned -> O_Accepted,kappa_0.99
+bpi2017,Frequency,3,1,O_Create Offer -> O_Created,maturity_90d
+bpi2017,Frequency,3,2,O_Created -> O_Sent (mail and online),maturity_90d
+bpi2017,Frequency,3,3,A_Concept -> A_Accepted,maturity_90d
+bpi2017,Frequency,5,1,O_Create Offer -> O_Created,maturity_90d
+bpi2017,Frequency,5,2,O_Created -> O_Sent (mail and online),maturity_90d
+bpi2017,Frequency,5,3,A_Concept -> A_Accepted,maturity_90d
+bpi2017,Frequency,5,4,A_Accepted -> O_Create Offer,maturity_90d
+bpi2017,Frequency,5,5,A_Create Application -> A_Submitted,maturity_90d
+bpi2017,Frequency,10,1,O_Create Offer -> O_Created,maturity_90d
+bpi2017,Frequency,10,2,O_Created -> O_Sent (mail and online),maturity_90d
+bpi2017,Frequency,10,3,A_Concept -> A_Accepted,maturity_90d
+bpi2017,Frequency,10,4,A_Accepted -> O_Create Offer,maturity_90d
+bpi2017,Frequency,10,5,A_Create Application -> A_Submitted,maturity_90d
+bpi2017,Frequency,10,6,A_Validating -> O_Returned,maturity_90d
+bpi2017,Frequency,10,7,W_Complete application -> A_Complete,maturity_90d
+bpi2017,Frequency,10,8,O_Sent (mail and online) -> W_Complete application,maturity_90d
+bpi2017,Frequency,10,9,A_Complete -> A_Validating,maturity_90d
+bpi2017,Frequency,10,10,A_Submitted -> A_Concept,maturity_90d
+bpi2017,Mean burden,3,1,A_Complete -> A_Cancelled,maturity_90d
+bpi2017,Mean burden,3,2,A_Complete -> A_Validating,maturity_90d
+bpi2017,Mean burden,3,3,A_Concept -> A_Accepted,maturity_90d
+bpi2017,Mean burden,5,1,A_Complete -> A_Cancelled,maturity_90d
+bpi2017,Mean burden,5,2,A_Complete -> A_Validating,maturity_90d
+bpi2017,Mean burden,5,3,A_Concept -> A_Accepted,maturity_90d
+bpi2017,Mean burden,5,4,A_Complete -> O_Create Offer,maturity_90d
+bpi2017,Mean burden,5,5,A_Incomplete -> A_Validating,maturity_90d
+bpi2017,Mean burden,10,1,A_Complete -> A_Cancelled,maturity_90d
+bpi2017,Mean burden,10,2,A_Complete -> A_Validating,maturity_90d
+bpi2017,Mean burden,10,3,A_Concept -> A_Accepted,maturity_90d
+bpi2017,Mean burden,10,4,A_Complete -> O_Create Offer,maturity_90d
+bpi2017,Mean burden,10,5,A_Incomplete -> A_Validating,maturity_90d
+bpi2017,Mean burden,10,6,O_Sent (mail and online) -> A_Validating,maturity_90d
+bpi2017,Mean burden,10,7,O_Returned -> W_Validate application,maturity_90d
+bpi2017,Mean burden,10,8,A_Incomplete -> O_Accepted,maturity_90d
+bpi2017,Mean burden,10,9,O_Returned -> O_Accepted,maturity_90d
+bpi2017,Mean burden,10,10,O_Returned -> A_Incomplete,maturity_90d
+bpi2017,Empirical Tail,3,1,A_Complete -> A_Validating,maturity_90d
+bpi2017,Empirical Tail,3,2,A_Concept -> A_Accepted,maturity_90d
+bpi2017,Empirical Tail,3,3,A_Complete -> A_Cancelled,maturity_90d
+bpi2017,Empirical Tail,5,1,A_Complete -> A_Validating,maturity_90d
+bpi2017,Empirical Tail,5,2,A_Concept -> A_Accepted,maturity_90d
+bpi2017,Empirical Tail,5,3,A_Complete -> A_Cancelled,maturity_90d
+bpi2017,Empirical Tail,5,4,A_Incomplete -> A_Validating,maturity_90d
+bpi2017,Empirical Tail,5,5,A_Complete -> O_Create Offer,maturity_90d
+bpi2017,Empirical Tail,10,1,A_Complete -> A_Validating,maturity_90d
+bpi2017,Empirical Tail,10,2,A_Concept -> A_Accepted,maturity_90d
+bpi2017,Empirical Tail,10,3,A_Complete -> A_Cancelled,maturity_90d
+bpi2017,Empirical Tail,10,4,A_Incomplete -> A_Validating,maturity_90d
+bpi2017,Empirical Tail,10,5,A_Complete -> O_Create Offer,maturity_90d
+bpi2017,Empirical Tail,10,6,A_Accepted -> O_Create Offer,maturity_90d
+bpi2017,Empirical Tail,10,7,O_Sent (mail and online) -> A_Validating,maturity_90d
+bpi2017,Empirical Tail,10,8,A_Incomplete -> O_Accepted,maturity_90d
+bpi2017,Empirical Tail,10,9,O_Returned -> W_Validate application,maturity_90d
+bpi2017,Empirical Tail,10,10,O_Returned -> O_Accepted,maturity_90d
+bpi2017,Original DRO,3,1,A_Complete -> A_Validating,maturity_90d
+bpi2017,Original DRO,3,2,A_Concept -> A_Accepted,maturity_90d
+bpi2017,Original DRO,3,3,A_Complete -> A_Cancelled,maturity_90d
+bpi2017,Original DRO,5,1,A_Complete -> A_Validating,maturity_90d
+bpi2017,Original DRO,5,2,A_Concept -> A_Accepted,maturity_90d
+bpi2017,Original DRO,5,3,A_Complete -> A_Cancelled,maturity_90d
+bpi2017,Original DRO,5,4,A_Complete -> O_Create Offer,maturity_90d
+bpi2017,Original DRO,5,5,A_Incomplete -> A_Validating,maturity_90d
+bpi2017,Original DRO,10,1,A_Complete -> A_Validating,maturity_90d
+bpi2017,Original DRO,10,2,A_Concept -> A_Accepted,maturity_90d
+bpi2017,Original DRO,10,3,A_Complete -> A_Cancelled,maturity_90d
+bpi2017,Original DRO,10,4,A_Complete -> O_Create Offer,maturity_90d
+bpi2017,Original DRO,10,5,A_Incomplete -> A_Validating,maturity_90d
+bpi2017,Original DRO,10,6,O_Returned -> W_Validate application,maturity_90d
+bpi2017,Original DRO,10,7,A_Incomplete -> O_Accepted,maturity_90d
+bpi2017,Original DRO,10,8,O_Returned -> A_Incomplete,maturity_90d
+bpi2017,Original DRO,10,9,O_Returned -> O_Accepted,maturity_90d
+bpi2017,Original DRO,10,10,O_Sent (mail and online) -> A_Validating,maturity_90d
+bpi2017,Saturation-Aware DRO,3,1,A_Complete -> A_Validating,maturity_90d
+bpi2017,Saturation-Aware DRO,3,2,A_Concept -> A_Accepted,maturity_90d
+bpi2017,Saturation-Aware DRO,3,3,A_Complete -> A_Cancelled,maturity_90d
+bpi2017,Saturation-Aware DRO,5,1,A_Complete -> A_Validating,maturity_90d
+bpi2017,Saturation-Aware DRO,5,2,A_Concept -> A_Accepted,maturity_90d
+bpi2017,Saturation-Aware DRO,5,3,A_Complete -> A_Cancelled,maturity_90d
+bpi2017,Saturation-Aware DRO,5,4,A_Complete -> O_Create Offer,maturity_90d
+bpi2017,Saturation-Aware DRO,5,5,A_Incomplete -> A_Validating,maturity_90d
+bpi2017,Saturation-Aware DRO,10,1,A_Complete -> A_Validating,maturity_90d
+bpi2017,Saturation-Aware DRO,10,2,A_Concept -> A_Accepted,maturity_90d
+bpi2017,Saturation-Aware DRO,10,3,A_Complete -> A_Cancelled,maturity_90d
+bpi2017,Saturation-Aware DRO,10,4,A_Complete -> O_Create Offer,maturity_90d
+bpi2017,Saturation-Aware DRO,10,5,A_Incomplete -> A_Validating,maturity_90d
+bpi2017,Saturation-Aware DRO,10,6,O_Returned -> W_Validate application,maturity_90d
+bpi2017,Saturation-Aware DRO,10,7,A_Incomplete -> O_Accepted,maturity_90d
+bpi2017,Saturation-Aware DRO,10,8,O_Returned -> A_Incomplete,maturity_90d
+bpi2017,Saturation-Aware DRO,10,9,O_Returned -> O_Accepted,maturity_90d
+bpi2017,Saturation-Aware DRO,10,10,O_Sent (mail and online) -> A_Validating,maturity_90d
+bpi2017,Frequency,3,1,O_Create Offer -> O_Created,maturity_120d
+bpi2017,Frequency,3,2,O_Created -> O_Sent (mail and online),maturity_120d
+bpi2017,Frequency,3,3,A_Concept -> A_Accepted,maturity_120d
+bpi2017,Frequency,5,1,O_Create Offer -> O_Created,maturity_120d
+bpi2017,Frequency,5,2,O_Created -> O_Sent (mail and online),maturity_120d
+bpi2017,Frequency,5,3,A_Concept -> A_Accepted,maturity_120d
+bpi2017,Frequency,5,4,A_Accepted -> O_Create Offer,maturity_120d
+bpi2017,Frequency,5,5,A_Create Application -> A_Submitted,maturity_120d
+bpi2017,Frequency,10,1,O_Create Offer -> O_Created,maturity_120d
+bpi2017,Frequency,10,2,O_Created -> O_Sent (mail and online),maturity_120d
+bpi2017,Frequency,10,3,A_Concept -> A_Accepted,maturity_120d
+bpi2017,Frequency,10,4,A_Accepted -> O_Create Offer,maturity_120d
+bpi2017,Frequency,10,5,A_Create Application -> A_Submitted,maturity_120d
+bpi2017,Frequency,10,6,W_Complete application -> A_Complete,maturity_120d
+bpi2017,Frequency,10,7,O_Sent (mail and online) -> W_Complete application,maturity_120d
+bpi2017,Frequency,10,8,A_Validating -> O_Returned,maturity_120d
+bpi2017,Frequency,10,9,A_Complete -> A_Validating,maturity_120d
+bpi2017,Frequency,10,10,A_Submitted -> A_Concept,maturity_120d
+bpi2017,Mean burden,3,1,A_Complete -> A_Cancelled,maturity_120d
+bpi2017,Mean burden,3,2,A_Complete -> A_Validating,maturity_120d
+bpi2017,Mean burden,3,3,A_Concept -> A_Accepted,maturity_120d
+bpi2017,Mean burden,5,1,A_Complete -> A_Cancelled,maturity_120d
+bpi2017,Mean burden,5,2,A_Complete -> A_Validating,maturity_120d
+bpi2017,Mean burden,5,3,A_Concept -> A_Accepted,maturity_120d
+bpi2017,Mean burden,5,4,A_Complete -> O_Create Offer,maturity_120d
+bpi2017,Mean burden,5,5,A_Incomplete -> A_Validating,maturity_120d
+bpi2017,Mean burden,10,1,A_Complete -> A_Cancelled,maturity_120d
+bpi2017,Mean burden,10,2,A_Complete -> A_Validating,maturity_120d
+bpi2017,Mean burden,10,3,A_Concept -> A_Accepted,maturity_120d
+bpi2017,Mean burden,10,4,A_Complete -> O_Create Offer,maturity_120d
+bpi2017,Mean burden,10,5,A_Incomplete -> A_Validating,maturity_120d
+bpi2017,Mean burden,10,6,O_Returned -> W_Validate application,maturity_120d
+bpi2017,Mean burden,10,7,O_Returned -> O_Accepted,maturity_120d
+bpi2017,Mean burden,10,8,O_Returned -> A_Incomplete,maturity_120d
+bpi2017,Mean burden,10,9,A_Accepted -> O_Create Offer,maturity_120d
+bpi2017,Mean burden,10,10,A_Validating -> O_Accepted,maturity_120d
+bpi2017,Empirical Tail,3,1,A_Complete -> A_Validating,maturity_120d
+bpi2017,Empirical Tail,3,2,A_Concept -> A_Accepted,maturity_120d
+bpi2017,Empirical Tail,3,3,A_Complete -> A_Cancelled,maturity_120d
+bpi2017,Empirical Tail,5,1,A_Complete -> A_Validating,maturity_120d
+bpi2017,Empirical Tail,5,2,A_Concept -> A_Accepted,maturity_120d
+bpi2017,Empirical Tail,5,3,A_Complete -> A_Cancelled,maturity_120d
+bpi2017,Empirical Tail,5,4,A_Incomplete -> A_Validating,maturity_120d
+bpi2017,Empirical Tail,5,5,A_Complete -> O_Create Offer,maturity_120d
+bpi2017,Empirical Tail,10,1,A_Complete -> A_Validating,maturity_120d
+bpi2017,Empirical Tail,10,2,A_Concept -> A_Accepted,maturity_120d
+bpi2017,Empirical Tail,10,3,A_Complete -> A_Cancelled,maturity_120d
+bpi2017,Empirical Tail,10,4,A_Incomplete -> A_Validating,maturity_120d
+bpi2017,Empirical Tail,10,5,A_Complete -> O_Create Offer,maturity_120d
+bpi2017,Empirical Tail,10,6,A_Accepted -> O_Create Offer,maturity_120d
+bpi2017,Empirical Tail,10,7,O_Returned -> W_Validate application,maturity_120d
+bpi2017,Empirical Tail,10,8,O_Returned -> O_Accepted,maturity_120d
+bpi2017,Empirical Tail,10,9,O_Returned -> A_Incomplete,maturity_120d
+bpi2017,Empirical Tail,10,10,A_Validating -> O_Accepted,maturity_120d
+bpi2017,Original DRO,3,1,A_Complete -> A_Validating,maturity_120d
+bpi2017,Original DRO,3,2,A_Concept -> A_Accepted,maturity_120d
+bpi2017,Original DRO,3,3,A_Complete -> O_Create Offer,maturity_120d
+bpi2017,Original DRO,5,1,A_Complete -> A_Validating,maturity_120d
+bpi2017,Original DRO,5,2,A_Concept -> A_Accepted,maturity_120d
+bpi2017,Original DRO,5,3,A_Complete -> O_Create Offer,maturity_120d
+bpi2017,Original DRO,5,4,A_Complete -> A_Cancelled,maturity_120d
+bpi2017,Original DRO,5,5,A_Incomplete -> A_Validating,maturity_120d
+bpi2017,Original DRO,10,1,A_Complete -> A_Validating,maturity_120d
+bpi2017,Original DRO,10,2,A_Concept -> A_Accepted,maturity_120d
+bpi2017,Original DRO,10,3,A_Complete -> O_Create Offer,maturity_120d
+bpi2017,Original DRO,10,4,A_Complete -> A_Cancelled,maturity_120d
+bpi2017,Original DRO,10,5,A_Incomplete -> A_Validating,maturity_120d
+bpi2017,Original DRO,10,6,O_Returned -> W_Validate application,maturity_120d
+bpi2017,Original DRO,10,7,A_Accepted -> O_Create Offer,maturity_120d
+bpi2017,Original DRO,10,8,O_Returned -> O_Accepted,maturity_120d
+bpi2017,Original DRO,10,9,O_Returned -> A_Incomplete,maturity_120d
+bpi2017,Original DRO,10,10,A_Validating -> O_Accepted,maturity_120d
+bpi2017,Saturation-Aware DRO,3,1,A_Complete -> A_Validating,maturity_120d
+bpi2017,Saturation-Aware DRO,3,2,A_Concept -> A_Accepted,maturity_120d
+bpi2017,Saturation-Aware DRO,3,3,A_Complete -> O_Create Offer,maturity_120d
+bpi2017,Saturation-Aware DRO,5,1,A_Complete -> A_Validating,maturity_120d
+bpi2017,Saturation-Aware DRO,5,2,A_Concept -> A_Accepted,maturity_120d
+bpi2017,Saturation-Aware DRO,5,3,A_Complete -> O_Create Offer,maturity_120d
+bpi2017,Saturation-Aware DRO,5,4,A_Complete -> A_Cancelled,maturity_120d
+bpi2017,Saturation-Aware DRO,5,5,A_Incomplete -> A_Validating,maturity_120d
+bpi2017,Saturation-Aware DRO,10,1,A_Complete -> A_Validating,maturity_120d
+bpi2017,Saturation-Aware DRO,10,2,A_Concept -> A_Accepted,maturity_120d
+bpi2017,Saturation-Aware DRO,10,3,A_Complete -> O_Create Offer,maturity_120d
+bpi2017,Saturation-Aware DRO,10,4,A_Complete -> A_Cancelled,maturity_120d
+bpi2017,Saturation-Aware DRO,10,5,A_Incomplete -> A_Validating,maturity_120d
+bpi2017,Saturation-Aware DRO,10,6,O_Returned -> W_Validate application,maturity_120d
+bpi2017,Saturation-Aware DRO,10,7,A_Accepted -> O_Create Offer,maturity_120d
+bpi2017,Saturation-Aware DRO,10,8,O_Returned -> O_Accepted,maturity_120d
+bpi2017,Saturation-Aware DRO,10,9,O_Returned -> A_Incomplete,maturity_120d
+bpi2017,Saturation-Aware DRO,10,10,A_Validating -> O_Accepted,maturity_120d

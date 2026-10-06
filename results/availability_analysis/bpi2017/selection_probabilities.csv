@@ -1,0 +1,124 @@
+method,K,transition,selection_probability,eligibility_probability,in_primary
+Frequency,3,O_Create Offer -> O_Created,1.0,1.0,True
+Frequency,3,O_Created -> O_Sent (mail and online),1.0,1.0,True
+Frequency,3,A_Concept -> A_Accepted,0.526,1.0,True
+Frequency,3,A_Accepted -> O_Create Offer,0.474,1.0,False
+Frequency,5,O_Create Offer -> O_Created,1.0,1.0,True
+Frequency,5,O_Created -> O_Sent (mail and online),1.0,1.0,True
+Frequency,5,A_Concept -> A_Accepted,1.0,1.0,True
+Frequency,5,A_Accepted -> O_Create Offer,1.0,1.0,True
+Frequency,5,A_Validating -> O_Returned,0.658,1.0,True
+Frequency,5,A_Create Application -> A_Submitted,0.342,1.0,False
+Frequency,10,O_Create Offer -> O_Created,1.0,1.0,True
+Frequency,10,O_Created -> O_Sent (mail and online),1.0,1.0,True
+Frequency,10,A_Concept -> A_Accepted,1.0,1.0,True
+Frequency,10,A_Accepted -> O_Create Offer,1.0,1.0,True
+Frequency,10,A_Validating -> O_Returned,1.0,1.0,True
+Frequency,10,A_Create Application -> A_Submitted,1.0,1.0,True
+Frequency,10,W_Complete application -> A_Complete,1.0,1.0,True
+Frequency,10,O_Sent (mail and online) -> W_Complete application,1.0,1.0,True
+Frequency,10,A_Complete -> A_Validating,0.824,1.0,True
+Frequency,10,A_Submitted -> A_Concept,0.974,1.0,True
+Frequency,10,O_Accepted -> A_Pending,0.202,1.0,False
+Mean burden,3,A_Complete -> A_Cancelled,1.0,1.0,True
+Mean burden,3,A_Complete -> A_Validating,1.0,1.0,True
+Mean burden,3,A_Concept -> A_Accepted,0.82,1.0,True
+Mean burden,3,A_Complete -> O_Create Offer,0.12,1.0,False
+Mean burden,3,O_Sent (mail and online) -> A_Cancelled,0.06,0.072,False
+Mean burden,5,A_Complete -> A_Cancelled,1.0,1.0,True
+Mean burden,5,A_Complete -> A_Validating,1.0,1.0,True
+Mean burden,5,A_Concept -> A_Accepted,1.0,1.0,True
+Mean burden,5,A_Incomplete -> A_Validating,0.74,1.0,True
+Mean burden,5,A_Complete -> O_Create Offer,0.944,1.0,True
+Mean burden,5,O_Sent (mail and online) -> A_Validating,0.236,1.0,False
+Mean burden,5,O_Sent (mail and online) -> A_Cancelled,0.072,0.072,False
+Mean burden,5,O_Returned -> W_Validate application,0.002,1.0,False
+Mean burden,5,A_Incomplete -> O_Accepted,0.006,1.0,False
+Mean burden,10,A_Complete -> A_Cancelled,1.0,1.0,True
+Mean burden,10,A_Complete -> A_Validating,1.0,1.0,True
+Mean burden,10,A_Concept -> A_Accepted,1.0,1.0,True
+Mean burden,10,A_Incomplete -> A_Validating,1.0,1.0,True
+Mean burden,10,A_Complete -> O_Create Offer,1.0,1.0,True
+Mean burden,10,O_Sent (mail and online) -> A_Validating,1.0,1.0,True
+Mean burden,10,A_Incomplete -> O_Accepted,1.0,1.0,True
+Mean burden,10,O_Returned -> W_Validate application,1.0,1.0,True
+Mean burden,10,O_Returned -> O_Accepted,0.99,1.0,True
+Mean burden,10,O_Returned -> A_Incomplete,0.876,1.0,True
+Mean burden,10,O_Returned -> A_Denied,0.03,1.0,False
+Mean burden,10,O_Sent (mail and online) -> A_Cancelled,0.072,0.072,False
+Mean burden,10,O_Sent (mail and online) -> O_Create Offer,0.032,0.044,False
+Empirical Tail,3,A_Complete -> A_Validating,1.0,1.0,True
+Empirical Tail,3,A_Concept -> A_Accepted,1.0,1.0,True
+Empirical Tail,3,A_Complete -> A_Cancelled,0.722,1.0,True
+Empirical Tail,3,A_Incomplete -> A_Validating,0.272,1.0,False
+Empirical Tail,3,A_Complete -> O_Create Offer,0.006,1.0,False
+Empirical Tail,5,A_Complete -> A_Validating,1.0,1.0,True
+Empirical Tail,5,A_Concept -> A_Accepted,1.0,1.0,True
+Empirical Tail,5,A_Complete -> A_Cancelled,1.0,1.0,True
+Empirical Tail,5,A_Incomplete -> A_Validating,1.0,1.0,True
+Empirical Tail,5,A_Complete -> O_Create Offer,1.0,1.0,True
+Empirical Tail,10,A_Complete -> A_Validating,1.0,1.0,True
+Empirical Tail,10,A_Concept -> A_Accepted,1.0,1.0,True
+Empirical Tail,10,A_Complete -> A_Cancelled,1.0,1.0,True
+Empirical Tail,10,A_Incomplete -> A_Validating,1.0,1.0,True
+Empirical Tail,10,A_Complete -> O_Create Offer,1.0,1.0,True
+Empirical Tail,10,O_Sent (mail and online) -> A_Validating,1.0,1.0,True
+Empirical Tail,10,A_Accepted -> O_Create Offer,1.0,1.0,True
+Empirical Tail,10,A_Incomplete -> O_Accepted,1.0,1.0,True
+Empirical Tail,10,O_Returned -> W_Validate application,1.0,1.0,True
+Empirical Tail,10,O_Returned -> A_Incomplete,0.184,1.0,False
+Empirical Tail,10,O_Returned -> O_Accepted,0.606,1.0,True
+Empirical Tail,10,A_Incomplete -> O_Create Offer,0.084,0.99,False
+Empirical Tail,10,A_Validating -> O_Accepted,0.036,1.0,False
+Empirical Tail,10,O_Sent (mail and online) -> A_Cancelled,0.07,0.072,False
+Empirical Tail,10,O_Sent (mail and online) -> O_Create Offer,0.02,0.044,False
+Original DRO,3,A_Complete -> A_Validating,1.0,1.0,True
+Original DRO,3,A_Concept -> A_Accepted,0.998,1.0,True
+Original DRO,3,A_Complete -> A_Cancelled,0.774,1.0,True
+Original DRO,3,A_Complete -> O_Create Offer,0.224,1.0,False
+Original DRO,3,A_Incomplete -> A_Validating,0.004,1.0,False
+Original DRO,5,A_Complete -> A_Validating,1.0,1.0,True
+Original DRO,5,A_Concept -> A_Accepted,1.0,1.0,True
+Original DRO,5,A_Complete -> A_Cancelled,0.998,1.0,True
+Original DRO,5,A_Incomplete -> A_Validating,0.968,1.0,True
+Original DRO,5,A_Complete -> O_Create Offer,0.976,1.0,True
+Original DRO,5,A_Incomplete -> O_Accepted,0.058,1.0,False
+Original DRO,10,A_Complete -> A_Validating,1.0,1.0,True
+Original DRO,10,A_Concept -> A_Accepted,1.0,1.0,True
+Original DRO,10,A_Complete -> A_Cancelled,1.0,1.0,True
+Original DRO,10,A_Incomplete -> A_Validating,1.0,1.0,True
+Original DRO,10,A_Complete -> O_Create Offer,1.0,1.0,True
+Original DRO,10,A_Incomplete -> O_Accepted,1.0,1.0,True
+Original DRO,10,O_Returned -> W_Validate application,1.0,1.0,True
+Original DRO,10,O_Sent (mail and online) -> A_Validating,0.998,1.0,True
+Original DRO,10,O_Returned -> A_Incomplete,0.812,1.0,True
+Original DRO,10,A_Accepted -> O_Create Offer,0.182,1.0,False
+Original DRO,10,O_Returned -> O_Accepted,0.92,1.0,True
+Original DRO,10,A_Incomplete -> O_Create Offer,0.036,0.99,False
+Original DRO,10,O_Sent (mail and online) -> A_Cancelled,0.034,0.072,False
+Original DRO,10,O_Sent (mail and online) -> O_Create Offer,0.018,0.044,False
+Saturation-Aware DRO,3,A_Complete -> A_Validating,1.0,1.0,True
+Saturation-Aware DRO,3,A_Concept -> A_Accepted,1.0,1.0,True
+Saturation-Aware DRO,3,A_Complete -> A_Cancelled,0.806,1.0,True
+Saturation-Aware DRO,3,A_Complete -> O_Create Offer,0.188,1.0,False
+Saturation-Aware DRO,3,A_Incomplete -> A_Validating,0.006,1.0,False
+Saturation-Aware DRO,5,A_Complete -> A_Validating,1.0,1.0,True
+Saturation-Aware DRO,5,A_Concept -> A_Accepted,1.0,1.0,True
+Saturation-Aware DRO,5,A_Complete -> A_Cancelled,1.0,1.0,True
+Saturation-Aware DRO,5,A_Incomplete -> A_Validating,0.99,1.0,True
+Saturation-Aware DRO,5,A_Complete -> O_Create Offer,0.986,1.0,True
+Saturation-Aware DRO,5,A_Incomplete -> O_Accepted,0.024,1.0,False
+Saturation-Aware DRO,10,A_Complete -> A_Validating,1.0,1.0,True
+Saturation-Aware DRO,10,A_Concept -> A_Accepted,1.0,1.0,True
+Saturation-Aware DRO,10,A_Complete -> A_Cancelled,1.0,1.0,True
+Saturation-Aware DRO,10,A_Incomplete -> A_Validating,1.0,1.0,True
+Saturation-Aware DRO,10,A_Complete -> O_Create Offer,1.0,1.0,True
+Saturation-Aware DRO,10,A_Incomplete -> O_Accepted,1.0,1.0,True
+Saturation-Aware DRO,10,O_Returned -> W_Validate application,1.0,1.0,True
+Saturation-Aware DRO,10,O_Sent (mail and online) -> A_Validating,0.998,1.0,True
+Saturation-Aware DRO,10,O_Returned -> A_Incomplete,0.814,1.0,True
+Saturation-Aware DRO,10,A_Accepted -> O_Create Offer,0.182,1.0,False
+Saturation-Aware DRO,10,O_Returned -> O_Accepted,0.926,1.0,True
+Saturation-Aware DRO,10,A_Incomplete -> O_Create Offer,0.036,0.99,False
+Saturation-Aware DRO,10,O_Sent (mail and online) -> A_Cancelled,0.034,0.072,False
+Saturation-Aware DRO,10,O_Sent (mail and online) -> O_Create Offer,0.01,0.044,False

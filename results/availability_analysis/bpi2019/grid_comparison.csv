@@ -1,0 +1,4 @@
+representation,candidates,saturated,median_rho,max_abs_risk_change_hours,max_abs_cvar_change_hours,max_abs_threshold_change_hours,changed_saturation_classifications
+primary,61,33,1.1322659793996286,0.0,0.0,0.0,0
+grid_12h,61,33,1.1319883224440181,54.976806526806286,4.233576642335947,0.2116788321168066,0
+grid_24h,61,34,1.1542563647707738,33.53444120617405,6.2773722627732695,0.3138686131386663,1
